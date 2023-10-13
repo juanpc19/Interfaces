@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej3Tema5Binding.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <!--actualizacion permanente en 2 sentidos-->
+            <Entry 
+                x:Name="label1"
+                Placeholder="" 
+                Text="a"
+                />
+
+            <Entry  
+                 x:Name="label2"
+                 Placeholder=""
+                 BindingContext="{x:Reference label1}"
+                 Text="{Binding Text, Mode=TwoWay}"
+                 />
+
+            <!--actualizacion permanente en 1 sentido de 3 a 4-->
+            <Entry 
+                  x:Name="label3"
+                  Placeholder="" 
+                  Text="a"
+                  />
+
+            <Entry  
+                   x:Name="label4"
+                   Placeholder=""
+                   BindingContext="{x:Reference label3}"
+                   Text="{Binding Text, Mode=OneWay}"
+                   />
+
+            <!--actualizacion una sola vez se realiza al cargar pagina por lo que Text debe ser = "a"
+            para presenciar el binding cambios posteriores no se veran reflejados en 2 sentidos-->
+            <Entry 
+                  x:Name="label5"
+                  Placeholder="" 
+                  Text="a"
+                  />
+
+            <Entry  
+                   x:Name="label6"
+                   Placeholder=""
+                   BindingContext="{x:Reference label5}"
+                   Text="{Binding Text, Mode=OneTime}"
+                   />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

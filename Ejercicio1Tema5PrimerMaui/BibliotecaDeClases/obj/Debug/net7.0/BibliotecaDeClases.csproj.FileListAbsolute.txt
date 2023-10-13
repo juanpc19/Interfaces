@@ -1,0 +1,33 @@
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.deps.json
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\refint\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\ref\BibliotecaDeClases.dll
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.deps.json
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.dll
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.pdb
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfoInputs.cache
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfo.cs
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.csproj.CoreCompileInputs.cache
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.dll
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\refint\BibliotecaDeClases.dll
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.pdb
+D:\cosas formateo\Cosas grado 2\Interfaces\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\ref\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\refint\BibliotecaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\BibliotecaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\BibliotecaDeClases\obj\Debug\net7.0\ref\BibliotecaDeClases.dll

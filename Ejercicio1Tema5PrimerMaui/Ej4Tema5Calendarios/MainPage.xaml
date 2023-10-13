@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej4Tema5Calendarios.MainPage">
+
+    <StackLayout Padding="20">
+
+        <!-- titulo -->
+        <Label Text="Octubre 2023 fechas de entrada." HorizontalOptions="Center" FontSize="24" Margin="0,10,0,20"/>
+        <Button x:Name="botonUpdate" Text="Actualizar calendario" HorizontalOptions="Center" Clicked="actualizarCalendario"/>
+
+        <!-- Grid del calendario-->
+        <Grid>
+            <!--alto de las filas cada linea mete una fila de izq a der-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--ancho de las filas cada linea mete una columna de arriba a abajo-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- nombres de dias de la semana -->
+            <Label Text="Lunes" Grid.Column="0" HorizontalOptions="Center"/>
+            <Label Text="Martes" Grid.Column="1" HorizontalOptions="Center"/>
+            <Label Text="Miercoles" Grid.Column="2" HorizontalOptions="Center"/>
+            <Label Text="Jueves" Grid.Column="3" HorizontalOptions="Center"/>
+            <Label Text="Viernes" Grid.Column="4" HorizontalOptions="Center"/>
+            <Label Text="Sábado" Grid.Column="5" HorizontalOptions="Center"/>
+            <Label Text="Domingo" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <!-- numero dia -->
+            <Button x:Name="button1" Text="1" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="button2" Text="2" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="button3" Text="3" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="button4" Text="4" Grid.Row="1" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="button5" Text="5" Grid.Row="1" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="button6" Text="6" Grid.Row="1" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="button7" Text="7" Grid.Row="1" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="button8" Text="8" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="button9" Text="9" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="button10" Text="10" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="button11" Text="11" Grid.Row="2" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="button12" Text="12" Grid.Row="2" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="button13" Text="13" Grid.Row="2" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="button14" Text="14" Grid.Row="2" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="button15" Text="15" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="button16" Text="16" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="button17" Text="17" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="button18" Text="18" Grid.Row="3" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="button19" Text="19" Grid.Row="3" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="button20" Text="20" Grid.Row="3" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="button21" Text="21" Grid.Row="3" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="button22" Text="22" Grid.Row="4" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="button23" Text="23" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="button24" Text="24" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="button25" Text="25" Grid.Row="4" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="button26" Text="26" Grid.Row="4" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="button27" Text="27" Grid.Row="4" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="button28" Text="28" Grid.Row="4" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="button29" Text="29" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="button30" Text="30" Grid.Row="5" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="button31" Text="31" Grid.Row="5" Grid.Column="2" HorizontalOptions="Center"/>
+
+        </Grid>
+
+                <!-- titulo -->
+            <Label Text="Octubre 2023 fechas de salida." HorizontalOptions="Center" FontSize="24" Margin="0,10,0,20"/>
+            <Entry x:Name="diaSalida"
+                   Placeholder="Introduzca fecha de salida."
+                   HorizontalOptions="Center"
+                   Completed="actualizarCalendario2"/>
+
+            <!-- Grid del calendario-->
+            <Grid>
+                <!--alto de las filas cada linea mete una fila de izq a der-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--ancho de las filas cada linea mete una columna de arriba a abajo-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- nombres de dias de la semana -->
+                <Label Text="Lunes" Grid.Column="0" HorizontalOptions="Center"/>
+                <Label Text="Martes" Grid.Column="1" HorizontalOptions="Center"/>
+                <Label Text="Miercoles" Grid.Column="2" HorizontalOptions="Center"/>
+                <Label Text="Jueves" Grid.Column="3" HorizontalOptions="Center"/>
+                <Label Text="Viernes" Grid.Column="4" HorizontalOptions="Center"/>
+                <Label Text="Sábado" Grid.Column="5" HorizontalOptions="Center"/>
+                <Label Text="Domingo" Grid.Column="6" HorizontalOptions="Center"/>
+
+                <!-- numero dia -->
+            <Button x:Name="boton1" Text="1" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="boton2" Text="2" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="boton3" Text="3" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="boton4" Text="4" Grid.Row="1" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="boton5" Text="5" Grid.Row="1" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="boton6" Text="6" Grid.Row="1" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="boton7" Text="7" Grid.Row="1" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="boton8" Text="8" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="boton9" Text="9" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="boton10" Text="10" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="boton11" Text="11" Grid.Row="2" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="boton12" Text="12" Grid.Row="2" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="boton13" Text="13" Grid.Row="2" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="boton14" Text="14" Grid.Row="2" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="boton15" Text="15" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="boton16" Text="16" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="boton17" Text="17" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="boton18" Text="18" Grid.Row="3" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="boton19" Text="19" Grid.Row="3" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="boton20" Text="20" Grid.Row="3" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="boton21" Text="21" Grid.Row="3" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="boton22" Text="22" Grid.Row="4" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="boton23" Text="23" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="boton24" Text="24" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center"/>
+            <Button x:Name="boton25" Text="25" Grid.Row="4" Grid.Column="3" HorizontalOptions="Center"/>
+            <Button x:Name="boton26" Text="26" Grid.Row="4" Grid.Column="4" HorizontalOptions="Center"/>
+            <Button x:Name="boton27" Text="27" Grid.Row="4" Grid.Column="5" HorizontalOptions="Center"/>
+            <Button x:Name="boton28" Text="28" Grid.Row="4" Grid.Column="6" HorizontalOptions="Center"/>
+
+            <Button x:Name="boton29" Text="29" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center"/>
+            <Button x:Name="boton30" Text="30" Grid.Row="5" Grid.Column="1" HorizontalOptions="Center"/>
+            <Button x:Name="boton31" Text="31" Grid.Row="5" Grid.Column="2" HorizontalOptions="Center"/>
+
+
+        </Grid>
+    </StackLayout>
+</ContentPage>

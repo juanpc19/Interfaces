@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej6Tema6.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Button
+                x:Name="Boton1"
+                Text="Boton1"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                BackgroundColor="Blue"
+                HeightRequest="70"
+                WidthRequest="200"
+                FontFamily="Verdana"
+                FontAttributes="Bold"
+                BorderColor="Yellow"
+                Margin="30"/>
+
+            <Button>
+                
+                <Button.Text>Boton2</Button.Text>
+
+                <Button.VerticalOptions>
+                    <LayoutOptions>Center</LayoutOptions>
+                </Button.VerticalOptions>
+                
+                <Button.HorizontalOptions>
+                    <LayoutOptions>Center</LayoutOptions>
+                </Button.HorizontalOptions>
+
+                <Button.BackgroundColor>
+                    <Color>Blue</Color>
+                </Button.BackgroundColor>
+
+                <Button.HeightRequest>
+                    <x:Double>70.0</x:Double>
+                </Button.HeightRequest>
+
+                <Button.WidthRequest>
+                    <x:Double>200.0</x:Double>
+                </Button.WidthRequest>
+                
+                <Button.FontFamily>
+                    <x:String>Verdana</x:String>
+                </Button.FontFamily>
+                
+                <Button.FontAttributes>
+                    <FontAttributes>Bold</FontAttributes>
+                </Button.FontAttributes>
+
+                <Button.BorderColor>
+                    <Color>Yellow</Color>
+                </Button.BorderColor>
+
+                <Button.Margin>
+                    <x:Double>30</x:Double>
+                </Button.Margin>
+
+                <Button.Triggers>
+                    <DataTrigger TargetType="Button" Binding="{Binding Condition}" Value="true">
+                        <Setter Property="Text" Value="Boton2" />
+                        <Setter Property="Command" Value="{Binding CreaBoton3Command}" />
+                    </DataTrigger>
+                </Button.Triggers>
+                </Button>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

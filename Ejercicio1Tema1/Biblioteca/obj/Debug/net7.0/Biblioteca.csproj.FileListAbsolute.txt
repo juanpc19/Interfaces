@@ -1,0 +1,11 @@
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\bin\Debug\net7.0\Biblioteca.deps.json
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\bin\Debug\net7.0\Biblioteca.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\bin\Debug\net7.0\Biblioteca.pdb
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\refint\Biblioteca.dll
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\Biblioteca.pdb
+C:\Users\jperez\Documents\GitHub\Interfaces\Ejercicio1Tema1\Biblioteca\obj\Debug\net7.0\ref\Biblioteca.dll
