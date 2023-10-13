@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h1RtNywTQHrvEDTJnpu+GIYWVE9BDAPr2FlDBZu7Eoi1qqJD5LOU3tOfyo9/aRPbVvHtQJkZHD6OTJ7qLsudqg==",
+  "dgSpecHash": "NVnrX/hbPpcrkGNA65DyKzRrl/aFkv+blsFqb1ZqiGOHjWellM+KAC5Qi9xJvJnK7yMguR/Sr+kuCb7ZrBiDcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar-main\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
+  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jperez\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\jperez\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

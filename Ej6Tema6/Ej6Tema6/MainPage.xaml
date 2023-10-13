@@ -22,7 +22,9 @@
                 BorderColor="Yellow"
                 Margin="30"/>
 
-            <Button>
+            <Button 
+                x:Name="Boton2"
+                Clicked="CreaBoton3">
                 
                 <Button.Text>Boton2</Button.Text>
 
@@ -61,14 +63,8 @@
                 <Button.Margin>
                     <x:Double>30</x:Double>
                 </Button.Margin>
-
-                <Button.Triggers>
-                    <DataTrigger TargetType="Button" Binding="{Binding Condition}" Value="true">
-                        <Setter Property="Text" Value="Boton2" />
-                        <Setter Property="Command" Value="{Binding CreaBoton3Command}" />
-                    </DataTrigger>
-                </Button.Triggers>
-                </Button>
+                
+             </Button>
 
         </VerticalStackLayout>
     </ScrollView>

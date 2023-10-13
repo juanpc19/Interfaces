@@ -24028,11 +24028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar-main\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
       "projectName": "Ej6Tema6",
-      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar-main\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ej6Tema6\\Ej6Tema6\\Ej6Tema6.csproj",
       "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar-main\\Ej6Tema6\\Ej6Tema6\\obj\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ej6Tema6\\Ej6Tema6\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
