@@ -5,6 +5,7 @@
 
     <ScrollView>
         <VerticalStackLayout
+            x:Name="vsl"
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
