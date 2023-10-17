@@ -1,1 +1,1 @@
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ej6Tema6\Ej6Tema6\Ej6Tema6.csproj;x64
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Ej6Tema6\Ej6Tema6\Ej6Tema6.csproj;x64
