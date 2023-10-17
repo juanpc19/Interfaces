@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = EjTema7Pages
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag1.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\pag1.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\pag1.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\pag2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\pag2.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag3.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\pag3.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\pag3.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/PaginaTabbed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.PaginaTabbed.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaginaTabbed.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaginaTabbed.xaml
