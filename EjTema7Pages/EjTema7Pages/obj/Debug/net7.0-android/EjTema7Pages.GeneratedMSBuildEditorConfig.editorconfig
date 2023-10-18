@@ -32,6 +32,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Resources.Sty
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
 [D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag1.xaml
@@ -49,6 +55,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag3.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\pag3.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\pag3.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag4.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag4.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\pag4.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\pag4.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/pag5.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = EjTema7Pages.Views.pag5.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\pag5.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\pag5.xaml
 
 [D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/EjTema7Pages/Views/PaginaTabbed.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

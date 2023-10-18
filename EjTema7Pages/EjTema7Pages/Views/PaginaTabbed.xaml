@@ -2,8 +2,13 @@
 <TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:EjTema7Pages.Views"
-             x:Class="EjTema7Pages.Views.PaginaTabbed">
-
+             x:Class="EjTema7Pages.Views.PaginaTabbed"
+             BarBackground="black"
+             BarBackgroundColor="Orange"
+             BarTextColor="White"
+             SelectedTabColor="Green"
+             UnselectedTabColor="Red">
+              
 
     <local:pag1> </local:pag1>
     <local:pag2> </local:pag2>

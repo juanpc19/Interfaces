@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-17T14:34:41.967</Modified>
+      <Modified>2023-10-18T21:36:29.919</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-17T14:34:41.729</Modified>
+      <Modified>2023-10-18T21:36:29.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.runtimeconfig.json">
       <PackagePath>EjTema7Pages.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-17T14:34:41.528</Modified>
+      <Modified>2023-10-18T16:18:26.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.dll">
       <PackagePath>EjTema7Pages.dll</PackagePath>
-      <Modified>2023-10-17T14:34:40.135</Modified>
+      <Modified>2023-10-18T21:36:28.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema7Pages.exe</PackagePath>
-      <Modified>2023-10-17T14:34:40.150</Modified>
+      <Modified>2023-10-18T21:36:28.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.deps.json">
       <PackagePath>EjTema7Pages.deps.json</PackagePath>
-      <Modified>2023-10-17T14:34:41.428</Modified>
+      <Modified>2023-10-18T21:36:29.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -939,235 +939,295 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.022</Modified>
+      <Modified>2023-10-18T16:18:24.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.022</Modified>
+      <Modified>2023-10-18T16:18:24.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.022</Modified>
+      <Modified>2023-10-18T16:18:24.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.022</Modified>
+      <Modified>2023-10-18T16:18:24.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.023</Modified>
+      <Modified>2023-10-18T16:18:25.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-10-17T14:28:37.999</Modified>
+      <Modified>2023-10-17T14:28:34.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-17T14:28:34.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ajustes.scale-100.png">
+      <PackagePath>ajustes.scale-100.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ajustes.scale-125.png">
+      <PackagePath>ajustes.scale-125.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ajustes.scale-150.png">
+      <PackagePath>ajustes.scale-150.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ajustes.scale-200.png">
+      <PackagePath>ajustes.scale-200.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\ajustes.scale-400.png">
+      <PackagePath>ajustes.scale-400.png</PackagePath>
+      <Modified>2023-10-18T16:33:55.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:55.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:55.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:55.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.003</Modified>
+      <Modified>2023-10-18T16:33:54.872</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.007</Modified>
+      <Modified>2023-10-18T16:33:54.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.011</Modified>
+      <Modified>2023-10-18T16:33:54.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.887</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-100.png">
+      <PackagePath>busqueda.scale-100.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-125.png">
+      <PackagePath>busqueda.scale-125.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-150.png">
+      <PackagePath>busqueda.scale-150.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-200.png">
+      <PackagePath>busqueda.scale-200.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-400.png">
+      <PackagePath>busqueda.scale-400.png</PackagePath>
+      <Modified>2023-10-18T16:33:55.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-10-17T14:28:38.018</Modified>
+      <Modified>2023-10-18T16:33:54.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hogar.scale-100.png">
+      <PackagePath>hogar.scale-100.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hogar.scale-125.png">
+      <PackagePath>hogar.scale-125.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hogar.scale-150.png">
+      <PackagePath>hogar.scale-150.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hogar.scale-200.png">
+      <PackagePath>hogar.scale-200.png</PackagePath>
+      <Modified>2023-10-18T16:33:54.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\hogar.scale-400.png">
+      <PackagePath>hogar.scale-400.png</PackagePath>
+      <Modified>2023-10-18T16:33:55.052</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

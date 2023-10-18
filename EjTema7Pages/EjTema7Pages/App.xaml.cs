@@ -8,7 +8,7 @@ namespace EjTema7Pages
         {
             InitializeComponent();
 
-            MainPage = new PaginaTabbed();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

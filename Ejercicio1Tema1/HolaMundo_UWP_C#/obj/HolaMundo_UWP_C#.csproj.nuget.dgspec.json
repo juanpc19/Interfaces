@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj": {}
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj": {
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
+        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
         "projectName": "HolaMundo_UWP_Cchar",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
-        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\obj\\",
+        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
+        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

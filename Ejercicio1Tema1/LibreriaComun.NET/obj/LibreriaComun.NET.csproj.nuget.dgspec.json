@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj": {}
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj": {
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj",
+        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj",
         "projectName": "LibreriaComun.NET",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj",
-        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\LibreriaComun.NET\\obj\\",
+        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\LibreriaComun.NET\\LibreriaComun.NET.csproj",
+        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\LibreriaComun.NET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

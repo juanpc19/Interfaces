@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6S1AcTO1UiGkh1csDRahoBlEiYD3pMr6zlYlAke3QVpf54+stuURnEA4qT07l/ou4sMtCLsrEaAPe/H62U+6g==",
+  "dgSpecHash": "RhLQ0F2jZZ6WNSxPlG5v0zVzEFkVwYErx0IJRJzdxdlmB4p72Fasuq/98jS767XpJ74nWRUxgt5w2N2ixfDfwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\Interfaces\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
+  "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema1\\HolaMundo_UWP_C#\\HolaMundo_UWP_C#.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",
