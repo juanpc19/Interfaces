@@ -1924,6 +1924,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-arm": {
@@ -3848,6 +3858,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -5774,6 +5794,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-x64": {
@@ -7698,6 +7728,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -9624,6 +9664,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
@@ -11548,6 +11598,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -13474,6 +13534,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-android33.0/win10-x64": {
@@ -15399,6 +15469,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-ios16.1": {
@@ -15582,6 +15662,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -15767,6 +15857,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm64": {
@@ -15950,6 +16050,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -16135,6 +16245,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x86": {
@@ -16318,6 +16438,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -16503,6 +16633,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
@@ -16686,6 +16826,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -16871,6 +17021,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1": {
@@ -17054,6 +17214,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -17239,6 +17409,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
@@ -17422,6 +17602,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -17607,6 +17797,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
@@ -17790,6 +17990,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -17975,6 +18185,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
@@ -18159,6 +18379,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -18342,6 +18572,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -18666,6 +18906,16 @@
             "rid": "win10-x86"
           }
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
@@ -18960,6 +19210,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -19256,6 +19516,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
@@ -19550,6 +19820,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -19846,6 +20126,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
@@ -20141,6 +20431,16 @@
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        }
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
@@ -20435,6 +20735,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     },
@@ -20736,6 +21046,16 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "BibliotecaDeClases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BibliotecaDeClases.dll": {}
         }
       }
     }
@@ -23972,10 +24292,16 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "BibliotecaDeClases/1.0.0": {
+      "type": "project",
+      "path": "../BibliotecaDeClases/BibliotecaDeClases.csproj",
+      "msbuildProject": "../BibliotecaDeClases/BibliotecaDeClases.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "BibliotecaDeClases >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -23995,6 +24321,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "BibliotecaDeClases >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24003,6 +24330,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-maccatalyst16.1": [
+      "BibliotecaDeClases >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24011,6 +24339,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-windows10.0.19041": [
+      "BibliotecaDeClases >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24022,24 +24351,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Users\\jperez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
       "projectName": "EjTema7Pages",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\obj\\",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
+      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24057,19 +24386,35 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            }
+          }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            }
+          }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            }
+          }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema7Pages.Views.pag2"
              Title="pag2"
-             IconImageSource="Resources\Images\busqueda.svg">
+             IconImageSource="busqueda.png">
     
     <VerticalStackLayout>
         <Label 

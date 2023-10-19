@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema7Pages.Views.pag3"
              Title="pag3"
-             IconImageSource="Images\ajustes.svg">
+             IconImageSource="ajustes.png">
+    
     
     <VerticalStackLayout>
         <Label 

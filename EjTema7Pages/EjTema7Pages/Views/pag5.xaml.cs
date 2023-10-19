@@ -6,4 +6,10 @@ public partial class pag5 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	//POR HACER
+    public void MostrarPersonaBinding(object sender, EventArgs e, object persona)
+    {
+
+    }
 }

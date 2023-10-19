@@ -24351,24 +24351,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Users\\jperez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\Ej3Tema5Binding.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\Ej3Tema5Binding.csproj",
       "projectName": "Ej3Tema5Binding",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\Ej3Tema5Binding.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\obj\\",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\Ej3Tema5Binding.csproj",
+      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\Ej3Tema5Binding\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24387,32 +24387,32 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Ejercicio1Tema5PrimerMaui\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
             }
           }
         }

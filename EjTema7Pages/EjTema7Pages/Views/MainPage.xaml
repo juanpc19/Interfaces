@@ -11,8 +11,8 @@
             HorizontalOptions="Center"
             Margin="20"/>
 
-        <Entry x:Name="Nombre" 
-            Placeholder="Nombre"
+        <Entry x:Name="Nombres" 
+            Placeholder="Nombres"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             Margin="20"/>

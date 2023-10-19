@@ -8,10 +8,12 @@
              BarTextColor="White"
              SelectedTabColor="Green"
              UnselectedTabColor="Red">
-              
 
-    <local:pag1> </local:pag1>
-    <local:pag2> </local:pag2>
-    <local:pag3> </local:pag3>
+
+    <local:pag1 IconImageSource="hogar.png"> </local:pag1>
+    <local:pag2></local:pag2>
+    <local:pag3></local:pag3>
+    <local:pag4></local:pag4>
+    <local:pag5></local:pag5>
 
 </TabbedPage>

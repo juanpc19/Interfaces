@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjTema7Pages", "EjTema7Pages\EjTema7Pages.csproj", "{48553A7A-8D5E-4BCE-8AE5-8E7540633CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjTema7Pages", "EjTema7Pages\EjTema7Pages.csproj", "{48553A7A-8D5E-4BCE-8AE5-8E7540633CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDeClases", "BibliotecaDeClases\BibliotecaDeClases.csproj", "{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{48553A7A-8D5E-4BCE-8AE5-8E7540633CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48553A7A-8D5E-4BCE-8AE5-8E7540633CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48553A7A-8D5E-4BCE-8AE5-8E7540633CDB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

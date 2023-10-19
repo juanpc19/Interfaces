@@ -1,3 +1,6 @@
+using BibliotecaDeClases;
+
+
 namespace EjTema7Pages.Views;
 
 public partial class MainPage : ContentPage
@@ -26,13 +29,29 @@ public partial class MainPage : ContentPage
     //por hacer
     private void NavToPage4(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new PaginaTabbed());
+        Navigation.PushAsync(new pag4());
+
+        string nombres = Nombres.Text;
+        string apellidos = Apellidos.Text;
+
+        clsPersona persona = new(nombres, apellidos);
+
     }
 
     //por hacer
-    private void NavToPage5(object sender, EventArgs e)
+    private async void NavToPage5(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new PaginaTabbed());
+
+        string nombres = Nombres.Text;
+        string apellidos = Apellidos.Text;
+
+        clsPersona persona = new(nombres, apellidos);
+
+        pag5 pag5 = new pag5();
+        //pag5.Per
+
+
+        await Navigation.PushAsync(pag5);
     }
 
 }

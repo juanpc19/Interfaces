@@ -1,24 +1,84 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj": {}
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "projectName": "BibliotecaDeClases",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
         "projectName": "EjTema7Pages",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema7Pages\\EjTema7Pages\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\EjTema7Pages.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\EjTema7Pages\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -36,19 +96,35 @@
         "frameworks": {
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              }
+            }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              }
+            }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              }
+            }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema7Pages\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

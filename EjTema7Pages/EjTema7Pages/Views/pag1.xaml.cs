@@ -7,7 +7,6 @@ public partial class pag1 : ContentPage
 	public pag1()
 	{
 		InitializeComponent();
-        //IconImageSource = "Images/hogar.svg";
         
     }
 }

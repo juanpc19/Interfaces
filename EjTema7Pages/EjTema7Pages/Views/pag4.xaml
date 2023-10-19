@@ -11,10 +11,19 @@
               Margin="20"/>
 
         <Button
-              Text="hacer cosa."
+              x:Name="botonpag4"
+              Text="Mostrar persona."
               VerticalOptions="Center" 
               HorizontalOptions="Center"
-              Margin="20">
+              Margin="20"
+              Clicked="MostrarPersonaParametros">
         </Button>
+
+        <Label 
+              Text=""
+              VerticalOptions="Center" 
+              HorizontalOptions="Center"
+              Margin="20"/>
+
     </VerticalStackLayout>
 </ContentPage>

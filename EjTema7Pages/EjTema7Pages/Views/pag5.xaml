@@ -5,16 +5,27 @@
              Title="pag5">
     <VerticalStackLayout>
         <Label 
-           Text="Hola soy la pagina 5"
-           VerticalOptions="Center" 
-           HorizontalOptions="Center"
-           Margin="20"/>
+               Text="Hola soy la pagina 5"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               Margin="20"/>
+
 
         <Button
-           Text="hacer cosa 2."
-           VerticalOptions="Center" 
-           HorizontalOptions="Center"
-           Margin="20">
+              x:Name="botonpag5"
+              Text="Mostrar persona."
+              VerticalOptions="Center" 
+              HorizontalOptions="Center"
+              Margin="20"
+              Clicked="MostrarPersonaBinding">
         </Button>
+        
+        <Label 
+               Text=""
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"
+               Margin="20"/>
+
+    
     </VerticalStackLayout>
 </ContentPage>
