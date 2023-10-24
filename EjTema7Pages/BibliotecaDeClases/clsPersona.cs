@@ -27,6 +27,12 @@
             set { nombres = value; }
         }
 
+        public string apellido
+        {
+            get { return apellidos; }
+            set { apellido = value; }
+        }
+
         public string Direccion { get; }
 
 

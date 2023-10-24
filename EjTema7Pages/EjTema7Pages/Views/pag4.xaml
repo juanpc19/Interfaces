@@ -5,21 +5,15 @@
              Title="pag4">
     <VerticalStackLayout>
         <Label 
+              x:Name="labNombres"
               Text="Hola soy la pagina 4"
               VerticalOptions="Center" 
               HorizontalOptions="Center"
               Margin="20"/>
 
-        <Button
-              x:Name="botonpag4"
-              Text="Mostrar persona."
-              VerticalOptions="Center" 
-              HorizontalOptions="Center"
-              Margin="20"
-              Clicked="MostrarPersonaParametros">
-        </Button>
 
         <Label 
+              x:Name="labApellidos"
               Text=""
               VerticalOptions="Center" 
               HorizontalOptions="Center"

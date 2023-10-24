@@ -29,29 +29,32 @@ public partial class MainPage : ContentPage
     //por hacer
     private void NavToPage4(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new pag4());
+        
 
-        string nombres = Nombres.Text;
-        string apellidos = Apellidos.Text;
+        string nombres = entryNombres.Text;
+
+        string apellidos = entryApellidos.Text;
 
         clsPersona persona = new(nombres, apellidos);
 
+        Navigation.PushAsync(new pag4());
     }
 
     //por hacer
-    private async void NavToPage5(object sender, EventArgs e)
+    private void NavToPage5(object sender, EventArgs e)
     {
 
-        string nombres = Nombres.Text;
-        string apellidos = Apellidos.Text;
+        string nombres = entryNombres.Text;
+        string apellidos = entryApellidos.Text;
 
         clsPersona persona = new(nombres, apellidos);
 
         pag5 pag5 = new pag5();
-        //pag5.Per
 
+        pag5.BindingContext = persona;
 
-        await Navigation.PushAsync(pag5);
+        Navigation.PushAsync(pag5);
+         
     }
 
 }

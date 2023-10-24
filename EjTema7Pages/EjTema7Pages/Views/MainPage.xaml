@@ -11,13 +11,13 @@
             HorizontalOptions="Center"
             Margin="20"/>
 
-        <Entry x:Name="Nombres" 
+        <Entry x:Name="entryNombres" 
             Placeholder="Nombres"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             Margin="20"/>
 
-        <Entry x:Name="Apellidos" 
+        <Entry x:Name="entryApellidos" 
             Placeholder="Apellidos"
             VerticalOptions="Center" 
             HorizontalOptions="Center"

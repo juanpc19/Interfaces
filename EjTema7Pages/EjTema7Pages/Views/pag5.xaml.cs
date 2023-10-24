@@ -6,10 +6,5 @@ public partial class pag5 : ContentPage
 	{
 		InitializeComponent();
 	}
-
-	//POR HACER
-    public void MostrarPersonaBinding(object sender, EventArgs e, object persona)
-    {
-
-    }
+//aqui nada porque se hace en xml con binding
 }
