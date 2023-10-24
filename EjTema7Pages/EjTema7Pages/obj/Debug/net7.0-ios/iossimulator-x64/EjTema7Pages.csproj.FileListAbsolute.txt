@@ -369,3 +369,7 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\ob
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\EjTema7Pages.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\refint\EjTema7Pages.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\EjTema7Pages.pdb
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf

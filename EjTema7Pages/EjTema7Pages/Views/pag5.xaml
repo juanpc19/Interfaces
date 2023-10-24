@@ -4,13 +4,26 @@
              x:Class="EjTema7Pages.Views.pag5"
              Title="pag5">
     <VerticalStackLayout>
-        <Label 
-               Text="{BindingContext labNombres}"/>
 
-        
-        <Label 
-               Text="{BindingContext labApellidos}"/>
 
-    
+        <Label 
+              Text="Hola soy la pagina 5"
+              VerticalOptions="Center" 
+              HorizontalOptions="Center"
+              Margin="20"/>
+        <!-- le doy a texto el valor devuelto por binding con Nombre (propiedad de clase clsPersona que hara return de nombre -->
+        <Label 
+      
+               Text="{Binding Nombre}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="20"/>
+
+        <Label
+               Text="{Binding Apellidos}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Margin="20"/>
+
     </VerticalStackLayout>
 </ContentPage>

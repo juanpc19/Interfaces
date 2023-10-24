@@ -9,7 +9,7 @@
              SelectedTabColor="Green"
              UnselectedTabColor="Red">
 
-
+    <!-- añadir aqui las paginas de pagina tabbed, tambien se puede dar icono aqui en lugar de en cabezera de pag. -->
     <local:pag1 IconImageSource="hogar.png"> </local:pag1>
     <local:pag2></local:pag2>
     <local:pag3></local:pag3>

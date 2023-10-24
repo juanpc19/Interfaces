@@ -4,9 +4,17 @@
              x:Class="EjTema7Pages.Views.pag4"
              Title="pag4">
     <VerticalStackLayout>
+
+        <Label 
+              
+              Text="Hola soy la pagina 4"
+              VerticalOptions="Center" 
+              HorizontalOptions="Center"
+              Margin="20"/> 
+
         <Label 
               x:Name="labNombres"
-              Text="Hola soy la pagina 4"
+              Text=""
               VerticalOptions="Center" 
               HorizontalOptions="Center"
               Margin="20"/>

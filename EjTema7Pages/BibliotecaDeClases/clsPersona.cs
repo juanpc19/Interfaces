@@ -3,19 +3,19 @@
     public class clsPersona
     {
         #region atributos
-        private string nombres;
+        private string nombre;
         private string apellidos;
         #endregion
 
         #region constructores
         public clsPersona()
         {
-            nombres = "";
+            nombre = "";
             apellidos = "";
         }
-        public clsPersona(string nombres, string apellidos)
+        public clsPersona(string nombre, string apellidos)
         {
-            this.nombres = nombres;
+            this.nombre = nombre;
             this.apellidos = apellidos;
         }
         #endregion
@@ -23,14 +23,14 @@
         #region propiedades
         public string Nombre
         {
-            get { return nombres; }
-            set { nombres = value; }
+            get { return nombre; }
+            set { nombre = value; }
         }
 
-        public string apellido
+        public string Apellidos
         {
             get { return apellidos; }
-            set { apellido = value; }
+            set { apellidos = value; }
         }
 
         public string Direccion { get; }
@@ -38,7 +38,7 @@
 
         public string NombreCompleto
         {
-            get { return nombres + " " + apellidos; }
+            get { return nombre + " " + apellidos; }
         }
         #endregion
 
@@ -51,7 +51,7 @@
         /// <returns>String con nombre y apellidos completo</returns>
         public string FuncionNombreCompleto()
         {
-            return $"El nombre completo es {nombres} {apellidos}";
+            return $"El nombre completo es {nombre} {apellidos}";
         }
         #endregion
     }

@@ -1002,3 +1002,5 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\ob
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BibliotecaDeClases.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BibliotecaDeClases.pdb
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BibliotecaDeClases.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BibliotecaDeClases.pdb

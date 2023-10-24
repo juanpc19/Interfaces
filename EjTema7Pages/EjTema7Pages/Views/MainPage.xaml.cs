@@ -21,40 +21,61 @@ public partial class MainPage : ContentPage
     //{
     //    return await DisplayPromptAsync("Apellidos", "Introduce tus apellidos:");
     //}
+
+    /// <summary>
+    /// funcion que permitira ir a PaginaTabbed al hacer click en su boton correspondiente
+    /// precondiciones: hacer click en el boton correspondiente
+    /// postcondiciones: ninguna
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void NavToTabbedPage(object sender, EventArgs e)
 	{
 		Navigation.PushAsync(new PaginaTabbed());
 	}
 
-    //por hacer
+    /// <summary>
+    /// funcion que permitira ir a Pagina4 al hacer click en su boton correspondiente
+    /// creando a su vez un objeto tipo persona de nombre y apellidos iguales a los proporcionados en el elemento entry
+    /// precondiciones: hacer click en el boton correspondiente
+    /// postcondiciones: ninguna
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void NavToPage4(object sender, EventArgs e)
     {
-        
 
-        string nombres = entryNombres.Text;
-
+        string nombre = entryNombre.Text;
         string apellidos = entryApellidos.Text;
 
-        clsPersona persona = new(nombres, apellidos);
+        clsPersona persona = new(nombre, apellidos);
 
-        Navigation.PushAsync(new pag4());
+        Navigation.PushAsync(new pag4(persona));
     }
 
-    //por hacer
+    /// <summary>
+    /// funcion que permitira ir a Pagina5 al hacer click en su boton correspondiente
+    /// creando a su vez un objeto tipo persona de nombre y apellidos iguales a los proporcionados en el elemento entry
+    /// precondiciones: hacer click en el boton correspondiente
+    /// postcondiciones: ninguna
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void NavToPage5(object sender, EventArgs e)
     {
 
-        string nombres = entryNombres.Text;
-        string apellidos = entryApellidos.Text;
+        clsPersona persona = new clsPersona();
 
-        clsPersona persona = new(nombres, apellidos);
+        persona.Nombre = entryNombre.Text;
+        persona.Apellidos = entryApellidos.Text;
 
-        pag5 pag5 = new pag5();
+         Navigation.PushAsync(new pag5(persona)
+        {
+            BindingContext = persona
+        }
+         );
+      
 
-        pag5.BindingContext = persona;
-
-        Navigation.PushAsync(pag5);
-         
     }
 
 }

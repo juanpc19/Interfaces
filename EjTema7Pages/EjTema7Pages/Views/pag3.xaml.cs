@@ -17,6 +17,13 @@ public partial class pag3 : ContentPage
     //{
     //    return await DisplayPromptAsync("Apellidos", "Introduce tus apellidos:");
     //}
+    /// <summary>
+    /// funcion que permitira volver a la pagina de navegacion root (Main page) quitando pag de pila (creo que solo funciona con una pagina encima)
+    /// precondiciones: hacer click en el boton correspondiente
+    /// postcondiciones: ninguna
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
     private void NavToMainPage(object sender, EventArgs e)
 	{
         //al volver a main page el texto se borra porque creo una nueva instancia de main page que no tiene datos al ser nueva
