@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-24T20:48:18.660</Modified>
+      <Modified>2023-10-25T16:16:23.005</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-24T20:48:18.485</Modified>
+      <Modified>2023-10-25T16:16:22.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.runtimeconfig.json">
       <PackagePath>EjTema7Pages.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.dll">
       <PackagePath>EjTema7Pages.dll</PackagePath>
-      <Modified>2023-10-24T20:48:17.819</Modified>
+      <Modified>2023-10-25T16:16:21.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema7Pages.exe</PackagePath>
-      <Modified>2023-10-24T20:48:17.823</Modified>
+      <Modified>2023-10-25T16:16:21.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema7Pages.deps.json">
       <PackagePath>EjTema7Pages.deps.json</PackagePath>
