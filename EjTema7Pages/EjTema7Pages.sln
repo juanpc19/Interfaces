@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjTema7Pages", "EjTema7Page
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeClases", "BibliotecaDeClases\BibliotecaDeClases.csproj", "{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4Tema7Flyout", "Ej4Tema7Flyout\Ej4Tema7Flyout.csproj", "{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4Tema7Flyout", "Ej4Tema7Flyout\Ej4Tema7Flyout.csproj", "{04D7486A-89F6-4714-B832-B1CAD3A46D85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +25,12 @@ Global
 		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF5F34A2-AECF-4C64-BE2A-0B46777D83D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EjTema7Pages</name>
+    </assembly>
+    <members>
+        <member name="M:EjTema7Pages.Views.MainPage.NavToTabbedPage(System.Object,System.EventArgs)">
+            <summary>
+            funcion que permitira ir a PaginaTabbed al hacer click en su boton correspondiente
+            precondiciones: hacer click en el boton correspondiente
+            postcondiciones: ninguna
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EjTema7Pages.Views.MainPage.NavToPage4(System.Object,System.EventArgs)">
+            <summary>
+            funcion que permitira ir a Pagina4 al hacer click en su boton correspondiente
+            creando a su vez un objeto tipo persona de nombre y apellidos iguales a los proporcionados en el elemento entry
+            precondiciones: hacer click en el boton correspondiente
+            postcondiciones: ninguna
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EjTema7Pages.Views.MainPage.NavToPage5(System.Object,System.EventArgs)">
+            <summary>
+            funcion que permitira ir a Pagina5 al hacer click en su boton correspondiente
+            creando a su vez un objeto tipo persona de nombre y apellidos iguales a los proporcionados en el elemento entry
+            precondiciones: hacer click en el boton correspondiente
+            postcondiciones: ninguna
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EjTema7Pages.Views.pag3.NavToMainPage(System.Object,System.EventArgs)">
+            <summary>
+            funcion que permitira volver a la pagina de navegacion root (Main page) quitando pag de pila (creo que solo funciona con una pagina encima)
+            precondiciones: hacer click en el boton correspondiente
+            postcondiciones: ninguna
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:EjTema7Pages.Views.pag4.#ctor">
+            <summary>
+            constructor sin parametros que crea pag4
+            precondiciones: ninguna
+            postcondiciones: ninguna
+            </summary>
+        </member>
+        <member name="M:EjTema7Pages.Views.pag4.#ctor(BibliotecaDeClases.clsPersona)">
+            <summary>
+            constructor con parametros de entrada que crea pag4 tomando los valores de los atributos de objeto persona y asignadolos a los text de label
+            precondiciones: necesita que se le pase un objeto tipo persona como param entrada
+            postcondiciones: ninguna
+            </summary>
+            <param name="persona">objeto tipo persona usado en creacion de pagina contendra nombre y apellidos</param>
+        </member>
+        <member name="M:EjTema7Pages.Views.pag5.#ctor">
+            <summary>
+            constructor sin parametros que crea pag5
+            precondiciones: ninguna
+            postcondiciones: ninguna
+            </summary>
+        </member>
+        <member name="M:EjTema7Pages.Views.pag5.#ctor(BibliotecaDeClases.clsPersona)">
+            <summary>
+            constructor con parametros de entrada 
+            precondiciones: necesita que se le pase un objeto tipo persona como param entrada
+            postcondiciones: ninguna
+            </summary>
+            <param name="persona">objeto tipo persona usado en creacion de pagina contendra nombre y apellidos</param>
+        </member>
+    </members>
+</doc>

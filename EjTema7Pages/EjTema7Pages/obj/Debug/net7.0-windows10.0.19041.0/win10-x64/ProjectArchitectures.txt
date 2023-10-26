@@ -1,1 +1,1 @@
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\EjTema7Pages\EjTema7Pages.csproj;x64
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\EjTema7Pages\EjTema7Pages.csproj;x64

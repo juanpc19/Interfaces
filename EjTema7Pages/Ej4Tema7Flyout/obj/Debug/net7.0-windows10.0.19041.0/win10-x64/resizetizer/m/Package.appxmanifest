@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
-  <Identity Name="9ab31309-2f19-48d3-bc66-ae1dc9eddbdb" Publisher="CN=User Name" Version="1.0.0.1" />
-  <mp:PhoneIdentity PhoneProductId="DF186798-B55B-40BE-9D42-E52FEF6D92F1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="37df57c9-9562-4739-9237-aaa6352774ee" Publisher="CN=User Name" Version="1.0.0.1" />
+  <mp:PhoneIdentity PhoneProductId="6ADE330D-1CEE-4C7B-87BB-A42161507E5A" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Ej4Tema7Flyout</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.ej4tema7flyout</ApplicationId>
-		<ApplicationIdGuid>9ab31309-2f19-48d3-bc66-ae1dc9eddbdb</ApplicationIdGuid>
+		<ApplicationIdGuid>37df57c9-9562-4739-9237-aaa6352774ee</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -53,7 +53,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Views\MenuFlyout\" />
+	  <Compile Update="FlyoutPageNavigation.xaml.cs">
+	    <DependentUpon>FlyoutPageNavigation.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\MenuFlyout\ContactsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\FlyoutMenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\ReminderPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MenuFlyout\TodoListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
