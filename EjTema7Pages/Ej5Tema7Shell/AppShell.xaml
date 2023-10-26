@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--color fondo pagina cuando abro flyout, imagen no carga-->
+<Shell
+    x:Class="Ej5Tema7Shell.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Ej5Tema7Shell"
+    xmlns:local2="clr-namespace:Ej5Tema7Shell.Views"
+    FlyoutBackdrop="green"
+    FlyoutBackgroundImage="energias.jpg"
+    FlyoutBackgroundImageAspect="AspectFill"
+    Shell.FlyoutBehavior="Flyout">
+
+    <!--da formato y fondo a al flyout-->
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+                <Image Aspect="AspectFill"
+                       Source="energias.jpg"
+                       Opacity="0.6" />
+                <Label Text="Energias"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+
+    <!--route es como x:name util para navegacion-->
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="Energias">
+        <Tab Title="No renovables">
+            <ShellContent
+            Title="Carbon"
+            ContentTemplate="{DataTemplate local2:Carbon}"
+            Route="Carbon"
+            Icon="carbon.png"/>
+
+            <ShellContent
+            Title="Nuclear"
+            ContentTemplate="{DataTemplate local2:Nuclear}"
+            Route="Nuclear"
+            Icon="nuclear.png"/>
+
+        </Tab>
+
+        <ShellContent
+            Title="Eolica"
+            ContentTemplate="{DataTemplate local2:Eolica}"
+            Route="Eolica"
+            Icon="eolica.png"/>
+        <ShellContent
+            Title="HidroElectrica"
+            ContentTemplate="{DataTemplate local2:HidroElectrica}"
+            Route="HidroElectrica"
+            Icon="hidroelectrica.png"/>
+        <ShellContent
+            Title="Solar"
+            ContentTemplate="{DataTemplate local2:Solar}"
+            Route="Solar"
+            Icon="solar.png"/>
+       
+        
+    </FlyoutItem>   
+        <!--que tiene menu item de especial y como hacer el link funcionar-->
+        <MenuItem Text="Help"
+              IconImageSource="dotnet_bot.png"
+              Command="{Binding HelpCommand}"
+              CommandParameter="https://learn.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell" />
+
+
+</Shell>

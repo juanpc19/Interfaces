@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ej5Tema7Shell
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej5Tema7Shell\
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Views/Carbon.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Views.Carbon.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Carbon.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Carbon.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Views/Eolica.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Views.Eolica.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Eolica.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Eolica.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Views/HidroElectrica.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Views.HidroElectrica.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HidroElectrica.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HidroElectrica.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Views/Nuclear.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Views.Nuclear.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Nuclear.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Nuclear.xaml
+
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej5Tema7Shell/Views/Solar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ej5Tema7Shell.Views.Solar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Solar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Solar.xaml

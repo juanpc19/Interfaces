@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5Tema7Shell.Views.Carbon"
+             xmlns:local="clr-namespace:Ej5Tema7Shell"
+             Title="Carbon">
+    <VerticalStackLayout>
+
+        
+        <Label 
+            Text="Carbon"
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image Source="no_renovable.jpeg"/>
+    </VerticalStackLayout>
+</ContentPage>

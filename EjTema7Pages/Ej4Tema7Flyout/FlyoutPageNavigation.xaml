@@ -1,40 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Ej4Tema7Flyout.FlyoutPageNavigation">
+             x:Class="Ej4Tema7Flyout.FlyoutPageNavigation"
+             xmlns:local="clr-namespace:Ej4Tema7Flyout.Views.MenuFlyout"
+             Title="FlyoutPageNavigation">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <!--aqui decides la pagina que sera la lateral izq (contendra las paginas de contenido y sera parte de la pagina principal)-->
+    <FlyoutPage.Flyout>
+        <local:FlyoutMenuPage x:Name="flyoutPage"/>
+    </FlyoutPage.Flyout>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+    <!--aqui decides la pagina inicial que cargara el flyout en la pagina principal-->
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:ContactsPage/>
+            </x:Arguments>
+        </NavigationPage>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+    </FlyoutPage.Detail>
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-            
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
-
-</ContentPage>
+</FlyoutPage>

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjTema7Pages", "EjTema7Page
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaDeClases", "BibliotecaDeClases\BibliotecaDeClases.csproj", "{33B8CBDF-9DFC-4D24-A225-E4F6EC485FFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4Tema7Flyout", "Ej4Tema7Flyout\Ej4Tema7Flyout.csproj", "{04D7486A-89F6-4714-B832-B1CAD3A46D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4Tema7Flyout", "Ej4Tema7Flyout\Ej4Tema7Flyout.csproj", "{04D7486A-89F6-4714-B832-B1CAD3A46D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej5Tema7Shell", "Ej5Tema7Shell\Ej5Tema7Shell.csproj", "{041325AF-E5E0-4566-A81D-A23DDAA703F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,12 @@ Global
 		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04D7486A-89F6-4714-B832-B1CAD3A46D85}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041325AF-E5E0-4566-A81D-A23DDAA703F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

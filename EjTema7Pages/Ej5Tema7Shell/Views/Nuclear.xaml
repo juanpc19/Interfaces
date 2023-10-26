@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5Tema7Shell.Views.Nuclear"
+             Title="Nuclear">
+    <VerticalStackLayout>
+        <Label 
+            Text="Nuclear"
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Image Source="no_renovable.jpeg"/>
+    </VerticalStackLayout>
+</ContentPage>

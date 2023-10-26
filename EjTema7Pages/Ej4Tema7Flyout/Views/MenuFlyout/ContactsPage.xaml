@@ -2,12 +2,21 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ej4Tema7Flyout.Views.MenuFlyout.ContactsPage"
-             
-             Title="ContactsPage">
+             Title="Contacts">
     <VerticalStackLayout>
+        
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Manolo, 656565651"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Label 
+            Text="Manolo, 656565651"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />   
+        <Label 
+            Text="Manolo, 656565651"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
     </VerticalStackLayout>
 </ContentPage>
