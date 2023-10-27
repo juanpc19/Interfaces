@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>b4fa3bb7-b0a0-4645-82f8-5258a4ee2d54</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>EC881E23DC6FA11E13EF55C90C130B07687C9836E5C4E08EEBFB815220A4FB81</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b4fa3bb7-b0a0-4645-82f8-5258a4ee2d54_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b4fa3bb7-b0a0-4645-82f8-5258a4ee2d54_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-13T07:24:54.670</Modified>
+      <Modified>2023-10-27T06:56:02.060</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-13T07:24:54.465</Modified>
+      <Modified>2023-10-27T06:56:01.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.runtimeconfig.json">
       <PackagePath>Ej2Tema5Controles.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-13T07:24:54.415</Modified>
+      <Modified>2023-10-27T06:56:01.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.dll">
       <PackagePath>Ej2Tema5Controles.dll</PackagePath>
-      <Modified>2023-10-13T07:24:53.481</Modified>
+      <Modified>2023-10-27T06:56:00.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej2Tema5Controles.exe</PackagePath>
-      <Modified>2023-10-13T07:24:53.486</Modified>
+      <Modified>2023-10-27T06:56:00.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.deps.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej2Tema5Controles.deps.json">
       <PackagePath>Ej2Tema5Controles.deps.json</PackagePath>
-      <Modified>2023-10-13T07:24:54.401</Modified>
+      <Modified>2023-10-27T06:56:01.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -933,239 +933,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T14:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-10-13T07:14:02.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-10-13T07:14:02.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-10-13T07:14:02.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-10-13T07:21:53.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.812</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.567</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.757</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.565</Modified>
     </AppxPackagedFile>

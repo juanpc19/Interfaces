@@ -12,39 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Ej2Tema5Controles
-build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\
+build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/App.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/AppShell.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/MainPage.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/MainPageOtra.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/MainPageOtra.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.MainPageOtra.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPageOtra.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPageOtra.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/Resources/Styles/Colors.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/Resources/Styles/Styles.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Ejercicio1Tema5PrimerMaui/Ej2Tema5Controles/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej2Tema5Controles.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

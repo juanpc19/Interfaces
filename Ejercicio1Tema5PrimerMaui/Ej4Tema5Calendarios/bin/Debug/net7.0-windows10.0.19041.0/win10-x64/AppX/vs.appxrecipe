@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>8e47a442-2782-42ca-afd6-f3e3d48f1e79</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>5ECD5454EC9E5481C4C8724549EADF7FCD346DB9DEDBE96B295A67041D5B3B9C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8e47a442-2782-42ca-afd6-f3e3d48f1e79_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8e47a442-2782-42ca-afd6-f3e3d48f1e79_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-10-13T07:24:12.348</Modified>
+      <Modified>2023-10-27T06:58:29.309</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-10-13T07:24:12.077</Modified>
+      <Modified>2023-10-27T06:58:29.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.runtimeconfig.json">
       <PackagePath>Ej4Tema5Calendarios.runtimeconfig.json</PackagePath>
-      <Modified>2023-10-13T07:24:11.886</Modified>
+      <Modified>2023-10-27T06:58:29.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.dll">
       <PackagePath>Ej4Tema5Calendarios.dll</PackagePath>
-      <Modified>2023-10-13T07:24:10.605</Modified>
+      <Modified>2023-10-27T06:58:28.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej4Tema5Calendarios.exe</PackagePath>
-      <Modified>2023-10-13T07:24:10.624</Modified>
+      <Modified>2023-10-27T06:58:28.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.deps.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej4Tema5Calendarios.deps.json">
       <PackagePath>Ej4Tema5Calendarios.deps.json</PackagePath>
-      <Modified>2023-10-13T07:24:11.777</Modified>
+      <Modified>2023-10-27T06:58:29.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -933,239 +933,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T14:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-10-13T07:15:56.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-10-13T07:15:56.503</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-10-13T07:15:56.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-10-13T07:21:53.658</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:54.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:54.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:54.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:54.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:54.251</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.763</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.766</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.776</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.757</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.742</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.694</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-10-13T07:21:53.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-10-13T07:21:53.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-10-13T07:21:53.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-10-13T07:21:53.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-10-13T07:21:53.720</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.830</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.798</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.814</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.951</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:54.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-10-13T07:21:53.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-10-13T07:21:53.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-10-13T07:21:53.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-10-13T07:21:53.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar-main\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej4Tema5Calendarios\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-10-13T07:21:53.854</Modified>
     </AppxPackagedFile>

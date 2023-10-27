@@ -1,1 +1,1 @@
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\Ej4Tema7Flyout.csproj;x64
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\Ej4Tema7Flyout.csproj;x64

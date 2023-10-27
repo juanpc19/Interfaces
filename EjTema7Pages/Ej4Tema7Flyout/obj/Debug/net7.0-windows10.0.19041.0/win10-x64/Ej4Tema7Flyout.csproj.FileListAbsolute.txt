@@ -652,3 +652,9 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_and_calendar.scale-100.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\todo.scale-100.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contactos.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\contacts.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista_de_verificacion.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\reminders.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\time_and_calendar.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\todo.scale-100.png

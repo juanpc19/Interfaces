@@ -52,7 +52,7 @@
 	  <None Remove="Resources\Images\carbon.png" />
 	  <None Remove="Resources\Images\eolica.png" />
 	  <None Remove="Resources\Images\hidroelectrica.png" />
-	  <None Remove="Resources\Images\no_renovable.jpeg" />
+	  <None Remove="Resources\Images\no_renovable.jpg" />
 	  <None Remove="Resources\Images\nuclear.png" />
 	  <None Remove="Resources\Images\renovable.jpg" />
 	  <None Remove="Resources\Images\solar.png" />
