@@ -3,15 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema8Layouts.MainPage">
 
-    <ScrollView>
-         
-            <StackLayout>
-            <Border Padding="10" Stroke="Purple" StrokeThickness="5" StrokeShape="RoundRectangle 30,30,0,0" VerticalOptions="CenterAndExpand">
-                 
-            </Border>
-            <Image></Image>
+    <Border Padding="30" Stroke="Purple" StrokeThickness="5" StrokeShape="RoundRectangle 30,30,0,0" >
+        <StackLayout VerticalOptions="Center" Margin="100" >
+
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Button Text="Boton1" BorderColor="Black" BorderWidth="5" Margin="5"/>
+                <Button Text="Boton2" Margin="5"/>
+                <Button Text="Boton3" Margin="5"/>
+            </VerticalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Start">
+                <Label Text="Nombre" FontAttributes="Bold" Margin="0,0,20,0" HorizontalOptions="Start"/>
+                <Entry BackgroundColor="LightCyan" HorizontalOptions="FillAndExpand"/>
+            </HorizontalStackLayout>
+
         </StackLayout>
-        
-    </ScrollView>
+
+    </Border>
 
 </ContentPage>

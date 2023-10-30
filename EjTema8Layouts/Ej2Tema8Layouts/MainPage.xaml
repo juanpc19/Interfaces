@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej2Tema8Layouts.MainPage">
+    <!-- Direction para dar tipo de orientacion inicial al FlexLayout padre -->
+    <FlexLayout Direction="Column">
+     
+        <Label Text="HEADER"
+         FontSize="18"
+         BackgroundColor="Aqua"
+         HorizontalTextAlignment="Center" />
+
+        <FlexLayout FlexLayout.Grow="1">
+
+            <!-- .Grow para agrandar elemento en cierta medida, funciona como weigth en kotlin -->
+            <Label Text="CONTENT"
+             FontSize="18"
+             BackgroundColor="Gray"
+             HorizontalTextAlignment="Center"
+             VerticalTextAlignment="Center"
+             FlexLayout.Grow="1" />
+
+            <!-- .Basis controla cuanto se alargara un elemento hijo,
+            segun el padre tenga alinacion vertical u horizontal funciona en horizontal o vertical
+            
+            .Order posiciona elementos en orden, normalmente se mostraria label,box,box 
+            pero al tener el segundo box un Order-1 se muestra box,label,box
+            este seria el orden con multiples elementos: -1,0,1-->
+            <BoxView FlexLayout.Basis="50"
+               FlexLayout.Order="-1"
+               Color="Blue"/>
+
+            <BoxView FlexLayout.Basis="50"
+               Color="Green" />
+
+        </FlexLayout>
+
+        <Label Text="FOOTER"
+         FontSize="18"
+         BackgroundColor="Pink"
+         HorizontalTextAlignment="Center" />
+    </FlexLayout>
+
+</ContentPage>
