@@ -9,6 +9,7 @@
             <Border Padding="10" Stroke="Purple" StrokeThickness="5" StrokeShape="RoundRectangle 30,30,0,0" VerticalOptions="CenterAndExpand">
                  
             </Border>
+            <Image></Image>
         </StackLayout>
         
     </ScrollView>
