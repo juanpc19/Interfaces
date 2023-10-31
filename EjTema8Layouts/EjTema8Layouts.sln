@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjTema8Layouts", "EjTema8Layouts\EjTema8Layouts.csproj", "{D73EBFB9-EF4E-4BF2-9423-EE51CEB03463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2Tema8Layouts", "Ej2Tema8Layouts\Ej2Tema8Layouts.csproj", "{34718BE9-E487-42D3-BD9D-4641E45EB2CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej2Tema8Layouts", "Ej2Tema8Layouts\Ej2Tema8Layouts.csproj", "{34718BE9-E487-42D3-BD9D-4641E45EB2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej3Tema8Layouts", "Ej3Tema8Layouts\Ej3Tema8Layouts.csproj", "{F1B51FB3-0077-4439-B459-4FBEF74609F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,12 @@ Global
 		{34718BE9-E487-42D3-BD9D-4641E45EB2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34718BE9-E487-42D3-BD9D-4641E45EB2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{34718BE9-E487-42D3-BD9D-4641E45EB2CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B51FB3-0077-4439-B459-4FBEF74609F8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

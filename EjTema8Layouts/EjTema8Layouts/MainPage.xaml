@@ -4,7 +4,7 @@
              x:Class="EjTema8Layouts.MainPage">
 
     <Border Padding="30" Stroke="Purple" StrokeThickness="5" StrokeShape="RoundRectangle 30,30,0,0" >
-        <StackLayout VerticalOptions="Center" Margin="100" >
+        <StackLayout VerticalOptions="Center" Margin="10" >
 
             <VerticalStackLayout HorizontalOptions="Center">
                 <Button Text="Boton1" BorderColor="Black" BorderWidth="5" Margin="5"/>
@@ -13,8 +13,8 @@
             </VerticalStackLayout>
 
             <HorizontalStackLayout HorizontalOptions="Start" >
-                <Label Text="Nombre" FontAttributes="Bold" Margin="0,0,20,0" VerticalOptions="Center"/>
-                <Entry BackgroundColor="LightCyan" HorizontalOptions="FillAndExpand" MinimumWidthRequest="100"/>
+                <Label Text="Nombre." FontAttributes="Bold" Margin="0,0,20,0" VerticalOptions="Center" HorizontalOptions="Start"/>
+                <Entry BackgroundColor="LightCyan" VerticalOptions="Center" MinimumWidthRequest="250"/>
             </HorizontalStackLayout>
 
         </StackLayout>
