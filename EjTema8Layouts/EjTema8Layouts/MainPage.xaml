@@ -12,9 +12,9 @@
                 <Button Text="Boton3" Margin="5"/>
             </VerticalStackLayout>
 
-            <HorizontalStackLayout HorizontalOptions="Start">
-                <Label Text="Nombre" FontAttributes="Bold" Margin="0,0,20,0" HorizontalOptions="Start"/>
-                <Entry BackgroundColor="LightCyan" HorizontalOptions="FillAndExpand"/>
+            <HorizontalStackLayout HorizontalOptions="Start" >
+                <Label Text="Nombre" FontAttributes="Bold" Margin="0,0,20,0" VerticalOptions="Center"/>
+                <Entry BackgroundColor="LightCyan" HorizontalOptions="FillAndExpand" MinimumWidthRequest="100"/>
             </HorizontalStackLayout>
 
         </StackLayout>
