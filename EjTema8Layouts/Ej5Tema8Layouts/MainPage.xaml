@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5Tema8Layouts.MainPage">
+
+    <ListView x:Name="ListadoDePersonas" ItemsSource="{Binding ListadoPersonas}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding NombreCompleto} " />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+
+    <!--
+	<StackLayout>
+		<ListView x:Name="FruitListView" ItemsSource="{Binding Fruits}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding FruitName}" />
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+		
+		<ListView>
+			<ListView.ItemsSource>
+				<x:Array Type="{x:Type x:String}">
+					<x:String>Apple</x:String>
+					<x:String>Orange</x:String>
+					<x:String>Banana</x:String>
+					<x:String>Grape</x:String>
+					<x:String>Mango</x:String>
+				</x:Array>
+			</ListView.ItemsSource>
+		</ListView>
+
+	</StackLayout>
+-->
+
+</ContentPage>
