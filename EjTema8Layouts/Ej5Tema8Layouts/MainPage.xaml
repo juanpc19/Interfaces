@@ -3,13 +3,56 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ej5Tema8Layouts.MainPage">
 
-    <ListView x:Name="ListadoDePersonas" ItemsSource="{Binding ListadoPersonas}">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding NombreCompleto} " />
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+
+        <ListView x:Name="ListadoPersonas" ItemsSource="{Binding ListadoPersonas}" Grid.Row="0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.RowSpan="2" Source="dotnet_bot.png" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" Margin="5"/>
+                            <Label Grid.Column="1" Text="{Binding NombreCompleto}" Margin="5"/>
+
+                        </Grid>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <HorizontalStackLayout Grid.Row="1">
+
+            <Button  Text="+" TextColor="White" BackgroundColor="Purple" BorderColor="Orange"/>
+
+
+            <ImageButton  Source="edit.png"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    Aspect="Center"/>
+
+            <ImageButton  Source="trash.png" HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+        </HorizontalStackLayout>
+           
+
+        
+
+
+    </Grid>
 
 
     <!--

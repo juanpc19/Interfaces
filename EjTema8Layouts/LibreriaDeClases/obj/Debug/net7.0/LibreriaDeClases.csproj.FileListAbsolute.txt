@@ -9,3 +9,14 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\LibreriaDeCla
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\refint\LibreriaDeClases.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\ref\LibreriaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\bin\Debug\net7.0\LibreriaDeClases.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\bin\Debug\net7.0\LibreriaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\bin\Debug\net7.0\LibreriaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\refint\LibreriaDeClases.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\LibreriaDeClases.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\LibreriaDeClases\obj\Debug\net7.0\ref\LibreriaDeClases.dll

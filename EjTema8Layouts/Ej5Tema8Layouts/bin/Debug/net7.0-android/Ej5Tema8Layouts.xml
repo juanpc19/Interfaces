@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ej5Tema8Layouts</name>
+    </assembly>
+    <members>
+        <member name="F:Ej5Tema8Layouts.MainPage.listadoPersonas">
+            <summary>
+            
+            </summary>
+            
+        </member>
+        <member name="T:Ej5Tema8Layouts.Models.ListadoDePersonas">
+            <summary>
+            clase estatica
+            </summary>
+        </member>
+        <member name="M:Ej5Tema8Layouts.Models.ListadoDePersonas.getListadoCompletoPersonas">
+            <summary>
+            funcion que devuelve listado de objetos Personas
+            Pre: ninguna
+            Post: ninguna
+            </summary>
+            <returns>listadoPersonas</returns>
+        </member>
+    </members>
+</doc>

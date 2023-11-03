@@ -1,43 +1,33 @@
 ﻿
 using LibreriaDeClases;
 using System.Collections.ObjectModel;
+using Ej5Tema8Layouts.Models;
 
 namespace Ej5Tema8Layouts
 {
     public partial class MainPage : ContentPage
     {
-
-
         // public ObservableCollection<Persona> listadoPersonas { get { return listadoPersonas; } }
 
         // ObservableCollection<Persona> listadoPersonas = new ObservableCollection<Persona>();
 
-     
 
         /// <summary>
-        /// crear objetos en main page start
+        /// 
         /// </summary>
         /// 
-
-        ObservableCollection<Persona> listadoPersonas = new ObservableCollection<Persona>();
+        ObservableCollection<Persona> listadoPersonas = ListadoDePersonas.getListadoCompletoPersonas();
 
         public MainPage()
         {
             InitializeComponent();
-           
 
-            {
-                listadoPersonas.Add(new Persona("Juan", "Gallego Lopez"));
-                listadoPersonas.Add(new Persona("Jaime", "Garcia Lorca"));
-                listadoPersonas.Add(new Persona("Antonio", "Perez Garcia"));
-                listadoPersonas.Add(new Persona("Pepe", "Garcia Gallego"));
-                listadoPersonas.Add(new Persona("Felipe", "Lorca Diaz"));
-
-                ListadoDePersonas.ItemsSource = listadoPersonas;
-            };
+            ListadoPersonas.ItemsSource = listadoPersonas;
+             
         }
-        
-         
+
+
+
 
 //using System.Collections.ObjectModel;
 //namespace listview;
