@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3Tema8Layouts", "Ej3Tema8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4Tema8Layouts", "Ej4Tema8Layouts\Ej4Tema8Layouts.csproj", "{2894372C-4510-4D1D-9DF9-882CB236A37E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej5Tema8Layouts", "Ej5Tema8Layouts\Ej5Tema8Layouts.csproj", "{7F2D8792-95A2-4AA2-B8C4-8F389DCD9F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej5Tema8Layouts", "Ej5Tema8Layouts\Ej5Tema8Layouts.csproj", "{7F2D8792-95A2-4AA2-B8C4-8F389DCD9F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDeClases", "LibreriaDeClases\LibreriaDeClases.csproj", "{0B6385C6-DBDC-4A3D-9BF6-662EF565A408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibreriaDeClases", "LibreriaDeClases\LibreriaDeClases.csproj", "{0B6385C6-DBDC-4A3D-9BF6-662EF565A408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej6Tema8Layouts", "Ej6Tema8Layouts\Ej6Tema8Layouts.csproj", "{1806D242-FF41-4D0E-B30C-20578E5C6E3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,12 @@ Global
 		{0B6385C6-DBDC-4A3D-9BF6-662EF565A408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6385C6-DBDC-4A3D-9BF6-662EF565A408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6385C6-DBDC-4A3D-9BF6-662EF565A408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1806D242-FF41-4D0E-B30C-20578E5C6E3B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

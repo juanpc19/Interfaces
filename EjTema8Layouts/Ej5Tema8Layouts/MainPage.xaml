@@ -3,54 +3,114 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ej5Tema8Layouts.MainPage">
 
-    <Grid>
+    <Grid >
         <Grid.RowDefinitions>
-            <RowDefinition Height="9*"/>
-            <RowDefinition Height="*"/>
-            
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <ListView x:Name="ListadoPersonas" ItemsSource="{Binding ListadoPersonas}" Grid.Row="0">
+        <Grid Grid.Row="0" BackgroundColor="DarkSlateBlue" Margin="5">
+            
+            <ImageButton Source="menu.png" 
+                         BackgroundColor="White"
+                         BorderColor="Orange"
+                         BorderWidth="3"
+                         CornerRadius="30"
+                         WidthRequest="60"
+                         HeightRequest="60"
+                         Aspect="AspectFit" 
+                         Margin="5"
+                         HorizontalOptions="Start"/>
+
+            <Label Text="Contactos" FontSize="Header" TextColor="Orange" Margin="10" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+            <ImageButton Source="buscar.png" 
+                         BackgroundColor="White"
+                         BorderColor="Orange"
+                         BorderWidth="3"
+                         CornerRadius="30"
+                         WidthRequest="60"
+                         HeightRequest="60"
+                         Aspect="AspectFit"
+                         Margin="5"
+                         HorizontalOptions="End"/>
+        </Grid>
+
+        <ListView x:Name="ListadoPersonas" ItemsSource="{Binding ListadoPersonas}" Grid.Row="1">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10">
+
+                        <Grid Padding="10" BackgroundColor="DarkSlateBlue" Margin="15">
+
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
+
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="16*" />
                             </Grid.ColumnDefinitions>
-                            <Image Grid.RowSpan="2" Source="dotnet_bot.png" Aspect="AspectFill" HeightRequest="60" WidthRequest="60" Margin="5"/>
-                            <Label Grid.Column="1" Text="{Binding NombreCompleto}" Margin="5"/>
+
+                            <ImageButton Grid.RowSpan="2" Source="dotnet_bot.png" 
+                                     BackgroundColor="White"
+                                     BorderColor="Orange"
+                                     BorderWidth="3"
+                                     CornerRadius="30"
+                                     WidthRequest="60"
+                                     HeightRequest="60"
+                                     Aspect="AspectFit"
+                                     Margin="5" 
+                                     HorizontalOptions="Start"/>
+                            
+                            <Label Grid.Column="1" Text="{Binding NombreCompleto}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="10" />
 
                         </Grid>
-                    </ViewCell>
 
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <HorizontalStackLayout Grid.Row="1">
+        <Grid Grid.Row="2" BackgroundColor="DarkSlateBlue" Margin="5" >
+            
+            <HorizontalStackLayout HorizontalOptions="End">
+                
+                <ImageButton Source="add.png"
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="60"
+                  HeightRequest="60"
+                  Aspect="AspectFit"
+                  Margin="5"/>
 
-            <Button  Text="+" TextColor="White" BackgroundColor="Purple" BorderColor="Orange"/>
+                <ImageButton Source="edit.png"
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="60"
+                  HeightRequest="60"
+                  Aspect="AspectFit"
+                  Margin="5"/>
 
-
-            <ImageButton  Source="edit.png"
-                    WidthRequest="60"
-                    HeightRequest="60"
-                    Aspect="Center"/>
-
-            <ImageButton  Source="trash.png" HorizontalOptions="Center"
-                    VerticalOptions="Center"/>
-
-        </HorizontalStackLayout>
-           
-
-        
-
+                <ImageButton Source="delete.png" 
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="60"
+                  HeightRequest="60"
+                  Aspect="AspectFit"
+                  Margin="5"/>
+                
+            </HorizontalStackLayout>
+       
+        </Grid>
 
     </Grid>
 

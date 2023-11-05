@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Ej4Tema8Layouts
-build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej4Tema8Layouts\
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej4Tema8Layouts\
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema8Layouts/Ej4Tema8Layouts/App.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema8Layouts/Ej4Tema8Layouts/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema8Layouts.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema8Layouts/Ej4Tema8Layouts/AppShell.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema8Layouts/Ej4Tema8Layouts/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema8Layouts.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema8Layouts/Ej4Tema8Layouts/MainPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema8Layouts/Ej4Tema8Layouts/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema8Layouts.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema8Layouts/Ej4Tema8Layouts/Resources/Styles/Colors.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema8Layouts/Ej4Tema8Layouts/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema8Layouts.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema8Layouts/Ej4Tema8Layouts/Resources/Styles/Styles.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema8Layouts/Ej4Tema8Layouts/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema8Layouts.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

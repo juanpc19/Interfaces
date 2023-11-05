@@ -1,1 +1,1 @@
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej5Tema8Layouts\Ej5Tema8Layouts.csproj;x64
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\Ej5Tema8Layouts.csproj;x64

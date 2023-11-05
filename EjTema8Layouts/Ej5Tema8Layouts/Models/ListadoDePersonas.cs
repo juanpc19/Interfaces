@@ -9,14 +9,14 @@ namespace Ej5Tema8Layouts.Models
 
 {
     /// <summary>
-    /// clase estatica
+    /// clase estatica que contiene funcion que devuelve un ObservableCollection
     /// </summary>
     public static class ListadoDePersonas
     {
         /// <summary>
-        /// funcion que devuelve listado de objetos Personas
+        /// funcion que devuelve collecion observable de objetos Personas creados a mano
         /// Pre: ninguna
-        /// Post: ninguna
+        /// Post: devolvera un ObservableCollection
         /// </summary>
         /// <returns>listadoPersonas</returns>
         public static ObservableCollection<Persona> getListadoCompletoPersonas()

@@ -650,3 +650,13 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej5Tema8Layou
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\edit.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\trash.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\agregar.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\busqueda.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\editar.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\delete.scale-100.png

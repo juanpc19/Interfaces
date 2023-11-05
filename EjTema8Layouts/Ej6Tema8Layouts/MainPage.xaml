@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej6Tema8Layouts.MainPage">
+
+    <ScrollView>
+        
+        <VerticalStackLayout
+            Spacing="20"
+            Padding="20,0"
+            VerticalOptions="Center">
+
+            <Entry
+                x:Name="entryNombre"
+                Placeholder="Nombre"
+                HorizontalOptions="Center" />
+
+            <Label x:Name="mensajeErrorNombre"
+                   Text="Campo Nombre vacio, por favor introduzca un nombre."
+                   TextColor="Red"
+                   HorizontalOptions="Center"/>
+            
+            <Entry
+                 x:Name="entryApellidos"
+                 Placeholder="Apellidos"
+                 HorizontalOptions="Center" />
+
+            <Label x:Name="mensajeErrorApellidos"
+                   Text="Campo Nombre vacio, por favor introduzca los apellidos."
+                   TextColor="Red"
+                   HorizontalOptions="Center"/>
+
+            <DatePicker 
+                x:Name="fechaNacimiento"
+                HorizontalOptions="Center"/>
+
+            <Label x:Name="mensajeErrorFecha"
+                   Text="Campo Fecha vacio o erroneo, por favor seleccione una fecha correcta."
+                   TextColor="Red"
+                   HorizontalOptions="Center"/> 
+
+            <Label x:Name="mensajeTodoCorrecto"
+                   Text="Datos guardados con exito."
+                   TextColor="Green"
+                   HorizontalOptions="Center"/>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="40" Spacing="10">
+
+                <ImageButton Source="add.png"
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="80"
+                  HeightRequest="80"
+                  Aspect="AspectFit"                 
+                  Clicked="AddClicked"/>
+
+                <ImageButton Source="save.png"
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="80"
+                  HeightRequest="80"
+                  Aspect="Center"                
+                  Clicked="SaveClicked"/>
+
+                <ImageButton Source="delete.png"
+                  BackgroundColor="White"
+                  BorderColor="Orange"
+                  BorderWidth="3"
+                  CornerRadius="30"
+                  WidthRequest="80"
+                  HeightRequest="80"
+                  Aspect="Center"                
+                  Clicked="DeleteClicked"/>      
+                
+            </HorizontalStackLayout>
+
+            <VerticalStackLayout Spacing="10">
+
+                <Label x:Name="confirmacionBorrar"
+                        Text="¿Desea borrar esta persona?"
+                        TextColor="Black"
+                        HorizontalOptions="Center"/>
+
+                <!--aqui iran los botones-->
+                <HorizontalStackLayout x:Name="hsl"  HorizontalOptions="Center" Spacing="10" >
+
+                    <Label x:Name="mensajeBorrado"
+                        Text="Datos borrados con exito."
+                        TextColor="Green"
+                        HorizontalOptions="Center"/>
+
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+           
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+</ContentPage>
