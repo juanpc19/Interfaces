@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Solarizer.Views.Citas"
+             Title="Citas">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="12*"/>
+           
+
+        </Grid.RowDefinitions>
+
+        <Grid>
+
+            <Button Text="Volver a login" VerticalOptions="Center" HorizontalOptions="Start" Clicked="VolverLogin"/> 
+            <Label Text="Contactos" FontSize="Header" TextColor="Orange" Margin="10" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        </Grid>
+       
+        <ListView x:Name="ListadoDeCitas" ItemsSource="{Binding ListadoDeCitas}" Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    
+                    <ViewCell>
+
+                        <Grid Padding="10" BackgroundColor="DarkSlateBlue" Margin="15">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="4*" />
+                                <ColumnDefinition Width="6*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+
+                            <ImageButton Grid.RowSpan="2" Source="dotnet_bot.png" 
+                             BackgroundColor="White"
+                             BorderColor="Orange"
+                             BorderWidth="3"
+                             CornerRadius="30"
+                             WidthRequest="60"
+                             HeightRequest="60"
+                             Aspect="AspectFit"
+                             Margin="5" 
+                             HorizontalOptions="Start"/>
+
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="{Binding Nombre}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="10" />
+                                <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="10" />
+                                <Label Text="{Binding Direccion}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="10" />
+                            </VerticalStackLayout>
+
+                            <Label Grid.Column="2" Text="{Binding Observaciones}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="10" />
+
+                            <Button Grid.Column="3" Text="ir a cita" FontSize="Medium" Background="Orange" TextColor="DarkSlateBlue" Margin="10" Clicked="Detalles"/>
+
+
+                        </Grid>
+
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
+    </Grid>
+
+</ContentPage>

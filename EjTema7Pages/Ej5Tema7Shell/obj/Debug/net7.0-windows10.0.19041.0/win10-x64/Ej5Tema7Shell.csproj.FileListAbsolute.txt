@@ -667,3 +667,4 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej5Tema7Shell\o
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej5Tema7Shell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej5Tema7Shell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej5Tema7Shell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_renovable.scale-100.jpg
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej5Tema7Shell\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\no_renovable.scale-100.jpg

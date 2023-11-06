@@ -1,4 +1,5 @@
-﻿namespace Solarizer
+﻿using Solarizer.Views;
+namespace Solarizer
 {
     public partial class App : Application
     {
@@ -6,7 +7,8 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            //modifico esto a siguiente linea para hacer de main page la primera pagina de navegacion en mi pila de paginas
+            MainPage = new NavigationPage(new Login());
         }
     }
 }
