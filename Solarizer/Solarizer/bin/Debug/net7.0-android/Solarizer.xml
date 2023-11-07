@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Solarizer</name>
+    </assembly>
+    <members>
+        <member name="M:Solarizer.Views.Citas.#ctor">
+            <summary>
+            inicializa pagina Citas 
+            </summary>
+        </member>
+        <member name="M:Solarizer.Views.Citas.VolverLogin(System.Object,System.EventArgs)">
+            <summary>
+            metodo que devolvera a pagina Login
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.Login.#ctor">
+            <summary>
+            inicializa pagina Login 
+            </summary>
+        </member>
+        <member name="M:Solarizer.Views.Login.InicioSesion(System.Object,System.EventArgs)">
+            <summary>
+            metodo que permitira navegacion a pagina Citas si se han introducido datos o mostrara mensajes de error en caso contrario
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

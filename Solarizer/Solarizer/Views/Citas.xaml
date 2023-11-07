@@ -19,14 +19,16 @@
             <Label Text="Contactos" FontSize="Header" TextColor="Orange" Margin="10" VerticalOptions="Center" HorizontalOptions="Center"/>
 
         </Grid>
+
+        <ScrollView  Grid.Row="1">
        
-        <ListView x:Name="ListadoDeCitas" ItemsSource="{Binding ListadoDeCitas}" Grid.Row="1">
+        <ListView x:Name="ListadoDeCitas" ItemsSource="{Binding ListadoDeCitas}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     
                     <ViewCell>
 
-                        <Grid Padding="10" BackgroundColor="DarkSlateBlue" Margin="15">
+                        <Grid  BackgroundColor="DarkSlateBlue" Margin="5">
 
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
@@ -68,9 +70,9 @@
                     
                 </DataTemplate>
             </ListView.ItemTemplate>
-            
+        
         </ListView>
-
+        </ScrollView>
     </Grid>
 
 </ContentPage>

@@ -2,7 +2,7 @@
 
     public partial class Login : ContentPage
     {
-      
+      //NAV BAR VISIBLE TO FALSE 
         bool userCorrecto=false;//guardara introduccion de usuario correcta o incorrecta
 
         bool passCorrecto=false;//guardara introduccion de password correcta o incorrecta

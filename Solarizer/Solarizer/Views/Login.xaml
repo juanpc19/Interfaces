@@ -4,39 +4,51 @@
              x:Class="Solarizer.Views.Login"
              BackgroundImageSource="solaris.jpg">
 
-    <ScrollView>
+    <StackLayout>
+        
+   
+    
+    <Frame BackgroundColor="DarkSlateBlue" CornerRadius="25" MinimumHeightRequest="320" Margin="100" VerticalOptions="Center" HorizontalOptions="Center">
+
+     
+
         <VerticalStackLayout
+            
             Spacing="20"
             Padding="25,0"
-            VerticalOptions="Center" >
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            >
 
             <Entry x:Name="entryUser"
                 Placeholder="Usuario"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="DarkSlateBlue"
-                FontSize="Title"/>
+                BackgroundColor="white"
+                FontSize="Title"
+                    />
             
             <Label x:Name="errorUser"
                 Text="Introduzca usuario."
                 TextColor="red"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="DarkSlateBlue"/>
+                     />
             
             <Entry x:Name="entryPass"
                 Placeholder="Contraseña"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="DarkSlateBlue"
-                FontSize="Title"/>
+                BackgroundColor="white"
+                FontSize="Title"
+                    />
 
             <Label x:Name="errorPass" 
                 Text="Introduzca contraseña."
                 TextColor="Red"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="DarkSlateBlue"/>
+                    />
 
             <Button Text="Iniciar sesión"
                     VerticalOptions="Center"
@@ -45,9 +57,13 @@
                     BackgroundColor="DarkSlateBlue"
                     FontSize="Title"
                     BorderColor="DarkOrange"
-                    BorderWidth="5"/>
+                    BorderWidth="5"
+                     />
 
         </VerticalStackLayout>
-    </ScrollView>
-
+            
+    </Frame>
+    
+    </StackLayout>
+    
 </ContentPage>
