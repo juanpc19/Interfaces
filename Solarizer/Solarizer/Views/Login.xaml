@@ -4,13 +4,13 @@
              x:Class="Solarizer.Views.Login"
              BackgroundImageSource="solaris.jpg">
 
-    <StackLayout>
-        
-   
-    
+
+
+
+
     <Frame BackgroundColor="DarkSlateBlue" CornerRadius="25" MinimumHeightRequest="320" Margin="100" VerticalOptions="Center" HorizontalOptions="Center">
 
-     
+
 
         <VerticalStackLayout
             
@@ -26,21 +26,26 @@
                 HorizontalOptions="Center"
                 BackgroundColor="white"
                 FontSize="Title"
+                HeightRequest="40"
+                WidthRequest="200"
                     />
-            
+
             <Label x:Name="errorUser"
                 Text="Introduzca usuario."
-                TextColor="red"
+                TextColor="Red"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                      />
-            
+
             <Entry x:Name="entryPass"
                 Placeholder="Contraseña"
+                IsPassword="True"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 BackgroundColor="white"
                 FontSize="Title"
+                HeightRequest="40"
+                WidthRequest="200"
                     />
 
             <Label x:Name="errorPass" 
@@ -61,9 +66,7 @@
                      />
 
         </VerticalStackLayout>
-            
+
     </Frame>
-    
-    </StackLayout>
-    
+
 </ContentPage>

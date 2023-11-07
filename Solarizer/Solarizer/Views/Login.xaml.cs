@@ -7,12 +7,14 @@
 
         bool passCorrecto=false;//guardara introduccion de password correcta o incorrecta
 
+
     /// <summary>
     /// inicializa pagina Login 
     /// </summary>
     public Login()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         //vuelvo los mensajes de error invisibles
             errorUser.IsVisible = false;
             errorPass.IsVisible = false;    

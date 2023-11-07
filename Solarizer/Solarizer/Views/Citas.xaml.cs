@@ -15,6 +15,7 @@ public partial class Citas : ContentPage
     public Citas()
 	{
 		InitializeComponent();
+        NavigationPage.SetHasNavigationBar(this, false);
         //doy a list view de nombre ListadoDeCitas una fuente de items con listadoPersonas
         ListadoDeCitas.ItemsSource = listadoPersonas;
     }

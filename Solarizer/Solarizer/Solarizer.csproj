@@ -49,6 +49,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\atras.png" />
+	  <None Remove="Resources\Images\back.png" />
 	  <None Remove="Resources\Images\solaris.jpg" />
 	</ItemGroup>
 
