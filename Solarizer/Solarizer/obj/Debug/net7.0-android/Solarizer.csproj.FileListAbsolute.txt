@@ -972,3 +972,5 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debu
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\atras.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\back.png

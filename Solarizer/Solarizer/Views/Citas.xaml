@@ -29,7 +29,7 @@
 
         <ScrollView  Grid.Row="1">
        
-        <ListView x:Name="ListadoDeCitas" ItemsSource="{Binding ListadoDeCitas}">
+        <ListView x:Name="ListadoDeCitas">
             <ListView.ItemTemplate >
                 <DataTemplate>
                     

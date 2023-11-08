@@ -656,3 +656,5 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debu
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png
