@@ -1,1 +1,1 @@
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej3Tema5Binding\Ej3Tema5Binding.csproj;x64
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Ejercicio1Tema5PrimerMaui\Ej3Tema5Binding\Ej3Tema5Binding.csproj;x64

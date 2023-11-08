@@ -8,51 +8,51 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ej4Tema7Flyout
-build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema7Pages\Ej4Tema7Flyout\
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej4Tema7Flyout\
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/App.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/FlyoutPageNavigation.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/FlyoutPageNavigation.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.FlyoutPageNavigation.xaml
 build_metadata.AdditionalFiles.TargetPath = FlyoutPageNavigation.xaml
 build_metadata.AdditionalFiles.RelativePath = FlyoutPageNavigation.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Resources/Styles/Colors.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Resources/Styles/Styles.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/ContactsPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/ContactsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Views.MenuFlyout.ContactsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\ContactsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\ContactsPage.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/FlyoutMenuPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/FlyoutMenuPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Views.MenuFlyout.FlyoutMenuPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\FlyoutMenuPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\FlyoutMenuPage.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/ReminderPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/ReminderPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Views.MenuFlyout.ReminderPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\ReminderPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MenuFlyout\ReminderPage.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/TodoListPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema7Pages/Ej4Tema7Flyout/Views/MenuFlyout/TodoListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ej4Tema7Flyout.Views.MenuFlyout.TodoListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MenuFlyout\TodoListPage.xaml

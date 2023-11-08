@@ -1,1 +1,1 @@
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\Ej2Tema5Controles.csproj;x64
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Ejercicio1Tema5PrimerMaui\Ej2Tema5Controles\Ej2Tema5Controles.csproj;x64

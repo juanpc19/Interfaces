@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-04T20:19:29.231</Modified>
+      <Modified>2023-11-08T17:34:02.318</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-04T20:19:29.008</Modified>
+      <Modified>2023-11-08T17:34:02.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5Tema8Layouts.runtimeconfig.json">
       <PackagePath>Ej5Tema8Layouts.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-04T14:33:24.891</Modified>
+      <Modified>2023-11-08T17:34:01.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5Tema8Layouts.dll">
       <PackagePath>Ej5Tema8Layouts.dll</PackagePath>
-      <Modified>2023-11-04T16:17:40.305</Modified>
+      <Modified>2023-11-08T17:34:00.931</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej5Tema8Layouts.exe</PackagePath>
-      <Modified>2023-11-04T16:17:40.309</Modified>
+      <Modified>2023-11-08T17:34:00.946</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\Ej5Tema8Layouts\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5Tema8Layouts.deps.json">
       <PackagePath>Ej5Tema8Layouts.deps.json</PackagePath>
-      <Modified>2023-11-04T16:10:52.233</Modified>
+      <Modified>2023-11-08T17:34:01.816</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -923,7 +923,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema8Layouts\LibreriaDeClases\bin\Debug\net7.0\LibreriaDeClases.dll">
       <PackagePath>LibreriaDeClases.dll</PackagePath>
-      <Modified>2023-11-04T20:18:51.314</Modified>
+      <Modified>2023-11-08T17:33:56.957</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
