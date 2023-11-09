@@ -7,7 +7,7 @@ public partial class Citas : ContentPage
 {
     //creo lista observable de objetos Cita de nombre listadoPersonas
     //y le doy valor igual a lista observable devuelta por getListadoCitas de la clase estatica ListadoCitas 
-    ObservableCollection<Cita> listadoPersonas = ListadoCitas.getListadoCitas();
+    ObservableCollection<clsCita> listadoPersonas = ListadoCitas.getListadoCitas();
 
     /// <summary>
     /// inicializa pagina Citas 
@@ -31,8 +31,11 @@ public partial class Citas : ContentPage
         Navigation.PushAsync(new Login());
     }
 
-    public void Detalles(object sender, EventArgs e)
+    private void Detalles(object sender, EventArgs e)
     {
+        //para pasar objetoclsCita eso y añadir esto SelectedItemChanged a argumentos
+        //clsCita cita = (clsCita)e.SelectedItem;
+        // Navigation.PushAsync(new DetallesCita(cita));
         Navigation.PushAsync(new DetallesCita());
     }
 }

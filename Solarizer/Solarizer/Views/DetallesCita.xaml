@@ -9,6 +9,7 @@
         
         
         <Label 
+            x:Name="dada"
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />

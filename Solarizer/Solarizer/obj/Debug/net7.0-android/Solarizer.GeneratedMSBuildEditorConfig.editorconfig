@@ -12,39 +12,39 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Solarizer
-build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\
+build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/App.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/Resources/Styles/Colors.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/Resources/Styles/Styles.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/Views/Citas.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/Views/Citas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.Views.Citas.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Citas.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Citas.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/Views/DetallesCita.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/Views/DetallesCita.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.Views.DetallesCita.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DetallesCita.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DetallesCita.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/Solarizer/Solarizer/Views/Login.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/Solarizer/Solarizer/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Solarizer.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml

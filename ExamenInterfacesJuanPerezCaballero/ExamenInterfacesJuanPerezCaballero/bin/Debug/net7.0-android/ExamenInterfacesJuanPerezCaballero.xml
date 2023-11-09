@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExamenInterfacesJuanPerezCaballero</name>
+    </assembly>
+    <members>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.#ctor">
+            <summary>
+            inicializo la pagina con mensajes y botones tanto de aciertos como de decision de otra partida ocultos
+            </summary>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.TapGestureRecognizer_Tapped(System.Object,Microsoft.Maui.Controls.TappedEventArgs)">
+            <summary>
+            cuanta clicks en lugares que no son 1 de las 3 diferencias
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.ClickCorrecto(System.Object,System.EventArgs)">
+            <summary>
+            revela botones 1 y 4 si el click es en el lugar donde hay 1 diferencia
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.ClickCorrecto2(System.Object,System.EventArgs)">
+            <summary>
+            revela botones 2 y 5 si el click es en el lugar donde hay 1 diferencia
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.ClickCorrecto3(System.Object,System.EventArgs)">
+            <summary>
+            revela botones 3 y 6 si el click es en el lugar donde hay 1 diferencia
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.otraPartida(System.Object,System.EventArgs)">
+            <summary>
+            si se pulsa si para jugar otra partida recargara la pagina para empezar la nueva partida
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ExamenInterfacesJuanPerezCaballero.MainPage.quitar(System.Object,System.EventArgs)">
+            <summary>
+            si se pulsa boton no se cerrara la aplicacion
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+    </members>
+</doc>

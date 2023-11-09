@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenInterfacesJuanPerezCaballero.MainPage">
+
+        <VerticalStackLayout
+            Spacing="10"
+            Padding="10,0"
+            VerticalOptions="Center">
+
+            <Label x:Name="bienvenida"
+             Text="Bienvenido a encuentra las diferencias, tienes 3 intentos."
+             FontSize="15"
+             HorizontalOptions="Center" />
+
+            <Label x:Name="cuentaClicks"
+             Text="Fallos actuales 0"
+             FontSize="15"
+             HorizontalOptions="Center" />
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+
+            <AbsoluteLayout>
+
+                <Image x:Name="imagen1" Source="imagen1.jpg"
+                 MinimumHeightRequest="300"
+                 MinimumWidthRequest="300"            
+                 HorizontalOptions="Center"
+                   Margin="10">
+
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1">
+                        </TapGestureRecognizer>
+                    </Image.GestureRecognizers>
+
+                </Image>
+
+                <Button x:Name="boton1" AbsoluteLayout.LayoutBounds="20,120,50,50" BackgroundColor="red" Clicked="ClickCorrecto"/>
+                <Button x:Name="boton2" AbsoluteLayout.LayoutBounds="120,250,50,50" BackgroundColor="red" Clicked="ClickCorrecto2"/>
+                <Button x:Name="boton3" AbsoluteLayout.LayoutBounds="220,120,50,50" BackgroundColor="red" Clicked="ClickCorrecto3"/>
+
+
+            </AbsoluteLayout>
+
+            <AbsoluteLayout>
+
+                <Image x:Name="imagen2" Source="imagen2.jpg"
+                   MinimumHeightRequest="300"                 
+                   MinimumWidthRequest="300"                 
+                   HorizontalOptions="Center"
+                   Margin=" 10">
+                
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" >
+                    </TapGestureRecognizer>
+                </Image.GestureRecognizers>
+
+            </Image>
+
+                <Button x:Name="boton4" AbsoluteLayout.LayoutBounds="20,120,50,50" BackgroundColor="red" Clicked="ClickCorrecto"/>
+                <Button x:Name="boton5" AbsoluteLayout.LayoutBounds="120,250,50,50" BackgroundColor="red" Clicked="ClickCorrecto2"/>
+                <Button x:Name="boton6" AbsoluteLayout.LayoutBounds="220,120,50,50" BackgroundColor="red" Clicked="ClickCorrecto3"/>
+
+            </AbsoluteLayout>
+            
+        </HorizontalStackLayout>
+
+        <Label x:Name="derrota"
+             Text="La partida ha acabado, has perdido."
+             FontSize="15"
+             HorizontalOptions="Center" />
+
+        <Label x:Name="victoria"
+          Text="Enhorabuena has ganado, ¿deseas jugar otra partida?."
+          FontSize="15"
+          HorizontalOptions="Center" />
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            
+            <Button
+            x:Name="botonSi"
+            Text="si"
+            HorizontalOptions="Center"
+            Clicked="otraPartida"/>
+
+            <Button
+            x:Name="botonNo"
+            Text="no"
+            HorizontalOptions="Center"
+            Clicked="quitar"/>
+            
+        </HorizontalStackLayout>
+            
+        </VerticalStackLayout>
+    
+</ContentPage>

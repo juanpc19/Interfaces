@@ -18,7 +18,6 @@
         //vuelvo los mensajes de error invisibles
             errorUser.IsVisible = false;
             errorPass.IsVisible = false;    
-
         }
 
     /// <summary>

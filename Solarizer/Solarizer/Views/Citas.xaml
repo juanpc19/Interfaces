@@ -29,7 +29,8 @@
 
         <ScrollView  Grid.Row="1">
        
-        <ListView x:Name="ListadoDeCitas">
+            <!---itemselected funciona como click en boton decir que vaya a pag detalles pasando cita-->
+            <ListView x:Name="ListadoDeCitas" ItemSelected="Detalles">
             <ListView.ItemTemplate >
                 <DataTemplate>
                     
@@ -74,7 +75,7 @@
                             </Frame>
 
                             <Frame Grid.Column="3" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="10" >
-                                    <Button Text="Detalles" FontSize="Medium" Background="orange" TextColor="white"  Clicked="Detalles" Margin="2"/>
+                                    <Button Text="Detalles" FontSize="Medium" Background="orange" TextColor="white" Clicked="Detalles" Margin="2"/>
                             </Frame>
 
                             </Grid>

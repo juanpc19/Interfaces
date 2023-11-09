@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-08T09:04:18.463</Modified>
+      <Modified>2023-11-09T09:38:40.077</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-08T09:04:18.141</Modified>
+      <Modified>2023-11-09T09:38:39.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.runtimeconfig.json">
       <PackagePath>Solarizer.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-08T07:45:31.071</Modified>
+      <Modified>2023-11-09T08:26:40.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.dll">
       <PackagePath>Solarizer.dll</PackagePath>
-      <Modified>2023-11-08T09:04:16.895</Modified>
+      <Modified>2023-11-09T09:38:38.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Solarizer.exe</PackagePath>
-      <Modified>2023-11-08T09:04:16.922</Modified>
+      <Modified>2023-11-09T09:38:38.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.deps.json">
       <PackagePath>Solarizer.deps.json</PackagePath>
-      <Modified>2023-11-08T07:45:30.950</Modified>
+      <Modified>2023-11-09T08:26:40.443</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
