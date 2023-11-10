@@ -883,17 +883,8 @@
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondo_solar.scale-100.jpg">
-      <PackagePath>fondo_solar.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solaris.scale-100.jpeg">
-      <PackagePath>solaris.scale-100.jpeg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solaris.scale-100.jpg">
       <PackagePath>solaris.scale-100.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solariss.scale-100.jpg">
-      <PackagePath>solariss.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
