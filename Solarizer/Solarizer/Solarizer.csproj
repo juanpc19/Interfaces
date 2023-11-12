@@ -49,9 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\atras.png" />
+	  <None Remove="Resources\Images\add.png" />
 	  <None Remove="Resources\Images\back.png" />
+	  <None Remove="Resources\Images\foto.png" />
+	  <None Remove="Resources\Images\guardar_cita.png" />
+	  <None Remove="Resources\Images\guardar_texto.png" />
+	  <None Remove="Resources\Images\localizacion.png" />
 	  <None Remove="Resources\Images\solaris.jpg" />
+	  <None Remove="Resources\Images\usuario.png" />
 	</ItemGroup>
 
 	<ItemGroup>

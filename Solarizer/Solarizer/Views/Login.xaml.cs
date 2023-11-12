@@ -2,7 +2,7 @@
 
     public partial class Login : ContentPage
     {
-      //NAV BAR VISIBLE TO FALSE 
+    
         bool userCorrecto=false;//guardara introduccion de usuario correcta o incorrecta
 
         bool passCorrecto=false;//guardara introduccion de password correcta o incorrecta
@@ -14,10 +14,11 @@
     public Login()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+        //para iniciar la pagina sin la barra de navegacion superior
+        NavigationPage.SetHasNavigationBar(this, false);
         //vuelvo los mensajes de error invisibles
-            errorUser.IsVisible = false;
-            errorPass.IsVisible = false;    
+            errorUser.Opacity = 0;
+            errorPass.Opacity = 0;    
         }
 
     /// <summary>
@@ -29,25 +30,25 @@
         {
             if (string.IsNullOrEmpty(entryUser.Text))
             {
-                errorUser.IsVisible = true;
+                errorUser.Opacity = 1;
                 userCorrecto = false;
             }
             else
             {
                 userCorrecto = true;
-                errorUser.IsVisible = false;
+                errorUser.Opacity = 0;
 
             }
 
             if (string.IsNullOrEmpty(entryPass.Text))
             {
-                errorPass.IsVisible = true;
+                errorPass.Opacity = 1;
                 passCorrecto = false;
 
             } else
             {
                 passCorrecto = true;
-                errorPass.IsVisible = false;
+                errorPass.Opacity = 0;
             }
         //si los datos son correctos navego a Citas
         if (userCorrecto && passCorrecto)

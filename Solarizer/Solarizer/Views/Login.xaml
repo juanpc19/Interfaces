@@ -4,69 +4,64 @@
              x:Class="Solarizer.Views.Login"
              BackgroundImageSource="solaris.jpg">
 
-
-
-
-
-    <Frame BackgroundColor="DarkSlateBlue" CornerRadius="25" MinimumHeightRequest="320" Margin="100" VerticalOptions="Center" HorizontalOptions="Center">
-
-
-
+    <!--frame contendra a layout que a su vez contendra a los elementos de texto y boton-->
+    <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="35" VerticalOptions="Center" HorizontalOptions="Center">
         <VerticalStackLayout
-            
-            Spacing="20"
-            Padding="25,0"
+            Spacing="15"
+            Padding="20,0"
             VerticalOptions="Center"
-            HorizontalOptions="Center"
-            >
+            HorizontalOptions="Center">
 
             <Entry x:Name="entryUser"
                 Placeholder="Usuario"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="white"
+                BackgroundColor="White"
                 FontSize="Title"
-                HeightRequest="40"
-                WidthRequest="200"
-                    />
+                HeightRequest="50"
+                WidthRequest="200"/>
 
             <Label x:Name="errorUser"
                 Text="Introduzca usuario."
                 TextColor="Red"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                     />
+                FontSize="Medium"
+                HeightRequest="20"
+                WidthRequest="200"/>
 
             <Entry x:Name="entryPass"
                 Placeholder="Contraseña"
                 IsPassword="True"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                BackgroundColor="white"
+                BackgroundColor="White"
                 FontSize="Title"
-                HeightRequest="40"
-                WidthRequest="200"
-                    />
+                HeightRequest="50"
+                WidthRequest="200"/>
 
             <Label x:Name="errorPass" 
                 Text="Introduzca contraseña."
                 TextColor="Red"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                    />
+                FontSize="Medium"  
+                HeightRequest="20"
+                WidthRequest="200"/>
 
             <Button Text="Iniciar sesión"
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
-                    Clicked="InicioSesion"
                     BackgroundColor="DarkSlateBlue"
                     FontSize="Title"
                     BorderColor="DarkOrange"
-                    BorderWidth="5"
-                     />
+                    BorderWidth="3"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    WidthRequest="200"
+                    Clicked="InicioSesion"/>
 
         </VerticalStackLayout>
-
     </Frame>
 
 </ContentPage>

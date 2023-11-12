@@ -3,15 +3,148 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Solarizer.Views.DetallesCita"
              Title="DetallesCita">
-    <VerticalStackLayout>
 
-        <Button Text="Volver a login" VerticalOptions="Center" HorizontalOptions="Start" Clicked="VolverListadoCitas"/>
-        
-        
-        <Label 
-            x:Name="dada"
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <!--layout principal tipo grid -->
+    <Grid BackgroundColor="Teal">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="11*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+
+        <!--fila boton volver a lista de citas y identificador cita actual con datos de cita-->
+        <Frame Grid.Row="0" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="10" >
+            <Grid>
+
+                <ImageButton Source="back.png" 
+                               BackgroundColor="DarkSlateBlue" 
+                               CornerRadius="30"
+                               WidthRequest="70"
+                               HeightRequest="70"
+                               Aspect="AspectFit"
+                               Margin="25,15,25,15" VerticalOptions="Center"  HorizontalOptions="Start"  Clicked="VolverListadoCitas"/>
+
+                <Label 
+                     x:Name="nombre"
+                     Text="Antonio      613131324       Calle Florencia"
+                     TextColor="White"
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center" 
+                     Margin="0,0,30,0"
+                     FontSize="Title"/>
+            
+        </Grid>
+        </Frame>
+
+        <!--fila con columna editar nota (podria modificar observaciones si le paso persona de lista) y columna multimedia (galeria, hacer fotos, gps...)-->
+        <Frame Grid.Row="1" BorderColor="Teal" BackgroundColor="Teal" CornerRadius="60" Margin="5">
+            <Grid ColumnSpacing="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- columna editar nota -->
+                <Frame Grid.Column="0" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+                    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="80" >
+                        
+                        <Frame BorderColor="Orange" BackgroundColor="Teal" CornerRadius="60" >
+                            <Editor x:Name="notasCita" Placeholder="Notas sobre la cita." PlaceholderColor="White" Keyboard="Chat" FontSize="Large" TextColor="White" BackgroundColor="Teal" />
+                        </Frame>
+                        
+                        <ImageButton Source="guardar_texto.png" 
+                                    BackgroundColor="Teal" 
+                                    BorderColor="Orange" BorderWidth="3"
+                                    CornerRadius="30"
+                                    WidthRequest="70"
+                                    HeightRequest="70"
+                                    Aspect="Center"
+                                    Clicked="GuardarNota"/>
+
+                    </VerticalStackLayout>
+                </Frame>
+                
+                <!--columna multimedia: hacer foto, añadir foto ya hecha y localizacion gps-->
+                <Frame Grid.Column="1" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+                    <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="40">
+
+                        <ImageButton Source="foto.png" 
+                            BackgroundColor="Teal" 
+                            BorderColor="Orange" BorderWidth="3"
+                            CornerRadius="30"
+                            WidthRequest="70"
+                            HeightRequest="70"
+                            Aspect="Center"
+                            Clicked="TomarFoto" />
+
+                        <ImageButton Source="add.png" 
+                            BackgroundColor="Teal" 
+                            BorderColor="Orange" BorderWidth="3"
+                            CornerRadius="30"
+                            WidthRequest="70"
+                            HeightRequest="70"
+                            Aspect="Center"
+                            Clicked="AñadirFotoGaleria" />
+
+                        <ImageButton Source="localizacion.png"  
+                            BackgroundColor="Teal" 
+                            BorderColor="Orange" BorderWidth="3"
+                            CornerRadius="30"
+                            WidthRequest="70"
+                            HeightRequest="70"
+                            Aspect="Center"
+                            Clicked="GeoLocalizacion" />
+
+                    </HorizontalStackLayout>
+                </Frame>
+                
+            </Grid>
+        </Frame>
+
+
+        <!--fila con check de apta y boton de enviar/guardar datos-->
+        <Frame Grid.Row="2" BorderColor="Teal" BackgroundColor="Teal" CornerRadius="60" Margin="5">
+            <Grid ColumnSpacing="30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!--columna con check-->
+                <Frame Grid.Column="0" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+                    <VerticalStackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                        
+                        <Label x:Name="apta"
+                       Text="Apta para instalación: No/Si."
+                       TextColor="White"
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center" 
+                       FontSize="Title"/>
+
+                        <Switch x:Name="switchApta" IsToggled="false" OnColor="Teal" ThumbColor="Orange" Margin="0,10,0,0"  VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!--columna con guardado datos-->
+                <Frame Grid.Column="1" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+
+                    <ImageButton Source="guardar_cita.png" 
+                                    BackgroundColor="Teal" 
+                                    BorderColor="Orange" BorderWidth="3"
+                                    CornerRadius="30"
+                                    WidthRequest="70"
+                                    HeightRequest="70"
+                                    Aspect="Center"
+                                    Clicked="GuardarCita"
+                                    HorizontalOptions="Center" VerticalOptions="Center"/>
+                        
+                </Frame>
+
+            </Grid>
+        </Frame>
+
+    </Grid>
+    
 </ContentPage>

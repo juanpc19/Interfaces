@@ -1,5 +1,6 @@
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
+add.scale-100.png
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -46,14 +47,18 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
-atras.scale-100.png
 back.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+foto.scale-100.png
+guardar_cita.scale-100.png
+guardar_texto.scale-100.png
+localizacion.scale-100.png
 solaris.scale-100.jpg
+usuario.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

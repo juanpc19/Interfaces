@@ -70,7 +70,6 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debu
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondo_solar.scale-100.jpg
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.AssemblyInfoInputs.cache
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.AssemblyInfo.cs
@@ -323,9 +322,7 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debu
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solaris.scale-100.jpeg
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solaris.scale-100.jpg
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\solariss.scale-100.jpg
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.exe
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Solarizer.deps.json
@@ -651,7 +648,12 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debu
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\atras.scale-100.png
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\back.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\foto.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\guardar_cita.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\guardar_texto.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\localizacion.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuario.scale-100.png

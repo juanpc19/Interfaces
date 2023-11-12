@@ -7,79 +7,73 @@
     <Grid BackgroundColor="Teal">
         <Grid.RowDefinitions>
             
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="12*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="13*"/>
 
         </Grid.RowDefinitions>
 
-        <Grid>
+        <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="10">
+            <Grid>
 
-            <ImageButton Source="back.png" BackgroundColor="teal"
-                        BorderColor="White"
-                        BorderWidth="3"
+                <ImageButton Source="back.png" 
+                        BackgroundColor="DarkSlateBlue" 
                         CornerRadius="30"
-                        WidthRequest="60"
-                        HeightRequest="60"
+                        WidthRequest="70"
+                        HeightRequest="70"
                         Aspect="AspectFit"
-                        Margin="2" 
-                        VerticalOptions="Center" HorizontalOptions="Start" Clicked="VolverLogin"/>
-            <Label Text="Citas" FontSize="Header" TextColor="Orange" VerticalOptions="Center" HorizontalOptions="Center"/>
+                        Margin="40,0,0,0" VerticalOptions="Center" HorizontalOptions="Start" Clicked="VolverLogin"/>
 
-        </Grid>
+                <Label Text="Citas" FontSize="Title" FontAttributes="Bold" TextColor="Orange" BackgroundColor="DarkSlateBlue" VerticalOptions="Center" HorizontalOptions="Center" />
 
-        <ScrollView  Grid.Row="1">
+            </Grid>
+        </Frame>
+        
+        <ScrollView Grid.Row="1" >
        
-            <!---itemselected funciona como click en boton decir que vaya a pag detalles pasando cita-->
-            <ListView x:Name="ListadoDeCitas" ItemSelected="Detalles">
-            <ListView.ItemTemplate >
+            <!---itemselected funciona como click en boton, va a pag detalles pasando cita (pasar cita complejo hacer al final si da tiempo, de momento placeholder)-->
+            <ListView x:Name="ListadoDeCitas" ItemSelected="Detalles" RowHeight="150" SeparatorVisibility="None" Margin="20">
+            <ListView.ItemTemplate>
                 <DataTemplate>
                     
                     <ViewCell>
-
-                            <Grid BackgroundColor="DarkSlateBlue" >
+                        
+                            <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" >
+                                
+                                <Grid BackgroundColor="DarkSlateBlue">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
                                 </Grid.RowDefinitions>
 
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="2*" />
-                                    <ColumnDefinition Width="4*" />
-                                    <ColumnDefinition Width="14*" />
-                                    <ColumnDefinition Width="3*" />
-                                </Grid.ColumnDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="15*" />
 
-                            <Frame  BorderColor="Orange"  BackgroundColor="DarkSlateBlue" CornerRadius="10">
-                                 <ImageButton Grid.RowSpan="2" Source="dotnet_bot.png" 
-                                 BackgroundColor="White"
-                                 BorderColor="Orange"
-                                 BorderWidth="3"
-                                 CornerRadius="30"
-                                 WidthRequest="60"
-                                 HeightRequest="60"
-                                 Aspect="AspectFit"
-                                 Margin="2"
-                                 HorizontalOptions="Center"/>
-                            </Frame>
+                                    </Grid.ColumnDefinitions>
 
+                                    <ImageButton Grid.Column="0" Source="usuario.png" 
+                                                 BackgroundColor="Teal"
+                                                 BorderColor="Orange"
+                                                 BorderWidth="3"
+                                                 CornerRadius="33"
+                                                 WidthRequest="80"
+                                                 HeightRequest="80"
+                                                 Aspect="Center"
+                                                 Margin="3"
+                                                 HorizontalOptions="Center"/>
 
-                            <Frame Grid.Column="1" BorderColor="Orange"  BackgroundColor="DarkSlateBlue" CornerRadius="10">
-                                    <VerticalStackLayout BackgroundColor="DarkSlateBlue" Margin="2">
-                                        <Label Text="{Binding Nombre}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
-                                        <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
-                                        <Label Text="{Binding Direccion}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
+                                    <VerticalStackLayout Grid.Column="1" BackgroundColor="DarkSlateBlue" Margin="5,10,0,5">
+                                        <Label Text="{Binding Nombre}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
+                                        <Label Text="{Binding Direccion}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
                                     </VerticalStackLayout>
-                            </Frame>
-
-                            <Frame Grid.Column="2" BorderColor="Orange"  BackgroundColor="DarkSlateBlue" CornerRadius="10">
-                                <Label Text="{Binding Observaciones}" FontSize="Medium" Background="DarkSlateBlue"  TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
-                            </Frame>
-
-                            <Frame Grid.Column="3" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="10" >
-                                    <Button Text="Detalles" FontSize="Medium" Background="orange" TextColor="white" Clicked="Detalles" Margin="2"/>
-                            </Frame>
+                          
+                                    <Label Grid.Column="2" Text="{Binding Observaciones}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
 
                             </Grid>
-                            
+                                
+                            </Frame>
+
                         </ViewCell>
                     
                 </DataTemplate>

@@ -15,13 +15,14 @@ public partial class Citas : ContentPage
     public Citas()
 	{
 		InitializeComponent();
+        //para iniciar la pagina sin la barra de navegacion superior
         NavigationPage.SetHasNavigationBar(this, false);
         //doy a list view de nombre ListadoDeCitas una fuente de items con listadoPersonas
         ListadoDeCitas.ItemsSource = listadoPersonas;
     }
 
     /// <summary>
-    /// metodo que devolvera a pagina Login
+    /// funcion que devolvera a pagina Login al pulsar boton correspondiente
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
@@ -33,8 +34,11 @@ public partial class Citas : ContentPage
 
     private void Detalles(object sender, EventArgs e)
     {
+        //lineas para trastear con pasar cita de lista a pagina detalles cita
         //para pasar objetoclsCita eso y añadir esto SelectedItemChanged a argumentos
         //clsCita cita = (clsCita)e.SelectedItem;
+
+
         // Navigation.PushAsync(new DetallesCita(cita));
         Navigation.PushAsync(new DetallesCita());
     }

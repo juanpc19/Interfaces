@@ -11,7 +11,49 @@
         </member>
         <member name="M:Solarizer.Views.Citas.VolverLogin(System.Object,System.EventArgs)">
             <summary>
-            metodo que devolvera a pagina Login
+            funcion que devolvera a pagina Login al pulsar boton correspondiente
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.VolverListadoCitas(System.Object,System.EventArgs)">
+            <summary>
+            funcion para navegar atras hacia listado al pulsar boton correspondiente
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.GuardarNota(System.Object,System.EventArgs)">
+            <summary>
+            simula guardar nota en click en boton mostrando mensaje popup y reiniciando valor de text del editor
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.GuardarCita(System.Object,System.EventArgs)">
+            <summary>
+            simula guardar cita en click en boton mostrando mensaje popup 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.TomarFoto(System.Object,System.EventArgs)">
+            <summary>
+            funcion que tomara una foto simulara hacerlo (no consigo hacerla funcionar)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.AñadirFotoGaleria(System.Object,System.EventArgs)">
+            <summary>
+            funcion para añadir imagen existente de la galeria a la cita
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Solarizer.Views.DetallesCita.GeoLocalizacion(System.Object,System.EventArgs)">
+            <summary>
+            funcion para abrir la navegacion gps hasta la direccion de la cita
             </summary>
             <param name="sender"></param>
             <param name="e"></param>
