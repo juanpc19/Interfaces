@@ -1,1 +1,1 @@
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\EjTema9MVVMBindings\EjTema9MVVMBindings.csproj;x64
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\EjTema9MVVMBindings.csproj;x64
