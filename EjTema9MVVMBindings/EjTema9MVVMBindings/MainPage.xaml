@@ -8,15 +8,18 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
-
+            
+            <!--ValueChanged="updateValue"-->
             <Slider
                 x:Name="slider"
                 BackgroundColor="Green"
                 Minimum="0" Maximum="100" 
                 Value="{Binding Source={x:Reference entry},  
                        Path=Text,
-                       Mode=TwoWay}"/>
-
+                       Mode=TwoWay}" 
+               />
+            
+            <!--label aceopta decimales-->
             <Label
                 x:Name="label"
                 Text="Hello, World!"
@@ -24,12 +27,11 @@
                 FontSize="{Binding Source={x:Reference slider},  
                        Path=Value,
                        Mode=TwoWay}" />
-
             <Entry
-                x:Name="entry"
-                TextChanged="checkText"
+                x:Name="entry" 
                 Text="30"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Keyboard="Numeric"/>
 
         
         </VerticalStackLayout>

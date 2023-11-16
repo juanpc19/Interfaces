@@ -24,7 +24,6 @@
             
         }
 
-       
         /// <summary>
         /// cuanta clicks en lugares que no son 1 de las 3 diferencias
         /// </summary>
@@ -49,10 +48,7 @@
                 bienvenida.Opacity = 0;
                 cuentaClicks.Opacity = 0;
             }
-            
-
-          
-         
+             
         }
         /// <summary>
         /// revela botones 1 y 4 si el click es en el lugar donde hay 1 diferencia

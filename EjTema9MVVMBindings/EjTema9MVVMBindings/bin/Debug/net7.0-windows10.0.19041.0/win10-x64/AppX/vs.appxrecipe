@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-15T07:27:19.127</Modified>
+      <Modified>2023-11-16T13:37:07.349</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-15T07:27:18.848</Modified>
+      <Modified>2023-11-16T13:37:07.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema9MVVMBindings.runtimeconfig.json">
       <PackagePath>EjTema9MVVMBindings.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema9MVVMBindings.dll">
       <PackagePath>EjTema9MVVMBindings.dll</PackagePath>
-      <Modified>2023-11-15T07:27:17.323</Modified>
+      <Modified>2023-11-16T13:37:06.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema9MVVMBindings.exe</PackagePath>
-      <Modified>2023-11-15T07:27:17.343</Modified>
+      <Modified>2023-11-16T13:37:06.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema9MVVMBindings\EjTema9MVVMBindings\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema9MVVMBindings.deps.json">
       <PackagePath>EjTema9MVVMBindings.deps.json</PackagePath>

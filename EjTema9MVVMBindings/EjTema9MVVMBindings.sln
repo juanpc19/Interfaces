@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjTema9MVVMBindings", "EjTema9MVVMBindings\EjTema9MVVMBindings.csproj", "{D405434C-11EE-4BE7-80B6-5E3649FE2383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjTema9MVVMBindings", "EjTema9MVVMBindings\EjTema9MVVMBindings.csproj", "{D405434C-11EE-4BE7-80B6-5E3649FE2383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2Tema9MVVMNotProChng", "Ej2Tema9MVVMNotProChng\Ej2Tema9MVVMNotProChng.csproj", "{220F1860-BB98-4EAA-94EB-EB96CDD954E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,12 @@ Global
 		{D405434C-11EE-4BE7-80B6-5E3649FE2383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D405434C-11EE-4BE7-80B6-5E3649FE2383}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D405434C-11EE-4BE7-80B6-5E3649FE2383}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220F1860-BB98-4EAA-94EB-EB96CDD954E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

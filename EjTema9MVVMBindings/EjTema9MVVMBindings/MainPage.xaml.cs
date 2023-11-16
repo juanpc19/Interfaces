@@ -9,9 +9,32 @@
             InitializeComponent();
         }
 
-        private void checkText(object sender, TextChangedEventArgs e)
-        {
-            //check que no se vea el double o que sea int type y no string
-        }
+        //private void checkText(object sender, TextChangedEventArgs e)
+        //{
+        //    if (entry != null && entry.Text != null)
+        //    {
+
+        //        string texto = entry.Text;
+        //        //check en case de no se double
+        //        if (double.TryParse(texto, out double resultado))
+        //        {
+
+        //            int resultadoInt = (int)resultado;
+        //            entry.Text = resultadoInt.ToString();
+
+        //        }
+        //    }
+
+        //}
+
+        //private void updateValue(object sender, TextChangedEventArgs e)
+        //{
+        //    double valor = slider.Value;
+        //    int valorInt = (int)valor;
+        //    entry.Text = valorInt.ToString();
+        //}
+
+
+
     }
 }
