@@ -1,24 +1,18 @@
-﻿namespace Ej2Tema9MVVMNotProChng
+﻿using Ej1Tema7.Models.Entidades;
+
+namespace Ej2Tema9MVVMNotProChng
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
+
+            BindingContext = new clsPersona();
         }
-
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
-        }
-    }
+		//en este caso es aceptable situar clase persona en carpeta model porque el proyecto es pequeño
+        //y facilita el uso de la interfaz INotifyPropertyChange,
+        //en proyectos de mayor enveradura lo correcto seria ponerla en la carpeta ViewModel, dentro de Views?
+	}
 }
