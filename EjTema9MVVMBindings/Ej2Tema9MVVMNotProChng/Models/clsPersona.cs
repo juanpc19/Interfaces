@@ -9,6 +9,7 @@ namespace Ej1Tema7.Models.Entidades
 
 	    private string nombre;
         private string apellidos;
+        //el evento es obligatorio se lanza en cambio
 		public event PropertyChangedEventHandler PropertyChanged;
 
 		#endregion
@@ -50,7 +51,8 @@ namespace Ej1Tema7.Models.Entidades
         }
 		#endregion
 
-		#region funciones
+		#region metodos
+        //metodo
 		public void OnPropertyChanged([CallerMemberName] string nombre = null)
 		{
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nombre));

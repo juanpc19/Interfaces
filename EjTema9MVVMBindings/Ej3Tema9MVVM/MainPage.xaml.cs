@@ -13,7 +13,7 @@ namespace Ej3Tema9MVVM
 			//hago que el binding context provenga de clsModificaPersona que recibe una clsPersona
 			//que tendra valores por defecto en el constructor con mi nombre y apellidos,
 			//el INotifyPropertyChanged sera implementado en clsModificaPersona
-			BindingContext = new clsModificaPersona(new clsPersona {});
+			BindingContext = new clsModificaPersona(new clsPersona ());
 		}
 
 		

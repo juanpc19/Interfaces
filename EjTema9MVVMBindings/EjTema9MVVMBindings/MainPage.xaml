@@ -26,7 +26,7 @@
                 HorizontalOptions="Center"
                 FontSize="{Binding Source={x:Reference slider},  
                        Path=Value,
-                       Mode=TwoWay}" />
+                       Mode=OneWay}" />
             <Entry
                 x:Name="entry" 
                 Text="30"

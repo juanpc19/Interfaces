@@ -5,6 +5,8 @@
              x:Class="Ej3Tema9MVVM.MainPage">
 <!--hay que indicar espacio de nombre del que provendra el viewModel-->
 
+    
+    
     <VerticalStackLayout
             Spacing="25"
             Padding="30,0"

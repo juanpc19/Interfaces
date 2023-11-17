@@ -25,7 +25,6 @@ namespace BibliotecaDeClases
             this.nombre = nombre;
             this.apellidos = apellidos;
         }
-
        
 		#endregion
 

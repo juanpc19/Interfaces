@@ -13,12 +13,11 @@ namespace Ej3Tema9MVVM.Views.ViewModel
 
 		private string nombre;
 
-		private string apellidos;
 
 		public clsModificaPersona(clsPersona persona)
 		{
 			nombre = persona.Nombre;
-			apellidos = persona.Apellidos;
+		
 		}	
 		//modifico nombres de propiedad de clsModificaPersona a NombreM para claridad
 		public string NombreM
@@ -27,11 +26,7 @@ namespace Ej3Tema9MVVM.Views.ViewModel
 			set { nombre = value; OnPropertyChanged(); }
 		}
 
-		public string ApellidosM
-		{
-			get { return apellidos; }
-			set { apellidos = value; OnPropertyChanged(); }
-		}
+	
 
 		public void OnPropertyChanged([CallerMemberName] string nombre = null)
 		{
