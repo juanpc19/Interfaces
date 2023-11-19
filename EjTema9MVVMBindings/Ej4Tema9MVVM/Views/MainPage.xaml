@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:QNMV="clr-namespace:Ej4Tema9MVVM.Views.ViewModels"
+             x:Class="Ej4Tema9MVVM.MainPage">
+
+    <Page.BindingContext>
+        <QNMV:clsPersonanNoN/>
+    </Page.BindingContext>
+
+    <VerticalStackLayout
+            Spacing="5"
+            Padding="10,0"
+            VerticalOptions="Center">
+
+        <Label Text="Nombre:" FontSize="20" HorizontalOptions="Center" />
+
+        <Entry x:Name="entryNombre"
+                Text="{Binding Nombre}"
+                FontSize="20"
+                HorizontalOptions="Center" />
+
+        <Label Text="Apellidos:" FontSize="20" HorizontalOptions="Center" />
+        
+        <Entry x:Name="entryApellidos"
+                Text="{Binding Apellidos}"
+                FontSize="20"
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

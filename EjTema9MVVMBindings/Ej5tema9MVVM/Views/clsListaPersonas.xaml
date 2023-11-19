@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ej5tema9MVVM.Views.clsListaPersonas"
+             xmlns:QNMV="clr-namespace:Ej5tema9MVVM.Views.ViewModel"
+             Title="clsListaPersonas">
+    
+    <ContentPage.BindingContext>
+        <QNMV:clsListaPersonasVM/>
+    </ContentPage.BindingContext>
+    
+    <Grid BackgroundColor="Teal">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="13*"/>
+
+        </Grid.RowDefinitions>
+
+        <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="10">
+            <Grid>
+
+                <Label Text="Contactos" FontSize="Title" FontAttributes="Bold" TextColor="Orange" BackgroundColor="DarkSlateBlue" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            </Grid>
+        </Frame>
+
+        <ScrollView Grid.Row="1" >
+
+            <!---itemselected funciona como click en boton, va a pag detalles pasando cita (intento setear selected item con )-->
+            <ListView ItemsSource="{Binding ListaFalsa}" RowHeight="150" SeparatorVisibility="None" Margin="20" ItemSelected="DetallesPersona" SelectedItem="{Binding persona}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                        <ViewCell>
+
+                            <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" >
+
+                                <Grid BackgroundColor="DarkSlateBlue">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="4*" />
+
+                                    </Grid.ColumnDefinitions>
+
+                                    <ImageButton Grid.Column="0" Source="usuario.png" 
+                                             BackgroundColor="Teal"
+                                             BorderColor="Orange"
+                                             BorderWidth="3"
+                                             CornerRadius="33"
+                                             WidthRequest="80"
+                                             HeightRequest="80"
+                                             Aspect="Center"
+                                             Margin="3"
+                                             HorizontalOptions="Center"/>
+
+                                    <VerticalStackLayout Grid.Column="1" BackgroundColor="DarkSlateBlue" Margin="5,10,0,5">
+                                        <Label Text="{Binding Nombre}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
+                                    </VerticalStackLayout>
+
+
+                                </Grid>
+
+                            </Frame>
+
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

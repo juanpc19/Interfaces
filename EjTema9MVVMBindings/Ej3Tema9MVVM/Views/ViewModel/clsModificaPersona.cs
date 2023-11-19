@@ -27,7 +27,6 @@ namespace Ej3Tema9MVVM.Views.ViewModel
 		}
 
 	
-
 		public void OnPropertyChanged([CallerMemberName] string nombre = null)
 		{
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nombre));

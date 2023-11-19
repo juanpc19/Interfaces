@@ -9,28 +9,34 @@ namespace BibliotecaDeClases
 
 	    private string nombre;
         private string apellidos;
-		
+        private string fechaNac;
+        private string foto;
+        private string direccion;
+        private int telefono;
+        #endregion
 
-		#endregion
-
-		#region constructores
-		public clsPersona()
+        #region constructores
+        public clsPersona()
         {     
-            nombre = "Juan";
+            nombre = "Javier";
             apellidos = "Pérez Caballero";   
         }
 
-        public clsPersona(string nombre, string apellidos)
+        public clsPersona(string nombre, string apellidos, string fechaNac, string foto, string direccion, int telefono)
         {
             this.nombre = nombre;
             this.apellidos = apellidos;
+            this.fechaNac = fechaNac;
+            this.foto = foto;
+            this.direccion = direccion;
+            this.telefono = telefono;
         }
-       
-		#endregion
 
-		#region propiedades
+        #endregion
 
-			public string Nombre
+        #region propiedades
+
+        public string Nombre
         {
             get { return nombre; }
             set { nombre = value; }
@@ -42,7 +48,34 @@ namespace BibliotecaDeClases
             set { apellidos = value; }
         }
 
-     
+        public string FechaNac
+        {
+            get { return fechaNac; }
+            set { fechaNac = value; }
+        }
+
+        public string Foto
+        {
+            get { return foto; }
+            set { foto = value; }
+        }
+
+
+        public string Direccion
+        {
+            get { return direccion; }
+            set { direccion = value; }
+        }
+
+
+        public int Telefono
+        {
+            get { return telefono; }
+            set { telefono = value; }
+        }
+
+
+
         public string NombreCompleto
         {
             get { return nombre + " " + apellidos; }

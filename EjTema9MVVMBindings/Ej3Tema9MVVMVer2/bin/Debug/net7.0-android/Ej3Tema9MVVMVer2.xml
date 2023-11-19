@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ej3Tema9MVVMVer2</name>
+    </assembly>
+    <members>
+        <member name="M:Ej3Tema9MVVMVer2.Views.ViewModel.clsModificaPersona.#ctor">
+            <summary>
+            constructor por defecto con valor dafault
+            </summary>
+        </member>
+        <member name="M:Ej3Tema9MVVMVer2.Views.ViewModel.clsModificaPersona.#ctor(System.String)">
+            <summary>
+            constructor con parametro entrada
+            </summary>
+            <param name="nombre"></param>
+        </member>
+    </members>
+</doc>
