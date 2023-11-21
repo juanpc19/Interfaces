@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj": {}
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
         "projectName": "BibliotecaDeClases",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,21 +64,21 @@
         }
       }
     },
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj",
         "projectName": "Ej5tema9MVVM",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\Ej5tema9MVVM\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\Ej5tema9MVVM\\Ej5tema9MVVM.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\Ej5tema9MVVM\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,32 +97,32 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema9MVVMBindings\\BibliotecaDeClases\\BibliotecaDeClases.csproj"
               }
             }
           }
