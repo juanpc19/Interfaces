@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjTema10MVVMCommands.MainPage"
+             xmlns:QNMV="clr-namespace:EjTema10MVVMCommands.ViewModels">
+
+    <ContentPage.BindingContext>
+        <QNMV:MainPageVM/>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+            
+            
+        </ListView>
+
+        <Button Text ="Command" Command="{Binding BuscarCommand}" />
+
+
+    </StackLayout>
+
+</ContentPage>

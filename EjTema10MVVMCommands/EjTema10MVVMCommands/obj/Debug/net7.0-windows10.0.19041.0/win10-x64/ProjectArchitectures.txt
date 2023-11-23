@@ -1,0 +1,1 @@
+C:\Users\jperez\Documents\GitHub\SGE\EjTema10MVVMCommands\EjTema10MVVMCommands\EjTema10MVVMCommands.csproj;x64
