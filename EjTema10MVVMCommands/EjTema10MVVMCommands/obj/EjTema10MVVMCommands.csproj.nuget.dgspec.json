@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {}
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
         "projectName": "EjTema10MVVMCommands",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
         "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\obj\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

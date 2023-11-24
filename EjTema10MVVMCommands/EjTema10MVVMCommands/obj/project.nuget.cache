@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DGxToY3bFQtQL8s/aA6MGPZZ766gkWmOiXrc3yKuiA2dgHxuPeUyfIeZOiH6GJRWSsIGzmF5tOcy+Sx4vmWeEQ==",
+  "dgSpecHash": "eH6DKZ6Qge2PNKVaKubAKUizD8XP+EfZbYEhBaSJjL4QYfCG5oeot6xADjQsuML4Ywo13oxYaoS8O3PlC0Ch0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\SGE\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
+  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jperez\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\jperez\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

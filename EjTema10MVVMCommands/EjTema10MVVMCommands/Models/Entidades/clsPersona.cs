@@ -7,6 +7,7 @@ namespace BibliotecaDeClases
 	{
         #region atributos
         //añadir id //añadir id //añadir id
+        private int id;
         private string nombre;
         private string apellidos;
         private string fechaNac;
@@ -23,8 +24,9 @@ namespace BibliotecaDeClases
         }
 
         //añadir id
-        public clsPersona(string nombre, string apellidos, string fechaNac, string foto, string direccion, int telefono)
+        public clsPersona(int id, string nombre, string apellidos, string fechaNac, string foto, string direccion, int telefono)
         {
+            this.id = id;
             this.nombre = nombre;
             this.apellidos = apellidos;
             this.fechaNac = fechaNac;
@@ -36,6 +38,12 @@ namespace BibliotecaDeClases
         #endregion
 
         #region propiedades
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
 
         public string Nombre
         {
