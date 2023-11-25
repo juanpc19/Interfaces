@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T12:51:52.939</Modified>
+      <Modified>2023-11-25T16:58:14.211</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-19T12:47:01.064</Modified>
+      <Modified>2023-11-25T16:05:53.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5tema9MVVM.runtimeconfig.json">
       <PackagePath>Ej5tema9MVVM.runtimeconfig.json</PackagePath>
-      <Modified>2023-11-19T09:18:18.724</Modified>
+      <Modified>2023-11-25T15:07:08.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5tema9MVVM.dll">
       <PackagePath>Ej5tema9MVVM.dll</PackagePath>
-      <Modified>2023-11-19T12:51:52.166</Modified>
+      <Modified>2023-11-25T16:58:12.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Ej5tema9MVVM.exe</PackagePath>
-      <Modified>2023-11-19T12:51:52.170</Modified>
+      <Modified>2023-11-25T16:58:13.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\Ej5tema9MVVM\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Ej5tema9MVVM.deps.json">
       <PackagePath>Ej5tema9MVVM.deps.json</PackagePath>
-      <Modified>2023-11-19T09:18:18.639</Modified>
+      <Modified>2023-11-25T15:07:08.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -923,7 +923,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema9MVVMBindings\BibliotecaDeClases\bin\Debug\net7.0\BibliotecaDeClases.dll">
       <PackagePath>BibliotecaDeClases.dll</PackagePath>
-      <Modified>2023-11-19T09:17:54.471</Modified>
+      <Modified>2023-11-25T15:07:02.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

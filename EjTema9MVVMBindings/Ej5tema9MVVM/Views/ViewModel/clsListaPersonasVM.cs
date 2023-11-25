@@ -10,16 +10,24 @@ using Microsoft.Maui.Controls;
 
 namespace Ej5tema9MVVM.Views.ViewModel
 {
-    internal class clsListaPersonasVM
+    internal class clsListaPersonasVM //usa interfaz notify property changed ?
     {
         #region atributos
         private ObservableCollection<clsPersona> listaFalsa;
+        private clsPersona persona;
         //private readonly INavigation eventoNavegacion;
         #endregion
 
         #region constructores
         //constructor sin parametros con valor predeterminado para listFalsa extraido de capa datos
         public clsListaPersonasVM() {
+            listaFalsa = clsListaPersonasFalsa.getListaFalsa();
+        }
+
+        //con o sin lista ?
+        public clsListaPersonasVM(clsPersona persona)
+        {
+            this.persona = persona;
             listaFalsa = clsListaPersonasFalsa.getListaFalsa();
         }
 
@@ -41,12 +49,29 @@ namespace Ej5tema9MVVM.Views.ViewModel
         }
         #endregion
 
+
+        #region propiedades
+        public clsPersona Persona
+        {
+            get { return persona; }
+
+            set
+            {
+                persona = value;
+
+                //intento setear valor de persona con binding a persona clicked en lista?
+               // new clsPersonaSeleccionada() { BindingContext = Persona };
+            }
+
+        }
+        #endregion
+
         #region funciones
         //private async void DetallesPersona(object sender, ItemTappedEventArgs e)
         //{
         //    if (e.Item is clsPersona persona)
         //    {
-        //     await eventoNavegacion.PushAsync(new clsPersonaSeleccionadaVM(persona));
+        //        await eventoNavegacion.PushAsync(new clsPersonaSeleccionadaVM(persona));
         //    }
         //}
 

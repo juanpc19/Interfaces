@@ -27,8 +27,7 @@
 
         <ScrollView Grid.Row="1" >
 
-            <!---itemselected funciona como click en boton, va a pag detalles pasando cita (intento setear selected item con )-->
-            <ListView ItemsSource="{Binding ListaFalsa}" RowHeight="150" SeparatorVisibility="None" Margin="20" ItemSelected="DetallesPersona" SelectedItem="{Binding persona}">
+            <ListView ItemsSource="{Binding ListaFalsa}" RowHeight="150" SeparatorVisibility="None" Margin="20" ItemSelected="DetallesPersona" SelectedItem="{Binding Persona}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
 
@@ -62,7 +61,6 @@
                                         <Label Text="{Binding Nombre}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" />
                                         <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
                                     </VerticalStackLayout>
-
 
                                 </Grid>
 

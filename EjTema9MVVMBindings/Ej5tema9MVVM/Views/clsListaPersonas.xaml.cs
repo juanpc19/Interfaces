@@ -1,4 +1,6 @@
 using BibliotecaDeClases;
+using Ej5tema9MVVM.Views.ViewModel;
+
 namespace Ej5tema9MVVM.Views;
 
 public partial class clsListaPersonas : ContentPage
@@ -14,7 +16,8 @@ public partial class clsListaPersonas : ContentPage
     {
         if (e.SelectedItem is clsPersona selectedPersona)
         {
-            await Navigation.PushAsync(new clsPersonaSeleccionada { BindingContext = selectedPersona });
+            
+            await Navigation.PushAsync(new clsPersonaSeleccionada());
         }
     }
 }

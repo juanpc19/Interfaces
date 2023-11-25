@@ -1,5 +1,6 @@
-﻿using BibliotecaDeClases;
-using Ej5tema9MVVM.Models.DAL;
+﻿
+using EjTema10MVVMCommands.Models.DAL;
+using EjTema10MVVMCommands.Models.Entidades;
 using EjTema10MVVMCommands.ViewModels.Utilidades;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,8 @@ namespace EjTema10MVVMCommands.ViewModels
         #region atributos
         private DelegateCommand buscarCommand;
         private DelegateCommand eliminarCommand;
-        private List<clsPersona> listaPersonas;
-        private clsPersona personaSeleccionada;
+        private List<clsPersona2> listaPersonas;
+        private clsPersona2 personaSeleccionada;
         private string textoBusqueda;
         #endregion
 
@@ -40,10 +41,10 @@ namespace EjTema10MVVMCommands.ViewModels
         public DelegateCommand DelegateCommand 
         { get { return eliminarCommand; } }
 
-        public List <clsPersona> ListaPersonas
+        public List <clsPersona2> ListaPersonas
         { get { return listaPersonas; } }
 
-        public clsPersona PersonaSeleccionada
+        public clsPersona2 PersonaSeleccionada
         {  get { return personaSeleccionada; } }
 
         public string TextoBusqueda

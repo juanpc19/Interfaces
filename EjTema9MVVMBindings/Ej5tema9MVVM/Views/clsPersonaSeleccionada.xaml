@@ -6,16 +6,50 @@
              Title="clsPersonaSeleccionada">
 
     <ContentPage.BindingContext>
-        <QNMV:clsPersonaSeleccionadaVM/>
+        <QNMV:clsListaPersonasVM/>
     </ContentPage.BindingContext>
+   
+    <HorizontalStackLayout>
 
-    <!--Text="{Binding Persona.Nombre}"-->
-    <VerticalStackLayout>
+        <VerticalStackLayout>
+
+            <Label 
+         Text="{Binding Persona.Nombre}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+            <Label 
+         Text="{Binding Persona.Apellidos}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+            <Label 
+         Text="{Binding Persona.FechaNac}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
         
-        <Label 
-            Text="2"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <VerticalStackLayout>
+
+            <Label 
+         Text="{Binding Persona.Foto}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+            <Label 
+         Text="{Binding Persona.Direccion}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+            <Label 
+         Text="{Binding Persona.Telefono}"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
         
-    </VerticalStackLayout>
+    </HorizontalStackLayout>
+   
+   
 </ContentPage>

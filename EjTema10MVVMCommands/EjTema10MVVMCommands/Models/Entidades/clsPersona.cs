@@ -1,19 +1,17 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
+﻿namespace EjTema10MVVMCommands.Models.Entidades
 
-namespace BibliotecaDeClases
 {
 	public class clsPersona 
 	{
         #region atributos
-        //añadir id //añadir id //añadir id
         private int id;
-        private string nombre;
+	    private string nombre;
         private string apellidos;
-        private string fechaNac;
-        private string foto;
+        private string telefono;
         private string direccion;
-        private int telefono;
+        private string foto;
+        private DateTime fechaNac;
+        private int idDepartamento;
         #endregion
 
         #region constructores
@@ -23,16 +21,16 @@ namespace BibliotecaDeClases
             apellidos = "Pérez Caballero";   
         }
 
-        //añadir id
-        public clsPersona(int id, string nombre, string apellidos, string fechaNac, string foto, string direccion, int telefono)
+        public clsPersona(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateTime fechaNac, int idDepartamento)
         {
             this.id = id;
             this.nombre = nombre;
             this.apellidos = apellidos;
-            this.fechaNac = fechaNac;
-            this.foto = foto;
-            this.direccion = direccion;
             this.telefono = telefono;
+            this.direccion = direccion;
+            this.foto = foto;
+            this.fechaNac = fechaNac;
+            this.idDepartamento = idDepartamento;   
         }
 
         #endregion
@@ -56,19 +54,12 @@ namespace BibliotecaDeClases
             get { return apellidos; }
             set { apellidos = value; }
         }
-
-        public string FechaNac
+      
+        public string Telefono
         {
-            get { return fechaNac; }
-            set { fechaNac = value; }
+            get { return telefono; }
+            set { telefono = value; }
         }
-
-        public string Foto
-        {
-            get { return foto; }
-            set { foto = value; }
-        }
-
 
         public string Direccion
         {
@@ -76,19 +67,24 @@ namespace BibliotecaDeClases
             set { direccion = value; }
         }
 
-
-        public int Telefono
+        public string Foto
         {
-            get { return telefono; }
-            set { telefono = value; }
+            get { return foto; }
+            set { foto = value; }
+        }
+        public DateTime FechaNac
+        {
+            get { return fechaNac; }
+            set { fechaNac = value; }
         }
 
-
-
-        public string NombreCompleto
+        public int IdDepartamento
         {
-            get { return nombre + " " + apellidos; }
+            get { return idDepartamento; }
+            set { idDepartamento = value; }
         }
+
+       
 		#endregion
 
 		#region funciones

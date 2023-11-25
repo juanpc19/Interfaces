@@ -17,7 +17,7 @@ namespace Ej5tema9MVVM.Views.ViewModel
         #region constructores
         public clsPersonaSeleccionadaVM()
         {
-            
+
         }
 
         public clsPersonaSeleccionadaVM(clsPersona persona)
@@ -31,13 +31,17 @@ namespace Ej5tema9MVVM.Views.ViewModel
         {
             get { return persona; }
 
-            set { persona = value; 
+            set
+            {
+                persona = value;
 
                 //intento setear valor de persona con binding a persona clicked en lista
-            new clsPersonaSeleccionada() { BindingContext = persona }; }
+                 //new clsPersonaSeleccionada() { BindingContext = Persona }; 
+            }
 
         }
         #endregion
 
     }
 }
+
