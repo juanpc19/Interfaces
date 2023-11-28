@@ -1,7 +1,8 @@
 ﻿using EjTema10MVVMCommands.Models.DAL;
 using EjTema10MVVMCommands.Models.Entidades;
 using EjTema10MVVMCommands.ViewModels.Utilidades;
-
+using System.Collections.ObjectModel;
+using Application = Microsoft.Maui.Controls.Application;
 
 namespace EjTema10MVVMCommands.ViewModels
 {
@@ -10,7 +11,7 @@ namespace EjTema10MVVMCommands.ViewModels
         #region atributos
         private DelegateCommand buscarCommand;
         private DelegateCommand eliminarCommand;
-        private List<clsPersona> listaPersonas;
+        private ObservableCollection<clsPersona> listaPersonas;
         private clsPersona personaSeleccionada;
         private string textoBusqueda;
         #endregion
@@ -20,7 +21,7 @@ namespace EjTema10MVVMCommands.ViewModels
         public MainPageVM()
         {
             //doy a atributo listaPersonas valor igual a metodo getListaFalsa de clase clsListaPersonasFalsa
-            listaPersonas = clsListaPersonasFalsa.getListaFalsa();
+            listaPersonas = new ObservableCollection<clsPersona>(clsListaPersonasFalsa.getListaFalsa());         
             //doy a atributo buscarCommand valor igual a un nuevo commando con metodo buscarCommandExecute y buscarCommandCanExecute
             //el segundo innecesario si queremos ejecutar accion en click sin comprobacion
             buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
@@ -38,15 +39,17 @@ namespace EjTema10MVVMCommands.ViewModels
         public DelegateCommand EliminarCommand 
         { get { return eliminarCommand; } }
 
-        public List <clsPersona> ListaPersonas
+        public ObservableCollection <clsPersona> ListaPersonas
         { get { return listaPersonas; } }
 
         public clsPersona PersonaSeleccionada
         {  get { return personaSeleccionada; } 
             //set para dar valor igual a persona en la que hago click
             set {  personaSeleccionada = value;
+                //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a persona seleccionada
+                eliminarCommand.RaiseCanExecuteChanged();
                 //notifico cambio a la interfaz
-                NotifyPropertyChanged("PersonaSeleccionada");
+                //NotifyPropertyChanged("PersonaSeleccionada");
             }
         }
 
@@ -57,7 +60,7 @@ namespace EjTema10MVVMCommands.ViewModels
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
                 buscarCommand.RaiseCanExecuteChanged();
                 //notifico cambio a la interfaz
-                NotifyPropertyChanged("TextoBusqueda");
+                //NotifyPropertyChanged("TextoBusqueda");
             }
         }
 
@@ -85,7 +88,8 @@ namespace EjTema10MVVMCommands.ViewModels
         /// </summary>
         private void eliminarCommandExecute()
         {
-            mensajeBorrado("Borrar persona:", "Esta a punto de borrar una persona del listado esta seguro del borrado?");
+            //GUARDAR RETUR DISPLAY ALERTE Y HACER IF
+            //bool respuesta = mensajeBorrado("Borrar persona:", "Esta a punto de borrar una persona del listado esta seguro del borrado?");
             listaPersonas.Remove(personaSeleccionada);
             NotifyPropertyChanged("ListaPersonas");
         }
@@ -100,7 +104,6 @@ namespace EjTema10MVVMCommands.ViewModels
             if(!string.IsNullOrEmpty(textoBusqueda))
             {
                 habilitadoBuscar = true;
-
             }
             return habilitadoBuscar;
         }
@@ -115,9 +118,10 @@ namespace EjTema10MVVMCommands.ViewModels
             //doy a textoABuscar valor igual a TextoBusqueda (entry.text) y lo paso a minusculas para busqueda mas precisa
             string textoABuscar = TextoBusqueda.ToLower();
 
+            var listadoFiltrado = listaPersonas.Where(p => p.Nombre.Equals(textoABuscar)).ToList();
             // creo una nueva lista temporal en la que recogere las personas filtradas
             //.where es un metodo extensible de LINQ (Language Integrated Query) que hace una busqueda en el objeto listaPersonas 
-            List<clsPersona> personasFiltradas = listaPersonas.Where(persona =>
+            List <clsPersona> personasFiltradas = listaPersonas.Where(persona =>
                 //donde personas tenga nombre o apellido que contenga textoABuscar (paso a minuscula nombre y apellido para busqueda mas precisa
                 persona.Nombre.ToLower().Contains(textoABuscar) ||
                 persona.Apellidos.ToLower().Contains(textoABuscar)
@@ -125,15 +129,19 @@ namespace EjTema10MVVMCommands.ViewModels
             // a List<T> que es del tipo que estoy usando, esto se hace con el siguiente .ToList();
             ).ToList();
 
+            //
             //sobreescribir lista actual de momento lo ideal seria devolver una nueva?
-            listaPersonas = personasFiltradas;
+            
+            listaPersonas = new ObservableCollection<clsPersona>(personasFiltradas);
+            NotifyPropertyChanged("ListaPersonas");
         }
         #endregion
 
+        
         #region Metodos y funciones
         private async void mensajeBorrado(string titulo, string mensaje)
         {
-            await Application.Current.MainPage.DisplayAlert(titulo, mensaje, "OK");
+            await Application.Current.MainPage.DisplayAlert(titulo, mensaje, "SI", "NO");
         }
         #endregion
     }

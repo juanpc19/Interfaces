@@ -1,11 +1,12 @@
 ﻿using EjTema10MVVMCommands.Models.Entidades;
+using System.Collections.ObjectModel;
 
 namespace EjTema10MVVMCommands.Models.DAL
 {
     internal static class clsListaPersonasFalsa
     {
        
-        public static List <clsPersona> getListaFalsa() {
+        public static List<clsPersona> getListaFalsa() {
 
             List<clsPersona> listadoFalsa = new List<clsPersona> {
                 new clsPersona(1, "John", "Doe", "656565643", "123 Main St", "https://thispersondoesnotexist.com/", new DateTime(1990, 5, 15), 1),

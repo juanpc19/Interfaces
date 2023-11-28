@@ -972,3 +972,5 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema1
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png
