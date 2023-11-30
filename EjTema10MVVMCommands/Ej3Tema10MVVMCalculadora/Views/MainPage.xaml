@@ -38,10 +38,10 @@
                 Command="{Binding ClearCommand}" />
         <Button Text="&#x21E6;"
                 Grid.Row="1" Grid.Column="2"
-                Command="{Binding BackspaceCommand}" />
+                Command="{Binding BackSpaceCommand}" />
         <Button Text="%"
               Grid.Row="1" Grid.Column="3" 
-              Command="{Binding DigitCommand}"
+              Command="{Binding OperationCommand}"
               CommandParameter="%" />
         <!--TERCERA fila MULTIPLICAR...-->
         <Button Text="7"
@@ -62,7 +62,7 @@
                 CommandParameter="4" />
         <Button Text="X"
                  Grid.Row="2" Grid.Column="3"
-                 Command="{Binding DigitCommand}"
+                 Command="{Binding OperationCommand}"
                  CommandParameter="X" />
         <!--CUARTA fila RESTAR...-->
         <Button Text="5"
@@ -75,7 +75,7 @@
                 CommandParameter="6" />
         <Button Text="-"
                  Grid.Row="3" Grid.Column="3"
-                 Command="{Binding DigitCommand}"
+                 Command="{Binding OperationCommand}"
                  CommandParameter="-" />
         <!--QUINTA fila SUMAR...-->
         <Button Text="1"
@@ -92,7 +92,7 @@
                 CommandParameter="3" />
         <Button Text="+"
                   Grid.Row="4" Grid.Column="3"
-                  Command="{Binding DigitCommand}"
+                  Command="{Binding OperationCommand}"
                   CommandParameter="+" />
         <!--SEXTA fila RESULTADO...-->
         <Button Text="0"
@@ -105,7 +105,7 @@
                 CommandParameter="." />
         <Button Text="="
                  Grid.Row="5" Grid.Column="3"  
-                 Command="{Binding DigitCommand}"
+                 Command="{Binding ResultCommand}"
                  CommandParameter="=" />    
     </Grid>
 
