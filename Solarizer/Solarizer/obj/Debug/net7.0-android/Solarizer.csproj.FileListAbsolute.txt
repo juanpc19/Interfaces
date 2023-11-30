@@ -955,7 +955,6 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debu
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\atras.png
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\back.png
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\lp\90\jl\files.cache
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\lp\91\jl\files.cache
@@ -1955,3 +1954,9 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debu
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\Solarizer\Solarizer\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\add.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\foto.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\guardar_cita.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\guardar_texto.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\localizacion.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\Solarizer\Solarizer\obj\Debug\net7.0-android\resizetizer\r\drawable\usuario.png

@@ -1,0 +1,1 @@
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema10MVVMCommands\Ej3Tema10MVVMCalculadora\Ej3Tema10MVVMCalculadora.csproj;x64
