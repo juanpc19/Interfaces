@@ -46,10 +46,8 @@ namespace EjTema10MVVMCommands.ViewModels
         {  get { return personaSeleccionada; } 
             //set para dar valor igual a persona en la que hago click
             set {  personaSeleccionada = value;
-                //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a persona seleccionada
+                //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en personaSeleccionada
                 eliminarCommand.RaiseCanExecuteChanged();
-                //notifico cambio a la interfaz
-                //NotifyPropertyChanged("PersonaSeleccionada");
             }
         }
 
@@ -57,10 +55,15 @@ namespace EjTema10MVVMCommands.ViewModels
         { get { return textoBusqueda; }
             //set para dar valor igual al escrito en entry
             set { textoBusqueda = value;
+               
+                //si nuevo valor es null o vacio
+                if (string.IsNullOrEmpty(textoBusqueda))
+                {
+                    //restablezco lista original
+                    restablecerListaBusqueda();
+                }
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
                 buscarCommand.RaiseCanExecuteChanged();
-                //notifico cambio a la interfaz
-                //NotifyPropertyChanged("TextoBusqueda");
             }
         }
 
@@ -72,7 +75,7 @@ namespace EjTema10MVVMCommands.ViewModels
         /// comprueba si puede ejecutar comando eliminar 
         /// </summary>
         /// <returns>devuelve bool</returns>
-        private bool eliminarCommandCanExecute()
+        public bool eliminarCommandCanExecute()
         {
             bool habilitadoEliminar = false;
 
@@ -86,19 +89,22 @@ namespace EjTema10MVVMCommands.ViewModels
         /// <summary>
         /// ejecuta comando eliminar borrando personaSeleccionada de listaPersonas notificando el cambio en propiedad de listaPersonas
         /// </summary>
-        private void eliminarCommandExecute()
+        /// 
+        public async void eliminarCommandExecute()
         {
-            //GUARDAR RETUR DISPLAY ALERTE Y HACER IF
-            //bool respuesta = mensajeBorrado("Borrar persona:", "Esta a punto de borrar una persona del listado esta seguro del borrado?");
-            listaPersonas.Remove(personaSeleccionada);
-            NotifyPropertyChanged("ListaPersonas");
-        }
+            bool confirmacionUsuario = await mensajeBorrado("Borrar persona:", "Esta a punto de borrar una persona del listado esta seguro del borrado?");
 
+            if (confirmacionUsuario)
+            {
+                listaPersonas.Remove(personaSeleccionada);
+                NotifyPropertyChanged("ListaPersonas");
+            }
+        }
         /// <summary>
         /// comprueba si puede ejecutar comando buscar 
         /// </summary>
         /// <returns>devuelve bool</returns>
-        private bool buscarCommandCanExecute()
+        public bool buscarCommandCanExecute()
         {
             bool habilitadoBuscar = false;
             if(!string.IsNullOrEmpty(textoBusqueda))
@@ -109,40 +115,100 @@ namespace EjTema10MVVMCommands.ViewModels
         }
 
         /// <summary>
-        /// ejecuta comando buscar devolviendo personaSeleccionada de listaPersonas notificando el cambio en propiedad de listaPersonas
+        /// ejecuta comando buscar si hay texto escrito en el entry textoBusqueda
         /// </summary>
-        private void buscarCommandExecute()
+        public void buscarCommandExecute()
         {
-            //cuando use set de entry hay cambio por lo k notifico al comandoBuscar k checkee si se puede ejecutar y luego notifico cambio a propiedad entry
-
             //doy a textoABuscar valor igual a TextoBusqueda (entry.text) y lo paso a minusculas para busqueda mas precisa
             string textoABuscar = TextoBusqueda.ToLower();
 
-            var listadoFiltrado = listaPersonas.Where(p => p.Nombre.Equals(textoABuscar)).ToList();
+            //recargo lista original sin romper bindeo llamando a recargarListaOriginal (sin instanciar)
+            recargarListaOriginal();
+
             // creo una nueva lista temporal en la que recogere las personas filtradas
             //.where es un metodo extensible de LINQ (Language Integrated Query) que hace una busqueda en el objeto listaPersonas 
-            List <clsPersona> personasFiltradas = listaPersonas.Where(persona =>
-                //donde personas tenga nombre o apellido que contenga textoABuscar (paso a minuscula nombre y apellido para busqueda mas precisa
-                persona.Nombre.ToLower().Contains(textoABuscar) ||
-                persona.Apellidos.ToLower().Contains(textoABuscar)
-            //una vez tengo la lista la paso de tipo IEnumerable<T> o de tipo IQueryable<T> que son las que devuelve la busqueda where
-            // a List<T> que es del tipo que estoy usando, esto se hace con el siguiente .ToList();
-            ).ToList();
+            List<clsPersona> listadoFiltrado = listaPersonas.Where(persona =>
+                    //donde personas tenga nombre o apellido que contenga textoABuscar (paso a minuscula nombre y apellido para busqueda mas precisa)
+                    persona.Nombre.ToLower().Contains(textoABuscar) ||
+                    persona.Apellidos.ToLower().Contains(textoABuscar)
+                //una vez tengo la lista la paso de tipo IEnumerable<T> o de tipo IQueryable<T> que son las que devuelve la busqueda where
+                // a List<T> que es del tipo que estoy usando, esto se hace con el siguiente .ToList();
+                ).ToList();
 
-            //
-            //sobreescribir lista actual de momento lo ideal seria devolver una nueva?
-            
-            listaPersonas = new ObservableCollection<clsPersona>(personasFiltradas);
+                //borro los elementos de listaPersonas
+                listaPersonas.Clear();
+
+                //y añado los elementos de la lista listadoFiltrado
+                foreach (var persona in listadoFiltrado)
+                {
+                    listaPersonas.Add(persona);
+                }
+
+            //notifico cambios a listaPersonas para reflejarlos en interfaz
             NotifyPropertyChanged("ListaPersonas");
         }
         #endregion
 
-        
+        /// <summary>
+        /// funcion que muestra alerta de borrado preguntando por borrado y recoge respuesta de usuario para devolverla en un return
+        /// </summary>
+        /// <param name="titulo"></param>
+        /// <param name="mensaje"></param>
+        /// <returns></returns>
         #region Metodos y funciones
-        private async void mensajeBorrado(string titulo, string mensaje)
+        public async Task<bool> mensajeBorrado(string titulo, string mensaje)
         {
-            await Application.Current.MainPage.DisplayAlert(titulo, mensaje, "SI", "NO");
+            bool respuesta=false;
+            //devuelve true /si o false/no y guarda en respuesta 
+            respuesta=await Application.Current.MainPage.DisplayAlert(titulo, mensaje, "SI", "NO");
+
+            return respuesta;
+             
+        }
+
+        /// <summary>
+        /// funcion que reiniciara la lista a su valor original, usar para evitar rotura de binding(se da cuando reintancias el objeto de un binding,
+        /// ya que este debe dejar de existir para crear otro rompiendo el bind y jodiendote el fin de semana)
+        /// </summary>
+        public void recargarListaOriginal()
+        {  
+             //borro los elementos de listaPersonas
+            listaPersonas.Clear();
+
+             //y añado los elementos de la lista devuelta por metodo getListaFalsa de la clase clsListaPersonasFalsa
+             foreach (clsPersona persona in clsListaPersonasFalsa.getListaFalsa())
+             {
+                    listaPersonas.Add(persona);
+             }
+        }
+
+        /// <summary>
+        /// funcion que reiniciara la lista a su valor original y la mostrara en pantalla, usar cuanto entry busqueda este vacio 
+        /// para evitar rotura de binding(se da cuando reintancias el objeto de un binding,
+        /// ya que este debe dejar de existir para crear otro rompiendo el bind y jodiendote el fin de semana)
+        /// </summary>
+        public void restablecerListaBusqueda()
+        {
+            //guarda texto busqueda en variable por comodidad
+            string textoABuscar = TextoBusqueda.ToLower();
+
+            //si la string es null o vacia 
+            if (string.IsNullOrEmpty(textoABuscar))
+            {
+                //borro los elementos de listaPersonas
+                listaPersonas.Clear();
+
+                //y añado los elementos de la lista devuelta por metodo getListaFalsa de la clase clsListaPersonasFalsa
+                foreach (clsPersona persona in clsListaPersonasFalsa.getListaFalsa())
+                {
+                    listaPersonas.Add(persona);
+                }
+            }
+            //notifico cambios a listaPersonas para reflejarlos en interfaz
+            NotifyPropertyChanged("ListaPersonas");
         }
         #endregion
     }
+
+   
 }

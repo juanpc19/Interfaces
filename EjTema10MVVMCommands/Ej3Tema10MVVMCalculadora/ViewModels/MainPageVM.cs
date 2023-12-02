@@ -14,7 +14,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
     {
         #region atributos
         private DelegateCommand operationCommand;
-        private DelegateCommand digitCommand; //no necesita comprobacion si tengo 0 entry=string si tengo otra cosa: numero, 0., o . añado entry+=string
+        private DelegateCommand digitCommand; //no necesita comprobacion si tengo 0 entry=string si tengo otra cosa: numero, 0., o 0 añado entry+=string
         private DelegateCommand backSpaceCommand;
         private DelegateCommand clearCommand; //SE EJECUTA SIEMPRE no necesita canExecute pone entry a 0
         private DelegateCommand resultCommand;
@@ -23,7 +23,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
 
         #region constructores
         public MainPageVM() {
-            operationCommand = new DelegateCommand(OperationCommandExecute, OperationCommandCanExecute);
+            operationCommand = new DelegateCommand<string>(OperationCommandExecute,OperationCommandCanExecute);
             digitCommand = new DelegateCommand(DigitCommandExecute);
             backSpaceCommand = new DelegateCommand(BackSpaceCommandExecute, OperationCommandCanExecute);
             clearCommand = new DelegateCommand(ClearCommandExecute);
@@ -38,7 +38,8 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         public DelegateCommand <string> BackSpaceCommand { get; }
         public DelegateCommand <string> ClearCommand { get; }
         public DelegateCommand <string> ResultCommand { get; } 
-        public string Entry { get { return entry; } private set { entry = value; } }
+        //si entry es modificado se comprobaran los canExecute de los comandos que lo posean 
+        public string Entry { get { return entry; } private set { entry = value; checkCanExecutes(); } }
         #endregion
 
         #region comandos
@@ -47,7 +48,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         /// y en no es equals para comprobar que se puede añadir operador a entry
         /// </summary>
         /// <returns>devuelve bool doOperation para notificar permiso de ejecucion a execute</returns>
-        private bool OperationCommandCanExecute()
+        public bool OperationCommandCanExecute()
         {
             bool doOperation = false;
             string patron = @"^(?!.*[+\-%X]).*$"; //formato para poder añadir signo operacion
@@ -59,21 +60,35 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
             return doOperation;
         }
 
-        private void OperationCommandExecute()
+        /// <summary>
+        /// añade signo a cadena entry
+        /// </summary>
+        /// <param name="signo"></param>
+        public void OperationCommandExecute(string signo)
         {
 
+            if (OperationCommandCanExecute()) { 
+            Entry += signo;
+            }
+          
         }
 
-        private void DigitCommandExecute()
+        /// <summary>
+        /// añade digito a cadena entry en base a comprobaciones //METER CHECK DE GPT ? COÑAZO
+        /// </summary>
+        /// <param name="digito"></param>
+        public void DigitCommandExecute(string digito)
         {
-
+            //int cosa = Entry.Count('.');
+           // if (Entry.Count('.')<=2)
+            Entry += digito;
         }
 
         /// <summary>
         /// check de ejecucion de backSpace si entry tiene valor diferente a 0 permite ejecucion de lo contrario no
         /// </summary>
         /// <returns>devuelve bool doBackSpace para notificar permiso de ejecucion a execute</returns>
-        private bool BackSpaceCommandCanExecute()
+        public bool BackSpaceCommandCanExecute()
         {
             bool doBackSpace = false;
             if (!Entry.Equals("0"))
@@ -83,21 +98,29 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
             return doBackSpace;
         }
 
-        private void BackSpaceCommandExecute()
+        /// <summary>
+        /// borrara un caracter del texto eliminando ultimo char de entry
+        /// </summary>
+        public void BackSpaceCommandExecute()
         {
-
+            //elimina ultimo caracter de entry y asigna cadena obtenida a entry
+            Entry = Entry.Substring(0, Entry.Length - 1);
+            
         }
 
-        private void ClearCommandExecute()
+        /// <summary>
+        /// "borrara" texto dando a entry valor igual a cadena con 0
+        /// </summary>
+        public void ClearCommandExecute()
         {
-
+            Entry = "0";
         }
 
         /// <summary>
         /// check de ejecucion de doResult usa EntryEsValido con Entry y un patron como argumentos para comprobar que se puede obtener resultado operando
         /// </summary>
         /// <returns>devuelve bool doResult para notificar permiso de ejecucion a execute</returns>
-        private bool ResultCommandCanExecute() 
+        public bool ResultCommandCanExecute() 
         { 
             bool doResult = false;
             string patron = @"^[-]?\d+(\.\d+)?([-+X%])[-]?\d+(\.\d+)?$"; //formato para poder operar y devolver resultado
@@ -109,7 +132,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
             return doResult;
         }
 
-        private void ResultCommandExecute()
+        public void ResultCommandExecute()
         {
 
         }
@@ -134,6 +157,13 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
             valida = regex.IsMatch(cadenaEntry);
 
             return valida;
+        }
+
+        public void checkCanExecutes()
+        {
+            operationCommand.RaiseCanExecuteChanged();
+            backSpaceCommand.RaiseCanExecuteChanged();
+            resultCommand.RaiseCanExecuteChanged();
         }
         #endregion
 

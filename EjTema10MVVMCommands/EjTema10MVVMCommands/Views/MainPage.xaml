@@ -10,7 +10,7 @@
 
     <StackLayout BackgroundColor="DimGray">
 
-        <HorizontalStackLayout Margin="5" HorizontalOptions="Center">
+        <HorizontalStackLayout Margin="5,40,5,5" HorizontalOptions="Center">
             <Entry Placeholder="pepito..." Text="{Binding TextoBusqueda}" TextColor="White" BackgroundColor="DarkSlateBlue" />
             <ImageButton Command="{Binding BuscarCommand}" Source="buscar.png" BorderWidth="3" BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="30" WidthRequest="50" HeightRequest="50" Aspect="AspectFit"/>
         </HorizontalStackLayout>
@@ -23,12 +23,12 @@
                     <ViewCell>
                         <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="5">
 
-                            <!--problema con binding, no encuentra propiedades bindeadas en persona, NO ENTENDO-->
                             <HorizontalStackLayout Spacing="30">
                                 <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center"></Label>
                                 <Label Text="{Binding Apellidos}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                                <Label Text="{Binding Foto}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                            </HorizontalStackLayout>
+                                <Label Text="{Binding Direccion}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                <Image Source="{Binding Foto}" ></Image>
+                            </HorizontalStackLayout>    
 
                         </Frame>
                     </ViewCell>
@@ -36,7 +36,7 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <ImageButton Command="{Binding EliminarCommand}" Source="eliminar.png" BorderWidth="3" BorderColor="Orange" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" />
+        <ImageButton Command="{Binding EliminarCommand}" Source="eliminar.png" BorderWidth="3" BorderColor="Orange" BackgroundColor="White" CornerRadius="30" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" Margin="5" />
 
 
     </StackLayout>
