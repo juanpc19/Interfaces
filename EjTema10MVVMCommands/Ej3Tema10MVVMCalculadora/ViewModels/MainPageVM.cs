@@ -12,19 +12,21 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
     //Heredo clsVmBase para notificar cambios a interfaz
     public class MainPageVM:clsVMBase
     {
+        //lo que necesite de parametro para check o ejeccucion requiere de <string>
         #region atributos
-        private DelegateCommand operationCommand;
-        private DelegateCommand digitCommand; //no necesita comprobacion si tengo 0 entry=string si tengo otra cosa: numero, 0., o 0 añado entry+=string
+        private DelegateCommand <string> operationCommand;
+        private DelegateCommand <string> digitCommand; 
         private DelegateCommand backSpaceCommand;
-        private DelegateCommand clearCommand; //SE EJECUTA SIEMPRE no necesita canExecute pone entry a 0
+        private DelegateCommand clearCommand; 
         private DelegateCommand resultCommand;
         private string entry;
         #endregion
-
+        //binding parece funcionar porque muestra entry a valor asignado pero no parece recibir ningun click
         #region constructores
         public MainPageVM() {
-            operationCommand = new DelegateCommand<string>(OperationCommandExecute,OperationCommandCanExecute);
-            digitCommand = new DelegateCommand(DigitCommandExecute);
+                
+            operationCommand = new DelegateCommand<string>(OperationCommandExecute);//añadir canExecute cuando funcione
+            digitCommand = new DelegateCommand<string>(DigitCommandExecute);
             backSpaceCommand = new DelegateCommand(BackSpaceCommandExecute, OperationCommandCanExecute);
             clearCommand = new DelegateCommand(ClearCommandExecute);
             resultCommand = new DelegateCommand(ResultCommandExecute, OperationCommandCanExecute);
@@ -33,12 +35,12 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         #endregion
 
         #region propiedades
-        public DelegateCommand <string> OperationCommand { get; } 
-        public DelegateCommand <string> DigitCommand { get; }
-        public DelegateCommand <string> BackSpaceCommand { get; }
-        public DelegateCommand <string> ClearCommand { get; }
-        public DelegateCommand <string> ResultCommand { get; } 
-        //si entry es modificado se comprobaran los canExecute de los comandos que lo posean 
+        public DelegateCommand<string> OperationCommand { get; } 
+        public DelegateCommand<string> DigitCommand { get; }
+        public DelegateCommand BackSpaceCommand { get; }
+        public DelegateCommand ClearCommand { get; }
+        public DelegateCommand ResultCommand { get; } 
+        //si entry es modificado se comprobaran los canExecute de los comandos que lo posean, set a privado para solo modif interna 
         public string Entry { get { return entry; } private set { entry = value; checkCanExecutes(); } }
         #endregion
 
@@ -51,9 +53,10 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         public bool OperationCommandCanExecute()
         {
             bool doOperation = false;
-            string patron = @"^(?!.*[+\-%X]).*$"; //formato para poder añadir signo operacion
+            //formato para poder añadir signo operacion 
+            string patron = @"^(?!.*[+\-%X]).*$"; 
             //si cumple patron es que no contiene operador y si ademas no es igual a 0. se puede añadir operador
-            if (EntryEsValido(Entry, patron) && (!Entry.Equals("0.")))
+            if (EntryEsValido(Entry, patron) && (!Entry.Equals("0.")) && (!Entry.Equals("0")))
             {
                 doOperation = true;
             }
@@ -66,22 +69,23 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         /// <param name="signo"></param>
         public void OperationCommandExecute(string signo)
         {
-
             if (OperationCommandCanExecute()) { 
             Entry += signo;
+            NotifyPropertyChanged("Entry");
             }
           
         }
 
         /// <summary>
-        /// añade digito a cadena entry en base a comprobaciones //METER CHECK DE GPT ? COÑAZO
+        /// añade digito a cadena entry en base a comprobaciones 
         /// </summary>
         /// <param name="digito"></param>
         public void DigitCommandExecute(string digito)
         {
             //int cosa = Entry.Count('.');
-           // if (Entry.Count('.')<=2)
+            // if (Entry.Count('.')<=2)
             Entry += digito;
+            NotifyPropertyChanged("Entry");
         }
 
         /// <summary>
@@ -105,7 +109,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         {
             //elimina ultimo caracter de entry y asigna cadena obtenida a entry
             Entry = Entry.Substring(0, Entry.Length - 1);
-            
+            NotifyPropertyChanged("Entry");
         }
 
         /// <summary>
@@ -114,6 +118,7 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
         public void ClearCommandExecute()
         {
             Entry = "0";
+            NotifyPropertyChanged("Entry");
         }
 
         /// <summary>
@@ -132,13 +137,13 @@ namespace Ej3Tema10MVVMCalculadora.ViewModels
             return doResult;
         }
 
+        //TO DO
         public void ResultCommandExecute()
         {
 
         }
 
         #endregion
-
 
         #region metodos y funciones
         /// <summary>
