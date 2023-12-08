@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-06T08:45:21.655</Modified>
+      <Modified>2023-12-06T15:07:42.233</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-06T08:45:21.432</Modified>
+      <Modified>2023-12-06T15:07:42.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema10MVVMCommands.runtimeconfig.json">
       <PackagePath>EjTema10MVVMCommands.runtimeconfig.json</PackagePath>
