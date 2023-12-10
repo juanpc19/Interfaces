@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjTema11API.Views.AddPersona"
+             xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
+             Title="AddPersona">
+   
+        <ContentPage.BindingContext>
+            <Qnmv:MainPageVM/>
+        </ContentPage.BindingContext>
+            
+        <VerticalStackLayout>
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.Nombre}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.Apellidos}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.FechaNac}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.Direccion}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.Telefono}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.Foto}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+
+            <Entry 
+          Text="{Binding PersonaSeleccionada.IdDepartamento}"
+          VerticalOptions="Center" 
+          HorizontalOptions="Center" />
+            
+        </VerticalStackLayout>
+</ContentPage>
