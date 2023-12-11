@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-06T15:07:42.233</Modified>
+      <Modified>2023-12-11T20:09:48.401</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-06T15:07:42.080</Modified>
+      <Modified>2023-12-11T20:09:48.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema10MVVMCommands.runtimeconfig.json">
       <PackagePath>EjTema10MVVMCommands.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema10MVVMCommands.dll">
       <PackagePath>EjTema10MVVMCommands.dll</PackagePath>
-      <Modified>2023-12-06T08:45:20.282</Modified>
+      <Modified>2023-12-11T20:09:47.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema10MVVMCommands.exe</PackagePath>
-      <Modified>2023-12-06T08:45:20.336</Modified>
+      <Modified>2023-12-11T20:09:47.640</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema10MVVMCommands.deps.json">
       <PackagePath>EjTema10MVVMCommands.deps.json</PackagePath>

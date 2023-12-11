@@ -10,7 +10,7 @@
         </ContentPage.BindingContext>
             
         <VerticalStackLayout>
-
+        <!--id se lo da la API-->
             <Entry 
           Text="{Binding PersonaSeleccionada.Nombre}"
           VerticalOptions="Center" 

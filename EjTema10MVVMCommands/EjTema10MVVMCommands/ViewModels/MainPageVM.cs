@@ -60,7 +60,7 @@ namespace EjTema10MVVMCommands.ViewModels
                 if (string.IsNullOrEmpty(textoBusqueda))
                 {
                     //restablezco lista original
-                    restablecerListaBusqueda();
+                     recargarListaOriginal();
                 }
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
                 buscarCommand.RaiseCanExecuteChanged();
@@ -180,32 +180,6 @@ namespace EjTema10MVVMCommands.ViewModels
              {
                     listaPersonas.Add(persona);
              }
-        }
-
-        /// <summary>
-        /// funcion que reiniciara la lista a su valor original y la mostrara en pantalla, usar cuanto entry busqueda este vacio 
-        /// para evitar rotura de binding(se da cuando reintancias el objeto de un binding,
-        /// ya que este debe dejar de existir para crear otro rompiendo el bind y jodiendote el fin de semana)
-        /// </summary>
-        public void restablecerListaBusqueda()
-        {
-            //guarda texto busqueda en variable por comodidad
-            string textoABuscar = TextoBusqueda.ToLower();
-
-            //si la string es null o vacia 
-            if (string.IsNullOrEmpty(textoABuscar))
-            {
-                //borro los elementos de listaPersonas
-                listaPersonas.Clear();
-
-                //y añado los elementos de la lista devuelta por metodo getListaFalsa de la clase clsListaPersonasFalsa
-                foreach (clsPersona persona in clsListaPersonasFalsa.getListaFalsa())
-                {
-                    listaPersonas.Add(persona);
-                }
-            }
-            //notifico cambios a listaPersonas para reflejarlos en interfaz
-            NotifyPropertyChanged("ListaPersonas");
         }
         #endregion
     }

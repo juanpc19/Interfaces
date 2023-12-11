@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-09T22:19:54.176</Modified>
+      <Modified>2023-12-11T20:48:46.627</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-09T22:07:34.664</Modified>
+      <Modified>2023-12-11T20:34:22.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.runtimeconfig.json">
       <PackagePath>EjTema11API.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.dll">
       <PackagePath>EjTema11API.dll</PackagePath>
-      <Modified>2023-12-09T22:19:53.261</Modified>
+      <Modified>2023-12-11T20:48:45.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema11API.exe</PackagePath>
-      <Modified>2023-12-09T22:19:53.265</Modified>
+      <Modified>2023-12-11T20:48:45.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.deps.json">
       <PackagePath>EjTema11API.deps.json</PackagePath>

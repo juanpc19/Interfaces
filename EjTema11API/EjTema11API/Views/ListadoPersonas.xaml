@@ -3,56 +3,88 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11API.Views.ListadoPersonas"
              xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
-             Title="ListadoPersonas"
-             >
+             Title="ListadoPersonas">
+    
     <ContentPage.BindingContext>
         <Qnmv:MainPageVM/>
     </ContentPage.BindingContext>
 
-     
-    <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
-                    <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="5">
+    <VerticalStackLayout>
+        
+        <HorizontalStackLayout>
+            
+            <ImageButton Source="agregar.png" 
+                      BackgroundColor="White" 
+                      BorderColor="Orange" 
+                      CornerRadius="25"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      Aspect="Center"
+                      Command="{Binding CrearCommand}"
+                      HorizontalOptions="Start" VerticalOptions="Center"/>
 
-                        <HorizontalStackLayout Spacing="30">
-                            
-                        <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
-                            <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center"></Label>
-                            <Label Text="{Binding Apellidos}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                            <Label Text="{Binding Direccion}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                            <Image Source="{Binding Foto}" ></Image>
-                        </HorizontalStackLayout>
+            <Entry Text="{Binding BarraBusqueda}" TextColor="White" BackgroundColor="DarkSlateBlue" HorizontalOptions="Center" VerticalOptions="Center" MinimumWidthRequest="300"/>
+            
+            <!---cambiar icono-->
+            <ImageButton Source="agregar.png" 
+                      BackgroundColor="White" 
+                      BorderColor="Orange" 
+                      CornerRadius="25"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      Aspect="Center"
+                      Command="{Binding BuscarCommand}"
+                      HorizontalOptions="End" VerticalOptions="Center"/>
 
-                        <HorizontalStackLayout Spacing="30" HorizontalOptions="End">
-                            <ImageButton Source="edit.png" 
-                              BackgroundColor="White" 
-                              BorderColor="Orange"  
-                              CornerRadius="25"
-                              WidthRequest="50"
-                              HeightRequest="50"
-                              Aspect="Center"
-                             
-                              HorizontalOptions="End" VerticalOptions="Center"/>
-                            
-                            <ImageButton Source="borrar.png" 
-                              BackgroundColor="White" 
-                              BorderColor="Orange" 
-                              CornerRadius="25"
-                              WidthRequest="50"
-                              HeightRequest="50"
-                              Aspect="Center"
-                              
-                              HorizontalOptions="End" VerticalOptions="Center"/>
-                        </HorizontalStackLayout>
-                            
-                        </HorizontalStackLayout>
+        </HorizontalStackLayout>
+        
 
-                    </Frame>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+        <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" Margin="5">
+
+                            <HorizontalStackLayout Spacing="30">
+
+                                <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
+                                    <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center"></Label>
+                                    <Label Text="{Binding Apellidos}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    <Label Text="{Binding Direccion}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    <Image Source="{Binding Foto}" ></Image>
+                                </HorizontalStackLayout>
+
+                            </HorizontalStackLayout>
+
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!---SI PONGO ESTOS DENTRO DEL LIST VIEW NO ENCUENTRAN EL BINDING AL COMMAND, poner en otra vista que muestre persona seleccionada y ahi hacer edit y delete?-->
+        <HorizontalStackLayout Spacing="30" HorizontalOptions="End">
+            <ImageButton Source="edit.png" 
+                        BackgroundColor="White" 
+                        BorderColor="Orange"  
+                        CornerRadius="25"
+                        WidthRequest="50"
+                        HeightRequest="50"
+                        Aspect="Center"
+                        Command="{Binding EditarCommand}"
+                        HorizontalOptions="End" VerticalOptions="Center"/>
+
+            <ImageButton Source="borrar.png" 
+                        BackgroundColor="White" 
+                        BorderColor="Orange" 
+                        CornerRadius="25"
+                        WidthRequest="50"
+                        HeightRequest="50"
+                        Aspect="Center"
+                        Command="{Binding EliminarCommand}"
+                        HorizontalOptions="End" VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
 
 </ContentPage>

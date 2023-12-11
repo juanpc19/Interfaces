@@ -291,3 +291,12 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CapaBL.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CapaEntidades.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CapaDAL.pdb
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\add_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\add_persona2.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\agregar.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\borrar.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\borrar_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\borrar_persona2.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\edit.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\editar_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\editar_persona2.png

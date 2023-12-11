@@ -1075,3 +1075,12 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\android\assets\Microsoft.Net.Http.Headers.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\android\assets\System.Data.SqlClient.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\add_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\add_persona2.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\agregar.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\borrar.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\borrar_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\borrar_persona2.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\edit.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\editar_persona.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-android\resizetizer\r\drawable\editar_persona2.png
