@@ -15,6 +15,7 @@ namespace EjTema11API.ViewModels
     {
         //mas adelante mirar si puedo meter varios commands en uno con el commandParameter
         #region atributos
+        private bool visibilidadCarga;
         private ObservableCollection<clsPersona> listaPersonas;
         private clsPersona personaSeleccionada; //
         private string barraBusqueda; //adaptar lo de ej 1 tema 10 de busqueda aqui
@@ -27,8 +28,10 @@ namespace EjTema11API.ViewModels
         #region constructores
         public MainPageVM()
         {
+            VisibilidadCarga = true;
             RecogerListadoBL();
-           // buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
+            VisibilidadCarga = false;
+            // buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             eliminarCommand = new DelegateCommand(eliminarCommandExecute);
             editarCommand = new DelegateCommand(editarCommandExecute);
             crearCommand = new DelegateCommand(crearCommandExecute);
@@ -36,6 +39,11 @@ namespace EjTema11API.ViewModels
         #endregion
 
         #region propiedades
+
+        public bool VisibilidadCarga
+        {
+            get { return visibilidadCarga; } set { visibilidadCarga = value; NotifyPropertyChanged("VisibilidadCarga"); }
+        }
         public ObservableCollection<clsPersona> ListaPersonas
         {
             get { return listaPersonas; } 

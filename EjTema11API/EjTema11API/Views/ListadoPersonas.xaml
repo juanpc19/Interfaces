@@ -37,8 +37,9 @@
                       HorizontalOptions="End" VerticalOptions="Center"/>
 
         </HorizontalStackLayout>
-        
 
+        <!---hacer bool con null de listado ?-->
+        <ActivityIndicator IsRunning="{Binding CargaCompleta}" IsVisible="{Binding CargaCompleta}"/>
         <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
             <ListView.ItemTemplate>
                 <DataTemplate>
