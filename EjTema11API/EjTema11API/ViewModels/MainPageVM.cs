@@ -28,9 +28,9 @@ namespace EjTema11API.ViewModels
         #region constructores
         public MainPageVM()
         {
-            VisibilidadCarga = true;
+            
             RecogerListadoBL();
-            VisibilidadCarga = false;
+            
             // buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
             eliminarCommand = new DelegateCommand(eliminarCommandExecute);
             editarCommand = new DelegateCommand(editarCommandExecute);
@@ -165,9 +165,11 @@ namespace EjTema11API.ViewModels
         {
             try
             {
+                VisibilidadCarga = true;
                 clsListaPersonasBL oBl = new clsListaPersonasBL();
                 List<clsPersona> listaAuxiliar = await oBl.listadoPersonasBL();
                 ListaPersonas = new ObservableCollection<clsPersona>(listaAuxiliar);
+                VisibilidadCarga = false;
             }
             catch (Exception ex)
             {

@@ -52,6 +52,8 @@ appiconWideTile.scale-400.png
 borrar.scale-100.png
 borrar_persona.scale-100.png
 borrar_persona2.scale-100.png
+buscar.scale-100.png
+crear.scale-100.png
 dotnet_bot.scale-100.png
 dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
@@ -62,7 +64,9 @@ editar.scale-100.png
 editar_persona.scale-100.png
 editar_persona2.scale-100.png
 editarpersona2.scale-100.png
+eliminar.scale-100.png
 fondo.scale-100.jpg
+search.scale-100.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png

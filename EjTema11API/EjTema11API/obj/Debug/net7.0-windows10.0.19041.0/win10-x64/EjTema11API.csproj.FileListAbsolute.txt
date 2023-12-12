@@ -738,3 +738,7 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11API\obj\
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\crear.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png
