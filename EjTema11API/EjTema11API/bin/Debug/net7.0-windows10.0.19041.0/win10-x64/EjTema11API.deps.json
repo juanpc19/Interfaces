@@ -1811,6 +1811,7 @@
       "CapaBL/1.0.0": {
         "dependencies": {
           "CapaDAL": "1.0.0",
+          "CapaEntidades": "1.0.0",
           "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {

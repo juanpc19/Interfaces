@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-12T21:27:04.768</Modified>
+      <Modified>2023-12-13T22:39:32.657</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-12T17:14:49.213</Modified>
+      <Modified>2023-12-13T22:39:32.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.runtimeconfig.json">
       <PackagePath>EjTema11API.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-12T17:04:21.511</Modified>
+      <Modified>2023-12-13T22:39:32.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.dll">
       <PackagePath>EjTema11API.dll</PackagePath>
-      <Modified>2023-12-12T21:27:03.869</Modified>
+      <Modified>2023-12-13T22:39:30.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema11API.exe</PackagePath>
-      <Modified>2023-12-12T21:27:03.874</Modified>
+      <Modified>2023-12-13T22:39:30.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11API\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11API.deps.json">
       <PackagePath>EjTema11API.deps.json</PackagePath>
-      <Modified>2023-12-12T17:14:49.057</Modified>
+      <Modified>2023-12-13T22:39:32.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\juanp\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1035,11 +1035,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaBL\bin\Debug\net7.0\CapaBL.dll">
       <PackagePath>CapaBL.dll</PackagePath>
-      <Modified>2023-12-12T17:04:15.959</Modified>
+      <Modified>2023-12-13T22:39:26.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.dll">
       <PackagePath>CapaDAL.dll</PackagePath>
-      <Modified>2023-12-12T17:04:15.516</Modified>
+      <Modified>2023-12-13T22:39:26.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll">
       <PackagePath>CapaEntidades.dll</PackagePath>
