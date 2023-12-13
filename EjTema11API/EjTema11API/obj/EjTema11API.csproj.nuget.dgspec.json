@@ -478,6 +478,9 @@
             "projectReferences": {
               "D:\\cosas formateo\\Cosas grado 2\\SGE\\EjTema10ADO.NET\\CapaDAL\\CapaDAL.csproj": {
                 "projectPath": "D:\\cosas formateo\\Cosas grado 2\\SGE\\EjTema10ADO.NET\\CapaDAL\\CapaDAL.csproj"
+              },
+              "D:\\cosas formateo\\Cosas grado 2\\SGE\\EjTema10ADO.NET\\CapaEntidades\\CapaEntidades.csproj": {
+                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\SGE\\EjTema10ADO.NET\\CapaEntidades\\CapaEntidades.csproj"
               }
             }
           }
