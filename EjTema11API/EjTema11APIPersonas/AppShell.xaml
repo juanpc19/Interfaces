@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="EjTema11APIPersonas.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:EjTema11APIPersonas"
+    xmlns:vistas="clr-namespace:EjTema11APIPersonas.Views"
+    Shell.FlyoutBehavior="Flyout">
+
+
+    <!--da formato y fondo a al flyout-->
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="fondo.jpg"
+                   Opacity="0.6" />
+                <Label Text="Indice"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <ShellContent
+    Title="ListadoPersonas"
+    ContentTemplate="{DataTemplate vistas:ListadoPersonas}"
+    Route="ListadoPersonas" />
+
+    <!--<ShellContent
+    Title="AddPersona"
+    ContentTemplate="{DataTemplate vistas:AddPersona}"
+    Route="AddPersona" />
+
+    <ShellContent
+    Title="EditPersona"
+    ContentTemplate="{DataTemplate vistas:EditPersona}"
+    Route="EditPersona" />
+
+    <ShellContent
+    Title="DeletePersona"
+    ContentTemplate="{DataTemplate vistas:DeletePersona}"
+    Route="DeletePersona" />-->
+
+    <ShellContent
+    Title="ListadoDeps"
+    ContentTemplate="{DataTemplate vistas:ListadoDeps}"
+    Route="ListadoDeps" />
+
+    <!--<ShellContent
+    Title="AddDep"
+    ContentTemplate="{DataTemplate vistas:AddDep}"
+    Route="AddDep" />
+
+    <ShellContent
+    Title="EditDep"
+    ContentTemplate="{DataTemplate vistas:EditDep}"
+    Route="EditDep" />
+
+    <ShellContent
+    Title="DeleteDep"
+    ContentTemplate="{DataTemplate vistas:DeleteDep}"
+    Route="DeleteDep" />-->
+
+</Shell>

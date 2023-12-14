@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjTema11APIPersonas.Views.ListadoPersonas"
+             xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
+             Title="">
+
+    <ContentPage.BindingContext>
+        <Qnmv:MainPageVM/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Empleado">
+            <MenuFlyoutItem IconImageSource="crear.png" Text="Crear" Command="{Binding CrearCommand}"/>
+            <MenuFlyoutItem IconImageSource="editar.png" Text="Editar" Command="{Binding EditarCommand}" />
+            <MenuFlyoutItem IconImageSource="eliminar.png" Text="Eliminar" Command="{Binding EliminarCommand}" />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="crear.png" Command="{Binding CrearCommand}"/>
+        <ToolbarItem IconImageSource="editar.png" Command="{Binding EditarCommand}"/>
+        <ToolbarItem IconImageSource="eliminar.png" Command="{Binding EliminarCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <VerticalStackLayout Spacing="10" Padding="10">
+
+        <Frame BackgroundColor="DarkSlateBlue" BorderColor="Orange" CornerRadius="60">
+
+            <HorizontalStackLayout Spacing="20" Padding="10" HorizontalOptions="Center">
+
+                <Entry Text="{Binding BarraBusqueda}" TextColor="Black" BackgroundColor="White"  HorizontalOptions="Center" VerticalOptions="Center" MinimumWidthRequest="300" />
+
+                <ImageButton Source="buscar.png" 
+              BackgroundColor="White" 
+              BorderColor="Orange" 
+              BorderWidth="2"
+              CornerRadius="25"
+              WidthRequest="50"
+              HeightRequest="50"
+              Aspect="Center"
+              Command="{Binding BuscarCommand}"
+              HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            </HorizontalStackLayout>
+
+        </Frame>
+
+        <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
+
+        <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+
+                                <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
+                                    <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center"></Label>
+                                    <Label Text="{Binding Apellidos}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    <Label Text="{Binding Direccion}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    <Image Source="{Binding Foto}" ></Image>
+                                </HorizontalStackLayout>
+
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+
+    </VerticalStackLayout>
+
+</ContentPage>

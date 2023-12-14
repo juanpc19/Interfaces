@@ -1,30 +1,15 @@
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.deps.json
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.dll
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.pdb
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaEntidades.dll
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaEntidades.pdb
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.AssemblyReference.cache
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.GeneratedMSBuildEditorConfig.editorconfig
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfoInputs.cache
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfo.cs
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CoreCompileInputs.cache
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CopyComplete
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.dll
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\refint\CapaDAL.dll
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.pdb
-D:\cosas formateo\Cosas grado 2\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\ref\CapaDAL.dll
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.deps.json
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.dll
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaDAL.pdb
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaEntidades.dll
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\bin\Debug\net7.0\CapaEntidades.pdb
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.AssemblyReference.cache
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfoInputs.cache
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfo.cs
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CoreCompileInputs.cache
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CopyComplete
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.dll
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\refint\CapaDAL.dll
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\CapaDAL.pdb
-C:\Users\jperez\Documents\GitHub\SGE\EjTema10ADO.NET\CapaDAL\obj\Debug\net7.0\ref\CapaDAL.dll
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.deps.json
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.dll
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.pdb
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaEntidades.dll
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaEntidades.pdb
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.AssemblyReference.cache
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfoInputs.cache
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfo.cs
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CopyComplete
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.dll
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\refint\CapaDAL.dll
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.pdb
+C:\Users\jperez\Desktop\EjTema11API\CapaDAL\obj\Debug\net7.0\ref\CapaDAL.dll

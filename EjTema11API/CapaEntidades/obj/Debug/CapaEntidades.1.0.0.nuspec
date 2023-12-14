@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CapaEntidades</id>
+    <version>1.0.0</version>
+    <authors>CapaEntidades</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll" target="lib\net7.0\CapaEntidades.dll" />
+  </files>
+</package>

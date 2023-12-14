@@ -1,117 +1,38 @@
-﻿using CapaDAL.Listado;
-using CapaDAL.Conexion;
+﻿using CapaDAL.Conexion;
 using CapaEntidades;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CapaDAL.Manejadoras
 {
-    public static class clsManejadoraPersonaDAL
-    {
-        /// <summary>
-        /// Funcion que devuelve una persona segun su Id
-        /// Pre: Int Id > 0
-        /// Pos: Nada
-        /// </summary>
-        /// <returns></returns>
-        public static clsPersona getPersonaByIdDAL(int id)
+        public class clsManejadoraPersonaDAL
         {
-            List<clsPersona> listaPersonas = clsListaPersonasDAL.listadoPersonasDAL();
-            return listaPersonas.Find(x => x.Id == id);
-        }
+            public async Task<HttpStatusCode> crearPersonaDAL(clsPersona persona)
+            {
+                clsMyUrlDAL myUrl = new clsMyUrlDAL();//recojo valor de clsMyUrlDAL y se lo doy a myUrl
+                Uri uriListaPersonas = new Uri($"{myUrl.Url}Personas");//creo uri concatenando url (IMPORTANTE HACER GET PARA OBTENER VALOR EN STRING Y NO EN OBJETO y endpoint (Personas))
+                HttpClient miHttpClient = new HttpClient();//Creo cliente http que manejara mis peticiones
+                HttpResponseMessage miCodigoRespuesta = new HttpResponseMessage();//creo codigo http que guarde respuesta de servidor
+                string datos = JsonConvert.SerializeObject(persona);//creo variable que guardara datos de la persona objeto a crear
+                HttpContent contenido = new StringContent(datos, System.Text.Encoding.UTF8, "application/json");//contenido http que guardara los datosen formato json para trabajr con la API 
 
-        /// <summary>
-        /// funcion que borra una persona de la base de datos a partir de param entrada id y devuelve filas afectadas por borrado
-        /// </summary>
-        /// <param name="id"></param>
-        /// <returns></returns>
-        public static int deletePersonaDAL(int id)
-
-        {
-            int numeroFilasAfectadas = 0;
-
-            SqlConnection connection = new clsMyConnectionDAL().getConnection();
-            SqlCommand command = new SqlCommand();
-             
-            command.Parameters.Add("@id", System.Data.SqlDbType.Int).Value = id;
-            command.CommandText = "DELETE FROM Personas WHERE ID=@id";
-            command.Connection = connection;
-
-            
-            numeroFilasAfectadas = command.ExecuteNonQuery();
-            
-
-            return numeroFilasAfectadas;
+                try
+                {
+                    //guardo en miCodigoRespuesta el resultado de intentar añadir la persona (contenido) en la ruta Personas
+                    miCodigoRespuesta = await miHttpClient.PostAsync(uriListaPersonas, contenido);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error en funcion crearPersonaDAL(): {ex.Message}");
+                }
+                //devuelvo el estado del codigo (deberia ser 200 o 201)
+                return miCodigoRespuesta.StatusCode;
+            }
 
         }
-
-        /// <summary>
-        /// funcion que crea una persona a partir de la recibida de capa BL<UI, y la inserta en la BBDD
-        /// </summary>
-        /// <param name="persona"></param>
-        public static void createPersonaDAL(clsPersona persona)
-        {
-            SqlConnection connection = new clsMyConnectionDAL().getConnection();
-            SqlCommand command = new SqlCommand();
-
-            command.Parameters.AddWithValue("@Nombre", persona.Nombre);
-            command.Parameters.AddWithValue("@Apellidos", persona.Apellidos);
-            command.Parameters.AddWithValue("@Telefono", persona.Telefono);
-            command.Parameters.AddWithValue("@Direccion", persona.Direccion);
-            command.Parameters.AddWithValue("@Foto", persona.Foto);
-            command.Parameters.AddWithValue("@FechaNacimiento", persona.FechaNac);
-            command.Parameters.AddWithValue("@IDDepartamento", persona.IdDepartamento);
-            command.CommandText = "INSERT INTO Personas (Nombre,Apellidos,Telefono,Direccion,Foto,FechaNacimiento,IDDepartamento) " +
-                "VALUES(@Nombre,@Apellidos,@Telefono,@Direccion,@Foto,@FechaNacimiento,@IDDepartamento) ";
-            command.Connection = connection;
-
-            command.ExecuteNonQuery();            
-
-        }
-
-        /// <summary>
-        /// edita una persona de la base de datos recibida por paramteros
-        /// </summary>
-        /// <param name="persona"></param>
-        public static void editPersonaDAL(clsPersona persona)
-        {
-            SqlConnection connection = new clsMyConnectionDAL().getConnection();
-            SqlCommand command = new SqlCommand();
-
-            command.Parameters.AddWithValue("@ID", persona.Id);
-            command.Parameters.AddWithValue("@Nombre", persona.Nombre);
-            command.Parameters.AddWithValue("@Apellidos", persona.Apellidos);
-            command.Parameters.AddWithValue("@Telefono", persona.Telefono);
-            command.Parameters.AddWithValue("@Direccion", persona.Direccion);
-            command.Parameters.AddWithValue("@Foto", persona.Foto);
-            command.Parameters.AddWithValue("@FechaNacimiento", persona.FechaNac);
-            command.Parameters.AddWithValue("@IDDepartamento", persona.IdDepartamento);
-
-            command.CommandText = "UPDATE Personas SET Nombre = @Nombre, Apellidos = @Apellidos, Telefono = @Telefono, " +
-                      "Direccion = @Direccion, Foto = @Foto, FechaNacimiento = @FechaNacimiento, " +
-                      "IDDepartamento = @IDDepartamento WHERE ID = @ID";
-
-            command.Connection = connection;
-
-            command.ExecuteNonQuery();
-
-            
-        }
-
-            /// <summary>
-            /// funcion que devuelve id de la ultima persona de la lista extrida de la base de datos se usara solo en en create de DAL, BL no necesita copia
-            /// </summary>
-            /// <returns></returns>
-            private static int getNewId()
-        {
-            List<clsPersona> listaPersonas = clsListaPersonasDAL.listadoPersonasDAL();
-            int id = listaPersonas.Last().Id;
-
-            return id;
-        }
-    }
 }
