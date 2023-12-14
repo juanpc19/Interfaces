@@ -3,6 +3,10 @@ using static System.Net.WebRequestMethods;
  
 namespace CapaDAL.Conexion
 {
+    //notas: 
+    //extraer results de lista de personajes no lo previo, vale con la primera pag
+    //view model con datos de personaje y datos planeta (como DTO insertado)
+    //DTO para uso multiples sitios va en model
     public class clsMyUrlDAL
     {
         #region atributos

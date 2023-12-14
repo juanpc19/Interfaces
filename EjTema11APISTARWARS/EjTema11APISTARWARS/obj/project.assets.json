@@ -25229,24 +25229,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Users\\jperez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
       "projectName": "EjTema11APISTARWARS",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\obj\\",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
+      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -25265,44 +25265,44 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }

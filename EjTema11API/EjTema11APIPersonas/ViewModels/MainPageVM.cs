@@ -162,7 +162,7 @@ namespace EjTema11API.ViewModels
 
 
         #region metodos
-        private async void RecogerListadoBL()
+        private async Task RecogerListadoBL()
         {
             try
             {

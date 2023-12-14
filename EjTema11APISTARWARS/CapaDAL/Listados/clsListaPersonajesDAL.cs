@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CapaDAL.Listados
 {
-    internal class clsListaPersonajesDAL
+    public class clsListaPersonajesDAL
     {
+
     }
 }
