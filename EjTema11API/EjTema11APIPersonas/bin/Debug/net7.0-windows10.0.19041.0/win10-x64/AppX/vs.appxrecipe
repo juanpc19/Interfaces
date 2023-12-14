@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>119a46fd-52ae-493c-ae46-3fc7bd0e5a46</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>E93FD5AD29A1BBDF8EF85918455DB1201B1AF8AC07E9D20BE873F3CD8B038D03</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>119a46fd-52ae-493c-ae46-3fc7bd0e5a46_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>119a46fd-52ae-493c-ae46-3fc7bd0e5a46_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-14T11:56:28.052</Modified>
+      <Modified>2023-12-14T12:05:07.378</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-14T11:56:27.769</Modified>
+      <Modified>2023-12-14T12:05:07.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.runtimeconfig.json">
       <PackagePath>EjTema11APIPersonas.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-14T11:56:27.585</Modified>
+      <Modified>2023-12-14T12:05:06.943</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.dll">
       <PackagePath>EjTema11APIPersonas.dll</PackagePath>
-      <Modified>2023-12-14T11:56:26.165</Modified>
+      <Modified>2023-12-14T12:05:05.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema11APIPersonas.exe</PackagePath>
-      <Modified>2023-12-14T11:56:26.184</Modified>
+      <Modified>2023-12-14T12:05:05.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.deps.json">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.deps.json">
       <PackagePath>EjTema11APIPersonas.deps.json</PackagePath>
-      <Modified>2023-12-14T11:56:27.475</Modified>
+      <Modified>2023-12-14T12:05:06.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -925,17 +925,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.dll">
       <PackagePath>CapaBL.dll</PackagePath>
-      <Modified>2023-12-14T09:53:15.651</Modified>
+      <Modified>2023-12-14T12:05:00.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.dll">
       <PackagePath>CapaDAL.dll</PackagePath>
-      <Modified>2023-12-14T09:53:15.496</Modified>
+      <Modified>2023-12-14T12:05:00.148</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll">
       <PackagePath>CapaEntidades.dll</PackagePath>
-      <Modified>2023-12-14T09:53:15.234</Modified>
+      <Modified>2023-12-14T12:04:58.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -949,259 +949,259 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T14:50:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-12-14T10:01:28.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-12-14T10:01:35.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-12-14T10:01:35.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-12-14T10:01:35.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-12-14T10:01:35.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-12-14T10:01:35.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-12-14T10:01:28.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-12-14T10:01:28.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-12-14T11:49:20.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-12-14T11:49:20.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-12-14T11:49:20.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-12-14T11:49:20.616</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-12-14T11:49:20.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-12-14T11:49:20.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-12-14T11:49:20.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-12-14T11:49:20.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-12-14T11:49:20.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-12-14T11:49:20.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-12-14T11:49:20.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.556</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-12-14T11:49:20.570</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-12-14T11:49:20.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-12-14T11:49:20.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-12-14T11:49:20.578</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-12-14T11:49:20.581</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.662</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.649</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.626</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.739</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\buscar.scale-100.png">
       <PackagePath>buscar.scale-100.png</PackagePath>
       <Modified>2023-12-13T12:56:42.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\crear.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\crear.scale-100.png">
       <PackagePath>crear.scale-100.png</PackagePath>
       <Modified>2023-12-13T12:56:42.735</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-12-14T11:49:20.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-12-14T11:49:20.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-12-14T11:49:20.551</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-12-14T11:49:20.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-12-14T11:49:20.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\editar.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\editar.scale-100.png">
       <PackagePath>editar.scale-100.png</PackagePath>
       <Modified>2023-12-13T12:56:42.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\eliminar.scale-100.png">
       <PackagePath>eliminar.scale-100.png</PackagePath>
       <Modified>2023-12-13T12:56:42.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jperez\Desktop\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondo.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\fondo.scale-100.jpg">
       <PackagePath>fondo.scale-100.jpg</PackagePath>
       <Modified>2023-12-11T07:12:12.565</Modified>
     </AppxPackagedFile>

@@ -9,3 +9,14 @@ C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades
 C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\obj\Debug\net7.0\refint\CapaEntidades.dll
 C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.pdb
 C:\Users\jperez\Desktop\EjTema11API\CapaEntidades\obj\Debug\net7.0\ref\CapaEntidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\refint\CapaEntidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\CapaEntidades\obj\Debug\net7.0\ref\CapaEntidades.dll

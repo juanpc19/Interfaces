@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jkK8i9m5pv8mIsJY7LmZ/l7X0g8l5rMBVtz7ZgQSGQmVwXDz7GPHxr91vJvtl6Shk2XAlqGaiJIsKTvfOTjCfw==",
+  "dgSpecHash": "+eZj3Bo8vTWFXOhcwrbO/nNp7XJgbFmUoUdJbObvPVuFI/S+b/7jeRZQDVOiAed2fbxM6pCEasD2y55ZtYBthA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
+  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jperez\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\jperez\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

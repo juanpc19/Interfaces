@@ -25713,11 +25713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jperez\\Desktop\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
       "projectName": "EjTema11APIPersonas",
-      "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\EjTema11APIPersonas\\EjTema11APIPersonas.csproj",
       "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\EjTema11APIPersonas\\obj\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\EjTema11APIPersonas\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -25743,44 +25743,44 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj"
             },
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj"
             },
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj"
             },
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaBL\\CapaBL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj"
             },
-            "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Desktop\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }
