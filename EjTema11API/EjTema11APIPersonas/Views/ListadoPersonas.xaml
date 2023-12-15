@@ -48,7 +48,8 @@
 
         <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
 
-        <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
+        <ScrollView>
+            <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -66,7 +67,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
+        </ScrollView>
 
     </VerticalStackLayout>
 
