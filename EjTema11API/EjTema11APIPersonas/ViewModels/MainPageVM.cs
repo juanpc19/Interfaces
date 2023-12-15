@@ -48,7 +48,7 @@ namespace EjTema11API.ViewModels
         public ObservableCollection<clsPersona> ListaPersonas
         {
             get { return listaPersonas; } 
-            set { listaPersonas = value; NotifyPropertyChanged("ListaPersonas"); } 
+            private set { listaPersonas = value; NotifyPropertyChanged("ListaPersonas"); } 
         }
         
         public clsPersona PersonaSeleccionada

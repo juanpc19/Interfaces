@@ -57,4 +57,9 @@
 	  <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="ViewModels\" />
+	  <Folder Include="Views\" />
+	</ItemGroup>
+
 </Project>
