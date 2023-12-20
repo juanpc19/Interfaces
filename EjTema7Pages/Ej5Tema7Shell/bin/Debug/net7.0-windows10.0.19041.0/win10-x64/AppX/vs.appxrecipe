@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema7Pages\Ej5Tema7Shell\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-09T15:15:45.691</Modified>
+      <Modified>2023-12-20T16:31:38.057</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace EjTema11API.ViewModels
 {
     //mirar enlace https://blog.stephencleary.com/2013/01/async-oop-2-constructors.html
-    internal class MainPageVM : clsVMBase
+    public class MainPageVM : clsVMBase
     {
         //mas adelante mirar si puedo meter varios commands en uno con el commandParameter
         #region atributos

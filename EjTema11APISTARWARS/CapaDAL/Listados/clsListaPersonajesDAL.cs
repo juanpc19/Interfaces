@@ -9,5 +9,6 @@ namespace CapaDAL.Listados
     public class clsListaPersonajesDAL
     {
 
+
     }
 }

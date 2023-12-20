@@ -4,11 +4,40 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:EjTema11APISTARWARS"
+    xmlns:vistas="clr-namespace:EjTema11APISTARWARS.Views"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <!--da formato y fondo a al flyout-->
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+              HeightRequest="200">
+                <Image Aspect="AspectFill"
+                   Source="fondo.jpg"
+                   Opacity="0.6" />
+                <Label Text="Indice"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="Energias">
+
+        <ShellContent
+        Title="ListadoPersonajes"
+        ContentTemplate="{DataTemplate vistas:ListadoPersonajes}"
+        Route="ListadoPersonajes" />
+
+        <ShellContent
+        Title="DetallesPersonaje"
+        ContentTemplate="{DataTemplate vistas:DetallesPersonaje}"
+        Route="DetallesPersonaje" />
+
+
+    </FlyoutItem>
 
 </Shell>

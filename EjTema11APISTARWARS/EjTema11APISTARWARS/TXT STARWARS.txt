@@ -1,0 +1,78 @@
+CapaDAL
+	Listados:
+		clsListados
+			public async Task List<clsPersonajes> ListadoPersonajesDAL
+			public async Task <clsPersonaje> GetPersonajeByIdDAL
+			public async Task <string> ObtenerNombrePlanetaDAL(int idPlaneta)
+
+CapaBL
+	Listados:
+	public async Task clsListadoPersonajesBL
+	public async Task clsGetPersonajeByIdBL
+
+CapaEntidades
+	clsPersonaje
+	atributos...
+
+EjTema11APISTARWARS
+	ViewModels
+		clsListadoPersonajesVM
+			private ObservableCollection<clsPersonaje> listado
+			private clsPersonaje personajeSeleccionado
+			private DelegateCommand detallesCommand
+			public ObservableCollection<clsPersonaje> Listado {get;}
+			public clsPersonaje PersonajeSeleccionado {get; set;}
+			public DelegateCommand DetallesCommand {get;}
+		clsDetallesPersonajeVM
+			private clsPersonaje personaje
+			private string planetaPersonaje
+		
+	Views
+		ListadoPersonajes	
+		DetallesPersonaje
+
+
+
+en contructor recibe persona de detallesVM llamar a metodo asincrono obten nombre planeta de detallesVM
+
+listapersonas pasa personaseleccionada de listapersonasvm a vista detalles (con navegacion shell), vista detalles (pag) instancia vw de detallesvm y le pasa la persona recibida
+
+
+metodo complejo:
+detalles page tiene constructor con inicio
+
+y otro constructor con inicio y (recibe una persona) 
+creo objeto tipo detallesVM (sin instanciar)
+a este igualo el this.binding context aplicandole cast de detallesVM
+objeto.Persona=persona (aqui pasa datos de un ladoa  otro)
+
+metodo simple:
+pagina detalles inicia y recibe persona en navegacion shell
+da el binding context de = new detallesvm (persona)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

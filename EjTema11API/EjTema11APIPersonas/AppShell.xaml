@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:EjTema11APIPersonas"
     xmlns:vistas="clr-namespace:EjTema11APIPersonas.Views"
-    Shell.FlyoutBehavior="Flyout">
+    Shell.FlyoutBehavior="Disabled">
 
 
     <!--da formato y fondo a al flyout-->
@@ -25,12 +25,13 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <ShellContent
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="Energias">
+        <ShellContent
     Title="ListadoPersonas"
     ContentTemplate="{DataTemplate vistas:ListadoPersonas}"
     Route="ListadoPersonas" />
 
-    <!--<ShellContent
+        <!--<ShellContent
     Title="AddPersona"
     ContentTemplate="{DataTemplate vistas:AddPersona}"
     Route="AddPersona" />
@@ -45,12 +46,12 @@
     ContentTemplate="{DataTemplate vistas:DeletePersona}"
     Route="DeletePersona" />-->
 
-    <ShellContent
+        <ShellContent
     Title="ListadoDeps"
     ContentTemplate="{DataTemplate vistas:ListadoDeps}"
     Route="ListadoDeps" />
 
-    <!--<ShellContent
+        <!--<ShellContent
     Title="AddDep"
     ContentTemplate="{DataTemplate vistas:AddDep}"
     Route="AddDep" />
@@ -64,5 +65,5 @@
     Title="DeleteDep"
     ContentTemplate="{DataTemplate vistas:DeleteDep}"
     Route="DeleteDep" />-->
-
+    </FlyoutItem>
 </Shell>

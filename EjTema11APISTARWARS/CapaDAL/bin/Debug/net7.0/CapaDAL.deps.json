@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CapaDAL/1.0.0": {
+        "dependencies": {
+          "CapaEntidades": "1.0.0"
+        },
+        "runtime": {
+          "CapaDAL.dll": {}
+        }
+      },
+      "CapaEntidades/1.0.0": {
+        "runtime": {
+          "CapaEntidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CapaDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaEntidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
