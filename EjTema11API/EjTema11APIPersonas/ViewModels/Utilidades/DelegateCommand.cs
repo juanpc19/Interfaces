@@ -120,4 +120,42 @@ namespace EjTema11APIPersonas.ViewModels.Utilidades
 
         public event EventHandler CanExecuteChanged;
     }
+
+    /// <summary>
+    /// clase para poder usar comandos asincronos modifica el DelegateCommand original 
+    /// </summary>
+    public class DelegateCommandAsync : ICommand
+    {
+        private readonly Func<Task> _executeAsync;
+        private readonly Func<bool> _canExecute;
+
+        public DelegateCommandAsync(Func<Task> executeAsync) : this(executeAsync, null) { }
+
+        public DelegateCommandAsync(Func<Task> executeAsync, Func<bool> canExecute)
+        {
+            _executeAsync = executeAsync ?? throw new ArgumentNullException(nameof(executeAsync));
+            _canExecute = canExecute;
+        }
+
+        public event EventHandler CanExecuteChanged;
+
+        public void RaiseCanExecuteChanged()
+        {
+            var handler = CanExecuteChanged;
+            handler?.Invoke(this, EventArgs.Empty);
+        }
+
+        public bool CanExecute(object parameter)
+        {
+            return _canExecute?.Invoke() ?? true;
+        }
+
+        public async void Execute(object parameter)
+        {
+            if (CanExecute(parameter))
+            {
+                await _executeAsync();
+            }
+        }
+    }
 }

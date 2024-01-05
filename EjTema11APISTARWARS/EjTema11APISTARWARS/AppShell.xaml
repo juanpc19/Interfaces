@@ -25,7 +25,7 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
 
-    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="Energias">
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Title="jodaweee">
 
         <ShellContent
         Title="ListadoPersonajes"

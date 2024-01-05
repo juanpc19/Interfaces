@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.AddPersona"
-             xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
+             xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
              Title="AddPersona">
    
         <ContentPage.BindingContext>
-            <Qnmv:MainPageVM/>
+            <Qnmv:ListadoPersonasVM/>
         </ContentPage.BindingContext>
             
         <VerticalStackLayout>

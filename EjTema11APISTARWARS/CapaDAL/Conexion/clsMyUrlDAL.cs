@@ -30,7 +30,7 @@ namespace CapaDAL.Conexion
         public string Url { 
             get { return url; } 
         }
-        #endregion
+        #endregion     
 
     }
 

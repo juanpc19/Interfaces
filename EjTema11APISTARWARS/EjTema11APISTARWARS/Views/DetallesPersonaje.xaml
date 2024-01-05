@@ -5,10 +5,10 @@
              Title="DetallesPersonaje">
     
     <VerticalStackLayout>
-        
-        <Label  />
-        <Label  />
-        <Label  />
+
+        <Label Text="{Binding Personaje.Name}"/>
+        <Label Text="{Binding Personaje.Gender}" />
+        <Label Text="{Binding Planeta}" />
         
     </VerticalStackLayout>
     

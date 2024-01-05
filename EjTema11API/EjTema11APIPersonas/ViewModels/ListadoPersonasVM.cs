@@ -2,6 +2,7 @@
 using CapaBL.Listados;
 using CapaEntidades;
 using EjTema11APIPersonas.ViewModels.Utilidades;
+using EjTema11APIPersonas.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,33 +10,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjTema11API.ViewModels
+namespace EjTema11APIPersonas.ViewModels
 {
     //mirar enlace https://blog.stephencleary.com/2013/01/async-oop-2-constructors.html
-    public class MainPageVM : clsVMBase
+    public class ListadoPersonasVM : clsVMBase
     {
-        //mas adelante mirar si puedo meter varios commands en uno con el commandParameter
+
         #region atributos
         private bool visibilidadCarga;
         private ObservableCollection<clsPersona> listaPersonas;
         private clsPersona personaSeleccionada; //
         private string barraBusqueda; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommand buscarCommand; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommand eliminarCommand; //hara navegacion vista eliminar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommand editarCommand; //hara navegacion vista editar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommand crearCommand; //hara navegacion vista crear y mostrara modelo de persona a rellenar con entrys
+        private DelegateCommandAsync buscarCommand; //adaptar lo de ej 1 tema 10 de busqueda aqui
+        private DelegateCommandAsync eliminarCommand; //hara navegacion vista eliminar y mostrara persona con cierto id hara uso de metodo getById de api
+        private DelegateCommandAsync editarCommand; //hara navegacion vista editar y mostrara persona con cierto id hara uso de metodo getById de api
+        private DelegateCommandAsync crearCommand; //hara navegacion vista crear y mostrara modelo de persona a rellenar con entrys
         #endregion
 
         #region constructores
-        public MainPageVM()
+        public ListadoPersonasVM()
         {
-            
-            RecogerListadoBL();
-            
-            // buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
-            eliminarCommand = new DelegateCommand(eliminarCommandExecute);
-            editarCommand = new DelegateCommand(editarCommandExecute);
-            crearCommand = new DelegateCommand(crearCommandExecute);
+
+            RecogerListadoPersonasBL();//da valor a lista a traves de set privado
+
+            buscarCommand = new DelegateCommandAsync(BuscarCommandExecute, BuscarCommandCanExecute);
+            eliminarCommand = new DelegateCommandAsync(EliminarCommandExecute, EliminarCommandCanExecute);
+            editarCommand = new DelegateCommandAsync(EditarCommandExecute, EditarCommandCanExecute);
+            crearCommand = new DelegateCommandAsync(CrearCommandExecute);
         }
         #endregion
 
@@ -43,14 +44,15 @@ namespace EjTema11API.ViewModels
 
         public bool VisibilidadCarga
         {
-            get { return visibilidadCarga; } set { visibilidadCarga = value; NotifyPropertyChanged("VisibilidadCarga"); }
+            get { return visibilidadCarga; }
+            set { visibilidadCarga = value; NotifyPropertyChanged("VisibilidadCarga"); }
         }
         public ObservableCollection<clsPersona> ListaPersonas
         {
-            get { return listaPersonas; } 
-            private set { listaPersonas = value; NotifyPropertyChanged("ListaPersonas"); } 
+            get { return listaPersonas; }
+            private set { listaPersonas = value; NotifyPropertyChanged("ListaPersonas"); }
         }
-        
+
         public clsPersona PersonaSeleccionada
         {
             get { return personaSeleccionada; }
@@ -60,19 +62,21 @@ namespace EjTema11API.ViewModels
                 personaSeleccionada = value;
                 //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en personaSeleccionada
                 eliminarCommand.RaiseCanExecuteChanged();
+                editarCommand.RaiseCanExecuteChanged();
+                crearCommand.RaiseCanExecuteChanged();              
             }
         }
 
-        public DelegateCommand BuscarCommand
+        public DelegateCommandAsync BuscarCommand
         { get { return buscarCommand; } }
 
-        public DelegateCommand EliminarCommand
+        public DelegateCommandAsync EliminarCommand
         { get { return eliminarCommand; } }
 
-        public DelegateCommand EditarCommand
+        public DelegateCommandAsync EditarCommand
         { get { return editarCommand; } }
 
-        public DelegateCommand CrearCommand
+        public DelegateCommandAsync CrearCommand
         { get { return crearCommand; } }
 
         public string BarraBusqueda
@@ -82,31 +86,52 @@ namespace EjTema11API.ViewModels
             set
             {
                 barraBusqueda = value;
+                NotifyPropertyChanged("BarraBusqueda");
                 //si nuevo valor es null o vacio
                 if (string.IsNullOrEmpty(barraBusqueda))
                 {
                     //restablezco lista original
-                   // restablecerListaBusqueda();
+                    // restablecerListaBusqueda();
                 }
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
-               // buscarCommand.RaiseCanExecuteChanged();
+                buscarCommand.RaiseCanExecuteChanged();
             }
         }
         #endregion
 
         //metodos para los comandos
         #region comandos
-        public async void eliminarCommandExecute()
+        public bool EliminarCommandCanExecute()
         {
-           
+            bool ejecutar = false;
+            if (personaSeleccionada != null)
+            {
+                ejecutar = true;
+            }
+            return ejecutar;
         }
 
-        public async void editarCommandExecute()
+        public async Task EliminarCommandExecute()
         {
 
         }
 
-        public async void crearCommandExecute()
+        public bool EditarCommandCanExecute()
+        {
+            bool ejecutar = false;
+            if (personaSeleccionada != null)
+            {
+                ejecutar = true;
+            }
+            return ejecutar;
+        }
+
+        public async Task EditarCommandExecute()
+        {
+            await Shell.Current.Navigation.PushAsync(new EditPersona(personaSeleccionada));
+        }
+
+        public async Task CrearCommandExecute()
         {
 
         }
@@ -115,14 +140,19 @@ namespace EjTema11API.ViewModels
         /// comprueba si puede ejecutar comando buscar 
         /// </summary>
         /// <returns>devuelve bool</returns>
-        public bool buscarCommandCanExecute()
+        public bool BuscarCommandCanExecute()
         {
-            bool habilitadoBuscar = false;
+            bool ejecutar = false;
             if (!string.IsNullOrEmpty(barraBusqueda))
             {
-                habilitadoBuscar = true;
+                ejecutar = true;
             }
-            return habilitadoBuscar;
+            return ejecutar;
+        }
+
+        public async Task BuscarCommandExecute()
+        {
+
         }
 
         /// <summary>
@@ -162,19 +192,19 @@ namespace EjTema11API.ViewModels
 
 
         #region metodos
-        private async Task RecogerListadoBL()
+        private async Task RecogerListadoPersonasBL()
         {
             try
             {
                 VisibilidadCarga = true;
                 clsListaPersonasBL oBl = new clsListaPersonasBL();
-                List<clsPersona> listaAuxiliar = await oBl.listadoPersonasBL();
+                List<clsPersona> listaAuxiliar = await oBl.ListadoPersonasBL();
                 ListaPersonas = new ObservableCollection<clsPersona>(listaAuxiliar);
                 VisibilidadCarga = false;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error en funcion RecogerListado(): {ex.Message}");
+                Console.WriteLine($"Error en funcion RecogerListadoPersonasBL(): {ex.Message}");
             }
         }
 
@@ -194,7 +224,7 @@ namespace EjTema11API.ViewModels
         //    }
         //}
 
-      
+
         #endregion
 
     }

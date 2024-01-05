@@ -6,7 +6,7 @@
 
     <Grid BackgroundColor="Teal">
         <Grid.RowDefinitions>
-            
+
             <RowDefinition Height="3*"/>
             <RowDefinition Height="13*"/>
 
@@ -27,22 +27,22 @@
 
             </Grid>
         </Frame>
-        
+
         <ScrollView Grid.Row="1" >
-       
+
             <!---itemselected funciona como click en boton, va a pag detalles pasando cita (pasar cita complejo hacer al final si da tiempo, de momento placeholder)-->
             <ListView x:Name="ListadoDeCitas" ItemSelected="Detalles" RowHeight="150" SeparatorVisibility="None" Margin="20">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    
-                    <ViewCell>
-                        
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                        <ViewCell>
+
                             <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60" >
-                                
+
                                 <Grid BackgroundColor="DarkSlateBlue">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
 
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="3*" />
@@ -67,18 +67,18 @@
                                         <Label Text="{Binding Telefono}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
                                         <Label Text="{Binding Direccion}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"  />
                                     </VerticalStackLayout>
-                          
+
                                     <Label Grid.Column="2" Text="{Binding Observaciones}" FontSize="Medium" Background="DarkSlateBlue" TextColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="2" />
 
-                            </Grid>
-                                
+                                </Grid>
+
                             </Frame>
 
                         </ViewCell>
-                    
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </ScrollView>
     </Grid>
 

@@ -2,73 +2,97 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.ListadoPersonas"
-             xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
-             Title="">
+             xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
+             Title="ListadoPersonas">
 
     <ContentPage.BindingContext>
-        <Qnmv:MainPageVM/>
+        <Qnmv:ListadoPersonasVM />
     </ContentPage.BindingContext>
 
-    <ContentPage.MenuBarItems>
-        <MenuBarItem Text="Empleado">
-            <MenuFlyoutItem IconImageSource="crear.png" Text="Crear" Command="{Binding CrearCommand}"/>
-            <MenuFlyoutItem IconImageSource="editar.png" Text="Editar" Command="{Binding EditarCommand}" />
-            <MenuFlyoutItem IconImageSource="eliminar.png" Text="Eliminar" Command="{Binding EliminarCommand}" />
-        </MenuBarItem>
-    </ContentPage.MenuBarItems>
-
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="crear.png" Command="{Binding CrearCommand}"/>
-        <ToolbarItem IconImageSource="editar.png" Command="{Binding EditarCommand}"/>
-        <ToolbarItem IconImageSource="eliminar.png" Command="{Binding EliminarCommand}"/>
+        <ToolbarItem IconImageSource="crear.png"
+                     Command="{Binding CrearCommand}" />
+        <ToolbarItem IconImageSource="editar.png" 
+                     Command="{Binding EditarCommand}" />
+        <ToolbarItem IconImageSource="eliminar.png"
+                     Command="{Binding EliminarCommand}" />
     </ContentPage.ToolbarItems>
 
-    <VerticalStackLayout Spacing="10" Padding="10">
+    <Grid >
+        <Grid.RowDefinitions>
 
-        <Frame BackgroundColor="DarkSlateBlue" BorderColor="Orange" CornerRadius="60">
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="15*" />
 
-            <HorizontalStackLayout Spacing="20" Padding="10" HorizontalOptions="Center">
+        </Grid.RowDefinitions>
+  
+        <Frame BackgroundColor="DarkSlateBlue" Grid.Row="0"
+               BorderColor="Orange"
+               CornerRadius="60"
+               Margin="5">
 
-                <Entry Text="{Binding BarraBusqueda}" TextColor="Black" BackgroundColor="White"  HorizontalOptions="Center" VerticalOptions="Center" MinimumWidthRequest="300" />
+            <HorizontalStackLayout Spacing="20"
+                                   Padding="10"
+                                   HorizontalOptions="Center">
 
-                <ImageButton Source="buscar.png" 
-              BackgroundColor="White" 
-              BorderColor="Orange" 
-              BorderWidth="2"
-              CornerRadius="25"
-              WidthRequest="50"
-              HeightRequest="50"
-              Aspect="Center"
-              Command="{Binding BuscarCommand}"
-              HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Entry Text="{Binding BarraBusqueda}"
+                       TextColor="Black"
+                       BackgroundColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       MinimumWidthRequest="300" />
+
+                <ImageButton Source="buscar.png"
+                             BackgroundColor="White"
+                             BorderColor="Orange"
+                             BorderWidth="2"
+                             CornerRadius="25"
+                             WidthRequest="50"
+                             HeightRequest="50"
+                             Aspect="Center"
+                             Command="{Binding BuscarCommand}"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
 
             </HorizontalStackLayout>
 
         </Frame>
 
-        <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
+        <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
+                           IsVisible="{Binding VisibilidadCarga}" />
 
-        <ScrollView>
-            <ListView ItemsSource="{Binding ListaPersonas}" SelectedItem="{Binding PersonaSeleccionada}" RowHeight="100">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+        <ScrollView  Grid.Row="1">
+            <ListView ItemsSource="{Binding ListaPersonas}"
+                      SelectedItem="{Binding PersonaSeleccionada}"
+                      RowHeight="100">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="Orange"
+                                   BackgroundColor="DarkSlateBlue"
+                                   CornerRadius="60">
 
-                                <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
-                                    <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center"></Label>
-                                    <Label Text="{Binding Apellidos}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                                    <Label Text="{Binding Direccion}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                                    <Image Source="{Binding Foto}" ></Image>
+                                <HorizontalStackLayout Spacing="30"
+                                                       HorizontalOptions="Start">
+                                    <Label Text="{Binding Nombre}"
+                                           TextColor="White"
+                                           VerticalTextAlignment="Center"></Label>
+                                    <Label Text="{Binding Apellidos}"
+                                           TextColor="White"
+                                           VerticalTextAlignment="Center"></Label>
+                                    <Label Text="{Binding Direccion}"
+                                           TextColor="White"
+                                           VerticalTextAlignment="Center"></Label>
+                                    <Image Source="{Binding Foto}"></Image>
                                 </HorizontalStackLayout>
 
-                        </Frame>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </ScrollView>
 
-    </VerticalStackLayout>
+    </Grid>
 
 </ContentPage>

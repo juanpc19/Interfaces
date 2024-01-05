@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fczqXipZCyJeTKAHmm5Vgx/gCXlewKCC6ZmbFKEGVGTS4nXwsECVgSbdfEQ2LFz22sJkgbJXFmQlot9iasmZoQ==",
+  "dgSpecHash": "SSJN7T+rngmXYAiJvfY0p5k4pqAUzaC29iux6wgI+73nu6Te3fDonZGrCPIOsXzSassIRptbVLiFdlyrGU6DkQ==",
   "success": true,
   "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\juanp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

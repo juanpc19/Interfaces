@@ -2,29 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APISTARWARS.Views.ListadoPersonajes"
-             Title="ListadoPersonajes">
-    
-    <VerticalStackLayout>
+             Title="ListadoPersonajes"
+             xmlns:qnmv="clr-namespace:EjTema11APISTARWARS.ViewModels">
 
-        <HorizontalStackLayout HorizontalOptions="Center">
-            
-            <Entry MinimumWidthRequest="150"/>
-            <ImageButton/>
-            
+    <ContentPage.BindingContext>
+        <qnmv:ListadoPersonajesVM/>
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout Spacing="20" Margin="10">
+
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+            <ImageButton Source="detalles.png" Command="{Binding DetallesCommand}" HorizontalOptions="Center"
+                BackgroundColor="White" 
+                BorderColor="Orange" 
+                BorderWidth="2"
+                CornerRadius="25"
+                WidthRequest="50"
+                HeightRequest="50"
+                Aspect="Center"/>
+            <Entry MinimumWidthRequest="200"/>
+            <ImageButton Source="buscar.png" Command="{Binding BuscarCommand}" HorizontalOptions="Center"
+                BackgroundColor="White" 
+                BorderColor="Orange" 
+                BorderWidth="2"
+                CornerRadius="25"
+                WidthRequest="50"
+                HeightRequest="50"
+                Aspect="Center"/>
         </HorizontalStackLayout>
 
-        <ImageButton/>
+        <ScrollView>
+            <ListView ItemsSource="{Binding ListadoPersonajes}" SelectedItem="{Binding PersonajeSeleccionado}" RowHeight="100"  >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
 
-        <ListView>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        
+                            <Label Text="{Binding Name}" VerticalOptions="Center" />
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
     </VerticalStackLayout>
     
 </ContentPage>

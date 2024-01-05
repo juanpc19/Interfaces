@@ -1,0 +1,85 @@
+CapaDAL
+	Conexion
+		clsMyUrlDAL
+			
+	
+	Listados
+		clsListaPersonasDAL
+			public async Task List<<clsPersona>> ListadoPersonasDAL()//get
+			public async Task <clsPersona> ObtenerPersonaPorIdDAL(string nombre)//get<id>
+			
+		clsListaDepsDAL
+			public async Task List<<clsDepartamento>> ListadoDepsDAL()//get
+			public async Task <string> ObtenerNombreDepDAL(int id)//get<id>
+
+	Manejadoras
+		clsManejadoraPersonaDAL
+			public async Task<HttpStatusCode> EditarPersonaDAL(clsPersona persona)//put
+			public async Task<HttpStatusCode> BorrarPersonaDAL(int id)//delete
+			public async Task<HttpStatusCode> CrearPersonaDAL(clsPersona persona)//post
+
+		clsManejadoraDepDAL
+			public async Task<HttpStatusCode> EditarDepartamentoDAL(clsPersona persona)//put
+			public async Task<HttpStatusCode> BorrarDepartamentoDAL(int id)//delete
+			public async Task<HttpStatusCode> CrearDepartamentoDAL(clsPersona persona)//post
+
+		
+
+CapaBL
+		Listados
+		clsListaPersonasBL
+			public async Task List<<clsPersona>> ListadoPersonasBL()//get
+			public async Task <clsPersona> ObtenerPersonaPorIdBL(string nombre)//get<id>
+			
+		clsListaDepsBL
+			public async Task List<<clsDepartamento>> ListadoDepsBL()//get
+			public async Task <string> ObtenerNombreDepBL(int id)//get<id>
+
+	Manejadoras
+		clsManejadoraPersonaBL
+			public async Task<HttpStatusCode> EditarPersonaBL(clsPersona persona)//put
+			public async Task<HttpStatusCode> BorrarPersonaBL(int id)//delete
+			public async Task<HttpStatusCode> CrearPersonaBL(clsPersona persona)//post
+
+		clsManejadoraDepBL
+			public async Task<HttpStatusCode> EditarDepartamentoBL(clsPersona persona)//put
+			public async Task<HttpStatusCode> BorrarDepartamentoBL(int id)//delete
+			public async Task<HttpStatusCode> CrearDepartamentoBL(clsPersona persona)//post
+
+CapaEntidades
+	clsPersona
+		atributos...
+	clsDepartamento
+		atributos...
+
+UI(EjTema11APIPersonas)
+
+		ListadoPersonasVM
+			private bool visibilidadCarga;
+			private ObservableCollection<clsPersona> listaPersonas;
+			private clsPersona personaSeleccionada; 
+			private string barraBusqueda;  
+			private DelegateCommandAsync buscarCommand; 
+			private DelegateCommandAsync eliminarCommand; 
+			private DelegateCommandAsync editarCommand; 
+			private DelegateCommandAsync crearCommand; 
+			//contara con metodo asincrono que dara valor a listaPersonas en el constructor
+
+		ListadoDepsVM
+			private bool visibilidadCarga;
+			private ObservableCollection<clsDepartamento> listaDeps;
+			private clsDepartamento departamentoSeleccionado; 
+			private string barraBusqueda;  
+			private DelegateCommandAsync buscarCommand; 
+			private DelegateCommandAsync eliminarCommand; 
+			private DelegateCommandAsync editarCommand; 
+			private DelegateCommandAsync crearCommand; 
+			//contara con metodo asincrono que dara valor a listaDeps en el constructor
+
+		//para borrar persona necesito VM con clsPersona y un command (1 VM)
+		//para editar y para crear necesito VM que contenga persona, listaDeps, depSeleccionado y command (2 VM 1 para cada tipo command)
+
+		//para borrar, editar y crear departamento necesito VM con clsDepartamento y un command (3 VM 1 para cada tipo command)
+
+
+		

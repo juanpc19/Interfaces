@@ -15,7 +15,7 @@ namespace CapaDAL.Listados
             /// funcion que devolvera un listado de personas extraido de una API
             /// </summary>
             /// <returns></returns>
-            public async Task<List<clsPersona>> listadoPersonasDAL()
+            public async Task<List<clsPersona>> ListadoPersonasDAL()
             {
                 List<clsPersona> listado = new List<clsPersona>();//lista para guardar personas
 

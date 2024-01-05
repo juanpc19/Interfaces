@@ -2,50 +2,113 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.EditPersona"
-             xmlns:Qnmv="clr-namespace:EjTema11API.ViewModels"
+             xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
              Title="EditPersona">
 
-    <ContentPage.BindingContext>
-        <Qnmv:MainPageVM/>
-    </ContentPage.BindingContext>
-    <VerticalStackLayout>
-        
-        <Entry 
-    Text="{Binding PersonaSeleccionada.Nombre}"
-    VerticalOptions="Center" 
-    HorizontalOptions="Center" />
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
 
-        <Entry 
-     Text="{Binding PersonaSeleccionada.Apellidos}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
-        
-        <Entry 
-     Text="{Binding PersonaSeleccionada.FechaNac}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
-        
-        <Entry 
-     Text="{Binding PersonaSeleccionada.Direccion}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
-        
-        <Entry 
-     Text="{Binding PersonaSeleccionada.Telefono}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
-        
-        <Entry 
-     Text="{Binding PersonaSeleccionada.Foto}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
+        <VerticalStackLayout Grid.Column="0">
 
-        <Entry 
-     Text="{Binding PersonaSeleccionada.IdDepartamento}"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center" />
+            <Label Text="{Binding Persona.Id}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
 
-        
-        
-    </VerticalStackLayout>
+            <Entry Text="{Binding Persona.Nombre}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Entry Text="{Binding Persona.Apellidos}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Entry Text="{Binding Persona.Telefono}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Entry Text="{Binding Persona.Direccion}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Entry Text="{Binding Persona.Foto}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <DatePicker Date="{Binding Persona.FechaNac}"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center" />
+
+            <Label Text="{Binding Persona.IdDepartamento}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+
+            <Picker ItemsSource="{Binding ListaDepartamentos}"
+                    ItemDisplayBinding="{Binding Nombre}"
+                    SelectedItem="{Binding DepartamentoSeleccionado}"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center" />
+
+            <Button Text="Guardar cambios"
+                    Command="{Binding EditCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+            
+            <!--<ImageButton Source="buscar.png"
+                         BackgroundColor="White"
+                         BorderColor="Orange"
+                         BorderWidth="2"
+                         CornerRadius="25"
+                         WidthRequest="50"
+                         HeightRequest="50"
+                         Aspect="Center"
+                         Command="{Binding EditCommand}"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center" />-->
+
+        </VerticalStackLayout>
+
+        <!--<Frame Grid.Column="1" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Seleccione uno de los departamentos de la lista:"
+                       Grid.Row="0" />
+
+                <ScrollView Grid.Row="1">
+                    <ListView ItemsSource="{Binding ListaDepartamentos}"
+                              SelectedItem="{Binding DepartamentoSeleccionado}"
+                              RowHeight="100">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame BorderColor="Orange"
+                                           BackgroundColor="DarkSlateBlue"
+                                           CornerRadius="60">
+
+                                        <HorizontalStackLayout Spacing="30"
+                                                               HorizontalOptions="Start">
+                                            <Label Text="{Binding Id}"
+                                                   TextColor="White"
+                                                   VerticalTextAlignment="Center"></Label>
+                                            <Label Text="{Binding Nombre}"
+                                                   TextColor="White"
+                                                   VerticalTextAlignment="Center"></Label>
+                                        </HorizontalStackLayout>
+
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </Grid>
+        </Frame>-->
+
+    </Grid>
 </ContentPage>

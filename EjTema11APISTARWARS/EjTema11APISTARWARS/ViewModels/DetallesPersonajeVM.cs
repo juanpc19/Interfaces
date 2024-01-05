@@ -10,15 +10,13 @@ namespace EjTema11APISTARWARS.ViewModels
 {
     public class DetallesPersonajeVM : clsVMBase 
     {
-        //atributos clase personaje y string planeta 
-        //planeta obtenido de dal buscar planeta por id de personaje
+       
         #region atributos
         private clsPersonaje personaje;
         private string planeta;
         #endregion
 
         #region constructores
-
         public DetallesPersonajeVM()
         {
             this.personaje = new clsPersonaje();
@@ -38,7 +36,7 @@ namespace EjTema11APISTARWARS.ViewModels
             {
                 return personaje;
             }
-            set
+            private set //privado porque no se va a modificar en este ejercicio y prefiero tenerlo ya escrito
             {
                 personaje = value;
                 NotifyPropertyChanged("Personaje");
@@ -51,15 +49,15 @@ namespace EjTema11APISTARWARS.ViewModels
             {
                 return planeta;
             }
-            set
+            private set //privado porque no se va a modificar en este ejercicio y prefiero tenerlo ya escrito
             {
                 planeta = value;
                 NotifyPropertyChanged("Planeta");
             }
-        }   
-
-
+        }
         #endregion
+
+    
 
 
     }

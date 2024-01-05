@@ -1,8 +1,8 @@
 CapaDAL
 	Listados:
 		clsListados
-			public async Task List<clsPersonajes> ListadoPersonajesDAL
-			public async Task <clsPersonaje> GetPersonajeByIdDAL
+			public async Task List<<clsPersonaje>> ListadoPersonajesDAL()
+			public async Task <clsPersonaje> GetPersonajeByIdDAL(string nombre)
 			public async Task <string> ObtenerNombrePlanetaDAL(int idPlaneta)
 
 CapaBL
@@ -17,7 +17,7 @@ CapaEntidades
 EjTema11APISTARWARS
 	ViewModels
 		clsListadoPersonajesVM
-			private ObservableCollection<clsPersonaje> listado
+				private ObservableCollection<clsPersonaje> listado
 			private clsPersonaje personajeSeleccionado
 			private DelegateCommand detallesCommand
 			public ObservableCollection<clsPersonaje> Listado {get;}

@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-20T16:33:15.612</Modified>
+      <Modified>2024-01-05T20:58:54.319</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-20T16:33:15.440</Modified>
+      <Modified>2024-01-05T20:58:54.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.runtimeconfig.json">
       <PackagePath>EjTema11APIPersonas.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.dll">
       <PackagePath>EjTema11APIPersonas.dll</PackagePath>
-      <Modified>2023-12-20T16:33:14.669</Modified>
+      <Modified>2024-01-05T20:58:53.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema11APIPersonas.exe</PackagePath>
-      <Modified>2023-12-20T16:33:14.673</Modified>
+      <Modified>2024-01-05T20:58:53.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.deps.json">
       <PackagePath>EjTema11APIPersonas.deps.json</PackagePath>
@@ -927,15 +927,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.dll">
       <PackagePath>CapaBL.dll</PackagePath>
-      <Modified>2023-12-20T16:30:29.667</Modified>
+      <Modified>2024-01-04T16:01:53.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.dll">
       <PackagePath>CapaDAL.dll</PackagePath>
-      <Modified>2023-12-20T16:30:29.353</Modified>
+      <Modified>2024-01-04T16:01:53.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll">
       <PackagePath>CapaEntidades.dll</PackagePath>
-      <Modified>2023-12-20T16:30:29.019</Modified>
+      <Modified>2024-01-04T16:01:52.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
