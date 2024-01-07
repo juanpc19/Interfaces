@@ -18,14 +18,14 @@ namespace CapaEntidades
         #region constructores
         public clsPersona()
         {     
-            id= 1;
+            id= 0;
             nombre = "";
             apellidos = "";
             telefono = "";
             direccion = "";
             foto = "";
             fechaNac = DateTime.Now;
-            idDepartamento= 1;
+            idDepartamento= 0;
             
         }
 
@@ -99,8 +99,6 @@ namespace CapaEntidades
             get { return idDepartamento; }
             set { idDepartamento = value; }
         }
-
-       
 		#endregion
 
 		#region funciones

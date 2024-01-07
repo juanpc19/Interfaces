@@ -19,12 +19,12 @@ namespace EjTema11APIPersonas.ViewModels
         #region atributos
         private bool visibilidadCarga;
         private ObservableCollection<clsPersona> listaPersonas;
-        private clsPersona personaSeleccionada; //
+        private clsPersona personaSeleccionada; 
         private string barraBusqueda; //adaptar lo de ej 1 tema 10 de busqueda aqui
         private DelegateCommandAsync buscarCommand; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommandAsync eliminarCommand; //hara navegacion vista eliminar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommandAsync editarCommand; //hara navegacion vista editar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommandAsync crearCommand; //hara navegacion vista crear y mostrara modelo de persona a rellenar con entrys
+        private DelegateCommandAsync eliminarCommand; 
+        private DelegateCommandAsync editarCommand; 
+        private DelegateCommandAsync crearCommand; 
         #endregion
 
         #region constructores
@@ -60,7 +60,7 @@ namespace EjTema11APIPersonas.ViewModels
             set
             {
                 personaSeleccionada = value;
-                //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en personaSeleccionada
+                
                 eliminarCommand.RaiseCanExecuteChanged();
                 editarCommand.RaiseCanExecuteChanged();
                 crearCommand.RaiseCanExecuteChanged();              
@@ -113,7 +113,7 @@ namespace EjTema11APIPersonas.ViewModels
 
         public async Task EliminarCommandExecute()
         {
-
+            await Shell.Current.Navigation.PushAsync(new DeletePersona(personaSeleccionada));
         }
 
         public bool EditarCommandCanExecute()
@@ -133,7 +133,7 @@ namespace EjTema11APIPersonas.ViewModels
 
         public async Task CrearCommandExecute()
         {
-
+            await Shell.Current.Navigation.PushAsync(new AddPersona());
         }
 
         /// <summary>

@@ -1,6 +1,8 @@
 ﻿using CapaBL.Listados;
+using CapaBL.Manejadoras;
 using CapaEntidades;
 using EjTema11APIPersonas.ViewModels.Utilidades;
+using EjTema11APIPersonas.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -27,8 +29,7 @@ namespace EjTema11APIPersonas.ViewModels
         }
         #endregion
 
-        #region propiedades
-        //persona y dep seleccionado set publico si puede ser hacer privado o eliminar
+        #region propiedades     
         public clsPersona Persona { get { return persona; } set { persona = value; } }
         public ObservableCollection<clsDepartamento> ListaDepartamentos { get { return listaDepartamentos; } private set { listaDepartamentos = value; NotifyPropertyChanged("ListaDepartamentos"); } }
         public clsDepartamento DepartamentoSeleccionado { get { return departamentoSeleccionado; } set { departamentoSeleccionado = value; editCommand.RaiseCanExecuteChanged(); }  }
@@ -39,7 +40,11 @@ namespace EjTema11APIPersonas.ViewModels
         #endregion
 
         #region comandos
-        public bool EditCommandCanExecute()
+        /// <summary>
+        /// funcion que comprueba si se puede ejecutar el comando de editar
+        /// </summary>
+        /// <returns></returns>
+        private bool EditCommandCanExecute()
         {
             bool ejecutable=false;
             if (departamentoSeleccionado != null)
@@ -50,15 +55,25 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutable;
         }
 
-        public async Task EditCommandExecute()
+        /// <summary>
+        /// comando que enviara la persona editada a la api
+        /// </summary>
+        /// <returns></returns>
+        private async Task EditCommandExecute()
         {
-            await Shell.Current.Navigation.PopAsync();
-            // idDep de persona = id de depseleccionado 
-            // enviar persona a api
+            persona.IdDepartamento = departamentoSeleccionado.Id;//machaco idDep de persona con id de departamentoSeleccionado
+            clsManejadoraPersonaBL oBl = new clsManejadoraPersonaBL();
+
+            await oBl.EditarPersonaBL(persona); //llamo al metodo editar de la bl y le paso la persona editada no veo uso para el codigo devuelto      
+            await Shell.Current.Navigation.PushAsync(new ListadoPersonas());//navego de vuelta al listado de personas
         }
         #endregion
 
         #region metodos
+        /// <summary>
+        /// funcion que recoge el listado de departamentos de la api, sera usado en constructor
+        /// </summary>
+        /// <returns></returns>
         private async Task RecogerListadoDepsBL()
         {
             try

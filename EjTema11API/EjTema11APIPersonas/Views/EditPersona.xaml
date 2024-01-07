@@ -2,72 +2,82 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.EditPersona"
-             xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
              Title="EditPersona">
 
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*" />
-            <ColumnDefinition Width="2*" />
-        </Grid.ColumnDefinitions>
+     
+        <VerticalStackLayout HorizontalOptions="Center">
 
-        <VerticalStackLayout Grid.Column="0">
+            <HorizontalStackLayout>
+                <Label Text="Id: "
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Id}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Label Text="{Binding Persona.Id}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Nombre: "
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Nombre}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Entry Text="{Binding Persona.Nombre}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Apellidos: "
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Apellidos}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Entry Text="{Binding Persona.Apellidos}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Telefono: "
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Telefono}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Entry Text="{Binding Persona.Telefono}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Direccion:"
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Direccion}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Entry Text="{Binding Persona.Direccion}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Foto: "
+                       VerticalOptions="Center" />
+                <Entry Text="{Binding Persona.Foto}"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <Entry Text="{Binding Persona.Foto}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Fecha de Nacimiento: "
+                       VerticalOptions="Center" />
+                <DatePicker Date="{Binding Persona.FechaNac}"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
-            <DatePicker Date="{Binding Persona.FechaNac}"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Center" />
-
-            <Label Text="{Binding Persona.IdDepartamento}"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center" />
-
-            <Picker ItemsSource="{Binding ListaDepartamentos}"
-                    ItemDisplayBinding="{Binding Nombre}"
-                    SelectedItem="{Binding DepartamentoSeleccionado}"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center" />
+            <HorizontalStackLayout>
+                <Label Text="Departamento: "
+                       VerticalOptions="Center" />
+                <Picker ItemsSource="{Binding ListaDepartamentos}"
+                        ItemDisplayBinding="{Binding Nombre}"
+                        SelectedItem="{Binding DepartamentoSeleccionado}"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand" />
+            </HorizontalStackLayout>
 
             <Button Text="Guardar cambios"
                     Command="{Binding EditCommand}"
                     WidthRequest="150"
                     HeightRequest="50" />
             
-            <!--<ImageButton Source="buscar.png"
-                         BackgroundColor="White"
-                         BorderColor="Orange"
-                         BorderWidth="2"
-                         CornerRadius="25"
-                         WidthRequest="50"
-                         HeightRequest="50"
-                         Aspect="Center"
-                         Command="{Binding EditCommand}"
-                         HorizontalOptions="Center"
-                         VerticalOptions="Center" />-->
-
         </VerticalStackLayout>
 
         <!--<Frame Grid.Column="1" >
@@ -110,5 +120,4 @@
             </Grid>
         </Frame>-->
 
-    </Grid>
 </ContentPage>
