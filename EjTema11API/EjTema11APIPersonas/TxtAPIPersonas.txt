@@ -82,4 +82,22 @@ UI(EjTema11APIPersonas)
 		//para borrar, editar y crear departamento necesito VM con clsDepartamento y un command (3 VM 1 para cada tipo command)
 
 
-		
+		private async void DetailsCommand_Executed()
+{
+    // Creamos una instancia del ViewModel de detalles y le pasamos el personaje seleccionado
+    clsDetailsPageVM detailsViewModel = new clsDetailsPageVM(PersonajeSeleccionado);
+
+    // Creamos la página de detalles y le asignamos su ViewModel
+    DetailsPageVM detailsPage = new DetailsPageVM();
+    detailsPage.BindingContext = detailsViewModel;
+
+    // Navegamos a la página de detalles pasando el personaje seleccionado
+    await App.Current.MainPage.Navigation.PushModalAsync(detailsPage);
+}
+
+
+public clsDetailsPageVM(clsPersonaje personaje)
+{
+    _personaje = personaje;
+    ObtenerNombrePlaneta();
+}
