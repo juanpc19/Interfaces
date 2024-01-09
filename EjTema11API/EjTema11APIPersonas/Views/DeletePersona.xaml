@@ -2,72 +2,73 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.DeletePersona"
-             Title="DeletePersona">
+             Title="Borrar Persona">
 
-    <VerticalStackLayout HorizontalOptions="Center">
+    <VerticalStackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
 
-        <HorizontalStackLayout>
 
-            <Image Source="{Binding Persona.Foto}"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand"
-                   WidthRequest="300"
-                   HeightRequest="300" />
-        </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <Image Source="{Binding Persona.Foto}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               HeightRequest="200" />
+
+
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Id: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.Id}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Nombre: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.Nombre}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Apellidos: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.Apellidos}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Telefono:"
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.Telefono}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Direccion: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.Direccion}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Fecha de Nacimiento: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.FechaNac}"
                    VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="CenterAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="idDepartamento: "
                    VerticalOptions="Center" />
             <Label Text="{Binding Persona.IdDepartamento}"
@@ -75,7 +76,7 @@
                    HorizontalOptions="Center" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="¿Esta seguro de querer borrar esta persona? "
                    VerticalOptions="Center" />
             <CheckBox IsChecked="{Binding Check}"
@@ -83,10 +84,16 @@
                       HorizontalOptions="Center" />
         </HorizontalStackLayout>
 
-        <Button Text="Borrar"
-                Command="{Binding BorrarCommand}"
-                WidthRequest="150"
-                HeightRequest="50" />
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Borrar"
+                    Command="{Binding BorrarCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+            <Button Text="Volver"
+                    Command="{Binding VolverCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+        </HorizontalStackLayout>
 
     </VerticalStackLayout>
 

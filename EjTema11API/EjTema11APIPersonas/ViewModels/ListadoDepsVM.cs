@@ -30,10 +30,10 @@ namespace EjTema11APIPersonas.ViewModels
 
             RecogerListadoDepsBL();//da valor a lista a traves de set privado
 
-            // buscarCommand = new DelegateCommand(buscarCommandExecute, buscarCommandCanExecute);
-            eliminarCommand = new DelegateCommandAsync(eliminarCommandExecute);
-            editarCommand = new DelegateCommandAsync(editarCommandExecute);
-            crearCommand = new DelegateCommandAsync(crearCommandExecute);
+            buscarCommand = new DelegateCommandAsync(BuscarCommandExecute, BuscarCommandCanExecute);
+            eliminarCommand = new DelegateCommandAsync(EliminarCommandExecute, EliminarCommandCanExecute);
+            editarCommand = new DelegateCommandAsync(EditarCommandExecute, EditarCommandCanExecute);
+            crearCommand = new DelegateCommandAsync(CrearCommandExecute);
         }
         #endregion
 
@@ -56,8 +56,10 @@ namespace EjTema11APIPersonas.ViewModels
             set
             {
                 depSeleccionado = value;
-                //aviso a eliminarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en personaSeleccionada
-                eliminarCommand.RaiseCanExecuteChanged();
+                
+                eliminarCommand.RaiseCanExecuteChanged();           
+                editarCommand.RaiseCanExecuteChanged();
+                crearCommand.RaiseCanExecuteChanged();
             }
         }
 
@@ -80,6 +82,7 @@ namespace EjTema11APIPersonas.ViewModels
             set
             {
                 barraBusqueda = value;
+                NotifyPropertyChanged("BarraBusqueda");
                 //si nuevo valor es null o vacio
                 if (string.IsNullOrEmpty(barraBusqueda))
                 {
@@ -87,14 +90,14 @@ namespace EjTema11APIPersonas.ViewModels
                     //restablecerListaBusqueda();
                 }
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
-                // buscarCommand.RaiseCanExecuteChanged();
+                buscarCommand.RaiseCanExecuteChanged();
             }
         }
         #endregion
 
         //metodos para los comandos
         #region comandos
-        public bool EliminarCommandCanExecute()
+        private bool EliminarCommandCanExecute()
         {
             bool ejecutar = false;
             if (depSeleccionado != null)
@@ -103,12 +106,12 @@ namespace EjTema11APIPersonas.ViewModels
             }
             return ejecutar;
         }
-        public async Task eliminarCommandExecute()
+        private async Task EliminarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new DeleteDep(depSeleccionado));
         }
 
-        public bool EditarCommandCanExecute()
+        private bool EditarCommandCanExecute()
         {
             bool ejecutar = false;
             if (depSeleccionado != null)
@@ -118,12 +121,12 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        public async Task editarCommandExecute()
+        private async Task EditarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new EditDep(depSeleccionado));
         }
 
-        public async Task crearCommandExecute()
+        private async Task CrearCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new AddDep());
         }
@@ -132,7 +135,7 @@ namespace EjTema11APIPersonas.ViewModels
         /// comprueba si puede ejecutar comando buscar 
         /// </summary>
         /// <returns>devuelve bool</returns>
-        public bool buscarCommandCanExecute()
+        private bool BuscarCommandCanExecute()
         {
             bool habilitadoBuscar = false;
             if (!string.IsNullOrEmpty(barraBusqueda))
@@ -142,7 +145,7 @@ namespace EjTema11APIPersonas.ViewModels
             return habilitadoBuscar;
         }
 
-        public async Task BuscarCommandExecute()
+        private async Task BuscarCommandExecute()
         {
 
         }

@@ -4,6 +4,22 @@
         <name>EjTema11APIPersonas</name>
     </assembly>
     <members>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddDepVM.CrearCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de crear
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddDepVM.CrearCommandExecute">
+            <summary>
+            funcion que ejecuta el comando de crear dando a propiedad nombre de departamento el valor de NombreDepartamento antes de mandarselo a la capa BL
+            </summary>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddDepVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
+        </member>
         <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.CrearCommandCanExecute">
             <summary>
             funcion que comprueba si se puede ejecutar el comando de editar
@@ -15,6 +31,11 @@
             comando que enviara la persona editada a la api
             </summary>
             <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
         </member>
         <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.RecogerListadoDepsBL">
             <summary>
@@ -34,6 +55,27 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeletePersonaVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditDepVM.EditarCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de editar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditDepVM.EditarCommandExecute">
+            <summary>
+            funcion que ejecuta el comando de editar dando a propiedad nombre de departamento el valor de NombreDepartamento antes de mandarselo a la capa BL
+            </summary>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditDepVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
+        </member>
         <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.EditCommandCanExecute">
             <summary>
             funcion que comprueba si se puede ejecutar el comando de editar
@@ -46,13 +88,18 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
+        </member>
         <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.RecogerListadoDepsBL">
             <summary>
             funcion que recoge el listado de departamentos de la api, sera usado en constructor
             </summary>
             <returns></returns>
         </member>
-        <member name="M:EjTema11APIPersonas.ViewModels.ListadoDepsVM.buscarCommandCanExecute">
+        <member name="M:EjTema11APIPersonas.ViewModels.ListadoDepsVM.BuscarCommandCanExecute">
             <summary>
             comprueba si puede ejecutar comando buscar 
             </summary>
@@ -63,11 +110,6 @@
             comprueba si puede ejecutar comando buscar 
             </summary>
             <returns>devuelve bool</returns>
-        </member>
-        <member name="M:EjTema11APIPersonas.ViewModels.ListadoPersonasVM.RecogerListadoPersonasBL">
-            <summary>
-            ejecuta comando buscar si hay texto escrito en el entry textoBusqueda
-            </summary>
         </member>
         <member name="M:EjTema11APIPersonas.ViewModels.Utilidades.DelegateCommand.#ctor(System.Action)">
             <summary>

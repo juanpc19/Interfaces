@@ -8,6 +8,6 @@ public partial class EditDep : ContentPage
 	public EditDep(clsDepartamento departamento)
 	{
 		InitializeComponent();
-		//BindingContext = new EditDepVM(departamento);
+		BindingContext = new EditDepVM(departamento);
 	}
 }

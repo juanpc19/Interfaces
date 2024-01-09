@@ -2,11 +2,37 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.EditDep"
-             Title="EditDep">
-    <VerticalStackLayout>
-        <Label 
-            Text="editdep"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="Editar Departamento">
+
+    <VerticalStackLayout HorizontalOptions="Center">
+
+        <HorizontalStackLayout>
+            <Label Text="Nombre departamento actual: "
+                   VerticalOptions="Center" />
+            <Label Text="{Binding Departamento.Nombre}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Nuevo nombre departamento: "
+                   VerticalOptions="Center" />
+            <Entry Text="{Binding NombreDepartamento}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Editar"
+                    Command="{Binding EditarCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+            <Button Text="Volver"
+                    Command="{Binding VolverCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+        </HorizontalStackLayout>
+
     </VerticalStackLayout>
+    
 </ContentPage>

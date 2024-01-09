@@ -18,14 +18,16 @@ namespace EjTema11APIPersonas.ViewModels
         private clsPersona persona;
         private ObservableCollection<clsDepartamento> listaDepartamentos;
         private clsDepartamento departamentoSeleccionado;
-        private DelegateCommandAsync editCommand;//comando asincrono con clase modificada de delegate command
+        private DelegateCommand editCommand;
+        private DelegateCommand volverCommand;
         #endregion
 
         #region constructores
         public EditPersonaVM(clsPersona persona) {
             RecogerListadoDepsBL();
             this.persona = persona;
-            editCommand = new DelegateCommandAsync(EditCommandExecute,EditCommandCanExecute);
+            editCommand = new DelegateCommand(EditCommandExecute,EditCommandCanExecute);
+            volverCommand = new DelegateCommand(VolverCommandExecute);
         }
         #endregion
 
@@ -33,9 +35,13 @@ namespace EjTema11APIPersonas.ViewModels
         public clsPersona Persona { get { return persona; } set { persona = value; } }
         public ObservableCollection<clsDepartamento> ListaDepartamentos { get { return listaDepartamentos; } private set { listaDepartamentos = value; NotifyPropertyChanged("ListaDepartamentos"); } }
         public clsDepartamento DepartamentoSeleccionado { get { return departamentoSeleccionado; } set { departamentoSeleccionado = value; editCommand.RaiseCanExecuteChanged(); }  }
-        public DelegateCommandAsync EditCommand
+        public DelegateCommand EditCommand
         {
             get { return editCommand; }
+        }
+        public DelegateCommand VolverCommand
+        {
+            get { return volverCommand; }
         }
         #endregion
 
@@ -51,7 +57,7 @@ namespace EjTema11APIPersonas.ViewModels
             {
                 ejecutable = true;
             }
-            //si hay tiempo modificar can execute en base a model state valid de data notations O EN BASE A SI DEP SELECCIONADO NO ES NULL)
+            //si hay tiempo modificar can execute en base a model state valid de data notations)
             return ejecutable;
         }
 
@@ -59,7 +65,7 @@ namespace EjTema11APIPersonas.ViewModels
         /// comando que enviara la persona editada a la api
         /// </summary>
         /// <returns></returns>
-        private async Task EditCommandExecute()
+        private async void EditCommandExecute()
         {
             persona.IdDepartamento = departamentoSeleccionado.Id;//machaco idDep de persona con id de departamentoSeleccionado
             clsManejadoraPersonaBL oBl = new clsManejadoraPersonaBL();
@@ -67,6 +73,14 @@ namespace EjTema11APIPersonas.ViewModels
             await oBl.EditarPersonaBL(persona); //llamo al metodo editar de la bl y le paso la persona editada no veo uso para el codigo devuelto      
             await Shell.Current.Navigation.PushAsync(new ListadoPersonas());//navego de vuelta al listado de personas
         }
+        /// <summary>
+        /// funcion para el comando de volver navega a listado recargando la pagina
+        /// </summary>
+        private async void VolverCommandExecute()
+        {
+            await Shell.Current.Navigation.PushAsync(new ListadoPersonas());
+        }
+
         #endregion
 
         #region metodos

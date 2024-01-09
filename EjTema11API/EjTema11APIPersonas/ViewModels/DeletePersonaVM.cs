@@ -17,7 +17,8 @@ namespace EjTema11APIPersonas.ViewModels
         #region atributos
         private clsPersona persona;
         private bool check;
-        private DelegateCommandAsync borrarCommand;//comando asincrono con clase modificada de delegate command
+        private DelegateCommand borrarCommand;
+        private DelegateCommand volverCommand;
         #endregion
 
         #region constructores
@@ -25,7 +26,8 @@ namespace EjTema11APIPersonas.ViewModels
         {
             
             this.persona = persona;
-            borrarCommand = new DelegateCommandAsync(BorrarCommandExecute, BorrarCommandCanExecute);
+            borrarCommand = new DelegateCommand(BorrarCommandExecute, BorrarCommandCanExecute);
+            volverCommand = new DelegateCommand(VolverCommandExecute);
         }
         #endregion
 
@@ -34,9 +36,13 @@ namespace EjTema11APIPersonas.ViewModels
 
         public bool Check { get { return check; } set { check = value; borrarCommand.RaiseCanExecuteChanged(); } } 
 
-        public DelegateCommandAsync BorrarCommand
+        public DelegateCommand BorrarCommand
         {
             get { return borrarCommand; }
+        }
+        public DelegateCommand VolverCommand
+        {
+            get { return volverCommand; }
         }
         #endregion
 
@@ -60,21 +66,23 @@ namespace EjTema11APIPersonas.ViewModels
         /// comando que enviara la persona editada a la api
         /// </summary>
         /// <returns></returns>
-        private async Task BorrarCommandExecute()
+        private async void BorrarCommandExecute()
         {
             clsManejadoraPersonaBL oBl = new clsManejadoraPersonaBL();
 
             await oBl.BorrarPersonaBL(persona); //llamo al metodo editar de la bl y le paso la persona editada no veo uso para el codigo devuelto      
             await Shell.Current.Navigation.PushAsync(new ListadoPersonas());//navego de vuelta al listado de personas
         }
+
+        /// <summary>
+        /// funcion para el comando de volver navega a listado recargando la pagina
+        /// </summary>
+        private async void VolverCommandExecute()
+        {
+            await Shell.Current.Navigation.PushAsync(new ListadoPersonas());
+        }
         #endregion
 
-        #region metodos
-        /// <summary>
-        /// funcion que recoge el listado de departamentos de la api, sera usado en constructor
-        /// </summary>
-        /// <returns></returns>
-     
-        #endregion
+         
     }
 }

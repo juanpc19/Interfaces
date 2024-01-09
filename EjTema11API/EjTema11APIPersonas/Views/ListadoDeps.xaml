@@ -3,23 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.ListadoDeps"
              xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
-             Title="ListadoDeps">
+             Title="Listado Departamentos">
 
 
     <ContentPage.BindingContext>
-        <Qnmv:ListadoDepsVM/>
+        <Qnmv:ListadoDepsVM />
     </ContentPage.BindingContext>
 
-
-
-
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="crear.png" Command="{Binding CrearCommand}"/>
-        <ToolbarItem IconImageSource="editar.png" Command="{Binding EditarCommand}"/>
-        <ToolbarItem IconImageSource="eliminar.png" Command="{Binding EliminarCommand}"/>
+        <ToolbarItem IconImageSource="crear.png"
+                     Command="{Binding CrearCommand}" />
+        <ToolbarItem IconImageSource="editar.png"
+                     Command="{Binding EditarCommand}" />
+        <ToolbarItem IconImageSource="eliminar.png"
+                     Command="{Binding EliminarCommand}" />
     </ContentPage.ToolbarItems>
 
-    <Grid >
+    <Grid>
         <Grid.RowDefinitions>
 
             <RowDefinition Height="5*" />
@@ -27,41 +27,62 @@
 
         </Grid.RowDefinitions>
 
-        <Frame BackgroundColor="DarkSlateBlue" BorderColor="Orange" CornerRadius="60" Grid.Row="0">
+        <Frame BackgroundColor="DarkSlateBlue"
+               BorderColor="Orange"
+               CornerRadius="60"
+               Grid.Row="0">
 
-            <HorizontalStackLayout Spacing="20" Padding="10" HorizontalOptions="Center">
+            <HorizontalStackLayout Spacing="20"
+                                   Padding="10"
+                                   HorizontalOptions="Center">
 
-                <Entry Text="{Binding BarraBusqueda}" TextColor="Black" BackgroundColor="White"  HorizontalOptions="Center" VerticalOptions="Center" MinimumWidthRequest="300" />
+                <Entry Text="{Binding BarraBusqueda}"
+                       TextColor="Black"
+                       BackgroundColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       MinimumWidthRequest="200" />
 
-                <ImageButton Source="buscar.png" 
-           BackgroundColor="White" 
-           BorderColor="Orange" 
-           BorderWidth="2"
-           CornerRadius="25"
-           WidthRequest="50"
-           HeightRequest="50"
-           Aspect="Center"
-           Command="{Binding BuscarCommand}"
-           HorizontalOptions="Center" VerticalOptions="Center"/>
+                <ImageButton Source="buscar.png"
+                             BackgroundColor="White"
+                             BorderColor="Orange"
+                             BorderWidth="2"
+                             CornerRadius="25"
+                             WidthRequest="50"
+                             HeightRequest="50"
+                             Aspect="Center"
+                             Command="{Binding BuscarCommand}"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center" />
 
             </HorizontalStackLayout>
 
         </Frame>
 
-        <ScrollView Grid.Row="1" >
+        <ScrollView Grid.Row="1">
 
-            <VerticalStackLayout >
-                <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
+            <VerticalStackLayout>
+                <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
+                                   IsVisible="{Binding VisibilidadCarga}" />
 
-                <ListView ItemsSource="{Binding ListaDepartamentos}" SelectedItem="{Binding DepSeleccionado}" RowHeight="100">
+                <ListView ItemsSource="{Binding ListaDepartamentos}"
+                          SelectedItem="{Binding DepSeleccionado}"
+                          RowHeight="100">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+                                <Frame BorderColor="Orange"
+                                       BackgroundColor="DarkSlateBlue"
+                                       CornerRadius="60">
 
-                                    <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
-                                        <Label Text="{Binding Id}" TextColor="White" VerticalTextAlignment="Center"></Label>
-                                        <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    <HorizontalStackLayout Spacing="30"
+                                                           HorizontalOptions="Start">
+                                        <Label Text="{Binding Id}"
+                                               TextColor="White"
+                                               VerticalTextAlignment="Center"></Label>
+                                        <Label Text="{Binding Nombre}"
+                                               TextColor="White"
+                                               VerticalTextAlignment="Center"></Label>
                                     </HorizontalStackLayout>
 
                                 </Frame>

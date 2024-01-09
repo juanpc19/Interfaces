@@ -12,24 +12,24 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="crear.png"
                      Command="{Binding CrearCommand}" />
-        <ToolbarItem IconImageSource="editar.png" 
+        <ToolbarItem IconImageSource="editar.png"
                      Command="{Binding EditarCommand}" />
         <ToolbarItem IconImageSource="eliminar.png"
                      Command="{Binding EliminarCommand}" />
     </ContentPage.ToolbarItems>
 
-    <Grid >
+    <Grid>
         <Grid.RowDefinitions>
 
             <RowDefinition Height="5*" />
             <RowDefinition Height="15*" />
 
         </Grid.RowDefinitions>
-  
-        <Frame BackgroundColor="DarkSlateBlue" Grid.Row="0"
+
+        <Frame BackgroundColor="DarkSlateBlue"
+               Grid.Row="0"
                BorderColor="Orange"
-               CornerRadius="60"
-               Margin="5">
+               CornerRadius="60">
 
             <HorizontalStackLayout Spacing="20"
                                    Padding="10"
@@ -40,7 +40,7 @@
                        BackgroundColor="White"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
-                       MinimumWidthRequest="300" />
+                       MinimumWidthRequest="200" />
 
                 <ImageButton Source="buscar.png"
                              BackgroundColor="White"
@@ -58,41 +58,45 @@
 
         </Frame>
 
-        
+
 
         <ScrollView  Grid.Row="1">
             <VerticalStackLayout>
-            <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
-                   IsVisible="{Binding VisibilidadCarga}" />
-            <ListView ItemsSource="{Binding ListaPersonas}"
-                      SelectedItem="{Binding PersonaSeleccionada}"
-                      RowHeight="100">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Frame BorderColor="Orange"
-                                   BackgroundColor="DarkSlateBlue"
-                                   CornerRadius="60">
+                <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
+                                   IsVisible="{Binding VisibilidadCarga}" />
+                <ListView ItemsSource="{Binding ListaPersonas}"
+                          SelectedItem="{Binding PersonaSeleccionada}"
+                          RowHeight="100">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame BorderColor="Orange"
+                                       BackgroundColor="DarkSlateBlue"
+                                       CornerRadius="60">
 
-                                <HorizontalStackLayout Spacing="30"
-                                                       HorizontalOptions="Start">
-                                    <Label Text="{Binding Nombre}"
-                                           TextColor="White"
-                                           VerticalTextAlignment="Center"></Label>
-                                    <Label Text="{Binding Apellidos}"
-                                           TextColor="White"
-                                           VerticalTextAlignment="Center"></Label>
-                                    <Label Text="{Binding Direccion}"
-                                           TextColor="White"
-                                           VerticalTextAlignment="Center"></Label>
-                                    <Image Source="{Binding Foto}" ></Image>
-                                </HorizontalStackLayout>
+                                    <HorizontalStackLayout Spacing="10"
+                                                           HorizontalOptions="Start">
 
-                            </Frame>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                                        <Image Source="{Binding Foto}"
+                                               WidthRequest="40"
+                                               HeightRequest="40"></Image>
+                                        <Label Text="{Binding Nombre}"
+                                               TextColor="White"
+                                               VerticalTextAlignment="Center"></Label>
+                                        <Label Text="{Binding Apellidos}"
+                                               TextColor="White"
+                                               VerticalTextAlignment="Center"></Label>
+                                        <Label Text="{Binding Direccion}"
+                                               TextColor="White"
+                                               VerticalTextAlignment="Center"></Label>
+
+                                    </HorizontalStackLayout>
+
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </VerticalStackLayout>
         </ScrollView>
 

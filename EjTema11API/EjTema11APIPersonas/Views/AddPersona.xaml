@@ -2,20 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.AddPersona"
-             Title="AddPersona">
+             Title="Añadir Persona">
 
-    <VerticalStackLayout HorizontalOptions="Center">
+    <VerticalStackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
 
-        <HorizontalStackLayout>
-            <Label Text="Id: "
-                   VerticalOptions="Center" />
-            <Entry Text="{Binding Persona.Id}"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="FillAndExpand" />
-        </HorizontalStackLayout>
-
-
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Nombre: "
                    VerticalOptions="Center" />
             <Entry Text="{Binding Persona.Nombre}"
@@ -23,7 +15,7 @@
                    HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Apellidos: "
                    VerticalOptions="Center" />
             <Entry Text="{Binding Persona.Apellidos}"
@@ -31,7 +23,7 @@
                    HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Telefono: "
                    VerticalOptions="Center" />
             <Entry Text="{Binding Persona.Telefono}"
@@ -39,7 +31,7 @@
                    HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Direccion:"
                    VerticalOptions="Center" />
             <Entry Text="{Binding Persona.Direccion}"
@@ -47,7 +39,7 @@
                    HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Foto: "
                    VerticalOptions="Center" />
             <Entry Text="{Binding Persona.Foto}"
@@ -55,7 +47,7 @@
                    HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Fecha de Nacimiento: "
                    VerticalOptions="Center" />
             <DatePicker Date="{Binding Persona.FechaNac}"
@@ -63,7 +55,7 @@
                         HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <HorizontalStackLayout>
+        <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Departamento: "
                    VerticalOptions="Center" />
             <Picker ItemsSource="{Binding ListaDepartamentos}"
@@ -73,10 +65,16 @@
                     HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
 
-        <Button Text="Crear"
-                Command="{Binding CrearCommand}"
-                WidthRequest="150"
-                HeightRequest="50" />
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Añadir"
+                    Command="{Binding CrearCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+            <Button Text="Volver"
+                    Command="{Binding VolverCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+        </HorizontalStackLayout>
 
     </VerticalStackLayout>
 

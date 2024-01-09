@@ -12,6 +12,11 @@ namespace CapaDAL.Manejadoras
 {
         public class clsManejadoraPersonaDAL
         {
+        /// <summary>
+        /// funcion que usara la API para crear una persona
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <returns></returns>
             public async Task<HttpStatusCode> CrearPersonaDAL(clsPersona persona)
             {
                 clsMyUrlDAL myUrl = new clsMyUrlDAL();//recojo valor de clsMyUrlDAL y se lo doy a myUrl
@@ -34,7 +39,11 @@ namespace CapaDAL.Manejadoras
                 return miCodigoRespuesta.StatusCode;
             }
 
-
+        /// <summary>
+        /// funcion que usara la API para editar una persona
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <returns></returns>
         public async Task<HttpStatusCode> EditarPersonaDAL(clsPersona persona)
         {
             clsMyUrlDAL myUrl = new clsMyUrlDAL(); 
@@ -57,6 +66,11 @@ namespace CapaDAL.Manejadoras
             return miCodigoRespuesta.StatusCode;
         }
 
+        /// <summary>
+        /// funcion que usara la API para borrar una persona
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <returns></returns>
         public async Task<HttpStatusCode> BorrarPersonaDAL(clsPersona persona)
         {
             clsMyUrlDAL myUrl = new clsMyUrlDAL();
@@ -74,7 +88,7 @@ namespace CapaDAL.Manejadoras
             {
                 Console.WriteLine($"Error en funcion EditarPersonaDAL(): {ex.Message}");
             }
-            //
+            
             return miCodigoRespuesta.StatusCode;
         }
     }

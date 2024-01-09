@@ -101,7 +101,7 @@ namespace EjTema11APIPersonas.ViewModels
 
         //metodos para los comandos
         #region comandos
-        public bool EliminarCommandCanExecute()
+        private bool EliminarCommandCanExecute()
         {
             bool ejecutar = false;
             if (personaSeleccionada != null)
@@ -111,12 +111,12 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        public async Task EliminarCommandExecute()
+        private async Task EliminarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new DeletePersona(personaSeleccionada));
         }
 
-        public bool EditarCommandCanExecute()
+        private bool EditarCommandCanExecute()
         {
             bool ejecutar = false;
             if (personaSeleccionada != null)
@@ -126,12 +126,12 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        public async Task EditarCommandExecute()
+        private async Task EditarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new EditPersona(personaSeleccionada));
         }
 
-        public async Task CrearCommandExecute()
+        private async Task CrearCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new AddPersona());
         }
@@ -140,7 +140,7 @@ namespace EjTema11APIPersonas.ViewModels
         /// comprueba si puede ejecutar comando buscar 
         /// </summary>
         /// <returns>devuelve bool</returns>
-        public bool BuscarCommandCanExecute()
+        private bool BuscarCommandCanExecute()
         {
             bool ejecutar = false;
             if (!string.IsNullOrEmpty(barraBusqueda))
@@ -150,7 +150,7 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        public async Task BuscarCommandExecute()
+        private async Task BuscarCommandExecute()
         {
 
         }

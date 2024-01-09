@@ -2,11 +2,45 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.DeleteDep"
-             Title="DeleteDep">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="Borrar Departamento">
+
+    <VerticalStackLayout HorizontalOptions="Center">
+
+        <HorizontalStackLayout>
+            <Label Text="Nombre departamento: "
+                   VerticalOptions="Center" />
+            <Label Text="{Binding Departamento.Id}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout>
+            <Label Text="Nombre departamento: "
+                   VerticalOptions="Center" />
+            <Label Text="{Binding Departamento.Nombre}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="¿Esta seguro de querer borrar este departamento? "
+                   VerticalOptions="Center" />
+            <CheckBox IsChecked="{Binding Check}"
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Crear"
+                    Command="{Binding BorrarCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+            <Button Text="Volver"
+                    Command="{Binding VolverCommand}"
+                    WidthRequest="150"
+                    HeightRequest="50" />
+        </HorizontalStackLayout>
+
     </VerticalStackLayout>
+    
 </ContentPage>

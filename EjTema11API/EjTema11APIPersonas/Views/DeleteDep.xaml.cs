@@ -8,6 +8,6 @@ public partial class DeleteDep : ContentPage
 	public DeleteDep(clsDepartamento departamento)
 	{
 		InitializeComponent();
-		//BindingContext = new DeleteDepVM(departamento);
+		BindingContext = new DeleteDepVM(departamento);
 	}
 }
