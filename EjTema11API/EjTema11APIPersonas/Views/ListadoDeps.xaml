@@ -10,13 +10,8 @@
         <Qnmv:ListadoDepsVM/>
     </ContentPage.BindingContext>
 
-    <ContentPage.MenuBarItems>
-        <MenuBarItem Text="Departamento">
-            <MenuFlyoutItem IconImageSource="crear.png" Text="Crear" Command="{Binding CrearCommand}"/>
-            <MenuFlyoutItem IconImageSource="editar.png" Text="Editar" Command="{Binding EditarCommand}" />
-            <MenuFlyoutItem IconImageSource="eliminar.png" Text="Eliminar" Command="{Binding EliminarCommand}" />
-        </MenuBarItem>
-    </ContentPage.MenuBarItems>
+
+
 
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="crear.png" Command="{Binding CrearCommand}"/>
@@ -24,9 +19,15 @@
         <ToolbarItem IconImageSource="eliminar.png" Command="{Binding EliminarCommand}"/>
     </ContentPage.ToolbarItems>
 
-    <VerticalStackLayout Spacing="10" Padding="10">
+    <Grid >
+        <Grid.RowDefinitions>
 
-        <Frame BackgroundColor="DarkSlateBlue" BorderColor="Orange" CornerRadius="60">
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="15*" />
+
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="DarkSlateBlue" BorderColor="Orange" CornerRadius="60" Grid.Row="0">
 
             <HorizontalStackLayout Spacing="20" Padding="10" HorizontalOptions="Center">
 
@@ -47,28 +48,31 @@
 
         </Frame>
 
-        <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
+        <ScrollView Grid.Row="1" >
 
-        <ScrollView>
-            <ListView ItemsSource="{Binding ListaDepartamentos}" SelectedItem="{Binding DepSeleccionado}" RowHeight="100">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
+            <VerticalStackLayout >
+                <ActivityIndicator IsRunning="{Binding VisibilidadCarga}" IsVisible="{Binding VisibilidadCarga}"/>
 
-                                <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
-                                    <Label Text="{Binding Id}" TextColor="White" VerticalTextAlignment="Center"></Label>
-                                    <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center" ></Label>
-                                </HorizontalStackLayout>
+                <ListView ItemsSource="{Binding ListaDepartamentos}" SelectedItem="{Binding DepSeleccionado}" RowHeight="100">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame BorderColor="Orange" BackgroundColor="DarkSlateBlue" CornerRadius="60">
 
-                            </Frame>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                                    <HorizontalStackLayout Spacing="30" HorizontalOptions="Start">
+                                        <Label Text="{Binding Id}" TextColor="White" VerticalTextAlignment="Center"></Label>
+                                        <Label Text="{Binding Nombre}" TextColor="White" VerticalTextAlignment="Center" ></Label>
+                                    </HorizontalStackLayout>
+
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </VerticalStackLayout>
+
         </ScrollView>
 
-    </VerticalStackLayout>
-
-
+    </Grid>
 </ContentPage>

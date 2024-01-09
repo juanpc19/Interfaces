@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjTema11APIPersonas.Views.ListadoPersonas"
              xmlns:Qnmv="clr-namespace:EjTema11APIPersonas.ViewModels"
-             Title="ListadoPersonas">
+             Title="Listado Personas">
 
     <ContentPage.BindingContext>
         <Qnmv:ListadoPersonasVM />
@@ -58,10 +58,12 @@
 
         </Frame>
 
-        <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
-                           IsVisible="{Binding VisibilidadCarga}" />
+        
 
         <ScrollView  Grid.Row="1">
+            <VerticalStackLayout>
+            <ActivityIndicator IsRunning="{Binding VisibilidadCarga}"
+                   IsVisible="{Binding VisibilidadCarga}" />
             <ListView ItemsSource="{Binding ListaPersonas}"
                       SelectedItem="{Binding PersonaSeleccionada}"
                       RowHeight="100">
@@ -83,7 +85,7 @@
                                     <Label Text="{Binding Direccion}"
                                            TextColor="White"
                                            VerticalTextAlignment="Center"></Label>
-                                    <Image Source="{Binding Foto}"></Image>
+                                    <Image Source="{Binding Foto}" ></Image>
                                 </HorizontalStackLayout>
 
                             </Frame>
@@ -91,6 +93,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            </VerticalStackLayout>
         </ScrollView>
 
     </Grid>

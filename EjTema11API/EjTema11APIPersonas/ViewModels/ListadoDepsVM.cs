@@ -1,6 +1,7 @@
 ﻿using CapaBL.Listados;
 using CapaEntidades;
 using EjTema11APIPersonas.ViewModels.Utilidades;
+using EjTema11APIPersonas.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,12 +16,12 @@ namespace EjTema11APIPersonas.ViewModels
         #region atributos
         private bool visibilidadCarga;
         private ObservableCollection<clsDepartamento> listaDepartamentos;
-        private clsDepartamento depSeleccionado; //
-        private string barraBusqueda; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommandAsync buscarCommand; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommandAsync eliminarCommand; //hara navegacion vista eliminar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommandAsync editarCommand; //hara navegacion vista editar y mostrara persona con cierto id hara uso de metodo getById de api
-        private DelegateCommandAsync crearCommand; //hara navegacion vista crear y mostrara modelo de persona a rellenar con entrys
+        private clsDepartamento depSeleccionado; 
+        private string barraBusqueda;  
+        private DelegateCommandAsync buscarCommand; 
+        private DelegateCommandAsync eliminarCommand;  
+        private DelegateCommandAsync editarCommand;  
+        private DelegateCommandAsync crearCommand;  
         #endregion
 
         #region constructores
@@ -93,19 +94,38 @@ namespace EjTema11APIPersonas.ViewModels
 
         //metodos para los comandos
         #region comandos
+        public bool EliminarCommandCanExecute()
+        {
+            bool ejecutar = false;
+            if (depSeleccionado != null)
+            {
+                ejecutar = true;
+            }
+            return ejecutar;
+        }
         public async Task eliminarCommandExecute()
         {
+            await Shell.Current.Navigation.PushAsync(new DeleteDep(depSeleccionado));
+        }
 
+        public bool EditarCommandCanExecute()
+        {
+            bool ejecutar = false;
+            if (depSeleccionado != null)
+            {
+                ejecutar = true;
+            }
+            return ejecutar;
         }
 
         public async Task editarCommandExecute()
         {
-
+            await Shell.Current.Navigation.PushAsync(new EditDep(depSeleccionado));
         }
 
         public async Task crearCommandExecute()
         {
-
+            await Shell.Current.Navigation.PushAsync(new AddDep());
         }
 
         /// <summary>
@@ -121,6 +141,12 @@ namespace EjTema11APIPersonas.ViewModels
             }
             return habilitadoBuscar;
         }
+
+        public async Task BuscarCommandExecute()
+        {
+
+        }
+
         #endregion
 
         #region metodos

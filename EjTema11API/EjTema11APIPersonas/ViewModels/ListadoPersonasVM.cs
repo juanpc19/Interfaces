@@ -20,8 +20,8 @@ namespace EjTema11APIPersonas.ViewModels
         private bool visibilidadCarga;
         private ObservableCollection<clsPersona> listaPersonas;
         private clsPersona personaSeleccionada; 
-        private string barraBusqueda; //adaptar lo de ej 1 tema 10 de busqueda aqui
-        private DelegateCommandAsync buscarCommand; //adaptar lo de ej 1 tema 10 de busqueda aqui
+        private string barraBusqueda; 
+        private DelegateCommandAsync buscarCommand; 
         private DelegateCommandAsync eliminarCommand; 
         private DelegateCommandAsync editarCommand; 
         private DelegateCommandAsync crearCommand; 
@@ -154,42 +154,7 @@ namespace EjTema11APIPersonas.ViewModels
         {
 
         }
-
-        /// <summary>
-        /// ejecuta comando buscar si hay texto escrito en el entry textoBusqueda
-        /// </summary>
-        //public void buscarCommandExecute()
-        //{
-        //    //doy a textoABuscar valor igual a TextoBusqueda (entry.text) y lo paso a minusculas para busqueda mas precisa
-        //    string textoABuscar = BarraBusqueda.ToLower();
-
-        //    //recargo lista original sin romper bindeo llamando a recargarListaOriginal (sin instanciar)
-        //    recargarListaOriginal();
-
-        //    // creo una nueva lista temporal en la que recogere las personas filtradas
-        //    //.where es un metodo extensible de LINQ (Language Integrated Query) que hace una busqueda en el objeto listaPersonas 
-        //    List<clsPersona> listadoFiltrado = listaPersonas.Where(persona =>
-        //            //donde personas tenga nombre o apellido que contenga textoABuscar (paso a minuscula nombre y apellido para busqueda mas precisa)
-        //            persona.Nombre.ToLower().Contains(textoABuscar) ||
-        //            persona.Apellidos.ToLower().Contains(textoABuscar)
-        //        //una vez tengo la lista la paso de tipo IEnumerable<T> o de tipo IQueryable<T> que son las que devuelve la busqueda where
-        //        // a List<T> que es del tipo que estoy usando, esto se hace con el siguiente .ToList();
-        //        ).ToList();
-
-        //    //borro los elementos de listaPersonas
-        //    listaPersonas.Clear();
-
-        //    //y añado los elementos de la lista listadoFiltrado
-        //    foreach (var persona in listadoFiltrado)
-        //    {
-        //        listaPersonas.Add(persona);
-        //    }
-
-        //    //notifico cambios a listaPersonas para reflejarlos en interfaz
-        //    NotifyPropertyChanged("ListaPersonas");
-        //}
         #endregion
-
 
         #region metodos
         private async Task RecogerListadoPersonasBL()
@@ -207,24 +172,6 @@ namespace EjTema11APIPersonas.ViewModels
                 Console.WriteLine($"Error en funcion RecogerListadoPersonasBL(): {ex.Message}");
             }
         }
-
-        ///// <summary>
-        ///// funcion que reiniciara la lista a su valor original, usar para evitar rotura de binding(se da cuando reintancias el objeto de un binding,
-        ///// ya que este debe dejar de existir para crear otro rompiendo el bind y jodiendote el fin de semana)
-        ///// </summary>
-        //public void recargarListaOriginal()
-        //{
-        //    //borro los elementos de listaPersonas
-        //    listaPersonas.Clear();
-
-        //    //y añado los elementos de la lista devuelta por metodo getListaFalsa de la clase clsListaPersonasFalsa
-        //    foreach (clsPersona persona in clsListaPersonasFalsa.getListaFalsa())
-        //    {
-        //        listaPersonas.Add(persona);
-        //    }
-        //}
-
-
         #endregion
 
     }

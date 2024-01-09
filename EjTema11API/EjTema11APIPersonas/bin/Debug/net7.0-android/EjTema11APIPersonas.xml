@@ -4,6 +4,71 @@
         <name>EjTema11APIPersonas</name>
     </assembly>
     <members>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.CrearCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de editar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.CrearCommandExecute">
+            <summary>
+            comando que enviara la persona editada a la api
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.AddPersonaVM.RecogerListadoDepsBL">
+            <summary>
+            funcion que recoge el listado de departamentos de la api, sera usado en constructor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeletePersonaVM.BorrarCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de editar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeletePersonaVM.BorrarCommandExecute">
+            <summary>
+            comando que enviara la persona editada a la api
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.EditCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de editar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.EditCommandExecute">
+            <summary>
+            comando que enviara la persona editada a la api
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.EditPersonaVM.RecogerListadoDepsBL">
+            <summary>
+            funcion que recoge el listado de departamentos de la api, sera usado en constructor
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.ListadoDepsVM.buscarCommandCanExecute">
+            <summary>
+            comprueba si puede ejecutar comando buscar 
+            </summary>
+            <returns>devuelve bool</returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.ListadoPersonasVM.BuscarCommandCanExecute">
+            <summary>
+            comprueba si puede ejecutar comando buscar 
+            </summary>
+            <returns>devuelve bool</returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.ListadoPersonasVM.RecogerListadoPersonasBL">
+            <summary>
+            ejecuta comando buscar si hay texto escrito en el entry textoBusqueda
+            </summary>
+        </member>
         <member name="M:EjTema11APIPersonas.ViewModels.Utilidades.DelegateCommand.#ctor(System.Action)">
             <summary>
             Initializes a new instance of the RelayCommand class that 
@@ -43,15 +108,9 @@
             </summary>
             <param name="parameter">This parameter will always be ignored.</param>
         </member>
-        <member name="M:EjTema11API.ViewModels.MainPageVM.buscarCommandCanExecute">
+        <member name="T:EjTema11APIPersonas.ViewModels.Utilidades.DelegateCommandAsync">
             <summary>
-            comprueba si puede ejecutar comando buscar 
-            </summary>
-            <returns>devuelve bool</returns>
-        </member>
-        <member name="M:EjTema11API.ViewModels.MainPageVM.RecogerListadoBL">
-            <summary>
-            ejecuta comando buscar si hay texto escrito en el entry textoBusqueda
+            clase para poder usar comandos asincronos modifica el DelegateCommand original 
             </summary>
         </member>
     </members>
