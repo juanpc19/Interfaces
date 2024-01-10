@@ -43,6 +43,22 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeleteDepVM.BorrarCommandCanExecute">
+            <summary>
+            funcion que comprueba si se puede ejecutar el comando de editar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeleteDepVM.BorrarCommandExecute">
+            <summary>
+            funcion que ejecuta el comando de editar dando a propiedad nombre de departamento el valor de NombreDepartamento antes de mandarselo a la capa BL
+            </summary>
+        </member>
+        <member name="M:EjTema11APIPersonas.ViewModels.DeleteDepVM.VolverCommandExecute">
+            <summary>
+            funcion para el comando de volver navega a listado recargando la pagina
+            </summary>
+        </member>
         <member name="M:EjTema11APIPersonas.ViewModels.DeletePersonaVM.BorrarCommandCanExecute">
             <summary>
             funcion que comprueba si se puede ejecutar el comando de editar

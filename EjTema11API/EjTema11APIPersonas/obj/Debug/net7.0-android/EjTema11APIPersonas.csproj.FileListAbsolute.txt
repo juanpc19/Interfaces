@@ -455,7 +455,6 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPerso
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\typemaps.armeabi-v7a.ll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\AndroidManifest.xml
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\AndroidManifest.xml
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\__environment__.txt
@@ -464,7 +463,6 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPerso
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\bin\mono.android.jar
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\static.flag
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\buildid.txt
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\environment.armeabi-v7a.ll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\src\androidx\activity\R.java
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\src\androidx\annotation\experimental\R.java
@@ -944,12 +942,6 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPerso
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\bin\packaged_resources
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\src\com\companyname\ejtema11apipersonas\R.java
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\compressed_assemblies.armeabi-v7a.ll
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\typemaps.armeabi-v7a.o
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\environment.armeabi-v7a.o
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\compressed_assemblies.armeabi-v7a.o
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\jni_remap.armeabi-v7a.o
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\bin\classes.dex
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\bin\classes2.dex
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1982,3 +1974,11 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPerso
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\typemaps.armeabi-v7a.ll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\environment.armeabi-v7a.ll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\compressed_assemblies.armeabi-v7a.ll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\typemaps.armeabi-v7a.o
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\environment.armeabi-v7a.o
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\compressed_assemblies.armeabi-v7a.o
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\android\jni_remap.armeabi-v7a.o
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
