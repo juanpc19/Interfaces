@@ -12,10 +12,11 @@ using System.Threading.Tasks;
 
 namespace EjTema11APIPersonas.ViewModels
 {
-    public class DeletePersonaVM: clsVMBase
+    public class DeletePersonaVM : clsVMBase
     {
         #region atributos
         private clsPersona persona;
+        private string noBorrar;
         private bool check;
         private DelegateCommand borrarCommand;
         private DelegateCommand volverCommand;
@@ -24,7 +25,7 @@ namespace EjTema11APIPersonas.ViewModels
         #region constructores
         public DeletePersonaVM(clsPersona persona)
         {
-            
+            UpdateMensaje();
             this.persona = persona;
             borrarCommand = new DelegateCommand(BorrarCommandExecute, BorrarCommandCanExecute);
             volverCommand = new DelegateCommand(VolverCommandExecute);
@@ -33,8 +34,8 @@ namespace EjTema11APIPersonas.ViewModels
 
         #region propiedades     
         public clsPersona Persona { get { return persona; } set { persona = value; } }
-
-        public bool Check { get { return check; } set { check = value; borrarCommand.RaiseCanExecuteChanged(); } } 
+        public string NoBorrar { get { return noBorrar; } set { noBorrar = value; } }
+        public bool Check { get { return check; } set { check = value; borrarCommand.RaiseCanExecuteChanged(); } }
 
         public DelegateCommand BorrarCommand
         {
@@ -54,11 +55,11 @@ namespace EjTema11APIPersonas.ViewModels
         private bool BorrarCommandCanExecute()
         {
             bool ejecutable = false;
-            if (Check)
+            if (Check && DateTime.Now.DayOfWeek != DayOfWeek.Sunday) //si el check esta activado y no es domingo
             {
                 ejecutable = true;
             }
-            //si hay tiempo modificar can execute en base a model state valid de data notations O EN BASE A SI DEP SELECCIONADO NO ES NULL)
+
             return ejecutable;
         }
 
@@ -81,8 +82,20 @@ namespace EjTema11APIPersonas.ViewModels
         {
             await Shell.Current.Navigation.PushAsync(new ListadoPersonas());
         }
+
+        private void UpdateMensaje()
+        {
+            if (DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
+            {
+                NoBorrar = "No se pueden borrar personas los domingos";
+            }
+            else
+            {
+                NoBorrar = "";
+            }
+        }
         #endregion
 
-         
+
     }
 }

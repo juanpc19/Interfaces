@@ -5,13 +5,11 @@ CapaDAL
 	
 	Listados
 		clsListaPersonasDAL
-			public async Task List<<clsPersona>> ListadoPersonasDAL()//get
-			public async Task <clsPersona> ObtenerPersonaPorIdDAL(string nombre)//get<id>
+			public async Task List<<clsPersona>> ListadoPersonasDAL()//get		
 			
 		clsListaDepsDAL
 			public async Task List<<clsDepartamento>> ListadoDepsDAL()//get
-			public async Task <string> ObtenerNombreDepDAL(int id)//get<id>
-
+			
 	Manejadoras
 		clsManejadoraPersonaDAL
 			public async Task<HttpStatusCode> EditarPersonaDAL(clsPersona persona)//put
@@ -22,18 +20,14 @@ CapaDAL
 			public async Task<HttpStatusCode> EditarDepartamentoDAL(clsPersona persona)//put
 			public async Task<HttpStatusCode> BorrarDepartamentoDAL(int id)//delete
 			public async Task<HttpStatusCode> CrearDepartamentoDAL(clsPersona persona)//post
-
 		
-
 CapaBL
 		Listados
 		clsListaPersonasBL
 			public async Task List<<clsPersona>> ListadoPersonasBL()//get
-			public async Task <clsPersona> ObtenerPersonaPorIdBL(string nombre)//get<id>
-			
+						
 		clsListaDepsBL
-			public async Task List<<clsDepartamento>> ListadoDepsBL()//get
-			public async Task <string> ObtenerNombreDepBL(int id)//get<id>
+			public async Task List<<clsDepartamento>> ListadoDepsBL()//get			
 
 	Manejadoras
 		clsManejadoraPersonaBL
@@ -76,28 +70,46 @@ UI(EjTema11APIPersonas)
 			private DelegateCommandAsync crearCommand; 
 			//contara con metodo asincrono que dara valor a listaDeps en el constructor
 
-		//para borrar persona necesito VM con clsPersona y un command (1 VM)
-		//para editar y para crear necesito VM que contenga persona, listaDeps, depSeleccionado y command (2 VM 1 para cada tipo command)
 
-		//para borrar, editar y crear departamento necesito VM con clsDepartamento y un command (3 VM 1 para cada tipo command)
+			AddPersonaVM: 
+				private clsPersona persona;
+				private ObservableCollection<clsDepartamento> listaDepartamentos;
+				private clsDepartamento departamentoSeleccionado;
+				private DelegateCommand crearCommand;
+				private DelegateCommand volverCommand;
+
+			EditPersonaVM: 
+				private clsPersona persona;
+				private ObservableCollection<clsDepartamento> listaDepartamentos;
+				private clsDepartamento departamentoSeleccionado;
+				private DelegateCommand editCommand;
+				private DelegateCommand volverCommand;
+
+			DeletePersonaVM:
+				private clsPersona persona;
+				private string noBorrar; //para mensaje de no borrar si es x dia
+				private bool check; //para el checkbox de confirmacion de borrado
+				private DelegateCommand borrarCommand;
+				private DelegateCommand volverCommand;
+
+			AddDepVM:
+				private string nombreDepartamento;
+				private clsDepartamento departamento;
+				private DelegateCommand crearCommand;
+				private DelegateCommand volverCommand;
+
+			EditDepVM:
+				private string nombreDepartamento;
+				private clsDepartamento departamento;
+				private DelegateCommand editarCommand;
+				private DelegateCommand volverCommand;
+					
+			DeleteDepVM:
+				private clsDepartamento departamento;
+				private bool check;  //para el checkbox de confirmacion de borrado
+				private DelegateCommand borrarCommand;
+				private DelegateCommand volverCommand;
+			
 
 
-		private async void DetailsCommand_Executed()
-{
-    // Creamos una instancia del ViewModel de detalles y le pasamos el personaje seleccionado
-    clsDetailsPageVM detailsViewModel = new clsDetailsPageVM(PersonajeSeleccionado);
 
-    // Creamos la página de detalles y le asignamos su ViewModel
-    DetailsPageVM detailsPage = new DetailsPageVM();
-    detailsPage.BindingContext = detailsViewModel;
-
-    // Navegamos a la página de detalles pasando el personaje seleccionado
-    await App.Current.MainPage.Navigation.PushModalAsync(detailsPage);
-}
-
-
-public clsDetailsPageVM(clsPersonaje personaje)
-{
-    _personaje = personaje;
-    ObtenerNombrePlaneta();
-}

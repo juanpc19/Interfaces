@@ -41,14 +41,29 @@ namespace CapaBL.Manejadoras
 
 
         /// <summary>
-        /// funcion que pasara a la capa DAL la persona a editar tras aplicar reglas de negocio
+        /// funcion que pasara a la capa DAL la persona a borrar tras aplicar reglas de negocio
         /// </summary>
         /// <param name="persona"></param>
         /// <returns></returns>
         public async Task<HttpStatusCode> BorrarPersonaBL(clsPersona persona)
         {
-            clsManejadoraPersonaDAL oDal = new clsManejadoraPersonaDAL();
-            HttpStatusCode miCodigoRespuesta = await oDal.BorrarPersonaDAL(persona);
+            HttpStatusCode miCodigoRespuesta;
+
+            //si es viernes no hago operacion borrar con api y devuelvo forbidden en codigo respuesta,
+            //ademas hago toast con mensaje de no eliminar los domingos en deletepersonavm
+            if (DateTime.Now.DayOfWeek == DayOfWeek.Sunday)
+            {
+                //devuelvo forbiden como status code para indicar que no se puede eliminar ese dia por restriccion en servidor
+                
+                miCodigoRespuesta = HttpStatusCode.Forbidden;
+            } 
+            //de lo contrario procedoa eliminar persona normalmente
+            else
+            {
+                clsManejadoraPersonaDAL oDal = new clsManejadoraPersonaDAL();
+                miCodigoRespuesta = await oDal.BorrarPersonaDAL(persona);
+            }
+           
 
             return miCodigoRespuesta;
         }

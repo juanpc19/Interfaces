@@ -9,6 +9,10 @@
 
 
 
+        <Label Text="{Binding NoBorrar} "
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
         <Image Source="{Binding Persona.Foto}"
                VerticalOptions="Center"
                HorizontalOptions="Center"

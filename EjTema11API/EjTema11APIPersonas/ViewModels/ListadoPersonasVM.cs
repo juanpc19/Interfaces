@@ -21,10 +21,10 @@ namespace EjTema11APIPersonas.ViewModels
         private ObservableCollection<clsPersona> listaPersonas;
         private clsPersona personaSeleccionada; 
         private string barraBusqueda; 
-        private DelegateCommandAsync buscarCommand; 
-        private DelegateCommandAsync eliminarCommand; 
-        private DelegateCommandAsync editarCommand; 
-        private DelegateCommandAsync crearCommand; 
+        private DelegateCommand buscarCommand; 
+        private DelegateCommand eliminarCommand; 
+        private DelegateCommand editarCommand; 
+        private DelegateCommand crearCommand; 
         #endregion
 
         #region constructores
@@ -33,10 +33,10 @@ namespace EjTema11APIPersonas.ViewModels
 
             RecogerListadoPersonasBL();//da valor a lista a traves de set privado
 
-            buscarCommand = new DelegateCommandAsync(BuscarCommandExecute, BuscarCommandCanExecute);
-            eliminarCommand = new DelegateCommandAsync(EliminarCommandExecute, EliminarCommandCanExecute);
-            editarCommand = new DelegateCommandAsync(EditarCommandExecute, EditarCommandCanExecute);
-            crearCommand = new DelegateCommandAsync(CrearCommandExecute);
+            buscarCommand = new DelegateCommand(BuscarCommandExecute, BuscarCommandCanExecute);
+            eliminarCommand = new DelegateCommand(EliminarCommandExecute, EliminarCommandCanExecute);
+            editarCommand = new DelegateCommand(EditarCommandExecute, EditarCommandCanExecute);
+            crearCommand = new DelegateCommand(CrearCommandExecute);
         }
         #endregion
 
@@ -67,16 +67,16 @@ namespace EjTema11APIPersonas.ViewModels
             }
         }
 
-        public DelegateCommandAsync BuscarCommand
+        public DelegateCommand BuscarCommand
         { get { return buscarCommand; } }
 
-        public DelegateCommandAsync EliminarCommand
+        public DelegateCommand EliminarCommand
         { get { return eliminarCommand; } }
 
-        public DelegateCommandAsync EditarCommand
+        public DelegateCommand EditarCommand
         { get { return editarCommand; } }
 
-        public DelegateCommandAsync CrearCommand
+        public DelegateCommand CrearCommand
         { get { return crearCommand; } }
 
         public string BarraBusqueda
@@ -111,7 +111,7 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        private async Task EliminarCommandExecute()
+        private async void EliminarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new DeletePersona(personaSeleccionada));
         }
@@ -126,12 +126,12 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        private async Task EditarCommandExecute()
+        private async void EditarCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new EditPersona(personaSeleccionada));
         }
 
-        private async Task CrearCommandExecute()
+        private async void CrearCommandExecute()
         {
             await Shell.Current.Navigation.PushAsync(new AddPersona());
         }
@@ -150,14 +150,14 @@ namespace EjTema11APIPersonas.ViewModels
             return ejecutar;
         }
 
-        private async Task BuscarCommandExecute()
+        private async void BuscarCommandExecute()
         {
 
         }
         #endregion
 
         #region metodos
-        private async Task RecogerListadoPersonasBL()
+        private async void RecogerListadoPersonasBL()
         {
             try
             {
