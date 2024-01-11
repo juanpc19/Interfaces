@@ -64,9 +64,11 @@
         <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Fecha de Nacimiento: "
                    VerticalOptions="Center" />
+            <!-->
             <DatePicker Date="{Binding Persona.FechaNac}"
                         VerticalOptions="CenterAndExpand"
                         HorizontalOptions="FillAndExpand" />
+            <Entry Text="{Binding Persona.FechaNac}"/>
         </HorizontalStackLayout>
 
         <HorizontalStackLayout HorizontalOptions="Center">
