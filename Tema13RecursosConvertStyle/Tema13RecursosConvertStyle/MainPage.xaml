@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tema13RecursosConvertStyle.MainPage">
 
+
+
     <ContentPage.Resources>
         <LinearGradientBrush x:Key="fondoGradiente2">
 
@@ -11,7 +13,9 @@
             <GradientStop Offset="1" Color="Red"/>
 
         </LinearGradientBrush>
+
     </ContentPage.Resources>
+    
     <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
@@ -20,7 +24,7 @@
         <Ellipse Fill="{StaticResource fondoGradiente}" WidthRequest="100" HeightRequest="100"/>
 
         <Rectangle Background="{StaticResource fondoGradiente2}" WidthRequest="100" HeightRequest="100"/>
-
+ 
     </VerticalStackLayout>
 
 </ContentPage>

@@ -279,3 +279,4 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPerso
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-ios\iossimulator-x64\EjTema11APIPersonas.pdb
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-ios\iossimulator-x64\EjTema11APIPersonas.genruntimeconfig.cache
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-ios\iossimulator-x64\ref\EjTema11APIPersonas.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
