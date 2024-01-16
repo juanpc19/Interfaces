@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj": {}
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj": {
+    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj",
+        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj",
         "projectName": "Ej3Tema13",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj",
-        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Tema13RecursosConvertStyle\\Ej2Tema13\\obj\\",
+        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Tema13RecursosConvertStyle\\Ej2Tema13\\Ej3Tema13.csproj",
+        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\Tema13RecursosConvertStyle\\Ej2Tema13\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
