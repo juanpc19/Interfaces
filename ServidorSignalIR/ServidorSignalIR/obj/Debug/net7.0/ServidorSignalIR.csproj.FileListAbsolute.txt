@@ -1,0 +1,8 @@
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.csproj.AssemblyReference.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.RazorAssemblyInfo.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.RazorAssemblyInfo.cs
