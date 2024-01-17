@@ -9,3 +9,14 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Debug\net7.0\refint\Models.dll
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Debug\net7.0\Models.pdb
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Debug\net7.0\ref\Models.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\bin\Debug\net7.0\Models.deps.json
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\bin\Debug\net7.0\Models.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\bin\Debug\net7.0\Models.pdb
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.AssemblyInfoInputs.cache
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.AssemblyInfo.cs
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.csproj.CoreCompileInputs.cache
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\refint\Models.dll
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\Models.pdb
+D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\obj\Debug\net7.0\ref\Models.dll
