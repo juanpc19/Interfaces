@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-18T17:23:31.242</Modified>
+      <Modified>2024-01-18T21:59:36.583</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-18T17:13:49.701</Modified>
+      <Modified>2024-01-18T21:58:24.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.runtimeconfig.json">
       <PackagePath>MauiSignalR.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.dll">
       <PackagePath>MauiSignalR.dll</PackagePath>
-      <Modified>2024-01-18T17:23:30.466</Modified>
+      <Modified>2024-01-18T21:59:35.802</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiSignalR.exe</PackagePath>
-      <Modified>2024-01-18T17:23:30.471</Modified>
+      <Modified>2024-01-18T21:59:35.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.deps.json">
       <PackagePath>MauiSignalR.deps.json</PackagePath>
@@ -959,7 +959,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\Models\bin\Debug\net7.0\Models.dll">
       <PackagePath>Models.dll</PackagePath>
-      <Modified>2024-01-18T15:44:09.317</Modified>
+      <Modified>2024-01-18T20:57:33.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

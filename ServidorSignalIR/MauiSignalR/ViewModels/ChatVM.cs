@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 using Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace MauiSignalR.ViewModels
         private string usuario;//nombre y mensaje para can execute de enviar mensaje dar sus valores a omensajeusuario antes de enviar
         private string mensaje;
         private clsMensajeUsuario oMensajeUsuario; //coge valores de usuario y mensaje y lo meto en la lista
-        private List<clsMensajeUsuario> listaMensajes; //lista de mensajes
+        private ObservableCollection<string> listaMensajes; //lista de mensajes, uso string en lugar de objeto clsMensajeUsuario por problema d econversion en ejecucion de comando
         private DelegateCommand enviarMensajeCommand; //command para enviar mensaje
         #endregion
 
@@ -29,7 +30,7 @@ namespace MauiSignalR.ViewModels
             usuario = string.Empty;
             mensaje = string.Empty;
             oMensajeUsuario = new clsMensajeUsuario();
-            //this.listaMensajes = new List<clsMensajeUsuario>();
+            listaMensajes = new ObservableCollection<string>();
             enviarMensajeCommand = new DelegateCommand(EnviarMensajeCommandExecuted, EnviarMensajeCommandCanExecute);
         }
  
@@ -54,7 +55,7 @@ namespace MauiSignalR.ViewModels
             set { oMensajeUsuario = value; }
         }
 
-        public List<clsMensajeUsuario> ListaMensajes
+        public ObservableCollection<string> ListaMensajes
         {
             get { return listaMensajes; }
             set { listaMensajes = value; NotifyPropertyChanged("ListaMensajes"); }
@@ -81,7 +82,12 @@ namespace MauiSignalR.ViewModels
 
         private void EnviarMensajeCommandExecuted()
         {
-            //doy valor a objeto con mensajes y usuario y lo añado a la lista no se como
+            conexion.On<clsMensajeUsuario>("ReceiveMessage", (oMensajeUsuario) =>
+            {
+                listaMensajes.Add($"{Environment.NewLine} {oMensajeUsuario.NombreUsuario} {oMensajeUsuario.MensajeUsuario}");
+                NotifyPropertyChanged("ListaMensajes");
+            });
+            
         }
         #endregion
 

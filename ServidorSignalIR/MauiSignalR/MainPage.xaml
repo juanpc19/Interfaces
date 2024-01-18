@@ -42,6 +42,14 @@
             <ListView ItemsSource="{Binding ListaMensajes}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
+                        <TextCell Text="{Binding}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <!--<ListView ItemsSource="{Binding ListaMensajes}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
                         <ViewCell>
                             <HorizontalStackLayout>
                                 <Label Text="{Binding OMensajeUsuario.NombreUsuario}" />
@@ -50,7 +58,7 @@
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>
+            </ListView>-->
 
         </VerticalStackLayout>
     </ScrollView>
