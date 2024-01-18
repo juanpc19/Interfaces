@@ -41,3 +41,30 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\ServidorSig
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.genruntimeconfig.cache
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ref\ServidorSignalIR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\appsettings.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\libman.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.staticwebassets.runtime.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.exe
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.runtimeconfig.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\ServidorSignalIR.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\Models.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\bin\Debug\net7.0\Models.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets\msbuild.ServidorSignalIR.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets\msbuild.build.ServidorSignalIR.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ServidorSignalIR.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ServidorSignalIR.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\scopedcss\bundle\ServidorSignalIR.styles.css
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\scopedcss\projectbundle\ServidorSignalIR.bundle.scp.css
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.csproj.CopyComplete
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\refint\ServidorSignalIR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ServidorSignalIR.genruntimeconfig.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Debug\net7.0\ref\ServidorSignalIR.dll

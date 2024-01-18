@@ -1,0 +1,10 @@
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\ServidorSignalIR.exe
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\libman.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\ServidorSignalIR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\ServidorSignalIR.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\ServidorSignalIR.runtimeconfig.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\ServidorSignalIR.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\Models.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\ServidorSignalIR\obj\Release\net7.0\PubTmp\Out\Models.pdb

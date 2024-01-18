@@ -1,7 +1,12 @@
-﻿class clsMensajeUsuario {
-    constructor(nombreUsuario, mensajeUsuario) {
-        this.nombreUsuario = nombreUsuario;
-        this.mensajeUsuario = mensajeUsuario;
+﻿//ESTO TIENE DATA NOTATIONS EN clsMensajeUsuario
+//https://chathubjuan.azurewebsites.net/
+//https://chathubjuan.azurewebsites.net//chatHub
+class clsMensajeUsuario {
+    constructor(NombreUsuario, MensajeUsuario) {
+  
+        this.NombreUsuario = NombreUsuario;
+        
+        this.MensajeUsuario = MensajeUsuario;
     }
  }
 
@@ -16,7 +21,7 @@ document.getElementById("sendButton").disabled = true;
 
 //recibir mensaje
 //connection.on("ReceiveMessage", function (user, message) {
-connection.on("ReceiveMessage", function (mensaje) {
+connection.on("ReceiveMessage", function (oMensajePersona) {
 
     var li = document.createElement("li");
     document.getElementById("messagesList").appendChild(li);
@@ -25,7 +30,7 @@ connection.on("ReceiveMessage", function (mensaje) {
     // should be aware of possible script injection concerns.
 
     //li.textContent = `${user} says ${message}`;
-    li.textContent = `${mensaje.nombreUsuario} says ${mensaje.mensajeUsuario}`;
+    li.textContent = `${oMensajePersona.NombreUsuario} says ${oMensajePersona.MensajeUsuario}`;
 });
 
 //habilitar el boton de enviar cuando se establece la conexion
@@ -37,10 +42,10 @@ connection.start().then(function () {
 
 //enviar mensaje
 document.getElementById("sendButton").addEventListener("click", function (event) {
-
-    nombreUsuario = document.getElementById("userInput").value;
-    mensajeUsuario = document.getElementById("messageInput").value;
-    connection.invoke("SendMessage", mensaje.nombreUsuario, mensaje.mensajeUsuario).catch(function (err) {
+    let oMensajePersona = new clsMensajeUsuario();
+    oMensajePersona.NombreUsuario = document.getElementById("userInput").value;
+    oMensajePersona.MensajeUsuario = document.getElementById("messageInput").value;
+    connection.invoke("SendMessage", oMensajePersona).catch(function (err) {
         return console.error(err.toString());
     });
     event.preventDefault();

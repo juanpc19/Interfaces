@@ -5,9 +5,9 @@ namespace ServidorSignalIR.Hubs
 {
     public class ChatHub : Hub
     {
-        public async Task SendMessage(clsMensajeUsuario mensaje)
+        public async Task SendMessage(clsMensajeUsuario oMensajePersona)
         {
-            await Clients.All.SendAsync("ReceiveMessage", mensaje);
+            await Clients.All.SendAsync("ReceiveMessage", oMensajePersona);
         }
     }
 }

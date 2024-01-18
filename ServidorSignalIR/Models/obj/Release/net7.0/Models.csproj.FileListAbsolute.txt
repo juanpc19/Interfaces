@@ -1,0 +1,11 @@
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\bin\Release\net7.0\Models.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\bin\Release\net7.0\Models.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\bin\Release\net7.0\Models.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\refint\Models.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\Models.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\obj\Release\net7.0\ref\Models.dll
