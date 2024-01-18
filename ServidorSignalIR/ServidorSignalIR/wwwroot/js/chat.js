@@ -1,6 +1,6 @@
 ﻿//ESTO TIENE DATA NOTATIONS EN clsMensajeUsuario
 //https://chathubjuan.azurewebsites.net/
-//https://chathubjuan.azurewebsites.net//chatHub
+//https://chathubjuan.azurewebsites.net/chatHub
 class clsMensajeUsuario {
     constructor(NombreUsuario, MensajeUsuario) {
   
@@ -10,7 +10,7 @@ class clsMensajeUsuario {
     }
  }
 
-"use strict";
+
 
  //conexion con el hub
 var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
