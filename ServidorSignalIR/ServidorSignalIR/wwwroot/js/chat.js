@@ -21,7 +21,7 @@ document.getElementById("sendButton").disabled = true;
 
 //recibir mensaje
 //connection.on("ReceiveMessage", function (user, message) {
-connection.on("ReceiveMessage", function (oMensajePersona) {
+connection.on("MuestraMensaje", function (oMensajePersona) {
 
     var li = document.createElement("li");
     document.getElementById("messagesList").appendChild(li);
@@ -45,7 +45,7 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     let oMensajePersona = new clsMensajeUsuario();
     oMensajePersona.NombreUsuario = document.getElementById("userInput").value;
     oMensajePersona.MensajeUsuario = document.getElementById("messageInput").value;
-    connection.invoke("SendMessage", oMensajePersona).catch(function (err) {
+    connection.invoke("EnviarMensajesAClientes", oMensajePersona).catch(function (err) {
         return console.error(err.toString());
     });
     event.preventDefault();

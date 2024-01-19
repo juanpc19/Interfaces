@@ -42,7 +42,13 @@
             <ListView ItemsSource="{Binding ListaMensajes}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding}" />
+                        <ViewCell>
+                            <HorizontalStackLayout>
+                                <Label Text="{Binding NombreUsuario}"/>
+                                <Label Text="Dice"/>
+                                <Label Text="{Binding MensajeUsuario}"/>
+                            </HorizontalStackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
