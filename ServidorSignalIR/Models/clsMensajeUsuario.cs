@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    //ANOTE AQUI TODO LO REFERNTE AL EJ
+    //https://www.youtube.com/watch?v=pDr0Hx67guk
+    //https://learn.microsoft.com/es-es/aspnet/core/tutorials/signalr?view=aspnetcore-7.0&tabs=visual-studio
+    //ChatVM y MainPage (Maui), ChatHub (Servidor) y program para añadir hubs, chat.js en wwwroot para cliente js/html Index, clsMensajeUsuario (Models)
+    //
     public class clsMensajeUsuario
     {
        

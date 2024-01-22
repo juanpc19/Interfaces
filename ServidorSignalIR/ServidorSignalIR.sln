@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServidorSignalIR", "Servido
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{E8300A2A-080E-43DF-B2F0-8B7FEC550D2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiSignalR", "MauiSignalR\MauiSignalR.csproj", "{39FFB996-7AD2-4DCC-8F13-BFFDF81BB5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiSignalR", "MauiSignalR\MauiSignalR.csproj", "{39FFB996-7AD2-4DCC-8F13-BFFDF81BB5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiSignalR4Chats", "MauiSignalR4Chats\MauiSignalR4Chats.csproj", "{B24CDC10-7DB2-4832-A588-705511D2DD97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,12 @@ Global
 		{39FFB996-7AD2-4DCC-8F13-BFFDF81BB5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39FFB996-7AD2-4DCC-8F13-BFFDF81BB5B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39FFB996-7AD2-4DCC-8F13-BFFDF81BB5B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24CDC10-7DB2-4832-A588-705511D2DD97}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
