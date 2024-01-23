@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiSignalR4Chats
-build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ServidorSignalIR\MauiSignalR4Chats\
+build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR4Chats\
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ServidorSignalIR/MauiSignalR4Chats/App.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ServidorSignalIR/MauiSignalR4Chats/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiSignalR4Chats.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ServidorSignalIR/MauiSignalR4Chats/AppShell.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ServidorSignalIR/MauiSignalR4Chats/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiSignalR4Chats.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ServidorSignalIR/MauiSignalR4Chats/MainPage.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ServidorSignalIR/MauiSignalR4Chats/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiSignalR4Chats.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ServidorSignalIR/MauiSignalR4Chats/Resources/Styles/Colors.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ServidorSignalIR/MauiSignalR4Chats/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiSignalR4Chats.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ServidorSignalIR/MauiSignalR4Chats/Resources/Styles/Styles.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ServidorSignalIR/MauiSignalR4Chats/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiSignalR4Chats.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

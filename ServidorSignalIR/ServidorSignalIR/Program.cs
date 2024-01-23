@@ -20,9 +20,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-app.MapHub<ChatHub>("/chatHub");
-app.MapHub<ChatHub>("/chatHub2");
-app.MapHub<ChatHub>("/chatHub3");
-app.MapHub<ChatHub>("/chatHub4");//añade el chathub al mapahub de la aplicacion, para que se pueda acceder a el mediante endpoint
+app.MapHub<ChatHub>("/chatHub");//añade el chathub al mapahub de la aplicacion, para que se pueda acceder a el mediante endpoint
 
 app.Run();

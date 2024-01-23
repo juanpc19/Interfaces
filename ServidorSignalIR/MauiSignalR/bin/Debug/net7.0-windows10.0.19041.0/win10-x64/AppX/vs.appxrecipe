@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-19T09:19:09.456</Modified>
+      <Modified>2024-01-23T11:45:44.289</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-19T09:19:09.204</Modified>
+      <Modified>2024-01-23T11:45:43.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.runtimeconfig.json">
       <PackagePath>MauiSignalR.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-19T08:35:43.074</Modified>
+      <Modified>2024-01-23T11:45:43.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.dll">
       <PackagePath>MauiSignalR.dll</PackagePath>
-      <Modified>2024-01-19T09:19:08.363</Modified>
+      <Modified>2024-01-23T11:45:42.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiSignalR.exe</PackagePath>
-      <Modified>2024-01-19T09:19:08.373</Modified>
+      <Modified>2024-01-23T11:45:42.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR.deps.json">
       <PackagePath>MauiSignalR.deps.json</PackagePath>
-      <Modified>2024-01-19T08:35:42.970</Modified>
+      <Modified>2024-01-23T11:45:43.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -959,7 +959,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\Models\bin\Debug\net7.0\Models.dll">
       <PackagePath>Models.dll</PackagePath>
-      <Modified>2024-01-19T07:34:43.993</Modified>
+      <Modified>2024-01-23T11:45:37.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

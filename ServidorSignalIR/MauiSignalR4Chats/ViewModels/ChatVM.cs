@@ -9,17 +9,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MauiSignalR.ViewModels
+namespace MauiSignalR4Chats.ViewModels
 {
     public class ChatVM: clsVMBase
     {
         #region atributos
         private readonly HubConnection conexion;
+        private string sala;
         private string usuario;//nombre y mensaje para can execute de enviar mensaje dar sus valores a omensajeusuario antes de enviar
         private string mensaje;
         private clsMensajeUsuario oMensajeUsuario; //coge valores de usuario y mensaje y lo meto en la lista
         private ObservableCollection<clsMensajeUsuario> listaMensajes; //lista de mensajes
         private DelegateCommand enviarMensajeCommand; //command para enviar mensaje
+        private DelegateCommand irCommand; //command para enviar mensaje
+
         #endregion
 
         //
@@ -29,9 +32,12 @@ namespace MauiSignalR.ViewModels
             conexion = new HubConnectionBuilder().WithUrl("https://chathubjuan.azurewebsites.net/chatHub").Build();
             usuario = string.Empty;
             mensaje = string.Empty;
+            sala = string.Empty;
             oMensajeUsuario = new clsMensajeUsuario();
             listaMensajes = new ObservableCollection<clsMensajeUsuario>();
             enviarMensajeCommand = new DelegateCommand(EnviarMensajeCommandExecute, EnviarMensajeCommandCanExecute);
+            irCommand = new DelegateCommand(IrCommandExecute, IrCommandCanExecute);
+
             //aqui establezco handler de evento del cliente que se da al recibir un clsMensajeUsuario en la conexion.On<clsMensajeUsuario>,
             //este evento se llama MuestraMensaje y proviene del servidor, al darse llama al metodo MostrarMensaje del cliente
             //que se encarga de añadir el mensaje a la lista y mostrarla en el cliente
@@ -41,6 +47,12 @@ namespace MauiSignalR.ViewModels
         #endregion
 
         #region propiedades
+
+        public string Sala
+        {
+            get { return sala; } 
+            set { sala = value; irCommand.RaiseCanExecuteChanged(); }
+        }
         public string Usuario
         {
             get { return usuario; }
@@ -91,8 +103,27 @@ namespace MauiSignalR.ViewModels
             Usuario = String.Empty;
             Mensaje = String.Empty;
         }
+
+        private bool IrCommandCanExecute()
+        {
+            bool puedeEnviar = false;
+
+            if (!string.IsNullOrEmpty(sala))
+            {
+                puedeEnviar = true;
+            }
+
+            return puedeEnviar;
+        }
+
+        private async void IrCommandExecute()
+        {
+            await conexion.InvokeCoreAsync("GoToSala", args: new[] { sala });
+        }
+
         #endregion
 
+        #region metodos
         /// <summary>
         /// metodo asociado a la llamada del servidor para mostrar mensaje por pantalla
         /// sera llamado por el evento MuestraMensaje del cliente al recibir un clsMensajeUsuario de servidor
@@ -118,5 +149,6 @@ namespace MauiSignalR.ViewModels
         {
             await conexion.StartAsync();
         }
+        #endregion
     }
 }

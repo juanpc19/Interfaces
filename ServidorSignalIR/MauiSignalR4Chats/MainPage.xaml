@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiSignalR4Chats.MainPage"
-             xmlns:vm="clr-namespace:MauiSignalR.ViewModels">
+             xmlns:vm="clr-namespace:MauiSignalR4Chats.ViewModels">
 
     <ContentPage.BindingContext>
-        <vm:ChatVM />
+        <vm:ChatVM/>
     </ContentPage.BindingContext>
 
     <ScrollView>
@@ -15,11 +15,14 @@
                              HorizontalOptions="Center">
 
             <HorizontalStackLayout HorizontalOptions="Center">
-                <Label Text="Usuario: "
+                <Label Text="Sala: "
                        FontSize="20"
                        HorizontalOptions="Center" />
-                <Entry Text="{Binding Usuario}"
+                <Entry Text="{Binding Sala}"
                        FontSize="16"
+                       HorizontalOptions="Center" />
+                <Button Text="Ir a Sala"
+                       Command="{Binding Ir}"
                        HorizontalOptions="Center" />
             </HorizontalStackLayout>
 
@@ -31,7 +34,6 @@
                        FontSize="16"
                        HorizontalOptions="Center" />
             </HorizontalStackLayout>
-
 
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Label Text="Mensaje: "

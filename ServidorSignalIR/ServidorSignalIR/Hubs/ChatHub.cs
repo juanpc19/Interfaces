@@ -12,5 +12,10 @@ namespace ServidorSignalIR.Hubs
         {
             await Clients.All.SendAsync("MuestraMensaje", oMensajePersona);
         }
+
+        public async Task GoToSala(string sala)
+        {
+            await Groups.AddToGroupAsync(Context.ConnectionId, sala);
+        }
     }
 }
