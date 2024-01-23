@@ -56,13 +56,13 @@ namespace MauiSignalR4Chats.ViewModels
         public string Usuario
         {
             get { return usuario; }
-            set { usuario = value; enviarMensajeCommand.RaiseCanExecuteChanged(); }
+            set { usuario = value; enviarMensajeCommand.RaiseCanExecuteChanged(); NotifyPropertyChanged("Usuario"); }
         }
 
         public string Mensaje
         {
             get { return mensaje; }
-            set { mensaje = value; enviarMensajeCommand.RaiseCanExecuteChanged(); }
+            set { mensaje = value; enviarMensajeCommand.RaiseCanExecuteChanged(); NotifyPropertyChanged("Mensaje"); }
         }
 
        
@@ -74,6 +74,11 @@ namespace MauiSignalR4Chats.ViewModels
         public DelegateCommand EnviarMensajeCommand
         {
             get { return enviarMensajeCommand; }
+        }
+
+        public DelegateCommand IrCommand
+        {
+            get { return irCommand; }
         }
         #endregion
 
@@ -99,16 +104,16 @@ namespace MauiSignalR4Chats.ViewModels
             oMensajeUsuario.NombreUsuario = Usuario;
             oMensajeUsuario.MensajeUsuario = Mensaje;
             await conexion.InvokeCoreAsync("EnviarMensajesAClientes", args: new[] { oMensajeUsuario });
+            Usuario = string.Empty;
+            Mensaje = string.Empty;
 
-            Usuario = String.Empty;
-            Mensaje = String.Empty;
         }
 
         private bool IrCommandCanExecute()
         {
             bool puedeEnviar = false;
 
-            if (!string.IsNullOrEmpty(sala))
+            if (!string.IsNullOrEmpty(Sala))
             {
                 puedeEnviar = true;
             }
@@ -118,7 +123,11 @@ namespace MauiSignalR4Chats.ViewModels
 
         private async void IrCommandExecute()
         {
-            await conexion.InvokeCoreAsync("GoToSala", args: new[] { sala });
+            if (conexion.State == HubConnectionState.Connected)
+            {
+                await conexion.InvokeCoreAsync("GoToSala", args: new[] { sala });
+            }
+          
         }
 
         #endregion
@@ -129,11 +138,11 @@ namespace MauiSignalR4Chats.ViewModels
         /// sera llamado por el evento MuestraMensaje del cliente al recibir un clsMensajeUsuario de servidor
         /// </summary>
         /// <param name="usuario"></param>
-        private void MostrarMensaje(clsMensajeUsuario usuario)
+        private void MostrarMensaje(clsMensajeUsuario mensajeUsuario)
         {
             Device.BeginInvokeOnMainThread(() => //para que se ejecute en el hilo principal y no explote
             {
-                listaMensajes.Add(usuario);
+                listaMensajes.Add(mensajeUsuario);
             } );
       
         }

@@ -22,7 +22,7 @@
                        FontSize="16"
                        HorizontalOptions="Center" />
                 <Button Text="Ir a Sala"
-                       Command="{Binding Ir}"
+                       Command="{Binding IrCommand}"
                        HorizontalOptions="Center" />
             </HorizontalStackLayout>
 
