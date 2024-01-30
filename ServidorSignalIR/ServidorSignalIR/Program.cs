@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();//añade el servicio de SignalR
-
+    
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
