@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR4Chats\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-30T11:58:45.247</Modified>
+      <Modified>2024-02-01T11:42:00.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR4Chats\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR4Chats.dll">
       <PackagePath>MauiSignalR4Chats.dll</PackagePath>
-      <Modified>2024-01-30T11:58:43.305</Modified>
+      <Modified>2024-02-01T11:41:58.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR4Chats\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiSignalR4Chats.exe</PackagePath>
-      <Modified>2024-01-30T11:58:43.323</Modified>
+      <Modified>2024-02-01T11:41:58.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ServidorSignalIR\MauiSignalR4Chats\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiSignalR4Chats.deps.json">
       <PackagePath>MauiSignalR4Chats.deps.json</PackagePath>

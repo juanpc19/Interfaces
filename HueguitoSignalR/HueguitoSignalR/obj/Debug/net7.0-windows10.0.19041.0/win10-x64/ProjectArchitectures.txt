@@ -1,0 +1,1 @@
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\HueguitoSignalR.csproj;x64

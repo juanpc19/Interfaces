@@ -1,41 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HueguitoSignalR.MainPage">
+             x:Class="HueguitoSignalR.MainPage"
+             xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels">
+    
+    
+    <ContentPage.BindingContext>
+        <hueguito:JuegoVM/>
+    </ContentPage.BindingContext>
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="BackgroundColor" Value="red"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+    </ContentPage.Resources>
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+    <VerticalStackLayout>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
+        
+        <Grid WidthRequest="240"
+          HeightRequest="240"
+          ColumnDefinitions="80, 80, 80"
+          RowDefinitions="Auto, Auto, Auto"
+          ColumnSpacing="6"
+          RowSpacing="6"
+          HorizontalOptions="Center"
+          VerticalOptions="Center">
+            
+            <!--private string entryJugador;//
+private string labelJugador;//
+private string labelGanador;//coge valor de jugador si partidaFinalizada==true
+private int rondas;//20 cuando suben? cuando cliente pulsa 
+private int puntos;//los que acierten-->
 
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
+            <Button Text="1"
+                Grid.Row="0" Grid.Column="0" 
+                Command="{Binding BotonPulsado}" 
+                CommandParameter="1"
+                    BackgroundColor="{Binding ColorBoton}"/>
+          
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+        </Grid>
 
-        </VerticalStackLayout>
-    </ScrollView>
+    </VerticalStackLayout>
+    
 
 </ContentPage>
