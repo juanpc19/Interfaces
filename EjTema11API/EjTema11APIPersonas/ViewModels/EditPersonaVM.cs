@@ -23,9 +23,10 @@ namespace EjTema11APIPersonas.ViewModels
         #endregion
 
         #region constructores
-        public EditPersonaVM(clsPersona persona) {
+        public EditPersonaVM(clsPersona persona, clsDepartamento departamento) {
             RecogerListadoDepsBL();
             this.persona = persona;
+            this.departamentoSeleccionado = departamento;//recibo departamento seleccionado de la persona bien pero no se muestra en el picker
             editCommand = new DelegateCommand(EditCommandExecute,EditCommandCanExecute);
             volverCommand = new DelegateCommand(VolverCommandExecute);
         }
@@ -89,18 +90,10 @@ namespace EjTema11APIPersonas.ViewModels
         /// </summary>
         /// <returns></returns>
         private async Task RecogerListadoDepsBL()
-        {
-            try
-            {               
+        {                        
                 clsListaDepsBL oBl = new clsListaDepsBL();
                 List<clsDepartamento> listaAuxiliar = await oBl.ListadoDepsBL();
                 ListaDepartamentos = new ObservableCollection<clsDepartamento>(listaAuxiliar);
-               
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error en funcion RecogerListadoDepsBL(): {ex.Message}");
-            }
         }
         #endregion
     }

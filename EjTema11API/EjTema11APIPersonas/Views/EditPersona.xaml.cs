@@ -5,9 +5,9 @@ namespace EjTema11APIPersonas.Views;
 
 public partial class EditPersona : ContentPage
 {
-	public EditPersona(clsPersona persona)
+	public EditPersona(clsPersona persona, clsDepartamento departamento)
 	{
 		InitializeComponent();
-		BindingContext = new EditPersonaVM(persona);
+		BindingContext = new EditPersonaVM(persona, departamento);
 	}
 }

@@ -16,6 +16,8 @@ namespace EjTema11APIPersonas.ViewModels
         #region atributos
         private bool visibilidadCarga;
         private ObservableCollection<clsDepartamento> listaDepartamentos;
+        private List<clsDepartamento> listaDepartamentosAuxiliar;//para usar en busqueda sin tener que llamar a la api varias veces,
+                                                                 //no tiene propiedades publicas para que no se pueda modificar desde fuera porque solo lo usa el VM
         private clsDepartamento depSeleccionado; 
         private string barraBusqueda;  
         private DelegateCommandAsync buscarCommand; 
@@ -48,6 +50,7 @@ namespace EjTema11APIPersonas.ViewModels
             get { return listaDepartamentos; }
             private set { listaDepartamentos = value; NotifyPropertyChanged("ListaDepartamentos"); }
         }
+        
 
         public clsDepartamento DepSeleccionado
         {
@@ -86,8 +89,8 @@ namespace EjTema11APIPersonas.ViewModels
                 //si nuevo valor es null o vacio
                 if (string.IsNullOrEmpty(barraBusqueda))
                 {
-                    //restablezco lista original
-                    //restablecerListaBusqueda();
+                    //restablezco lista original mediante metodo recargarListaOriginal
+                    recargarListaOriginal();
                 }
                 //aviso a buscarCommand que haga check de si puede ejecutarse o no debido a nuevo valor en entry
                 buscarCommand.RaiseCanExecuteChanged();
@@ -145,27 +148,70 @@ namespace EjTema11APIPersonas.ViewModels
             return habilitadoBuscar;
         }
 
+        /// <summary>
+        /// metodo que se ejecuta al pulsar el boton buscar, filtra departamentos con una busqueda en la lista de departamentos usando el valor de barraBusqueda
+        /// </summary>
         private async Task BuscarCommandExecute()
         {
+            //doy a textoABuscar valor igual a barraBusqueda (entry.text) y lo paso a minusculas para busqueda mas precisa
+            string textoABuscar = barraBusqueda.ToLower();
 
+            //nohay necesidad de hacer una llamada a la api para recargar la lista original antes de hacer busqueda sobre ella
+            //ya que tengo la lista original en listaDepartamentosAuxiliar
+
+
+            // creo una nueva lista temporal en la que recogere los departamentos filtrados
+            //.where es un metodo extensible de LINQ (Language Integrated Query) que hace una busqueda en listaDepartamentosAuxiliar
+            List<clsDepartamento> listadoFiltrado = listaDepartamentosAuxiliar.Where(departamento =>
+                    //donde departamento tenga nombre  que contenga textoABuscar (paso a minuscula nombre  para busqueda mas precisa)
+                    departamento.Nombre.ToLower().Contains(textoABuscar) 
+                //una vez tengo la lista la paso de tipo IEnumerable<T> o de tipo IQueryable<T> que son las que devuelve la busqueda where
+                // a List<T> que es del tipo que estoy usando, esto se hace con el siguiente .ToList();
+                ).ToList();
+
+            //borro los elementos de listaDepartamentos
+            listaDepartamentos.Clear();
+
+            //y añado los elementos de la lista listadoFiltrado
+            foreach (clsDepartamento departamento in listadoFiltrado)
+            {
+                listaDepartamentos.Add(departamento);
+            }
+
+            //notifico cambios a listaDepartamentos para reflejarlos en interfaz
+            NotifyPropertyChanged("ListaDepartamentos");
         }
 
         #endregion
 
         #region metodos
+        /// <summary>
+        /// medoto que recoge listado departamentos de api de forma asincrona, usado en constructor
+        /// </summary>
         private async Task RecogerListadoDepsBL()
         {
-            try
-            {
+
                 VisibilidadCarga = true;
                 clsListaDepsBL oBl = new clsListaDepsBL();
                 List<clsDepartamento> listaAuxiliar = await oBl.ListadoDepsBL(); 
+                listaDepartamentosAuxiliar = listaAuxiliar;//añado esta linea para tener una lista auxiliar con la que trabajar en la busqueda
                 ListaDepartamentos = new ObservableCollection<clsDepartamento>(listaAuxiliar);
                 VisibilidadCarga = false;
-            }
-            catch (Exception ex)
+            
+        }
+
+        /// <summary>
+        /// funcion que reiniciara la lista a su valor original sin llamar a la api al tener la lista original en listaDepartamentosAuxiliar tras carga inicial de pagina
+        /// </summary>
+        public void recargarListaOriginal()
+        {
+            //borro los elementos de listaDepartamentos
+            listaDepartamentos.Clear();
+
+            //y añado los elementos de listaDepartamentosAuxiliar
+            foreach (clsDepartamento departamento in listaDepartamentosAuxiliar)
             {
-                Console.WriteLine($"Error en funcion RecogerListadoDepsBL(): {ex.Message}");
+                listaDepartamentos.Add(departamento);
             }
         }
         #endregion

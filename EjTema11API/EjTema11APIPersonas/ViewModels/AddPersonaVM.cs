@@ -92,17 +92,10 @@ namespace EjTema11APIPersonas.ViewModels
         /// <returns></returns>
         private async Task RecogerListadoDepsBL()
         {
-            try
-            {
                 clsListaDepsBL oBl = new clsListaDepsBL();
                 List<clsDepartamento> listaAuxiliar = await oBl.ListadoDepsBL();
                 ListaDepartamentos = new ObservableCollection<clsDepartamento>(listaAuxiliar);
-
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error en funcion RecogerListadoDepsBL(): {ex.Message}");
-            }
+            
         }
         #endregion
     }

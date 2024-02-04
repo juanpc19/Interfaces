@@ -25,6 +25,12 @@ namespace CapaEntidades
             this.id = id;
             this.nombre = nombre;   
         }
+
+        public clsDepartamento(clsDepartamento departamento)
+        {
+            this.id = departamento.Id;
+            this.nombre = departamento.Nombre;
+        }
         #endregion
 
         #region propiedades

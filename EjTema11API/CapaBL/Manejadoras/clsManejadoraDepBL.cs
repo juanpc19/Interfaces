@@ -50,5 +50,16 @@ namespace CapaBL.Manejadoras
             return miCodigoRespuesta;
         }
 
+        public async Task<clsDepartamento> ObtenerDepartamentoPorIdPersonaBL(clsPersona personaRecibida)
+        {
+           clsDepartamento departamentoEncontrado = new clsDepartamento();
+
+            clsManejadoraDepDAL oDAL = new clsManejadoraDepDAL();
+
+            departamentoEncontrado = await oDAL.ObtenerDepartamentoPorIdPersonaDAL(personaRecibida);
+
+           return departamentoEncontrado;
+        }
+
     }
 }

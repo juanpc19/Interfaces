@@ -1,4 +1,5 @@
 ﻿using CapaDAL.Conexion;
+using CapaDAL.Listados;
 using CapaEntidades;
 using Newtonsoft.Json;
 using System;
@@ -93,5 +94,13 @@ namespace CapaDAL.Manejadoras
         }
 
 
+        public async Task<clsDepartamento> ObtenerDepartamentoPorIdPersonaDAL(clsPersona personaRecibida)
+        {
+            clsListaDepsDAL oDal = new clsListaDepsDAL();
+            List<clsDepartamento> listado = await oDal.ListadoDepsDAL();
+            clsDepartamento departamentoEncontrado = listado.Where(x => x.Id == personaRecibida.IdDepartamento).FirstOrDefault();
+
+            return departamentoEncontrado;
+        }
     }
 }

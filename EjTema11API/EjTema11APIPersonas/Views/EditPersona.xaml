@@ -77,6 +77,15 @@
              
         </HorizontalStackLayout>
 
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Departamento actual: "
+                   VerticalOptions="Center" />
+            <Label Text="{Binding DepartamentoSeleccionado.Nombre}"
+                   VerticalOptions="Center" />
+        </HorizontalStackLayout>
+
+        
         <HorizontalStackLayout HorizontalOptions="Center">
             <Label Text="Departamento: "
                    VerticalOptions="Center" />
@@ -86,6 +95,8 @@
                     VerticalOptions="CenterAndExpand"
                     HorizontalOptions="FillAndExpand" />
         </HorizontalStackLayout>
+
+        
 
         <HorizontalStackLayout HorizontalOptions="Center">
             <Button Text="Editar"

@@ -31,7 +31,7 @@
         </HorizontalStackLayout>
         
         <HorizontalStackLayout HorizontalOptions="Center">
-            <Button Text="Crear"
+            <Button Text="Borrar"
                     Command="{Binding BorrarCommand}"
                     WidthRequest="150"
                     HeightRequest="50" />
