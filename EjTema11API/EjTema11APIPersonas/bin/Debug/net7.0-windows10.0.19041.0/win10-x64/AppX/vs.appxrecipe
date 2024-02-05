@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-04T10:25:02.943</Modified>
+      <Modified>2024-02-05T15:05:44.957</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-04T10:25:02.778</Modified>
+      <Modified>2024-02-05T15:05:44.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.runtimeconfig.json">
       <PackagePath>EjTema11APIPersonas.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.dll">
       <PackagePath>EjTema11APIPersonas.dll</PackagePath>
-      <Modified>2024-02-04T10:25:02.071</Modified>
+      <Modified>2024-02-05T15:05:44.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EjTema11APIPersonas.exe</PackagePath>
-      <Modified>2024-02-04T10:25:02.076</Modified>
+      <Modified>2024-02-05T15:05:44.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\EjTema11APIPersonas.deps.json">
       <PackagePath>EjTema11APIPersonas.deps.json</PackagePath>
