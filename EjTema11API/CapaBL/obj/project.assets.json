@@ -90,23 +90,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juanp\\.nuget\\packages\\": {},
+    "C:\\Users\\jperez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaBL\\CapaBL.csproj",
+      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj",
       "projectName": "CapaBL",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaBL\\CapaBL.csproj",
-      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaBL\\obj\\",
+      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj",
+      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -122,11 +122,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaDAL\\CapaDAL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaDAL\\CapaDAL.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaDAL\\CapaDAL.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaDAL\\CapaDAL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }
