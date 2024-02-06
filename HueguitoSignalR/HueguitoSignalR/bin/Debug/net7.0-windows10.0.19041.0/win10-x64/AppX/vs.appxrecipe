@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-01T12:58:31.583</Modified>
+      <Modified>2024-02-06T12:26:43.823</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HueguitoSignalR.dll">
       <PackagePath>HueguitoSignalR.dll</PackagePath>
-      <Modified>2024-02-01T12:58:30.197</Modified>
+      <Modified>2024-02-06T12:26:42.490</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HueguitoSignalR.exe</PackagePath>
-      <Modified>2024-02-01T12:58:30.251</Modified>
+      <Modified>2024-02-06T12:26:42.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\HueguitoSignalR.deps.json">
       <PackagePath>HueguitoSignalR.deps.json</PackagePath>

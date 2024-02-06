@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,5 +10,8 @@ namespace Entidades
     public class clsBoton
     {
         //atributos color y nombre?
+        string textoBoton;
+        Color color;
+
     }
 }
