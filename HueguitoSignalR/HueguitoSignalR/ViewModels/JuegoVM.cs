@@ -1,4 +1,5 @@
-﻿using HueguitoSignalR.ViewModels.Utilidades;
+﻿using HueguitoSignalR.Models;
+using HueguitoSignalR.ViewModels.Utilidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,25 +25,45 @@ namespace HueguitoSignalR.ViewModels
         private DelegateCommand botonPulsado;    
         //llama a servidor para recibir boton a pulsar iniciando juego, ejecuta si valor no null ni empty en entryjugador (can execute con partidaIniciada), pone partidaIniciada a true 
         private DelegateCommand empezarJuego;
-        private Color colorBoton;
-        //añadir 8 propiedades una para cada color de cada boton
+        private List<clsCasilla> listaCasillas;
+        private clsCasilla casillaSeleccionada;
+       
+   
         #endregion
 
+        //cuando se pulse empezar juego llamar a metodo servidor k ponga una aleatoria a verde
         #region constructores
         public JuegoVM()
         {
-            colorBoton = Colors.Green;
-            NotifyPropertyChanged("ColorBoton");
-
-            //el boton sera puesto a mano en el collection view como item 
-            //el color y el texto vienen del clsBoton que es parte de LIST<clsBoton>que se pasa como itemsurce al collection view
-            //recorre el el list de botones para propiedades pero el boton se crea a mano
+            
+            listaCasillas = new List<clsCasilla>();
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla());
+            listaCasillas.Add(new clsCasilla(true));
+            //aqui llamar a metodo k ponga todo rojo
+            NotifyPropertyChanged("ListaCasillas");
+  
         }
         #endregion
 
         #region propiedades
-         
-       public Color ColorBoton { get { return colorBoton; } }
+        
+        public clsCasilla CasillaSeleccionada
+        {
+            get { return casillaSeleccionada; } set {  casillaSeleccionada = value;}
+        }
+
+        public List<clsCasilla> ListaCasillas
+        {
+            get { return listaCasillas; }
+        
+        }
         #endregion
     }
 }

@@ -322,3 +322,5 @@ C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSign
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\casilla_roja.scale-100.png
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\casilla_verde.scale-100.png

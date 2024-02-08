@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HueguitoSignalR.MainPage"
              xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels">
-    
-    
+
+
     <ContentPage.BindingContext>
         <hueguito:JuegoVM/>
     </ContentPage.BindingContext>
@@ -17,34 +17,43 @@
         </Style>
     </ContentPage.Resources>
 
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="Black">
 
-        
-        <Grid WidthRequest="240"
-          HeightRequest="240"
-          ColumnDefinitions="80, 80, 80"
-          RowDefinitions="Auto, Auto, Auto"
-          ColumnSpacing="6"
-          RowSpacing="6"
-          HorizontalOptions="Center"
-          VerticalOptions="Center">
+        <!--en caso de estar vacio empty view-->
+        <CollectionView ItemsSource="{Binding ListaCasillas}" SelectedItem="{Binding CasillaSeleccionada}"
+                      EmptyView="error al cargar"
+                      VerticalOptions="StartAndExpand"
+                      SelectionMode="Single"
+                      WidthRequest="400"
+                      HeightRequest="400" 
+                        >
+
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                 Span="3"
+                                 VerticalItemSpacing="35"
+                                 HorizontalItemSpacing="30"
+                                 /> 
+            </CollectionView.ItemsLayout>
             
-            <!--private string entryJugador;//
-private string labelJugador;//
-private string labelGanador;//coge valor de jugador si partidaFinalizada==true
-private int rondas;//20 cuando suben? cuando cliente pulsa 
-private int puntos;//los que acierten-->
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
 
-            <Button Text="1"
-                Grid.Row="0" Grid.Column="0" 
-                Command="{Binding BotonPulsado}" 
-                CommandParameter="1"
-                    BackgroundColor="{Binding ColorBoton}"/>
-          
+                    <Image Source="{Binding ImagenMostrada}" WidthRequest="50" HeightRequest="50" Margin="2"/>
 
-        </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+
+
+
+
+
+
+
 
     </VerticalStackLayout>
-    
+
 
 </ContentPage>
