@@ -1,5 +1,6 @@
 ﻿using HueguitoSignalR.Models;
 using HueguitoSignalR.ViewModels.Utilidades;
+using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,7 @@ namespace HueguitoSignalR.ViewModels
     public class JuegoVM: clsVMBase
     {
         #region atributos
+        private readonly HubConnection conexion;
         private string entryJugador;//
         private string labelJugador;//
         private string labelGanador;//coge valor de jugador si partidaFinalizada==true
@@ -35,25 +37,22 @@ namespace HueguitoSignalR.ViewModels
         #region constructores
         public JuegoVM()
         {
-            
-            listaCasillas = new List<clsCasilla>();
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla());
-            listaCasillas.Add(new clsCasilla(true));
-            //aqui llamar a metodo k ponga todo rojo
-            NotifyPropertyChanged("ListaCasillas");
-  
+            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5189/").Build();
+            CargaCasillasInicial();
+
+
+            empezarJuego = new DelegateCommand(EmpezarJuegoCommandExecute, EmpezarJuegoCommandCanExecute);
+            botonPulsado = new DelegateCommand(BotonPulsadoCommandExecute, BotonPulsadoCommandCanExecute);
+            IniciarConexion();
         }
+
+        
+
+
         #endregion
 
         #region propiedades
-        
+
         public clsCasilla CasillaSeleccionada
         {
             get { return casillaSeleccionada; } set {  casillaSeleccionada = value;}
@@ -65,5 +64,61 @@ namespace HueguitoSignalR.ViewModels
         
         }
         #endregion
+
+
+        #region comandos
+
+        private bool EmpezarJuegoCommandCanExecute()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// metodo que llamara a IniciarJuego de server
+        /// </summary>
+        /// <exception cref="NotImplementedException"></exception>
+        private void EmpezarJuegoCommandExecute()
+        {
+
+            throw new NotImplementedException();
+        }
+
+        private bool BotonPulsadoCommandCanExecute()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BotonPulsadoCommandExecute()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
+        /// <summary>
+        /// metodo que crea la lista de casillas que por defecto tendran imagenMostrada = casillaRoja
+        /// </summary>
+        #region metodos
+        private void CargaCasillasInicial()
+        {
+            listaCasillas = new List<clsCasilla>();
+            for (int i = 0; i < 9; i++)
+            {
+                listaCasillas.Add(new clsCasilla());
+            }
+             
+            NotifyPropertyChanged("ListaCasillas");
+        }
+
+
+        /// <summary>
+        /// metodo para iniciar la conexion con el servidor de forma asincrona
+        /// </summary>
+        private async void IniciarConexion()
+        {
+            await conexion.StartAsync();
+        }
+        #endregion
+
     }
 }
