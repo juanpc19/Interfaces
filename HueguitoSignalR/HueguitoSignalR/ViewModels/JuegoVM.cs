@@ -21,7 +21,7 @@ namespace HueguitoSignalR.ViewModels
         private string labelGanador;//coge valor de jugador si partidaFinalizada==true
         private int rondas;//20 cuando suben? cuando cliente pulsa 
         private int puntos;//los que acierten
-        private bool partidaIniciada;// por defecto false
+        private bool partidaIniciada;// para iniciar juego se pone true si datos partida jugadores=2
         private bool partidaFinalizada;//si rondas==20
         //manda a servidor boton pulsado, tendra command parameters para ver cual se ha pulsado, ejecutable si juego empezado (can execute con partidaIniciada)
         private DelegateCommand botonPulsado;    
@@ -63,14 +63,30 @@ namespace HueguitoSignalR.ViewModels
             get { return listaCasillas; }
         
         }
+
+        public string EntryJugador
+        {
+            get { return entryJugador; }
+            set { entryJugador = value; }
+        }
         #endregion
 
 
         #region comandos
 
+        /// <summary>
+        /// comprueba que entryJugador no es null y ejecuta su comando
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
         private bool EmpezarJuegoCommandCanExecute()
         {
-            throw new NotImplementedException();
+            bool ejecutable = false;
+            if (!string.IsNullOrEmpty(entryJugador))
+            {
+                ejecutable = true;
+            }
+            return ejecutable;
         }
 
         /// <summary>
@@ -80,7 +96,7 @@ namespace HueguitoSignalR.ViewModels
         private void EmpezarJuegoCommandExecute()
         {
 
-            throw new NotImplementedException();
+            
         }
 
         private bool BotonPulsadoCommandCanExecute()

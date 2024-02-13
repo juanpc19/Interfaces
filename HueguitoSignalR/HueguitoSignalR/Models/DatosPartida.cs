@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace HueguitoSignalR.Models
 {
-    public class DatosPartida
+    public static class DatosPartida
     {
-        
+        public static int jugadores;
+        public static string nombreJugador1;
+        public static string nombreJugador2;
+        public static int puntosJugador1;
+        public static int puntosJugador2;
+
     }
 }

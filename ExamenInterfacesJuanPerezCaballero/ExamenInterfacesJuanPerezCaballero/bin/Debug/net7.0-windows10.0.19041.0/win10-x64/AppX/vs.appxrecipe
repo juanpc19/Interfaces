@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-10T08:04:59.256</Modified>
+      <Modified>2024-02-13T13:20:26.943</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ExamenInterfacesJuanPerezCaballero.dll">
       <PackagePath>ExamenInterfacesJuanPerezCaballero.dll</PackagePath>
-      <Modified>2023-11-10T08:04:58.117</Modified>
+      <Modified>2024-02-13T13:20:24.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ExamenInterfacesJuanPerezCaballero.exe</PackagePath>
-      <Modified>2023-11-10T08:04:58.137</Modified>
+      <Modified>2024-02-13T13:20:24.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ExamenInterfacesJuanPerezCaballero.deps.json">
       <PackagePath>ExamenInterfacesJuanPerezCaballero.deps.json</PackagePath>
