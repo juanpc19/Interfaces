@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ExamenInterfacesJuanPerezCaballero
-build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\ExamenInterfacesJuanPerezCaballero\ExamenInterfacesJuanPerezCaballero\
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/App.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenInterfacesJuanPerezCaballero.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/AppShell.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenInterfacesJuanPerezCaballero.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/MainPage.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenInterfacesJuanPerezCaballero.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/Resources/Styles/Colors.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenInterfacesJuanPerezCaballero.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/Resources/Styles/Styles.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/ExamenInterfacesJuanPerezCaballero/ExamenInterfacesJuanPerezCaballero/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ExamenInterfacesJuanPerezCaballero.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

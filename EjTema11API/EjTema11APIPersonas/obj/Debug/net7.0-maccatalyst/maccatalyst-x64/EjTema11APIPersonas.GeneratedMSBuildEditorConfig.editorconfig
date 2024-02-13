@@ -8,75 +8,75 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EjTema11APIPersonas
-build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\EjTema11API\EjTema11APIPersonas\
+build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\EjTema11APIPersonas\
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/App.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/AppShell.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Resources/Styles/Colors.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Resources/Styles/Styles.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/AddDep.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/AddDep.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.AddDep.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddDep.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddDep.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/AddPersona.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/AddPersona.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.AddPersona.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddPersona.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddPersona.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/DeleteDep.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/DeleteDep.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.DeleteDep.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DeleteDep.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DeleteDep.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/DeletePersona.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/DeletePersona.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.DeletePersona.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DeletePersona.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DeletePersona.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/EditDep.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/EditDep.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.EditDep.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditDep.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditDep.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/EditPersona.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/EditPersona.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.EditPersona.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditPersona.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditPersona.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/ListadoDeps.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/ListadoDeps.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.ListadoDeps.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoDeps.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListadoDeps.xaml
 
-[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/EjTema11API/EjTema11APIPersonas/Views/ListadoPersonas.xaml]
+[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/EjTema11API/EjTema11APIPersonas/Views/ListadoPersonas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EjTema11APIPersonas.Views.ListadoPersonas.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListadoPersonas.xaml
