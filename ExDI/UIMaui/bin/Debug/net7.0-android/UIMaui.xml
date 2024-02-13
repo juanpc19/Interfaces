@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UIMaui</name>
+    </assembly>
+    <members>
+        <member name="M:UIMaui.CapaBL.Listados.clsListaDepartamentosBL.ListadoDepsBL">
+            <summary>
+            funcion que devolvera un listado de departamentos extraido de una API aplicandole reglas de negocio pertinentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UIMaui.CapaBL.Listados.clsListaPersonasBL.ListadoPersonasBL">
+            <summary>
+            funcion que devolvera un listado de personas extraido de una API aplicandole reglas de negocio pertinentes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:UIMaui.CapaDAL.Listados.clsListaDepartamentosDAL">
+            <summary>
+            funcion que devolvera un listado de departamentos extraido de una API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UIMaui.CapaDAL.Listados.clsListaPersonasDAL.ListadoPersonasDAL">
+            <summary>
+            funcion que devolvera un listado de personas extraido de una API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UIMaui.Models.clsPersonaConListaDep.#ctor(Entidades.clsPersona,System.Collections.Generic.List{Entidades.clsDepartamento})">
+            <summary>
+            constructor con parametros que recibira la persona de una lista personas en VM, 
+            el departamento seleccionado se le asignara a posteriori mediante interaccion con usuario y
+            la lista de deps se le dara con el metodo recoger listado que hara llamada a api para recoger el listado
+            </summary>
+            <param name="persona"></param>
+        </member>
+        <member name="M:UIMaui.ViewModels.JuegoVM.#ctor">
+            <summary>
+            constructor que llamara a recogerListado para recoger datos de api y asignarlos a listaPersonasConListaDep
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.JuegoVM.ComprobarCommandExecute">
+            <summary>
+            realizara comprobacion de deps seleccionados para cada persona en la lista con lo que establecera valores para aciertos y intentos restantes
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.JuegoVM.RecogerListado">
+            <summary>
+            funcion que recorrera listaPersonasConListaDep dandole valores extraidos de api a traves de capa bl
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.JuegoVM.ComprobarResultado">
+            <summary>
+            comprobara el resultado del juego y mostrara mensaje de victoria o derrota dando opcion al jugador de jugar de nuevo o no
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.Utilidades.DelegateCommand.#ctor(System.Action)">
+            <summary>
+            Initializes a new instance of the RelayCommand class that 
+            can always execute.
+            </summary>
+            <param name="execute">The execution logic.</param>
+            <exception cref="T:System.ArgumentNullException">If the execute argument is null.</exception>
+        </member>
+        <member name="M:UIMaui.ViewModels.Utilidades.DelegateCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the RelayCommand class.
+            </summary>
+            <param name="execute">The execution logic.</param>
+            <param name="canExecute">The execution status logic.</param>
+            <exception cref="T:System.ArgumentNullException">If the execute argument is null.</exception>
+        </member>
+        <member name="E:UIMaui.ViewModels.Utilidades.DelegateCommand.CanExecuteChanged">
+            <summary>
+            Occurs when changes occur that affect whether the command should execute.
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.Utilidades.DelegateCommand.RaiseCanExecuteChanged">
+            <summary>
+            Raises the <see cref="E:UIMaui.ViewModels.Utilidades.DelegateCommand.CanExecuteChanged" /> event.
+            </summary>
+        </member>
+        <member name="M:UIMaui.ViewModels.Utilidades.DelegateCommand.CanExecute(System.Object)">
+            <summary>
+            Defines the method that determines whether the command can execute in its current state.
+            </summary>
+            <param name="parameter">This parameter will always be ignored.</param>
+            <returns>true if this command can be executed; otherwise, false.</returns>
+        </member>
+        <member name="M:UIMaui.ViewModels.Utilidades.DelegateCommand.Execute(System.Object)">
+            <summary>
+            Defines the method to be called when the command is invoked. 
+            </summary>
+            <param name="parameter">This parameter will always be ignored.</param>
+        </member>
+        <member name="T:UIMaui.ViewModels.Utilidades.DelegateCommandAsync">
+            <summary>
+            clase para poder usar comandos asincronos modifica el DelegateCommand original 
+            </summary>
+        </member>
+    </members>
+</doc>

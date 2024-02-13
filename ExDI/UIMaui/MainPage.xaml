@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UIMaui.MainPage"
+             xmlns:vm="clr-namespace:UIMaui.ViewModels">
+
+    <ContentPage.BindingContext>
+        <vm:JuegoVM />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="32*" />
+            <RowDefinition Height="6*" />
+
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="LightGray"
+               Grid.Row="0"
+               BorderColor="Purple"
+               CornerRadius="30"
+               Margin="1">
+
+            <HorizontalStackLayout VerticalOptions="Center"
+                                   HorizontalOptions="Center">
+
+                <Frame BackgroundColor="Purple"
+                       BorderColor="Black"
+                       CornerRadius="30" Margin="0,0,15,0">
+
+                    <HorizontalStackLayout HorizontalOptions="Start"
+                                           VerticalOptions="Center" >
+                        <Label Text="Intentos restantes: "
+                               TextColor="White" />
+                        <Label Text="{Binding IntentosRestantes}"
+                               TextColor="White" />
+                    </HorizontalStackLayout>
+
+                </Frame>
+
+                <Frame BackgroundColor="Purple"
+                       BorderColor="Black"
+                       CornerRadius="30"
+                       Margin="15,0,0,0">
+
+                    <HorizontalStackLayout HorizontalOptions="End"
+                                           VerticalOptions="Center" >
+                        <Label Text="Aciertos: "
+                               TextColor="White" />
+                        <Label Text="{Binding Aciertos}"
+                               TextColor="White" />
+                    </HorizontalStackLayout>
+
+                </Frame>
+
+            </HorizontalStackLayout>
+
+        </Frame>
+
+        <ScrollView Grid.Row="1">
+
+            <VerticalStackLayout>
+                <ListView ItemsSource="{Binding ListaPersonasConListaDep}"
+                          RowHeight="80">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame BorderColor="Purple"
+                                       BackgroundColor="LightGray"
+                                       CornerRadius="30" Margin="1">
+
+                                    <Grid>
+
+                                        <HorizontalStackLayout>
+
+                                            <Label Text="{Binding Persona.Nombre}"
+                                                   VerticalTextAlignment="Center"
+                                                   HorizontalOptions="Start"
+                                                   Margin="10,0,10,0" />
+
+                                            <Label Text="{Binding Persona.Apellidos}"
+                                                   VerticalTextAlignment="Center"
+                                                   HorizontalOptions="Start"
+                                                   Margin="10,0,10,0" />
+
+                                        </HorizontalStackLayout>
+
+                                        <Picker ItemsSource="{Binding ListaDepartamentos}"
+                                                ItemDisplayBinding="{Binding Nombre}"
+                                                SelectedItem="{Binding DepartamentoSeleccionado}"
+                                                VerticalOptions="Center"
+                                                HorizontalOptions="End"
+                                                Margin="10,0,50,0"
+                                                BackgroundColor="Purple"
+                                                TextColor="White" />
+                                    </Grid>
+
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+
+        </ScrollView>
+
+
+        <Frame BackgroundColor="LightGray"
+               Grid.Row="2"
+               BorderColor="Purple"
+               CornerRadius="30"
+               Margin="1">
+            
+            <Button Text="Comprobar"
+                    BackgroundColor="Purple"
+                    TextColor="White"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    WidthRequest="150"
+                    HeightRequest="50"
+                    Command="{Binding ComprobarCommand}" />
+        </Frame>
+    </Grid>
+
+
+</ContentPage>

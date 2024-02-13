@@ -1,0 +1,65 @@
+
+
+
+CAPA DAL
+
+	conexion
+		clsMyUrlDAL
+		
+
+	Listados
+		clsListaPersonasDAL
+			public async Task<List<clsPersona>> ListadoPersonasDAL()
+			
+		clsListaDepartamentosDAL
+			public async Task<List<clsDepartamento>> ListadoDepartamentosDAL()
+
+CAPA BL
+	Listados
+		clsListaPersonasBL
+			public async Task<List<clsPersona>> ListadoPersonasBL()
+			
+		clsListaDepartamentosBL
+			public async Task<List<clsDepartamento>> ListadoDepartamentosBL()
+
+CAPA Entidades
+	clsPersona
+
+	clsDepartamento
+
+	clsPersonaConListaDep
+		private clsPersona persona;
+        private clsDepartamento departamentoSeleccionado;
+        private List<clsDepartamento> listaDepartamentos;
+
+
+CAPA UI
+
+
+	ViewModels
+		Utilidades
+			clsVMBase
+			clsDelegateCommand
+		JuegoVM
+			 private int intentosRestantes;
+
+			 private int aciertos;
+
+			 private DelegateCommand comprobarCommand;
+
+			 private ObservableCollection<clsPersonaConListaDep> listaPersonasConListaDep;
+
+			constructor
+
+			metodo asincrono para cargar listado
+
+	
+			
+
+
+
+ 
+
+
+
+
