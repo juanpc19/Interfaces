@@ -135,3 +135,37 @@ D:\cosas formateo\Cosas grado 2\ExDI\API\obj\Debug\net7.0\refint\API.dll
 D:\cosas formateo\Cosas grado 2\ExDI\API\obj\Debug\net7.0\API.pdb
 D:\cosas formateo\Cosas grado 2\ExDI\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 D:\cosas formateo\Cosas grado 2\ExDI\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\appsettings.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.staticwebassets.runtime.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.exe
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.runtimeconfig.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\API.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\BL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\DAL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\BL.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\Entidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\bin\Debug\net7.0\DAL.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets\msbuild.build.API.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\scopedcss\bundle\API.styles.css
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.csproj.CopyComplete
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\refint\API.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\API.genruntimeconfig.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\API\obj\Debug\net7.0\ref\API.dll

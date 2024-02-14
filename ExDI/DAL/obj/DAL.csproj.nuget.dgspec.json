@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj": {}
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+              "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -68,20 +68,20 @@
         }
       }
     },
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

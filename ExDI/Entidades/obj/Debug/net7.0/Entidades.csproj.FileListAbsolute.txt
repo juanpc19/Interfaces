@@ -43,3 +43,14 @@ D:\cosas formateo\Cosas grado 2\ExDI\Entidades\obj\Debug\net7.0\Entidades.dll
 D:\cosas formateo\Cosas grado 2\ExDI\Entidades\obj\Debug\net7.0\refint\Entidades.dll
 D:\cosas formateo\Cosas grado 2\ExDI\Entidades\obj\Debug\net7.0\Entidades.pdb
 D:\cosas formateo\Cosas grado 2\ExDI\Entidades\obj\Debug\net7.0\ref\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\bin\Debug\net7.0\Entidades.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\bin\Debug\net7.0\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\bin\Debug\net7.0\Entidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\refint\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\Entidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\Entidades\obj\Debug\net7.0\ref\Entidades.dll

@@ -59,3 +59,18 @@ D:\cosas formateo\Cosas grado 2\ExDI\DAL\obj\Debug\net7.0\DAL.dll
 D:\cosas formateo\Cosas grado 2\ExDI\DAL\obj\Debug\net7.0\refint\DAL.dll
 D:\cosas formateo\Cosas grado 2\ExDI\DAL\obj\Debug\net7.0\DAL.pdb
 D:\cosas formateo\Cosas grado 2\ExDI\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\bin\Debug\net7.0\Entidades.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\bin\Debug\net7.0\Entidades.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\DAL\obj\Debug\net7.0\ref\DAL.dll
