@@ -4,6 +4,13 @@
         <name>HueguitoSignalR</name>
     </assembly>
     <members>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.EmpezarJuegoCommandCanExecute">
+            <summary>
+            comprueba que entryJugador no es null y ejecuta su comando
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
         <member name="M:HueguitoSignalR.ViewModels.JuegoVM.EmpezarJuegoCommandExecute">
             <summary>
             metodo que llamara a IniciarJuego de server
