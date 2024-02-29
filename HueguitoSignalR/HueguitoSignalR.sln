@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueguitoSignalR", "HueguitoSignalR\HueguitoSignalR.csproj", "{527172F4-B7DF-4265-B9B7-DF106F59EE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueguitoSignalR", "HueguitoSignalR\HueguitoSignalR.csproj", "{527172F4-B7DF-4265-B9B7-DF106F59EE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servidor", "Servidor\Servidor.csproj", "{9DD680CF-E33B-4D31-9373-2E6DC19DA785}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{9BC501C7-C8A2-41C1-8B09-3D5096744811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servidor", "Servidor\Servidor.csproj", "{9DD680CF-E33B-4D31-9373-2E6DC19DA785}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{9DD680CF-E33B-4D31-9373-2E6DC19DA785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DD680CF-E33B-4D31-9373-2E6DC19DA785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DD680CF-E33B-4D31-9373-2E6DC19DA785}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BC501C7-C8A2-41C1-8B09-3D5096744811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BC501C7-C8A2-41C1-8B09-3D5096744811}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BC501C7-C8A2-41C1-8B09-3D5096744811}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BC501C7-C8A2-41C1-8B09-3D5096744811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

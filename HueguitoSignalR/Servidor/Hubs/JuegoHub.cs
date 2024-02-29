@@ -10,7 +10,7 @@ namespace Servidor.Hubs
         /// <returns></returns>
         public async Task IniciarJuego()
         {
-            await Clients.
+            //await Clients.
         }
     }
 }
