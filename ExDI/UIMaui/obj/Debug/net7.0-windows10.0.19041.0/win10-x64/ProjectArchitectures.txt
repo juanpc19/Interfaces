@@ -1,1 +1,1 @@
-C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\ExDI\UIMaui\UIMaui.csproj;x64
+D:\cosas formateo\Cosas grado 2\ExDI\UIMaui\UIMaui.csproj;x64

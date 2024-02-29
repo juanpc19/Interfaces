@@ -24801,24 +24801,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jperez\\.nuget\\packages\\": {},
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\UIMaui\\UIMaui.csproj",
+      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj",
       "projectName": "UIMaui",
-      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\UIMaui\\UIMaui.csproj",
-      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\UIMaui\\obj\\",
+      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -24837,32 +24837,32 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj"
+            "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj"
+            "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj"
+            "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ExDI\\Entidades\\Entidades.csproj"
+            "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         }
