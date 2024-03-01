@@ -12,20 +12,17 @@ namespace HueguitoSignalR.Models
         #region atributos 
         string imagenMostrada;//ruta src
         bool meToca;
-
         #endregion
 
         #region constructor
         public clsCasilla()
         {
-            imagenMostrada = "casilla_roja.png";
-
+            imagenMostrada = "casilla_roja.png"; 
         }
 
         public clsCasilla(bool meToca)
         {
-            this.MeToca = meToca;//uso la propiedad para evitar otra linea de codigo con notify
-             
+            this.MeToca = meToca;//uso la propiedad para evitar otra linea de codigo con notify 
         }
         #endregion
         #region propiedades
@@ -36,12 +33,9 @@ namespace HueguitoSignalR.Models
             get { return meToca; }
             set { meToca = value;
                 imagenMostrada = "casilla_verde.png";
-                NotifyPropertyChanged("ImagenMostrada");
-
-            }
-
+                NotifyPropertyChanged("ImagenMostrada"); 
+            } 
         }
-        #endregion
-
+        #endregion 
     }
 }

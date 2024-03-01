@@ -16,7 +16,6 @@ namespace HueguitoSignalR.ViewModels
     {
         #region atributos
         private readonly HubConnection conexion;
-        private string entryJugador;//
         private string labelJugador;//
         private string labelGanador;//coge valor de jugador si partidaFinalizada==true
         private int rondas;//20 cuando suben? cuando cliente pulsa 
@@ -26,78 +25,122 @@ namespace HueguitoSignalR.ViewModels
         //manda a servidor boton pulsado, tendra command parameters para ver cual se ha pulsado, ejecutable si juego empezado (can execute con partidaIniciada)
         private DelegateCommand botonPulsado;    
         //llama a servidor para recibir boton a pulsar iniciando juego, ejecuta si valor no null ni empty en entryjugador (can execute con partidaIniciada), pone partidaIniciada a true 
-        private DelegateCommand empezarJuego;
+        //private DelegateCommand empezarJuego;
         private List<clsCasilla> listaCasillas;
         private clsCasilla casillaSeleccionada;
+        private int ultimaCasillaActivada;
        
    
         #endregion
 
         //cuando se pulse empezar juego llamar a metodo servidor k ponga una aleatoria a verde
         #region constructores
-        public JuegoVM()
+        public JuegoVM(string nombreJugador)
         {
-            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5189/").Build();
-            CargaCasillasInicial();
+            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5189/juegoHub").Build();
+            labelJugador = nombreJugador;
 
 
-            empezarJuego = new DelegateCommand(EmpezarJuegoCommandExecute, EmpezarJuegoCommandCanExecute);
+            //empezarJuego = new DelegateCommand(EmpezarJuegoCommandExecute, EmpezarJuegoCommandCanExecute);
             botonPulsado = new DelegateCommand(BotonPulsadoCommandExecute, BotonPulsadoCommandCanExecute);
             IniciarConexion();
         }
-
-        
-
-
         #endregion
 
         #region propiedades
 
+        public string LabelJugador
+        {
+            get { return labelJugador; }
+            set { labelJugador = value; NotifyPropertyChanged("LabelJugador"); }
+        }
+
+        public string LabelGanador
+        {
+            get { return labelGanador; }
+            set { labelGanador = value; NotifyPropertyChanged("LabelGanador"); }
+        }
+
+        public int Rondas
+        {
+            get { return rondas; }
+            set { rondas = value; NotifyPropertyChanged("Rondas"); }
+        }
+
+        public int Puntos
+        {
+            get { return puntos; }
+            set { puntos = value; NotifyPropertyChanged("Puntos"); }
+        }
+
+        public bool PartidaFinalizada
+        {
+            get { return partidaFinalizada; }
+            set { partidaFinalizada = value; NotifyPropertyChanged("PartidaFinalizada"); }
+        }
+
         public clsCasilla CasillaSeleccionada
         {
-            get { return casillaSeleccionada; } set {  casillaSeleccionada = value;}
+            get { return casillaSeleccionada; }
+            set { casillaSeleccionada = value; }
         }
 
         public List<clsCasilla> ListaCasillas
         {
-            get { return listaCasillas; }
-        
+            get { return listaCasillas; } 
         }
 
-        public string EntryJugador
+        //public DelegateCommand EmpezarJuego
+        //{
+        //    get { return empezarJuego; }
+        //}
+
+        public DelegateCommand BotonPulsado
         {
-            get { return entryJugador; }
-            set { entryJugador = value; }
+            get { return botonPulsado; }
+        }
+
+        public int UltimaCasillaActivada
+        {
+            get { return ultimaCasillaActivada; } 
         }
         #endregion
 
 
         #region comandos
 
-        /// <summary>
-        /// comprueba que entryJugador no es null y ejecuta su comando
-        /// </summary>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
-        private bool EmpezarJuegoCommandCanExecute()
-        {
-            bool ejecutable = false;
-            if (!string.IsNullOrEmpty(entryJugador))
-            {
-                ejecutable = true;
-            }
-            return ejecutable;
-        }
+        ///// <summary>
+        ///// comprueba que entryJugador no es null y ejecuta su comando 
+        ///// </summary>
+        ///// <returns></returns>
+        ///// <exception cref="NotImplementedException"></exception>
+        //private bool EmpezarJuegoCommandCanExecute()
+        //{
+        //    bool ejecutable = false;
+        //    if (!string.IsNullOrEmpty(entryJugador))
+        //    {
+        //        ejecutable = true;
+        //    }
+        //    return ejecutable;
+        //}
 
-        /// <summary>
-        /// metodo que llamara a IniciarJuego de server
-        /// </summary>
-        /// <exception cref="NotImplementedException"></exception>
-        private void EmpezarJuegoCommandExecute()
-        {
-
-            
-        }
+        ///// <summary>
+        ///// metodo que llamara a IniciarJuego de server para empezar a poner botones verdes
+        ///// </summary>
+        ///// <exception cref="NotImplementedException"></exception>
+        //private void EmpezarJuegoCommandExecute()
+        //{
+        //    CargaCasillasInicial();
+        //    labelJugador = entryJugador;
+        //    //conexion.InvokeAsync("IniciarJuego"); 
+        //    labelGanador = "ha ganado tal";
+        //    rondas = 5;
+        //    puntos = 10;
+        //    NotifyPropertyChanged("LabelGanador");
+        //    NotifyPropertyChanged("LabelJugador");
+        //    NotifyPropertyChanged("Rondas");
+        //    NotifyPropertyChanged("Puntos");
+        //}
 
         private bool BotonPulsadoCommandCanExecute()
         {
@@ -125,6 +168,28 @@ namespace HueguitoSignalR.ViewModels
              
             NotifyPropertyChanged("ListaCasillas");
         }
+
+        private void ActivaCasillaAleatoria(int index)
+        {
+            if (ultimaCasillaActivada == index)
+            {
+                if (index == 8)
+                {
+                    index = 0;
+                }
+                else if (index == 0)
+                {
+                    index=8;
+                }
+            }
+            listaCasillas[ultimaCasillaActivada].MeToca = false;
+            listaCasillas[index].MeToca = true;
+            ultimaCasillaActivada = index;
+
+            NotifyPropertyChanged("ListaCasillas");
+        }
+
+
 
 
         /// <summary>

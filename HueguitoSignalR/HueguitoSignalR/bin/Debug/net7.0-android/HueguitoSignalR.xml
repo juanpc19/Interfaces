@@ -4,25 +4,30 @@
         <name>HueguitoSignalR</name>
     </assembly>
     <members>
-        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.EmpezarJuegoCommandCanExecute">
-            <summary>
-            comprueba que entryJugador no es null y ejecuta su comando
-            </summary>
-            <returns></returns>
-            <exception cref="T:System.NotImplementedException"></exception>
-        </member>
-        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.EmpezarJuegoCommandExecute">
-            <summary>
-            metodo que llamara a IniciarJuego de server
-            </summary>
-            <exception cref="T:System.NotImplementedException"></exception>
-        </member>
         <member name="M:HueguitoSignalR.ViewModels.JuegoVM.CargaCasillasInicial">
             <summary>
             metodo que crea la lista de casillas que por defecto tendran imagenMostrada = casillaRoja
             </summary>
         </member>
         <member name="M:HueguitoSignalR.ViewModels.JuegoVM.IniciarConexion">
+            <summary>
+            metodo para iniciar la conexion con el servidor de forma asincrona
+            </summary>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.LoginVM.EmpezarJuegoCommandCanExecute">
+            <summary>
+            comprueba que entryJugador no es null y ejecuta su comando 
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.LoginVM.EmpezarJuegoCommandExecute">
+            <summary>
+            metodo que llamara a IniciarJuego de server para empezar a poner botones verdes
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.LoginVM.IniciarConexion">
             <summary>
             metodo para iniciar la conexion con el servidor de forma asincrona
             </summary>

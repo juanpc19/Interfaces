@@ -4,56 +4,53 @@
              x:Class="HueguitoSignalR.MainPage"
              xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels">
 
-
-    <ContentPage.BindingContext>
-        <hueguito:JuegoVM/>
-    </ContentPage.BindingContext>
-
     <ContentPage.Resources>
         <Style TargetType="Button">
             <Setter Property="FontSize" Value="40" />
-            <Setter Property="BackgroundColor" Value="red"/>
+            <Setter Property="BackgroundColor" Value="Purple"/>
             <Setter Property="TextColor" Value="White"/>
+            <Setter Property="WidthRequest" Value="60" />
+            <Setter Property="HeightRequest" Value="60" />
         </Style>
     </ContentPage.Resources>
 
     <VerticalStackLayout BackgroundColor="Black">
 
+
+        <Label Text="{Binding LabelJugador}"/>
+
+        <Label Text="{Binding Puntos, StringFormat='Puntos {0}/20'}"/>
+        <Label Text="{Binding Rondas, StringFormat='Rondas {0}/20'}" />
+
+        <Label Text="{Binding LabelGanador, StringFormat='El ganador es: {0}'}" />
+
         <!--en caso de estar vacio empty view-->
-        <CollectionView ItemsSource="{Binding ListaCasillas}" SelectedItem="{Binding CasillaSeleccionada}"
-                      EmptyView="error al cargar"
+        <CollectionView ItemsSource="{Binding ListaCasillas}" SelectedItem="{Binding CasillaSeleccionada} "
+                      EmptyView="Error al cargar contenido del collection view."
                       VerticalOptions="StartAndExpand"
                       SelectionMode="Single"
                       WidthRequest="400"
                       HeightRequest="400" 
-                        >
+                      SelectionChangedCommand="{Binding BotonPulsado}" 
+                      SelectionChangedCommandParameter="{Binding CasillaSeleccionada}">
 
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Orientation="Vertical"
                                  Span="3"
                                  VerticalItemSpacing="35"
                                  HorizontalItemSpacing="30"
-                                 /> 
+                                 />
             </CollectionView.ItemsLayout>
-            
+
             <CollectionView.ItemTemplate>
                 <DataTemplate>
 
-                    <Image Source="{Binding ImagenMostrada}" WidthRequest="50" HeightRequest="50" Margin="2"/>
+                    <Image Source="{Binding ImagenMostrada}" WidthRequest="50" HeightRequest="50" Margin="2" />
 
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
 
-
-
-
-
-
-
-
-
     </VerticalStackLayout>
-
 
 </ContentPage>

@@ -13,6 +13,7 @@ namespace HueguitoSignalR.Models
         public static string nombreJugador2;
         public static int puntosJugador1;
         public static int puntosJugador2;
+        public static int ultimaCasillaActivada;//del 0 al 8
 
     }
 }
