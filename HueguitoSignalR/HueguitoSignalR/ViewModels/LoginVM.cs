@@ -13,17 +13,19 @@ namespace HueguitoSignalR.ViewModels
     {
         #region atributos
         private readonly HubConnection conexion;
-        private string entryJugador;//
-        //llama a servidor para recibir boton a pulsar iniciando juego, ejecuta si valor no null ni empty en entryjugador (can execute con partidaIniciada), pone partidaIniciada a true 
+        private string entryJugador; 
         private DelegateCommand empezarJuego;
+        private bool haySitio;
         #endregion
 
         //cuando se pulse empezar juego llamar a metodo servidor k ponga una aleatoria a verde
         #region constructores
         public LoginVM()
         {
-            conexion = new HubConnectionBuilder().WithUrl("http://localhost:5189/juegoHub").Build(); 
+            conexion = new HubConnectionBuilder().WithUrl("https://servidorjuegosignal.azurewebsites.net/juegoHub").Build(); 
             empezarJuego = new DelegateCommand(EmpezarJuegoCommandExecute, EmpezarJuegoCommandCanExecute); 
+            haySitio = true;
+            NotifyPropertyChanged("HaySitio");
             IniciarConexion();
         }
         #endregion
@@ -35,13 +37,16 @@ namespace HueguitoSignalR.ViewModels
             set { entryJugador = value; empezarJuego.RaiseCanExecuteChanged(); }
         }
 
+        public bool HaySitio
+        {
+            get { return haySitio; } 
+        }
+
         public DelegateCommand EmpezarJuego
         {
             get { return empezarJuego; }
         }
-
         #endregion
-
 
         #region comandos
         /// <summary>
@@ -65,7 +70,19 @@ namespace HueguitoSignalR.ViewModels
         /// <exception cref="NotImplementedException"></exception>
         private async void EmpezarJuegoCommandExecute()
         {
-            await Shell.Current.Navigation.PushAsync(new MainPage(entryJugador));
+
+            if (DatosPartida.jugadores<2)//si no hay 2 jugadores
+            {
+               
+                await Shell.Current.Navigation.PushAsync(new MainPage(entryJugador, conexion));// y navego a pagina de juego
+                await conexion.InvokeAsync("JugadorPreparado");
+            } 
+            else//hay 2 o mas jugadores por lo que el jugador no puede unirse la partida
+            {
+                haySitio = false;
+                NotifyPropertyChanged("HaySitio");
+            }
+           
         }
         #endregion
 

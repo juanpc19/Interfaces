@@ -2,18 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HueguitoSignalR.Login"
-             Title="Login"
+             Title="Tap da button"
              xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels">
 
     <ContentPage.BindingContext>
         <hueguito:LoginVM/>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout BackgroundColor="Black">
+    <VerticalStackLayout  VerticalOptions="Center" HorizontalOptions="Center" Spacing="25">
 
-        <Entry Text="{Binding EntryJugador}" Placeholder="Nombre" WidthRequest="200" HeightRequest="50" Margin="5"/>
+        <Entry Text="{Binding EntryJugador}" Placeholder="Introduzca su nombre..." WidthRequest="200" HeightRequest="50" Margin="5"/>
 
-        <Button Command="{Binding EmpezarJuego} " />
+        <Label Text="Inserta tu nombre y pulsa el boton.">
+            <Label.Triggers>
+                <DataTrigger TargetType="Label" Binding="{Binding HaySitio}" Value="True">
+                    <Setter Property="Text" Value="Hay hueco para un mono mas."/>
+                    <Setter Property="TextColor" Value="Green"/>
+                </DataTrigger>
+                <DataTrigger TargetType="Label" Binding="{Binding HaySitio}" Value="False">
+                    <Setter Property="Text" Value="No te quieren ni en tu casa mandril."/>
+                    <Setter Property="TextColor" Value="Red"/>
+                </DataTrigger>
+            </Label.Triggers>
+        </Label>
+
+
+        <Button Command="{Binding EmpezarJuego} " Text="Comenzar" WidthRequest="100" HeightRequest="50"  />
 
     </VerticalStackLayout>
 

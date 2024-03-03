@@ -2,52 +2,56 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HueguitoSignalR.MainPage"
-             xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels">
-
-    <ContentPage.Resources>
-        <Style TargetType="Button">
-            <Setter Property="FontSize" Value="40" />
-            <Setter Property="BackgroundColor" Value="Purple"/>
-            <Setter Property="TextColor" Value="White"/>
-            <Setter Property="WidthRequest" Value="60" />
-            <Setter Property="HeightRequest" Value="60" />
-        </Style>
-    </ContentPage.Resources>
-
-    <VerticalStackLayout BackgroundColor="Black">
+             xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels"
+             Title="Tapea rapido culiao"
+             BackgroundColor="Black">
 
 
-        <Label Text="{Binding LabelJugador}"/>
+    <VerticalStackLayout  VerticalOptions="Center" HorizontalOptions="Center" Spacing="20" BackgroundColor="White">
 
-        <Label Text="{Binding Puntos, StringFormat='Puntos {0}/20'}"/>
-        <Label Text="{Binding Rondas, StringFormat='Rondas {0}/20'}" />
 
-        <Label Text="{Binding LabelGanador, StringFormat='El ganador es: {0}'}" />
+        <Grid ColumnSpacing="20" RowSpacing="10"  HorizontalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-        <!--en caso de estar vacio empty view-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="{Binding LabelJugador, StringFormat='Jugador: {0}'}" HorizontalOptions="Start"/>
+            <Label Grid.Row="1" Grid.Column="0" Text="{Binding Puntos, StringFormat='Puntos {0}/11'}" HorizontalOptions="Start"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="{Binding Rondas, StringFormat='Rondas {0}/11'}" HorizontalOptions="End"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="{Binding LabelGanador, StringFormat='Resultado: {0}'}" HorizontalOptions="Start"/>
+        </Grid>
+
         <CollectionView ItemsSource="{Binding ListaCasillas}" SelectedItem="{Binding CasillaSeleccionada} "
                       EmptyView="Error al cargar contenido del collection view."
                       VerticalOptions="StartAndExpand"
                       SelectionMode="Single"
-                      WidthRequest="400"
-                      HeightRequest="400" 
+                      WidthRequest="300"
+                      HeightRequest="300" 
                       SelectionChangedCommand="{Binding BotonPulsado}" 
                       SelectionChangedCommandParameter="{Binding CasillaSeleccionada}">
 
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Orientation="Vertical"
                                  Span="3"
-                                 VerticalItemSpacing="35"
-                                 HorizontalItemSpacing="30"
+                                 VerticalItemSpacing="25"
+                                 HorizontalItemSpacing="25"
                                  />
             </CollectionView.ItemsLayout>
 
-            <CollectionView.ItemTemplate>
+            <CollectionView.ItemTemplate  >
                 <DataTemplate>
-
-                    <Image Source="{Binding ImagenMostrada}" WidthRequest="50" HeightRequest="50" Margin="2" />
-
+                    <ContentView   >
+                        <Image Source="{Binding ImagenMostrada}" WidthRequest="30" HeightRequest="30" Margin="2" />
+                    </ContentView>
                 </DataTemplate>
+
             </CollectionView.ItemTemplate>
         </CollectionView>
 

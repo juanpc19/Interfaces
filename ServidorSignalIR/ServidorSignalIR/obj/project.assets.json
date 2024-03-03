@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jperez\\.nuget\\packages\\": {},
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ServidorSignalIR\\ServidorSignalIR\\ServidorSignalIR.csproj",
+      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\ServidorSignalIR\\ServidorSignalIR\\ServidorSignalIR.csproj",
       "projectName": "ServidorSignalIR",
-      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ServidorSignalIR\\ServidorSignalIR\\ServidorSignalIR.csproj",
-      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ServidorSignalIR\\ServidorSignalIR\\obj\\",
+      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\ServidorSignalIR\\ServidorSignalIR\\ServidorSignalIR.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\ServidorSignalIR\\ServidorSignalIR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ServidorSignalIR\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\ServidorSignalIR\\Models\\Models.csproj"
+            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\ServidorSignalIR\\Models\\Models.csproj": {
+              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\ServidorSignalIR\\Models\\Models.csproj"
             }
           }
         }

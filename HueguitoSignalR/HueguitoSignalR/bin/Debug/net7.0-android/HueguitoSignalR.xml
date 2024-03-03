@@ -4,15 +4,53 @@
         <name>HueguitoSignalR</name>
     </assembly>
     <members>
-        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.CargaCasillasInicial">
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.BotonPulsadoCommandCanExecute">
             <summary>
-            metodo que crea la lista de casillas que por defecto tendran imagenMostrada = casillaRoja
+            devuelve true si ronda jugable es true y false si no, ronda jugable se pone a false cuando se pulsa un boton y a true cuando se activa una casilla aleatoria desde server
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.BotonPulsadoCommandExecute">
+            <summary>
+            metodo que se activa al pulsar un boton, suma o resta puntos segun casilla pulsada sea verde o roja,
+            modifica rondaJugable a false y notifica cambio de estado de command y procede a llamar a metodo de server ClientePulsaBoton
             </summary>
         </member>
-        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.IniciarConexion">
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.CompruebaJugadores">
             <summary>
-            metodo para iniciar la conexion con el servidor de forma asincrona
+            metodo que se activa a traves de JugadorPreparado en servidor, comprueba la cantidad de jugadores conectados a 
+            la pantalla de juego al hacer k estos sumen +1 a jugadores y si esta es igual a 2 empieza el juego
             </summary>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.ActivaCasillaAleatoria(System.Int32)">
+            <summary>
+            metodo que se activa a traves de EmpezarJuego en servidor, activa una casilla aleatoria, desactiva la activada previamente si la hubiese y pone rondaJugable a true
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.RefrescaRondas(System.Int32)">
+            <summary>
+            metodo que se activa a traves de ClientePulsaBoton en servidor(llamado desde el command en vm), refresca las rondas y si se llega a 11 finaliza partida
+            </summary>
+            <param name="rondas"></param>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.AnotaPuntuacion(System.Collections.Generic.Dictionary{System.String,System.Int32})">
+            <summary>
+            metodo que se activa a traves de FinalizarPartida en servidor, recibe lista de jugadores de cliente que pulsa boton por ultima vez
+            con los datos de este y los envia a todos los demas clientes para que añadan sus datos
+            </summary>
+            <param name="listaJugadoresPuntos"></param>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.MuestraGanador(System.Collections.Generic.Dictionary{System.String,System.Int32})">
+            <summary>
+            metodo que se activa a traves de ComparteListaFinal en servidor, recibe lista de jugadores y puntos y muestra ganador
+            </summary>
+            <param name="listaJugadoresPuntos"></param>
+        </member>
+        <member name="M:HueguitoSignalR.ViewModels.JuegoVM.CargaCasillasInicial">
+            <summary>
+            crea la lista de casillas que por defecto tendran imagenMostrada = casillaRoja
+            </summary> 
         </member>
         <member name="M:HueguitoSignalR.ViewModels.LoginVM.EmpezarJuegoCommandCanExecute">
             <summary>

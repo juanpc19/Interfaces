@@ -26,14 +26,16 @@ namespace HueguitoSignalR.Models
         }
         #endregion
         #region propiedades
-        public string ImagenMostrada { get { return imagenMostrada; } }
-
-        //servidor pulsa una casilla al hacerlo entra en este setter y cambia bool
+        public string ImagenMostrada { 
+            get { return imagenMostrada; }
+            set { imagenMostrada = value; NotifyPropertyChanged("ImagenMostrada");//cambio imagen desde viewmodel cuando servidor lo pida
+            }
+        }
         public bool MeToca { 
             get { return meToca; }
             set { meToca = value;
-                imagenMostrada = "casilla_verde.png";
-                NotifyPropertyChanged("ImagenMostrada"); 
+                //imagenMostrada = "casilla_verde.png";
+               // NotifyPropertyChanged("ImagenMostrada"); 
             } 
         }
         #endregion 
