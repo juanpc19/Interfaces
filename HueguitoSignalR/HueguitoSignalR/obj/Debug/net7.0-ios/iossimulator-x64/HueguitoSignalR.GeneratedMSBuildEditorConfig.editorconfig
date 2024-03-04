@@ -8,39 +8,39 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HueguitoSignalR
-build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\HueguitoSignalR\HueguitoSignalR\
+build_property.ProjectDir = C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/App.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/AppShell.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/Login.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Login.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/MainPage.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/Resources/Styles/Colors.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/cosas formateo/Cosas grado 2/InterfacesAuxiliar4/HueguitoSignalR/HueguitoSignalR/Resources/Styles/Styles.xaml]
+[C:/Users/jperez/Documents/GitHub/InterfacesAuxiliar/HueguitoSignalR/HueguitoSignalR/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HueguitoSignalR.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\HueguitoSignalR\\Servidor\\Servidor.csproj": {}
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\HueguitoSignalR\\Servidor\\Servidor.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\HueguitoSignalR\\Servidor\\Servidor.csproj": {
+    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\HueguitoSignalR\\Servidor\\Servidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\HueguitoSignalR\\Servidor\\Servidor.csproj",
+        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\HueguitoSignalR\\Servidor\\Servidor.csproj",
         "projectName": "Servidor",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\HueguitoSignalR\\Servidor\\Servidor.csproj",
-        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\HueguitoSignalR\\Servidor\\obj\\",
+        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\HueguitoSignalR\\Servidor\\Servidor.csproj",
+        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\HueguitoSignalR\\Servidor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

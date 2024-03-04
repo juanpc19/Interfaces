@@ -558,3 +558,4 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\HueguitoSignalR\HueguitoSign
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-ios\iossimulator-x64\HueguitoSignalR.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-ios\iossimulator-x64\HueguitoSignalR.genruntimeconfig.cache
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-ios\iossimulator-x64\ref\HueguitoSignalR.dll
+C:\Users\jperez\Documents\GitHub\InterfacesAuxiliar\HueguitoSignalR\HueguitoSignalR\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
