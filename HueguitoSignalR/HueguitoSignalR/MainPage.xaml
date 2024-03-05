@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HueguitoSignalR.MainPage"
              xmlns:hueguito="clr-namespace:HueguitoSignalR.ViewModels"
-             Title="Tapea rapido culiao"
-             BackgroundColor="Black">
+             Title="Tapea rapido culiao ">
 
 
     <VerticalStackLayout  VerticalOptions="Center" HorizontalOptions="Center" Spacing="20" BackgroundColor="White">
