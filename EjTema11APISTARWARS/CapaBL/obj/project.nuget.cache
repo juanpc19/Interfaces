@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lb5bO4DPG0J73HAeHoONTVASflzmcl55ZhUVOMT/T2Dp2nTfI7S3EBdiQJLb/69pjU9Y3kDWhriWujS/fvf9Hg==",
+  "dgSpecHash": "BYojix6w5efoFuFcYjtSZVmTVAgYqRneWALPC7s8223vCtbVL1v8oZvm7/VJpdywx7+kXGHuP5oi6Vsyjcetxg==",
   "success": true,
-  "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
+  "projectFilePath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

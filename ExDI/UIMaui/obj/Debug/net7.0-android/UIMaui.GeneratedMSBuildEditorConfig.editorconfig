@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = UIMaui
-build_property.ProjectDir = D:\cosas formateo\Cosas grado 2\ExDI\UIMaui\
+build_property.ProjectDir = D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\UIMaui\
 
-[D:/cosas formateo/Cosas grado 2/ExDI/UIMaui/App.xaml]
+[D:/CosasFormateo/CosasGrado2/InterfacesAuxiliar4/ExDI/UIMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UIMaui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/cosas formateo/Cosas grado 2/ExDI/UIMaui/AppShell.xaml]
+[D:/CosasFormateo/CosasGrado2/InterfacesAuxiliar4/ExDI/UIMaui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UIMaui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/cosas formateo/Cosas grado 2/ExDI/UIMaui/MainPage.xaml]
+[D:/CosasFormateo/CosasGrado2/InterfacesAuxiliar4/ExDI/UIMaui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UIMaui.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/cosas formateo/Cosas grado 2/ExDI/UIMaui/Resources/Styles/Colors.xaml]
+[D:/CosasFormateo/CosasGrado2/InterfacesAuxiliar4/ExDI/UIMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UIMaui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/cosas formateo/Cosas grado 2/ExDI/UIMaui/Resources/Styles/Styles.xaml]
+[D:/CosasFormateo/CosasGrado2/InterfacesAuxiliar4/ExDI/UIMaui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UIMaui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

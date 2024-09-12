@@ -1,1 +1,1 @@
-D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\EjTema10MVVMCommands.csproj;x64
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema10MVVMCommands\EjTema10MVVMCommands\EjTema10MVVMCommands.csproj;x64

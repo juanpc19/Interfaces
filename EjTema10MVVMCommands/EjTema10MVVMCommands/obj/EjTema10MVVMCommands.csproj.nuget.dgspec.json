@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
         "projectName": "EjTema10MVVMCommands",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\EjTema10MVVMCommands.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\EjTema10MVVMCommands\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

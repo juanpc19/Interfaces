@@ -31,3 +31,14 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\ob
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\refint\CapaEntidades.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\ref\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.deps.json
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\bin\Debug\net7.0\CapaEntidades.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.AssemblyInfoInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.AssemblyInfo.cs
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.csproj.CoreCompileInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\refint\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\CapaEntidades.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaEntidades\obj\Debug\net7.0\ref\CapaEntidades.dll

@@ -67,3 +67,20 @@ D:\cosas formateo\Cosas grado 2\ExDI\BL\obj\Debug\net7.0\BL.dll
 D:\cosas formateo\Cosas grado 2\ExDI\BL\obj\Debug\net7.0\refint\BL.dll
 D:\cosas formateo\Cosas grado 2\ExDI\BL\obj\Debug\net7.0\BL.pdb
 D:\cosas formateo\Cosas grado 2\ExDI\BL\obj\Debug\net7.0\ref\BL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\BL.deps.json
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\BL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\BL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\DAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\Entidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\DAL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\bin\Debug\net7.0\Entidades.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.csproj.AssemblyReference.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.AssemblyInfoInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.AssemblyInfo.cs
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.csproj.CoreCompileInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.csproj.CopyComplete
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\refint\BL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\BL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\ExDI\BL\obj\Debug\net7.0\ref\BL.dll

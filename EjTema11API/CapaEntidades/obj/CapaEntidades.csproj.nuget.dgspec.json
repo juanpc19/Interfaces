@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj",
-        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\obj\\",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj",
+        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

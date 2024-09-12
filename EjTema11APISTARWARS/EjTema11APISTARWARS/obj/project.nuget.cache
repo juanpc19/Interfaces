@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d28t2rv70gjJkxdAO4UumKhJ7IWmudEcXOg1KG7jWK2Nge1F5nKCzhjQhjPkOYrrWoELDAXCrRNQQBBOcDaZ+g==",
+  "dgSpecHash": "kAwNg/1Mb/R6GbWuWaZP5CbtMeTxI4hu6qvmejMVrTkxfLZjDrQF7m3QffmNlxzWv1ugXvMWY1YmWvKJnZTCFg==",
   "success": true,
-  "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
+  "projectFilePath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanp\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\juanp\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

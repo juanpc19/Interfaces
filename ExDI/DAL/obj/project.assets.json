@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\DAL.csproj",
+      "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\DAL\\obj\\",
+      "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj"
             }
           }
         }

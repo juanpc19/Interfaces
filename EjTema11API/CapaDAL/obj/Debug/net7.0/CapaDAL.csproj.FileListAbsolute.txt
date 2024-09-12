@@ -43,3 +43,18 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debu
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\refint\CapaDAL.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\ref\CapaDAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.deps.json
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaDAL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\bin\Debug\net7.0\CapaEntidades.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.AssemblyReference.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfoInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.AssemblyInfo.cs
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CoreCompileInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.csproj.CopyComplete
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\refint\CapaDAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\CapaDAL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaDAL\obj\Debug\net7.0\ref\CapaDAL.dll

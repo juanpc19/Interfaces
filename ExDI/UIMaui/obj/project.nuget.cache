@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JrRorhI8k5oUJnVGGlSy9nnyR/elwJssCqnkHw2KhrFqSeGecERgZRV47feLtaDNNQYQreJQnN42OWwG/EBP7w==",
+  "dgSpecHash": "hIbex6HKqZeie9an4vOhbuNEIPiPDf9nRX/XAo/NiqrNFUZr5NumsVToamxO3F/P8OEEMTkuC50RjXaj2kJb3A==",
   "success": true,
-  "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj",
+  "projectFilePath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\UIMaui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanp\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\juanp\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

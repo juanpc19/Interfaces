@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AhPNQ7KIMUxmkHciiLsSrilpLjtAzxnN41cNDZ7vDDHwVrR5QMBE0APXYCCxLHgyhDcq0g1kDfSqTOu3BW1uiA==",
+  "dgSpecHash": "aAnA0Aa3D7EuCG1Bre6kVSo2Xwd1xsuAa+9fmAVRzUFr6gqQ3uO2qzUrirjq3F2zOck+X1O/Yz5rjDjx2RBVwg==",
   "success": true,
-  "projectFilePath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
+  "projectFilePath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanp\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\juanp\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

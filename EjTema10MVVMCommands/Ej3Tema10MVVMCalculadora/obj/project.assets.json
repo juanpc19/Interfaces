@@ -24028,11 +24028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
+      "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
       "projectName": "Ej3Tema10MVVMCalculadora",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
+      "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\Ej3Tema10MVVMCalculadora.csproj",
       "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\obj\\",
+      "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema10MVVMCommands\\Ej3Tema10MVVMCalculadora\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

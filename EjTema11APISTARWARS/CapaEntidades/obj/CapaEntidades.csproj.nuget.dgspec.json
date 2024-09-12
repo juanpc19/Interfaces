@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

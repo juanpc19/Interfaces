@@ -25713,11 +25713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
+      "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
       "projectName": "EjTema11APISTARWARS",
-      "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
+      "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\EjTema11APISTARWARS.csproj",
       "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-      "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\obj\\",
+      "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\EjTema11APISTARWARS\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -25743,44 +25743,44 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "projectReferences": {
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj"
             },
-            "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }

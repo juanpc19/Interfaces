@@ -71,23 +71,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jperez\\.nuget\\packages\\": {},
+    "C:\\Users\\juanp\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaDAL\\CapaDAL.csproj",
+      "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaDAL\\CapaDAL.csproj",
       "projectName": "CapaDAL",
-      "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaDAL\\CapaDAL.csproj",
-      "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaDAL\\obj\\",
+      "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaDAL\\CapaDAL.csproj",
+      "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+      "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -103,8 +103,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
-              "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
+            "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj": {
+              "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaEntidades\\CapaEntidades.csproj"
             }
           }
         }

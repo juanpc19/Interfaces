@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
         "projectName": "CapaBL",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\CapaBL.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaBL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj"
               },
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj",
         "projectName": "CapaDAL",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\CapaDAL.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
         "projectName": "CapaEntidades",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\CapaEntidades.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11APISTARWARS\\CapaEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

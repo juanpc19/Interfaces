@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Calculadora\\Calculadora\\Calculadora.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\Calculadora\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Calculadora\\Calculadora\\Calculadora.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\Calculadora\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\Calculadora\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Calculadora\\Calculadora\\Calculadora.csproj",
-        "packagesPath": "C:\\Users\\jperez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\Calculadora\\Calculadora\\obj\\",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\Calculadora\\Calculadora\\Calculadora.csproj",
+        "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\Calculadora\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

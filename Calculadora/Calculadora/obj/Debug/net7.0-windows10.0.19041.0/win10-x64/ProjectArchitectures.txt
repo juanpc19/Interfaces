@@ -1,0 +1,1 @@
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\Calculadora\Calculadora\Calculadora.csproj;x64

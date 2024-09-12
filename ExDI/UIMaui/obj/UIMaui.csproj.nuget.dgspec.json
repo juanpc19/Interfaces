@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj": {}
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\UIMaui.csproj": {}
   },
   "projects": {
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj": {
+    "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\UIMaui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj",
+        "projectUniqueName": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\UIMaui.csproj",
         "projectName": "UIMaui",
-        "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\UIMaui.csproj",
+        "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\UIMaui.csproj",
         "packagesPath": "C:\\Users\\juanp\\.nuget\\packages\\",
-        "outputPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\UIMaui\\obj\\",
+        "outputPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\UIMaui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -97,32 +97,32 @@
           "net7.0-android33.0": {
             "targetAlias": "net7.0-android",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj"
               }
             }
           },
           "net7.0-ios16.1": {
             "targetAlias": "net7.0-ios",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj"
               }
             }
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj"
               }
             }
           },
           "net7.0-windows10.0.19041": {
             "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj": {
-                "projectPath": "D:\\cosas formateo\\Cosas grado 2\\ExDI\\Entidades\\Entidades.csproj"
+              "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\ExDI\\Entidades\\Entidades.csproj"
               }
             }
           }

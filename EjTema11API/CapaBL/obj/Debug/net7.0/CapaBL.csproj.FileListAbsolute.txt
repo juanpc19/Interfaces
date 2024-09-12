@@ -49,3 +49,20 @@ D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\refint\CapaBL.dll
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.pdb
 D:\cosas formateo\Cosas grado 2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\ref\CapaBL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.deps.json
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaBL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaDAL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaEntidades.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaDAL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\bin\Debug\net7.0\CapaEntidades.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.csproj.AssemblyReference.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.GeneratedMSBuildEditorConfig.editorconfig
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.AssemblyInfoInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.AssemblyInfo.cs
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.csproj.CoreCompileInputs.cache
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.csproj.CopyComplete
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\refint\CapaBL.dll
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\CapaBL.pdb
+D:\CosasFormateo\CosasGrado2\InterfacesAuxiliar4\EjTema11API\CapaBL\obj\Debug\net7.0\ref\CapaBL.dll

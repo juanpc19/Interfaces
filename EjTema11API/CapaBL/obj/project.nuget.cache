@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UK0j9IgzwXmN4oOme0mekMNyuzpOft2l399BSyDP2LRfPen/fYGyw8iBY1Dk+JWSCflSLHr0HqkRiPsBlmszJw==",
+  "dgSpecHash": "G0ylk+U0cEzx9FLyiwkJN8Gvrv/vbaiILoK9WMJrYd03b9AGA0sJ0QIHMdTZp8pEeRM6fPvuSiSElIHlZRVzAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jperez\\Documents\\GitHub\\InterfacesAuxiliar\\EjTema11API\\CapaBL\\CapaBL.csproj",
+  "projectFilePath": "D:\\CosasFormateo\\CosasGrado2\\InterfacesAuxiliar4\\EjTema11API\\CapaBL\\CapaBL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jperez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\juanp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
